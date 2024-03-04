@@ -12,13 +12,13 @@ a:hover { color:#666; text-decoration:none; }
 .clear { display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
 
 body {font-family: '맑은 고딕','Malgun Gothic','돋움','Dotum','Helvetica','AppleGothic','Sans-serif'; font-size: 12px; color:#555; letter-spacing:-0.05em ; background-color:#ffffff;}
-#wrap {width:100%; text-align:center; overflow:hidden; min-width: 1400px; }
+#wrap {width:100%; text-align:center; overflow:hidden; min-width: 1920px; }
 
 * {padding:0; margin:0;}
 
 /* header */
 .header {position:fixed; text-align: center; background:#222222; width: 100%; height:90px; z-index: 10; border-bottom:solid 0.5px #222222; }
-.header_in {position:relative; width:1200px; margin:0 auto; }
+.header_in {position:relative; width:1920px; margin:0 auto; }
 .top_phone {position:relative; float:left; width:209px; height:80px; }
 h1 {position:relative; float:left; left:50%; margin-left:-290px;height:80px; color:#555; font-weight:bold; font-size: 30px; }
 .header_in ul {float:right;}
@@ -54,7 +54,7 @@ h1 {position:relative; float:left; left:50%; margin-left:-290px;height:80px; col
 
 /* footer */
 #footer {width:100%; background-color:#2d3032; padding:50px 0 40px 0; height:90px;}
-#footer .copyright {position: relative; margin: 0px auto 0px auto; width: 1200px; border:solid}
+#footer .copyright {position: relative; margin: 0px auto 0px auto; width: 1920px; border:solid}
 
 
 
