@@ -9,34 +9,34 @@
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-<script>
-        $(function(){
-          var includes1 = $('[data-include1="header"]');
-          var includes2 = $('[data-include2="sideView"]');
-          var includes3 = $('[data-include3="footer"]');
-          jQuery.each(includes1, function(){
-             $(this).load('header.html');
-          });
-          jQuery.each(includes2, function(){
-            $(this).load('sideView.html');
-          });
-          jQuery.each(includes3, function(){
-            $(this).load('footer.html');
-          });
-        });
-</script>
-	
+
 </head>
 <body>
 	
 <div id="wrap">
 <!-- 새로운 소스 -->
-	<div data-include1="header" id="header"></div><!--헤더 인클루드-->
- <div data-include2="sideView" id="sideView"></div><!--사이드 메뉴 인클루드-->
- 
-
- <div data-include3="footer" id="footer" class="clearfix"></div><!--푸터 인클루드-->
-	
+	<div data-include-path="_footer.html"></div>
+ 
+    <script>
+ 
+        window.addEventListener('load', function() {
+            var allElements = document.getElementsByTagName('*');
+            Array.prototype.forEach.call(allElements, function(el) {
+                var includePath = el.dataset.includePath;
+                if (includePath) {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4 && this.status == 200) {
+                            el.outerHTML = this.responseText;
+                        }
+                    };
+                    xhttp.open('GET', includePath, true);
+                    xhttp.send();
+                }
+            });
+        });
+ 
+    </script>
 	
 	<!-- ★header -->
 	<header data-include-file="./html/_header.html" class="header-wrap includeJs"></header>
