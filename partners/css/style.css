@@ -479,7 +479,13 @@ a.btn_s03 {
     display: block; padding-bottom: 5px; text-align: right;}
     
 /* 하단 띠배너  - 3초 회원가입*/
-.btn_ad {position:fixed; width:540px; height:88px; bottom:0px; left:50%; margin-left:-270px; z-index: 150; box-shadow: rgba(0,0,0,0.5) 0px 5px 15px; border-radius:32px 32px 0 0;}
+/* 3초 회원가입 이미지일때 적용.btn_ad {position:fixed; width:540px; height:88px; bottom:0px; left:50%; margin-left:-270px; z-index: 150; box-shadow: rgba(0,0,0,0.5) 0px 5px 15px; border-radius:32px 32px 0 0;}*/
+
+ a.btn_ad {
+	position:fixed; display: block; 
+	width:540px; height:88px; line-height:88px; bottom:0px; left:50%; margin-left:-270px; z-index: 150; 
+	box-shadow: rgba(0,0,0,0.5) 0px 5px 15px; border-radius:32px 32px 0 0; background-color:#CE1032; 
+	font-family:'Noto Sans KR'; font-size:38px; font-weight:700; color:#fff; text-align:center;}
 
 
 
