@@ -12,6 +12,7 @@
 <script type="text/javascript">
       $(document).ready(function(){
          $("#header").load("header.html")
+	      $("#footer").load("footer.html")
         /* id 지정을 통해서도 가능합니다. 
          $("#header").load("header.html #navbar")
          */       
@@ -23,10 +24,10 @@
 	
 <div id="wrap">
 <!-- 새로운 소스 -->
-	<div id="header"><h1>before</h1></div>
-	999
+	
+	888
 	<!-- ★header -->
-	<header data-include-file="./html/_header.html" class="header-wrap includeJs"></header>
+	<div id="header"></div>
 	<!-- ★header -->
 	
 	<!-- ★container -->
@@ -360,9 +361,7 @@
 	<!-- ★container -->
 	
 	<!-- ★footer -->
-	<header data-include-file="./html/_footer.html" class="footer-wrap includeJs"></header>
-	
-	<script src="./html/common.js"></script>
+	<div id="footer"></div>
 </div>
 </body>
 </html>
