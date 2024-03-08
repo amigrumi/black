@@ -347,7 +347,8 @@ table a.td_in_link:hover {color:#222225;}
 	padding:0 40px; margin-bottom:200px; 
 	}
 	/* 추천 인기상품 0번 이미지*/
-.detail_right p.h4 {height:50px; padding:40px 0 0 0 ;font-size:18px; font-weight:bold;}
+.detail_right .popular_title {padding:40px 0 24px 0 ;font-size:19px; font-weight:bold;}
+.detail_right p.popular_sub {padding:6px 0 0 0 ;font-size:17px; color:#77777a; font-weight:500;}
 .detail_right .popular {margin-bottom:40px;}
 .detail_right .popular .thumb {position:relative; margin-bottom:14px;}
 .detail_right .popular .thumb img {width:220px;}	
