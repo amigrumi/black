@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<title>홀릭파트너스-합계데이터(일별)</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- 인클루드를 위한 소스 -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#header").load("include/header_data.html")
+	         $("#con_left").load("include/left_data_04.html")
+	         $("#footer").load("include/footer.html")
+	      });
+	</script>
+	<!-- //인클루드를 위한 소스 -->
+	
+
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header"></div>
+	<!-- ★header -->
+	
+	<!-- ★container -->
+	<div id="container">
+		<div class="contents bg01">
+			<!-- ☆left 영역 -->
+			<div id="con_left"></div>
+			<!-- //☆left 영역 -->
+			<!-- ☆right 영역 -->
+			<div class="con_right">
+				<div class="top_area">
+					<div class="title">
+						살림/생활, 2024.02.28 <span class="result_num">검색결과 10개</span>
+					</div>
+					<div class="sel_area">
+						<div class="select01">
+							<ul>
+								<li><a href="#">전체</a></li>
+								<li><a href="#">일반</a></li>
+								<li><a href="#" class="on">특별</a></li>
+								<li><a href="#">독점</a></li>
+							</ul>
+						</div>
+						
+						<div class="select01">
+							<ul>
+								<li><a href="#">매출순</a></li>
+								<li><a href="#">최신순</a></li>
+								<li><a href="#" class="on">수익순</a></li>
+								<li><a href="#">수수료순</a></li>
+							</ul>
+						</div>
+						
+						<div class="select01">
+							<ul>
+								<li><a href="#">전체</a></li>
+								<li><a href="#" class="on">결제</a></li>
+								<li><a href="#">취소</a></li>
+							</ul>
+						</div>
+						<!--div class="select01">
+							<ul>
+								<li><a href="#" class="on">매출순</a></li>
+								<li><a href="#">수익순</a></li>
+								<li><a href="#">건수순</a></li>
+								<li><a href="#">수수료순</a></li>
+								<li><a href="#">방문순</a></li>
+								<li><a href="#">전환율순</a></li>
+								<li><a href="#">객단가순</a></li>
+							</ul>
+						</div-->
+					</div>
+				</div>
+				<div class="result_sum">
+					<div class="title_area">
+						<span class="h5">합계</span>
+						<span><a class="btn_s02" href="#">전체 건당 리스트 보기</a></span>
+					</div>
+					<table>
+						<colgroup>
+							<col width="150px" /><col width="150px" /><col width="150px" /><col width="150px" /><col width="150px" />
+							<col width="150px" />
+						</colgroup>
+						<tr>
+							<th>실결제</th>
+							<td>1,250,000원<br/>(100건)</td>						
+							<th>취소</th>
+							<td>50,000원<br/>(100건)</td>						
+							<th>결제</th>
+							<td>1,300,000원<br/>(100건)</td>						
+						</tr>
+						<tr>
+							<th>확정</th>
+							<td class="point01">1,250,000원<br/>(100건)</td>						
+							<th>수수료 <span class="sub">총합산</span></th>
+							<td class="point02">30%</td>													
+							<th>수익</th>
+							<td class="point03">30,000원</td>
+						</tr>
+					</table>
+				</div>
+				<div class="table">
+					<table>
+						<colgroup>
+							<col width="100px" /><col width="150px" /><col width="*" /><col width="170px" /><col width="160px" /><col width="120px" /><col width="140px" />
+						</colgroup>
+						<tr>
+							<th>번호</th>
+							<th>썸네일</th>
+							<th>상품명<br/>상품가격</th>
+							<th>결제관련<br/>금액(건수)</th>
+							<th>수수료<p class="th_sub">총합산</p></th>
+							<th>수익</th>
+							<th>상태<br/>시간</th>
+						</tr>
+						<tr>
+							<td class="td_num red">1</td>
+							<td class="thumb"><img src="../images/thumb/03.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">230,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<!-- 여기부터 지우기 -->
+						<tr>
+							<td class="td_num red">2</td>
+							<td class="thumb"><img src="../images/thumb/04.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024.02.09<br />(13:15)</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num red">3</td>
+							<td class="thumb"><img src="../images/thumb/05.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">4</td>
+							<td class="thumb"><img src="../images/thumb/06.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">5</td>
+							<td class="thumb"><img src="../images/thumb/07.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">6</td>
+							<td class="thumb"><img src="../images/thumb/08.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">7</td>
+							<td class="thumb"><img src="../images/thumb/09.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">8</td>
+							<td class="thumb"><img src="../images/thumb/01.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">9</td>
+							<td class="thumb"><img src="../images/thumb/02.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">10</td>
+							<td class="thumb"><img src="../images/thumb/03.png" alt="제품이미지" /></td>
+							<td class="title">
+								<p class="t01">아유아유 7in1 키트</p>
+								<p class="t02">100만개 판매</p>
+								<p class="t03">특별상품</p>
+								<p><span class="t04">특별 할인가격 </span>
+								<span class="t05">29,800 (50%)</span></p>
+								<p class="t04">주문번호 : 1234567</p>
+							</td>	
+							<td class="pay">
+								<p class="t01">확정 : 100,000원</p>
+								<p class="t09">배송비 : 3,000원</p>
+								<p class="t09">실결제 : 103,000원</p>
+								<p class="t09">주문상품 : 3개</p>
+								<p><a class="btn_s03" href="#">주문상품 자세히보기</a></p>
+							</td>
+							<td>
+								<p class="t06">35%</p>
+								<p><a class="btn_line02" href="#">자세히보기</a></p>
+							</td>
+							<td>
+								<span class="t10">30,000원</span>
+							</td>
+							<td>
+								<p class="t08">결제</p>
+								<p class="t09">2024년 2월9일<br /> 13시25분</p>
+							</td>
+						</tr>
+						<!--// 여기까지 지우기 -->
+					</table>
+				</div>
+				<div class="page_num">
+					<ul>
+						<li><a href="#"><img src="../images/common/icon_arrow_first.png" alt="first" /></a></li>
+						<li><a href="#"><img src="../images/common/icon_arrow_prev.png" alt="prev" /></a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#" class="on">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#"><img src="../images/common/icon_arrow_next.png" alt="next" /></a></li>
+						<li><a href="#"><img src="../images/common/icon_arrow_last.png" alt="last" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- //☆right 영역 -->				
+		</div>
+		
+	</div>
+	<!-- ★container -->
+	
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+
+	
+</div>
+</body>
+</html>
