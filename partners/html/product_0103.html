@@ -16,6 +16,9 @@
 	         $("#header").load("include/header_product.html")
 	         $("#con_left").load("include/left_product.html")
 	         $("#footer").load("include/footer.html")
+	        /* id 지정을 통해서도 가능합니다. 
+	         $("#header").load("header.html #navbar")
+	         */       
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->	
@@ -66,7 +69,7 @@
 				<div class="table">
 					<table>
 						<colgroup>
-							<col width="100px" /><col width="150px" /><col width="*" /><col width="200px" /><col width="200px" /><col width="200px" />
+							<col width="100px" /><col width="150px" /><col width="*" /><col width="170px" /><col width="170px" /><col width="170px" /><col width="80px" />
 						</colgroup>
 						<tr>
 							<th>번호</th>
@@ -75,6 +78,7 @@
 							<th>최종수수료<p class="th_sub">(상품+등급+추가)</p></th>
 							<th>판매<br/>인정기간</th>
 							<th>추가수수료<br/>인정기간</th>
+							<th>찜</th>
 						</tr>
 						<tr class="color01">
 							<td class="td_best">추천</td>
@@ -87,12 +91,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>							
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr class="color01">
 							<td class="td_best">인기</td>
@@ -105,12 +110,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">1</td>
@@ -123,12 +129,18 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<div class="td_per">
+									<span class="t06">30%</span>
+									<ul>
+										<li>20%</li>
+										<li>10%</li>
+										<li class="red">5%(추가)</li>
+									</ul>
+								</div>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<!-- 여기부터 지우기 -->
 						<tr>
@@ -142,15 +154,21 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<div class="td_per">
+									<span class="t06">30%</span>
+									<ul>
+										<li>20%</li>
+										<li>10%</li>
+										<li class="red">5%(추가)</li>
+									</ul>
+								</div>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
-							<td class="td_num red bold">3<p style="font-size:14px; color:gray;">코드승인전 예시</p></td>
+							<td class="td_num red bold">3</td>
 							<td class="thumb"><img src="../images/thumb/05.png" alt="제품이미지" /></td>
 							<td class="title">
 								<p class="t01">아유아유 7in1 키트</p>
@@ -160,15 +178,16 @@
 								<span>29,800</span>
 							</td>						
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
-							<td class="td_num red bold">4<p style="font-size:14px; color:gray;">코드승인전 예시</p></td>
+							<td class="td_num red bold">4</td>
 							<td class="thumb"><img src="../images/thumb/06.png" alt="제품이미지" /></td>
 							<td class="title">
 								<p class="t01">아유아유 7in1 키트</p>
@@ -178,12 +197,13 @@
 								<span>29,800</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">5</td>
@@ -196,12 +216,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">6</td>
@@ -214,12 +235,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">7</td>
@@ -232,12 +254,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">8</td>
@@ -250,12 +273,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">9</td>
@@ -268,12 +292,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num red bold">10</td>
@@ -286,12 +311,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<tr>
 							<td class="td_num">100</td>
@@ -304,12 +330,13 @@
 								<span class="t05">29,800 (50%)</span>
 							</td>							
 							<td>
-								<span>최대</span>
-								<span class="t06">40%</span>
-								<p class="t07">5% 추가이벤트중</p>
+								<span class="t06">35%</span>
+								<p class="red">5% (추가이벤트)</p>
+								<a class="td_in_link" href="#">자세히보기</a>
 							</td>
 							<td>재고소진시<br>마감</td>
-							<td>3월 5일<br>마감</td>
+							<td>3월 5일<br>마감</td>	
+							<td><img src="../images/common/icon_heart_empty.png" alt="좋아요"/></td>						
 						</tr>
 						<!--// 여기까지 지우기 -->
 					</table>
