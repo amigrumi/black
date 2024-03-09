@@ -145,7 +145,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 #con_left {
 	position:relative; float:left; width:158px; min-height:200px;
 	}
-#con_left .brand, .cate {width:130px; margin-bottom:60px;}
+#con_left .brand, .cate, .day {width:130px; margin-bottom:60px;}
 #con_left .title {
 	font-size: 16px; font-weight:700; color:#222225; width:130px; margin: 40px 0 0 32px;}
 #con_left ul {margin:16px 0 40px 32px; }
@@ -528,10 +528,3 @@ a.btn_s03 {
 	font-family:'Noto Sans KR'; font-size:38px; font-weight:700; color:#fff; text-align:center;}
 
 
-/* 레이어 팝업 */
-/* 팝업 기본디자인 */
-.popup{border: 1px solid #dcdcdc;position: fixed;width: 500px;left: 50%;top: 50%;transform: translate(-50%,-50%);padding: 10px;display: none;background: #fff}
-.popup .close{background: none;border: 0;position: absolute;right: 10px;top: 10px;font-size: 20px;}
-		
-/* 쉐도우 효과*/
-.shadow{position: fixed;left: 0;top: 0;background: rgba(0, 0, 0, 0.52);width: 100%;height: 100vh;display: none}
