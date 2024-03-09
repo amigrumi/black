@@ -173,7 +173,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 	}
 .top_area .select01 li a:hover {color:#f40006; display:block; font-weight:700;}
 .top_area .select01 li a.on {
-	color:#f40006; font-weight:700; padding: 4px 11px;
+	color:#f40006; font-weight:700; padding: 4px 11px; margin: 0 2px;
 	border:solid 1px #F03535; border-radius:15px;}
 .line {height:14px; weight:2px; border-left:solid 1px #E1E0E1; margin:44px 0 0 2px;;}
 /* ☆right  
@@ -200,13 +200,14 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 table a.td_in_link {font-size:14px; text-decoration:underline;}
 table a.td_in_link:hover {color:#222225;}
 
-.con_right .table table {width:100%; border-collapse: collapse; border-top:solid 2px #444444; color:#222225; line-height:140%;}
+.con_right .table table {width:100%; border-collapse: collapse; border-top:solid 2px #444444; color:#222225; line-height:140%; margin-bottom:60px;}
 .con_right .table table th {padding:10px; text-align:center; border-bottom:solid 1px #E1E0E1;}
 .con_right .table table .th_sub {font-size:12px; color:#77777a;}
 .con_right .table table td {padding:12px 10px; text-align:center; border-bottom:solid 1px #E1E0E1;}
 .con_right .table table td.td_best {font-size:24px; color:#f00004; font-weight:bold;}
 .con_right .table table td.td_num {font-size:25px;}
 .con_right .table table tr.color01 {background-color:#FFF5E9;}
+.con_right .table table tr.color02 {background-color:#F5F5F5;}
 .con_right .table table td.thumb img {width:150px; margin:18px 0 13px 0;}
 .con_right .table table td.title {text-align:left;}
 .con_right .table table .t01 {font-weight:bold;}
@@ -221,11 +222,12 @@ table a.td_in_link:hover {color:#222225;}
 .con_right .table table .t09 {color:#77777a;}
 .con_right .table table .t10 {font-size:19px; font-weight:bold; color:#f40006;}
 
-
-
 .con_right .table .td_per {display:flex; justify-content:center; align-items:center;}
 .con_right .table .td_per ul li {color:#77777a; text-align:left; padding-left:16px;}
 .con_right .table .td_per ul li.red {color:#f40006;}
+
+.con_right .table table.data_table td{height:52px;}
+
 
 	/* 리스트 합계 */
 .con_right .result_sum {width:1160px; background-color:#F5F5F5; padding:12px 20px 20px 20px;; margin-bottom:40px;}
@@ -244,7 +246,7 @@ table a.td_in_link:hover {color:#222225;}
 	display:flex; justify-content:center; 
 	width:100%; text-align:center;
 	}
-.con_right .page_num ul {margin:80px 2px 0 2px;}
+.con_right .page_num ul {margin:20px 2px 0 2px;}
 .con_right .page_num li {float:left; list-style:none; text-align:center; margin: 0 4px;}
 .con_right .page_num li a {
 	display:block; width:30px; height:30px;  
