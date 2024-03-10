@@ -13,9 +13,10 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript">
 	      $(document).ready(function(){
-	         $("#header").load("include/header_data.html")
+	         $("#header").load("include/header.html #header_data")
 	         $("#con_left").load("include/left_data.html #left_data")
 	         $("#footer").load("include/footer.html")
+	         $("#popup").load("include/pop_orderlist.html")
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->
@@ -143,7 +144,7 @@
 							</td>
 							<td>
 								<p class="t06">35%</p>
-								<p><a class="btn_line02" href="#">자세히보기</a></p>
+								<p id="popup_open"><a class="btn_line02" href="#">자세히보기</a></p>
 							</td>
 							<td>
 								<span class="t10">230,000원</span>
@@ -449,7 +450,10 @@
 	<div id="footer"></div>
 	<!-- ★footer -->
 
-	
+	<!-- 팝업 -->
+	<div id="popup"></div>
+	<div id="mask"></div>
+	<!-- //팝업 -->
 </div>
 </body>
 </html>
