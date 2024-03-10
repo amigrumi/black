@@ -243,6 +243,19 @@ table a.td_in_link:link {color:#222225;}
 .result_sum .point03 {color:#f40006; font-size:30px; font-weight:700;}
 .result_sum .sub {font-size:12px; color:#77777a;}
 
+	/* con_right 리스트 합계 02스타일 */
+.result_sum_col {width:1160px; background-color:#F5F5F5; padding:21px 20px 20px 20px;; margin-bottom:40px;}
+.result_sum_col .title_area {display:flex; justify-content:space-between; align-items:baseline;}
+.result_sum_col .title_area02 {height:40px;}
+.result_sum_col .h5 {font-size:17px; font-weight:700; margin-bottom:16px;}
+.result_sum_col table {width:100%; border-collapse: collapse; color:#22225; line-height:150%; background-color:#fff;}
+.result_sum_col table th {height:42px; border-bottom:solid 1px #E1E0E1; text-align:center; padding:8px 0 8px 10px;}
+.result_sum_col table td {height:42px; border-bottom:solid 1px #E1E0E1; text-align:center; padding:8px 0 8px 10px; letter-spacing:0px;}
+.result_sum_col .point01 {color:#f40006; font-weight:700;}
+.result_sum_col .point02 {color:#f40006; font-size:26px; font-weight:700;}
+.result_sum_col .point03 {color:#f40006; font-size:30px; font-weight:700;}
+.result_sum_col .sub {font-size:12px; color:#77777a;}
+
 	/* 리스트 페이지 */
 .con_right .page_num {
 	display:flex; justify-content:center; 
