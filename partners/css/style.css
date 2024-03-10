@@ -532,7 +532,7 @@ a.btn_s03 {
 
 /* 팝업 */
 #popup{
-	position:fixed; width:1200px; height:500px; top:90px; left:50%; z-index:9999;
+	position:fixed; width:1200px; height:500px; top:90px; left:50%; margin:0 0 0 -600px; z-index:9999;
 	background:#fff; border: solid 1px #666666; 
 	display:none;}
 #mask {
@@ -545,3 +545,4 @@ a.btn_s03 {
 	width: 138px; height: 36px; line-height: 36px; 
 	background: #9f2f60; color: #ffffff; text-align: center; border: none; 
 	font-size: 16px;}
+	
