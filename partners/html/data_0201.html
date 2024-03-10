@@ -20,6 +20,20 @@
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->
+	<!-- 팝업 -->
+	<script> 
+		$(document).ready(function(){ 
+			$("#popup_open").click(function(){ 
+				$("#popup").css("display", "block"); 
+				$("#mask").css("display", "block"); 
+			}); 
+			$("#popup_close").click(function(){ 
+				$("#popup").css("display", "none"); 
+				$("#mask").css("display", "none"); 
+			}); 
+		}); 
+	</script>
+	<!-- //팝업 -->
 	
 
 
