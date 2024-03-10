@@ -532,7 +532,7 @@ a.btn_s03 {
 
 /* 팝업 */
 #popup{
-	position:relation; width:1200px; top:90px; left:50%; margin:0 0 0 -600px; z-index:9999;
+	position:relation; width:1400px; top:90px; left:50%; margin:0 0 0 -600px; z-index:9999;
 	background:#fff; border: solid 1px #666666; 
 	display:none;}
 #mask {
