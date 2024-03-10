@@ -16,25 +16,10 @@
 	         $("#header").load("include/header.html #header_data")
 	         $("#con_left").load("include/left_data.html #left_data")
 	         $("#footer").load("include/footer.html")
-	         $("#popup").load("include/popup_orderlist.html")
+	         $("#popup").load("include/pop_orderlist.html")
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->
-	<!-- 팝업 -->
-	<script> 
-		$(document).ready(function(){ 
-			$("#popup_open").click(function(){ 
-				$("#popup").css("display", "block"); 
-				$("#mask").css("display", "block"); 
-			}); 
-			$("#popup_close").click(function(){ 
-				$("#popup").css("display", "none"); 
-				$("#mask").css("display", "none"); 
-			}); 
-		}); 
-	</script>
-	<!-- //팝업 -->
-	
 
 
 </head>
@@ -154,7 +139,7 @@
 								<p class="t09">배송비 : 3,000원</p>
 								<p class="t09">실결제 : 103,000원</p>
 								<p class="t09">주문상품 : 3개</p>
-								<p id="popup_open"><a class="btn_s03" href="#none">주문상품 자세히보기</a></p>
+								<p><a class="btn_s03" href="popup_orderlist.html">주문상품 자세히보기</a></p>
 							</td>
 							<td>
 								<p class="t06">35%</p>
@@ -463,11 +448,6 @@
 	<!-- ★footer -->
 	<div id="footer"></div>
 	<!-- ★footer -->
-
-	<!-- 팝업 -->
-	<div id="popup"></div>
-	<div id="mask"></div>
-	<!-- //팝업 -->
 </div>
 </body>
 </html>
