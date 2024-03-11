@@ -69,7 +69,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .snb_in { display:flex; align-items:center;
 	width:1400px; margin:0 auto; 
 	}
-.snb_in .snb {width:450px; height:80px; left:0; top:0; }
+.snb_in .snb {width:550px; height:80px; left:0; top:0; }
 .snb_in .snb li {float:left; list-style:none;}
 .snb_in .snb li a {
 	height:79px; display:block; padding:0 24px 0 0; 
@@ -78,16 +78,16 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .snb_in .snb li a:hover {color:#f40006; display:block;}
 .snb_in .snb li a.on {color:#f40006;}
 
-.snb_in .search_area {width:500px; } 
-.search_box {height:30px; width:480px; background:#fff; border-radius:40px; padding:10px;}
+.snb_in .search_area {width:400px; } 
+.search_box {height:30px; width:380px; background:#fff; border-radius:40px; padding:10px;}
 .search_box:hover{box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 0.5);}
 
 .search_txt {
-	width:400px; border:none; background:none; outline:none; float:left; padding:0 12px; 
+	width:300px; border:none; background:none; outline:none; float:left; padding:0 12px; 
 	color:#77777a; font-size:16px; line-height:30px;}
 .search_btn {color:#f9deec; float:right; width:40px; height:100%; border-radius:50%; background:#fff; border:none; font-size:16px; display:flex; justify-content:center; align-items: center;}
 
-.snb_in .today_sum {width:450px; height:80px; font-size:14px; color:#77777a; text-align: right;}
+.snb_in .today_sum {width:550px; height:80px; font-size:14px; color:#77777a; text-align: right;}
 .today_sum li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px;}
 
 /* ☆2depth - detail(상품상세)  */
