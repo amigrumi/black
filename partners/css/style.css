@@ -664,6 +664,7 @@ a.btn_s03 {
 } 
 .contents_members .title {
 	font-size:48px; font-weight:700; color:#22225; letter-spacing:-2px;
+	font-family: 'Noto Sans KR';
 	margin:0 0 28px 0;}
 .contents_members .discription {
 	font-size:24px; color:#222225; margin:0 0 72px 0;}
