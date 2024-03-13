@@ -339,7 +339,7 @@ ul.tab li a.on {
 	display:inline-block; width:200px; height:50px; background-color:#fff;
 	border-top:solid 2px #77777a; border-left:solid 2px #77777a; border-right:solid 2px #77777a;
 	color:#222225; font-weight:bold;}
-.my {background:url(../images/common/icon_mymembership.png) 200px 15px no-repeat; }
+.icon_my {background:url(../images/common/icon_mymembership.png) 200px 15px no-repeat; }
 
 /* ======= ☆detail_left ======= */
 .detail_left {
