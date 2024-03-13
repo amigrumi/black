@@ -101,24 +101,24 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 	background:url(../images/common/icon_back.png) center left no-repeat; padding: 0 0 0 32px;
 	}
 .detail_snb_in .snb a img {top:-10px;}
+.detail_snb_in .today_sum {width:450px; height:80px; font-size:14px; color:#77777a; text-align: right;}
+.detail_snb_in .today_sum li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px;}
 /*.snb li a:hover {color:#f40006; display:block;}
 .snb li a.on {color:#f40006;}*/
 
 /* ☆2depth - 마이페이지  */
-.snb_in02 { display:flex; justify-content:space-between; align-items:center;
+.mypage_snb_in {display:flex; justify-content:space-between; align-items:center;
 	width:1400px; margin:0 auto; 
 	}
-.snb_in02 .snb {width:450px; height:80px;}
-.snb_in02 .snb a {
-	height:80px; display:block;  
-	color:#f40006; font-size:18px; line-height:80px; font-weight:600; text-decoration: underline;
+.mypage_snb_in .snb {width:450px; height:80px;}
+.mypage_snb_in .snb a {
+	height:80px; display:inline-block;  
+	color:#f40006; line-height:80px; text-decoration: underline;
 	}
-.snb_in02 .snb a:hover {color:#f40006; display:block; text-decoration: underline;}
-.snb_in02 .snb a:visited {color:#f40006; display:block; text-decoration: underline;}
+.mypage_snb_in .snb a:hover {color:#f40006; display:block; text-decoration: underline;}
+.mypage_snb_in .snb a:visited {color:#f40006; display:block; text-decoration: underline;}
 
 
-.detail_snb_in .today_sum {width:450px; height:80px; font-size:14px; color:#77777a; text-align: right;}
-.detail_snb_in .today_sum li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px;}
 
 	/* ☆2depth  
 .snb_area {
