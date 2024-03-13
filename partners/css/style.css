@@ -90,7 +90,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .snb_in .today_sum {width:550px; height:80px; font-size:14px; color:#77777a; text-align: right;}
 .today_sum li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px;}
 
-/* ☆2depth - detail(캠페인상세, 마이페이지)  */
+/* ☆2depth - detail(캠페인상세)  */
 .detail_snb_in { display:flex; justify-content:space-between; align-items:center;
 	width:1400px; margin:0 auto; 
 	}
