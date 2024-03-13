@@ -166,7 +166,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 #con_left {
 	position:relative; float:left; width:158px; min-height:200px;
 	}
-#con_left .brand, .cate, .day, .mypage {width:130px; margin-bottom:60px;}
+#con_left .brand, .cate, .day, .my {width:130px; margin-bottom:60px;}
 #con_left .title {
 	font-size: 16px; font-weight:700; color:#222225; width:130px; margin: 40px 0 0 32px;}
 #con_left ul {margin:16px 0 40px 32px; }
@@ -177,10 +177,10 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 	/* 마이페이지 왼쪽메뉴영역 */
 #con_left .ding {background: url(../images/common/icon_ding.png) 100% 10% no-repeat;} /* 마이페이지 알림 아이콘 */
 #con_left span {padding: 0 10px 0 0;} /* 마이페이지 알림을 위한 사이즈 추가*/
-#con_left .mypage ul {margin:16px 0 40px 32px; }
-#con_left .mypage li a {height:40px; display:block; color:#222225; line-height:40px; text-align:left; font-size:16px; font-weight:600;}
-#con_left .mypage li a:hover {color:#f40006; display:block;}
-#con_left .mypage li a.on {color:#f40006;} 
+#con_left .my ul {margin:16px 0 40px 32px; }
+#con_left .my li a {height:40px; display:block; color:#222225; line-height:40px; text-align:left; font-size:16px; font-weight:600;}
+#con_left .my li a:hover {color:#f40006; display:block;}
+#con_left .my li a.on {color:#f40006;} 
 
 	/* ☆right  */
 .con_right{
