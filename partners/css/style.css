@@ -659,7 +659,7 @@ a.btn_s03 {
 /* 마이페이지 - 회원가입, 로그인 영역 */
 .contents_members {
 	width:100%; min-height:600px;
-	padding:180px 0 0 0;
+	padding:150px 0 0 0;
 	display:flex; flex-direction: column; align-items: center;
 } 
 .contents_members .title {
