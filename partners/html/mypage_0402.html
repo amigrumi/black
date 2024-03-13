@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<title>홀릭파트너스-내정보</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- 인클루드를 위한 소스 -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#header").load("include/header.html #header_mypage")
+	         $("#con_left").load("include/left.html #left_mypage")
+	         $("#footer").load("include/footer.html")      
+	      });
+	</script>
+	<!-- //인클루드를 위한 소스 -->
+	
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header"></div>
+	<!-- ★header -->
+	
+	<!-- ★container -->
+	<div id="container">
+		<div class="contents bg01">
+			<!-- ☆left 영역 -->
+			<div id="con_left"></div>
+			<!-- //☆left 영역 -->
+			<!-- ☆right 영역 -->
+			<div class="con_right">
+				<div class="top_banner"><img src="../images/banner/240305_1200x90.png" alt="배너" /></div>
+				<div class="top_area02">
+					<div class="title">
+						내정보
+					</div>
+				</div>
+				<!-- 파트너 정보 --->
+				<div class="con_w600">
+					<h3>파트너 정보</h3>					
+					<table>
+						<colgroup><col width="140px" /><col width="460px" /></colgroup>
+						<tr>
+							<th>프로필</th>
+							<td><img src="../images/common/my_profile_empty.png" alt="프로필 이미지" /></td>
+						</tr>
+						<tr>
+							<th>파트너명(회사명)</th>
+							<td>
+								<form class="input_box" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="블랙홀릭">
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<th>파트너 유형</th>
+							<td>
+								<form class="input_box" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="파트너 유형 선택">
+								</form>
+								<!--div class="select">
+									<select name="" id="" class="select_box">
+										<option value="">파트너01</option>
+										<option value="">파트너01</option>
+									</select>
+								</div-->
+							</td>
+						</tr>
+						<tr>
+							<th>사업자번호</th>
+							<td class="td_flex">
+								<form class="input_box_56" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="321">
+								</form>
+								<span class="t12">-</span>
+								<form class="input_box_56" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="12">
+								</form>
+								<span class="t12">-</span>
+								<form class="input_box_200" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="12345">
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<th>사업자등록증</th>
+							<td class="td_flex">
+								<div class="btn_area">
+										<a href="#" class="button_140 btnFade btnWhite02">파일업로드</a>
+								</div>
+								<span class="t13">PDF/20MB미만 (최대 1개)</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- //파트너 정보 --->
+				<!-- 계정 정보 --->
+				<div class="con_w600">
+					<h3>계정 정보</h3>					
+					<table>
+						<colgroup><col width="140px" /><col width="460px" /></colgroup>
+						<tr>
+							<th>이메일</th>
+							<td>
+								<form class="input_box" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="black@black.com">
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<th>비밀번호</th>
+							<td>
+								<div class="btn_area">
+										<a href="#" class="button_140 btnFade btnWhite02">비밀번호 재설정</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>담당자명</th>
+							<td>
+								<form class="input_box" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="아이유">
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<th>휴대전화</th>
+							<td class="td_flex">
+								<form class="input_box_312" action="" method="">
+									<input class="input_txt" type="text" name="" placeholder="01023549876">
+								</form>
+								<div class="btn_area">
+										<a href="#" class="button_140 btnFade btnWhite02">인증하기</a>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- //계정 정보 --->
+				<!-- btn -->
+				<div class="btn_area_100per">
+						<a href="#" class="button_460 btnFade btnBlack">저장하기</a>
+				</div>
+				<!--//btn -->
+			</div>
+			<!-- //☆right 영역 -->				
+		</div>
+		
+	</div>
+	<!-- ★container -->
+	
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+
+	
+</div>
+</body>
+</html>
