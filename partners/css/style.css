@@ -94,7 +94,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .detail_snb_in { display:flex; justify-content:space-between; align-items:center;
 	width:1400px; margin:0 auto; 
 	}
-.detail_snb_in .snb {width:450px; height:80px;}
+.detail_snb_in .snb {width:450px; height:80px; line-height:80px;}
 .detail_snb_in .snb a {
 	height:80px; display:block;  
 	color:#77777a; font-size:18px; line-height:80px; font-weight:600;
