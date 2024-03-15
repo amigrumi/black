@@ -214,7 +214,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 	border:solid 1px #F03535; border-radius:15px;}
 .line {height:14px; weight:2px; border-left:solid 1px #E1E0E1; margin:44px 0 0 2px;;}
 
-/* select 1.5배 - 디자인 확정 후 삭제 필요 _ product.html에 적용됨 */ 
+/* select 1.5배 - 디자인 확정 후 삭제 필요 _ product.html에 적용됨 
 .top_area .select02 ul {display:flex; flex-direction:row; margin-left:24px;}
 .top_area .select02 li {list-style:none; margin-top:36px;}
 .top_area .select02 li a {
@@ -260,9 +260,11 @@ table a.td_in_link:link {color:#222225;}
  .table table td.td_best {font-size:22px; color:#f00004; font-weight:bold;}
  .table table td.td_num {font-size:25px;}
  .table table tr.color01 {background-color:#FFF5E9;}
- .table table tr.color02 {background-color:#336699;}
+ .table table tr.color02 {background-color:#f5f5f5;}
  .table table td.thumb img {width:150px; margin:18px 0 13px 0;}
  .table table td.title {text-align:left;}
+ .table table td.title .title_in {
+ 	display:flex; height:134px; flex-direction:column; justify-content:space-between; padding:2px 0 0 0;}
  .t01 {font-weight:bold; font-size:16px;} /* 테이블 상품명만 적용 필수 */
  .t02 {color:#f40006;}
  .t03 {color:#77777a; margin-bottom:40px;}
@@ -280,8 +282,11 @@ table a.td_in_link:link {color:#222225;}
  .table .td_per ul li {color:#77777a; text-align:left; padding-left:16px;}
  .table .td_per ul li.red {color:#f40006;}
 
- .table table.data_table td{height:52px;} /* 썸네일 없는 테이블에 적용 - 기본 테이블에도 52px 추가했음*/
  .table table.data_table tr.board_tr{background-color:#F5F5F5;} /* 게시판 th 회색 */
+ .table table.data_table th{background-color:#fff;} /* 합계가 있는 게시판 th 흰색 */
+ .table table.data_table td{height:52px;} /* 썸네일 없고, 합계가 있는 테이블에 적용 - 기본 테이블에도 52px 추가했음*/
+
+
 	
 	/* 마이페이지 - 내등급 테이블 */
  .table02 table {width:100%; border-collapse: collapse; border-top:solid 2px #444444; color:#222225; line-height:140%; margin-bottom:60px;}
@@ -297,9 +302,10 @@ table a.td_in_link:link {color:#222225;}
 .result_sum table th {height:48px; border-bottom:solid 1px #E1E0E1; text-align:left; padding:8px 0 8px 10px;}
 .result_sum table td {height:48px; border-bottom:solid 1px #E1E0E1; text-align:left; padding:8px 0 8px 10px; letter-spacing:0px;}
 .result_sum .point01 {color:#222225; font-weight:700;}
-.result_sum .point02 {color:#f40006; font-size:26px; font-weight:700;}
+.result_sum .point02 {color:#f40006; font-size:20px; font-weight:700;}
 .result_sum .point03 {color:#f40006; font-size:30px; font-weight:700;}
 .result_sum .sub {font-size:12px; color:#77777a;}
+.result_sum .t_center {display:inline-flex; text-align:center;}
 
 	/* con_right 리스트 합계 02스타일 */
 .result_sum_col {width:1160px; background-color:#F5F5F5; padding:21px 20px 20px 20px;; margin-bottom:40px;}
@@ -310,7 +316,7 @@ table a.td_in_link:link {color:#222225;}
 .result_sum_col table th {height:42px; border-bottom:solid 1px #E1E0E1; text-align:center; padding:8px 0 8px 10px;}
 .result_sum_col table td {height:42px; border-bottom:solid 1px #E1E0E1; text-align:center; padding:8px 0 8px 10px; letter-spacing:0px;}
 .result_sum_col .point01 {color:#222225; font-weight:700;}
-.result_sum_col .point02 {color:#f40006; font-size:26px; font-weight:700;}
+.result_sum_col .point02 {color:#f40006; font-size:20px; font-weight:700;}
 .result_sum_col .point03 {color:#f40006; font-size:30px; font-weight:700;}
 .result_sum_col .sub {font-size:12px; color:#77777a;}
 
@@ -365,9 +371,12 @@ ul.tab li a.on {
 
 .pro_info .pro_price {width:445px; margin-top:1px;}
 .pro_info .pro_price p.hr {border-top:solid 1px #E1E0E1;}
-.pro_info .pro_price ul {margin-bottom:22px;}
-.pro_info .pro_price ul.ul02 {margin-top:-7px;}
-.pro_info .pro_price ul.ul03 {margin-top:1px;}
+.pro_info .pro_price ul {margin-bottom:22px;} /*코드회원*/
+.pro_info .pro_price ul.ul02 {margin-top:-7px;} /*코드회원*/
+.pro_info .pro_price ul.ul03 {margin-top:1px;} /*코드회원*/
+.pro_info .pro_price ul.ul04 {margin-bottom:6px;} /*일반회원*/
+.pro_info .pro_price ul.ul05 {margin-top:-10px;} /*일반회원*/
+.pro_info .pro_price ul.ul06 {margin-top:-2px;} /*일반회원*/
 .pro_info .pro_price ul li {font-size:18px; height:; padding: 2px;}
 
 .pro_info .pro_price ul li.li01 {height:76px;}
@@ -838,7 +847,7 @@ ul.tab03 li a.on {
 	border-top:solid 2px #77777a; border-left:solid 2px #77777a; border-right:solid 2px #77777a;
 	color:#222225; font-weight:bold;}
 	
-/* 팝업 */
+/* 팝업 - popup.css로 이동
 .mask{
 	position: fixed; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); 
 	width: 100%; height: 100vh; z-index:300;}
@@ -868,6 +877,6 @@ ul.tab03 li a.on {
 .box_type02 ul.list_view {width:300px; margin:90px 0 0 0; }
 .box_type02 ul.list_view li {font-size:16px; font-weight:bold; line-height: 32px; text-align: center;}
 .box_type02 a {position:absolute; bottom:50px;}
-
+*/
 
 
