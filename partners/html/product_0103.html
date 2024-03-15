@@ -6,7 +6,8 @@
 	
 	<title>홀릭파트너스-상품버전</title>
 
-	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />		
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
 	<!-- 인클루드를 위한 소스 -->
@@ -81,16 +82,22 @@
 							<td class="td_best">추천</td>
 							<td class="thumb"><img src="../images/thumb/01.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03" style="margin-bottom:60px;">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
-							</td>							
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
+							</td>					
 							<td>
 								<span class="t06">35%</span>
 								<p class="red">5% (추가이벤트)</p>
-								<a class="td_in_link" href="#">자세히보기</a>
+								<p id="popup_open"><a class="td_in_link" href="#none">자세히보기</a></p>
 							</td>
 							<td>재고소진시<br>마감</td>
 							<td>3월 5일<br>마감</td>	
@@ -100,12 +107,18 @@
 							<td class="td_best">인기</td>
 							<td class="thumb"><img src="../images/thumb/02.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
-							</td>							
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
+							</td>						
 							<td>
 								<span class="t06">35%</span>
 								<p class="red">5% (추가이벤트)</p>
@@ -119,12 +132,18 @@
 							<td class="td_num red bold">1</td>
 							<td class="thumb"><img src="../images/thumb/03.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
-							</td>							
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
+							</td>						
 							<td>
 								<span class="t06">35%</span>
 								<p class="red">5% (추가이벤트)</p>
@@ -139,11 +158,17 @@
 							<td class="td_num red bold">2</td>
 							<td class="thumb"><img src="../images/thumb/04.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -158,12 +183,18 @@
 							<td class="td_num red bold">3</td>
 							<td class="thumb"><img src="../images/thumb/05.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="red">100만개 판매</p>
-								<p style="margin-bottom:20px" class="gray">특별상품</p>
-								<span class="gray">특별 할인가격 </span>
-								<span>29,800</span>
-							</td>						
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
+							</td>					
 							<td>
 								<span class="t06">35%</span>
 								<p class="red">5% (추가이벤트)</p>
@@ -177,12 +208,18 @@
 							<td class="td_num red bold">4</td>
 							<td class="thumb"><img src="../images/thumb/06.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="red">100만개 판매</p>
-								<p style="margin-bottom:20px" class="gray">특별상품</p>
-								<span class="gray">특별 할인가격 </span>
-								<span>29,800</span>
-							</td>							
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
+							</td>						
 							<td>
 								<span class="t06">35%</span>
 								<p class="red">5% (추가이벤트)</p>
@@ -196,11 +233,17 @@
 							<td class="td_num red bold">5</td>
 							<td class="thumb"><img src="../images/thumb/07.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -215,11 +258,17 @@
 							<td class="td_num red bold">6</td>
 							<td class="thumb"><img src="../images/thumb/08.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -234,11 +283,17 @@
 							<td class="td_num red bold">7</td>
 							<td class="thumb"><img src="../images/thumb/09.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -253,11 +308,17 @@
 							<td class="td_num red bold">8</td>
 							<td class="thumb"><img src="../images/thumb/01.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -272,11 +333,17 @@
 							<td class="td_num red bold">9</td>
 							<td class="thumb"><img src="../images/thumb/02.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -291,11 +358,17 @@
 							<td class="td_num red bold">10</td>
 							<td class="thumb"><img src="../images/thumb/03.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -310,11 +383,17 @@
 							<td class="td_num">100</td>
 							<td class="thumb"><img src="../images/thumb/03.png" alt="제품이미지" /></td>
 							<td class="title">
-								<p class="t01">아유아유 7in1 키트</p>
-								<p class="t02">100만개 판매</p>
-								<p class="t03">특별상품</p>
-								<span class="t04">특별 할인가격 </span>
-								<span class="t05">29,800 (50%)</span>
+								<div class="title_in">
+									<div>
+										<p class="t01">깔끔대장 긁어보게 스크래퍼</p>
+										<p class="t02">100만개 판매</p>
+										<p class="t04">특별상품</p>
+									</div>
+									<div>
+										<span class="t04">특별 할인가격 </span>
+										<span class="t05">29,800 (50%)</span>
+									</div>
+								</div>
 							</td>							
 							<td>
 								<span class="t06">35%</span>
@@ -352,6 +431,21 @@
 	<div id="footer"></div>
 	<!-- ★footer -->
 	
+<!-- 팝업 수수료 자세히 보기 -->
+		<div id="popup_wrap">
+			<div class="popup_box pop_size200">
+				<div class="close_btn_top">
+					<img src="../images/common/btn_close_gray24.png" alt="닫기" />
+				</div>
+				<div class="txt14">
+					<p class="bold" style="font-size:18px; color:#222225">총수수료 <span class="red bold">30%</span></p>
+					<p style="padding-top:12px;">상품수수료 20%</p>
+					<p>등급수수료 5%</p>
+					<p class="red">추가수수료 5%</p>
+				</div>
+			</div>
+		</div>
+<!-- //팝업 수수료 자세히 보기 -->	
 	
 </div>
 </body>
