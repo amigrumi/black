@@ -18,6 +18,24 @@
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->
+	<script type="text/javascript">
+		<!--
+		var old_menu = '';
+		function menuclick(submenu)
+		{
+			if(old_menu != submenu) {
+				if(old_menu !=''){
+					old_menu.style.display = 'none';
+				}
+				submenu.style.display = 'block';
+				old_menu = submenu;
+			} else {
+				submenu.style.display = 'none';
+				old_menu = '';
+			}
+		}
+		-->
+	</script>
 
 </head>
 <body>
@@ -63,20 +81,33 @@
 			</ul>
 			
 			
-			<!-- q -->
-			<div class="member_qna">
-                <a class="qna_q"> Q. 카카오 ID가 기억나지 않습니다.</a>
-                <div class="qna_a" >
-					카카오톡 ID 확인방법<br /><br />
-               		카카오톡 앱 &gt; 하단 우측 더보기탭 &gt; 상단 우측 설정 탭 &gt; 개인/보안 &gt; 카카오계정 &gt; 이메일 확인<br /><br />
-                	카카오계정 내 이메일이 카카오톡 ID 입니다.
-                	</div>
-                <a class="qna_q"> Q. 기존 회원도 카카오 간편 로그인 시, 할인혜택을 받을 수 있나요?</a>
-                <div class="qna_a">
-					카카오 간편 가입 이력이 없거나, 이미 홀릭팩토리 카카오톡 채널을 추가한 회원 모두 동일한 혜택을 받으실 수 있습니다.
-                </div>
-            </div>                        
-			<!--//q -->	
+			<!-- faq -->
+			<dl class="faq_con02" style="width:460px;">	
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu1);><span class="en_q">Q.</span>카카오 ID가 기억나지 않습니다.</a>
+				</dt>
+				<dd id="submenu1">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 ID 확인방법 :<br />
+							카카오톡 앱 > 하단 우측 더보기 탭 > 상단 우측 설정탭 > 개인/보안 > 카카오계정 > 이메일 확인
+							카카오계정 내 이메일이 카카오톡 ID입니다. 
+						</span>
+					</div>
+				</dd>				
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu2);><span class="en_q">Q.</span>기존 회원도 간편 로그인 시 할인혜택을 받을 수 있나요?</a>
+				</dt>
+				<dd id="submenu2">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 간편 가입 이력이 없거나 이미 홀릭팩토리 카카오톡 채널을 추가한 회원 모두 동일한 혜택을 받으실 수 있습니다. 
+						</span>
+					</div>
+				</dd>
+			<!-- //faq -->
 			<div class="t14"><a href="member_0102.html">신규회원가입</a></div>
 		</div>
 		
