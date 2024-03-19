@@ -147,11 +147,11 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 #con_left {
 	position:relative; float:left; width:158px; min-height:200px;
 	}
-#con_left .brand, .cate, .day, .my {width:130px; margin-bottom:60px;}
+#con_left .brand, .cate, .day, .my {width:160px; margin-bottom:60px;}
 #con_left .title {
 	font-size: 16px; font-weight:700; color:#222225; width:130px; margin: 40px 0 0 32px;}
 #con_left ul {margin:16px 0 40px 32px; }
-#con_left li a {height:30px; display:block; color:#222225; line-height:30px; text-align:left; letter-spacing:-1px; font-size:14px;}
+#con_left li a {height:30px; display:block; color:#222225; line-height:30px; text-align:left; font-size:14px;}
 #con_left li a:hover {color:#f40006; display:block;}
 #con_left li a.on {color:#f40006;} 
 
@@ -159,7 +159,7 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 #con_left .ding {background: url(../images/common/icon_ding.png) 100% 50% no-repeat;} /* 마이페이지 알림 아이콘 */
 #con_left span {padding: 0 10px 0 0;} /* 마이페이지 알림을 위한 사이즈 추가*/
 #con_left .my ul {margin:16px 0 40px 32px; }
-#con_left .my li a {height:40px; display:block; color:#77777a; line-height:40px; text-align:left; letter-spacing:-1px; font-size:14px; font-weight:400;}
+#con_left .my li a {height:40px; display:block; color:#77777a; line-height:40px; text-align:left; font-size:14px; font-weight:400;}
 #con_left .my li a:hover {color:#f40006; display:block;}
 #con_left .my li a.on {color:#f40006; font-weight:600;} 
 
