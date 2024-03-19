@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<title>홀릭파트너스-파트너가이드</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- 인클루드를 위한 소스 -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#header").load("include/header.html #header_guide")
+	         $("#con_left").load("include/left.html #left_guide")
+	         $("#footer").load("include/footer.html")      
+	      });
+	</script>
+	<!-- //인클루드를 위한 소스 -->
+	<script type="text/javascript">
+		<!--
+		var old_menu = '';
+		function menuclick(submenu)
+		{
+			if(old_menu != submenu) {
+				if(old_menu !=''){
+					old_menu.style.display = 'none';
+				}
+				submenu.style.display = 'block';
+				old_menu = submenu;
+			} else {
+				submenu.style.display = 'none';
+				old_menu = '';
+			}
+		}
+		-->
+	</script>
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header"></div>
+	<!-- ★header -->
+	
+	<!-- ★container -->
+	<div id="container">
+		<div class="contents bg01">
+			<!-- ☆left 영역 -->
+			<div id="con_left"></div>
+			<!-- //☆left 영역 -->
+			<!-- ☆right 영역 -->
+			<div class="con_right">
+				<div class="top_banner"><img src="../images/banner/240305_1200x90.png" alt="배너" /></div>
+				
+				<div class="top_area04">
+					<div class="title">
+						파트너가이드
+					</div>					
+				</div>
+				
+				<!-- 자주찾는 질문 -->
+				<div class="tab_area">
+					<ul class="tab01">
+						<li><a class="on" href="#">사업자유형 선택</a></li>
+						<li><a href="#">연락처 및 추천인 입력</a></li>
+						<li><a href="#">활동채널 등록</a></li>
+						<li><a href="#">최종승인</a></li>
+						<li><a href="#">활동 준수사항</a></li>
+					</ul>
+					
+					<!-- 내용 -->
+					<div>
+						정산일정
+						<!-- 페이지 번호 -->
+						<div class="board_btn_area">
+							<div class="page_num">
+								<ul>
+									<li><a href="#"><img src="../images/common/icon_arrow_first.png" alt="first" /></a></li>
+									<li><a href="#"><img src="../images/common/icon_arrow_prev.png" alt="prev" /></a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#" class="on">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#"><img src="../images/common/icon_arrow_next.png" alt="next" /></a></li>
+									<li><a href="#"><img src="../images/common/icon_arrow_last.png" alt="last" /></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- //페이지 번호 -->
+					</div>
+					<!-- //내용 -->
+				</div>
+				<!-- //자주찾는 질문 -->
+				
+				
+				
+		
+			</div>
+			<!-- //☆right 영역 -->				
+		</div>
+		
+	</div>
+	<!-- ★container -->
+	
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+
+	
+</div>
+</body>
+</html>
