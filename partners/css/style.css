@@ -58,8 +58,12 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .login ul li {
 	float:right; height:90px; line-height:89px; padding:0 6px; font-size:14px; color:#999999;
 	}
-.login ul li.mypage a{display: block; text-align: left; color:#999999; padding: 0 0 0 24px;
-    background:url(../images/common/icon_mypage.png) center left no-repeat; }
+.login ul li.mypage a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;
+    background:url(../images/common/icon_mypage_r.png) 0% 50% no-repeat;}
+    
+.login ul li.mypage02 a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;}
+.login ul li.mypage02 a {display:flex; align-items:center;}
+.login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}
 
 	
 	/* ☆2depth  */
@@ -116,8 +120,8 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 	height:80px; display:inline-block;  
 	color:#f40006; line-height:80px; text-decoration: underline;
 	}
-.mypage_snb_in .snb a:hover {color:#f40006; display:block; text-decoration: underline;}
-.mypage_snb_in .snb a:visited {color:#f40006; display:block; text-decoration: underline;}
+.mypage_snb_in .snb a:hover {color:#f40006; display:inline-block; text-decoration: underline;}
+.mypage_snb_in .snb a:visited {color:#f40006; display:inline-block; text-decoration: underline;}
 
 .con_area .discription {margin-bottom: 64px;}
 .con_area h3 {font-size:18px; font-weight:bold; margin-bottom:24px;}
@@ -284,7 +288,7 @@ table a.td_in_link:link {color:#222225;}
 .result_sum .point02 {color:#f40006; font-size:20px; font-weight:700;}
 .result_sum .point03 {color:#f40006; font-size:30px; font-weight:700;}
 .result_sum .sub {font-size:12px; color:#77777a;}
-.result_sum .t_center {display:inline-flex; text-align:center;}
+.result_sum .t_center {display:inline-flex; flex-direction: column; text-align:center;}
 
 	/* con_right 리스트 합계 02스타일 */
 .result_sum_col {width:1160px; background-color:#F5F5F5; padding:21px 20px 20px 20px;; margin-bottom:40px;}
@@ -705,6 +709,15 @@ a.btn_s03 {
 	margin-bottom:40px;}
 .con_w600 table tr {text-align:left;}
 .con_w600 table td {padding:4px 0;}
+.profile_img {border-radius: 100px; margin-left:10px;}
+
+.con_w600 .select_area {background:#fff; height:50px; border-radius:4px; padding:0px; border:solid 1px #E1E0E1;}
+.con_w600 .select_area select {
+	width:458px; height:50px; padding:16px; font-size:15px; color:#77777a;
+	background:url(../images/common/icon_arrow_down.png) no-repeat 98% 50%;
+	border:0px; z-index:5;
+	-webkit-appearance:none; -moz-appearance:none; appearance: none; outline: 0 none;}
+.con_w600 .select_area select option {font-size:15px; width:438px; padding:10px;}
 
 /* 마이페이지 - 회원가입, 로그인 영역 */
 .contents_members {
@@ -742,7 +755,20 @@ a.btn_s03 {
 .check_list .check_line {display:flex; align-items: center; }
 .check_list .add_txt {font-size:12px; padding:0 16px 0 30px;}
 
-	
+/* 회원가입 기본 */
+.top_cp {margin-bottom:58px;}
+.kakao_btn {margin-bottom:96px;}
+.top_bn {margin-bottom:56px;}
+.faq_con02 {width:657px;}
+.faq_con02 dt {border-bottom:solid 1px #F5F5F5; background:url(../images/common/icon_arrow_down.png) 98% 50% no-repeat;}
+.faq_con02 dt a {display:block; padding:12px; font-size:14px; color:#77777a;}
+.faq_con02 dd {background:#F5F5F5; padding:12px; font-size:14px; color:#77777a; display:none; border-bottom:solid 1px #F5F5F5; line-height:150%;}
+.faq_con02 dd div {display: flex;}
+.faq_con02 dd .en_a {padding:0 12px 0 0;}
+.faq_con02 dt .en_q {padding:0 12px 0 0;}
+.member_fbtn {display:flex; justify-content: flex-end; margin-top:4px;}
+.member_fbtn a {height:50px; line-height:50px; padding:0 12px; color:#77777a; font-size:14px;}
+
 /* 로그인 - 사용자약관 체크박스 */
 .check_line02 input#check_btn{display:none;}
 .check_line02 input#check_btn + label{cursor:pointer;}
@@ -932,7 +958,8 @@ ul.tab01 li a.on {
 	background:#fff; color:#222225; font-weight:600; 
 	border-radius:8px 8px 0 0; border-bottom:solid 0px #fff; 
 	border-left:solid 2px #77777a;border-top:solid 2px #77777a;border-right:solid 2px #77777a;}
-ul.faq_tab li a:hover {color:#222225; font-weight:600; }
+ul.faq_tab li a:hover {color:#222225; font-weight:600;}
+
 .faq_con dt {border-bottom:solid 1px #E1E0E1; background:url(../images/common/icon_arrow_down.png) 98% 50% no-repeat;}
 .faq_con dt a {display:block; padding:32px 24px;}
 .faq_con dd {background:#F5F5F5; padding:32px 32px 32px 24px; display:none; border-bottom:solid 1px #E1E0E1; line-height:150%;}
