@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
 	
-	<title>홀릭파트너스-비밀번호 확인</title>
+	<title>홀릭파트너스-회원가입</title>
 
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -18,6 +18,24 @@
 	      });
 	</script>
 	<!-- //인클루드를 위한 소스 -->
+	<script type="text/javascript">
+		<!--
+		var old_menu = '';
+		function menuclick(submenu)
+		{
+			if(old_menu != submenu) {
+				if(old_menu !=''){
+					old_menu.style.display = 'none';
+				}
+				submenu.style.display = 'block';
+				old_menu = submenu;
+			} else {
+				submenu.style.display = 'none';
+				old_menu = '';
+			}
+		}
+		-->
+	</script>
 
 </head>
 <body>
@@ -30,12 +48,47 @@
 	<!-- ★container -->
 	<div id="container">
 		<div class="contents_members">
-			<div class="" style="margin-bottom:80px;">
-				<img src="../images/banner/login_banner.png" alt="" />	
-			</div>
-			<div class="" style="margin-bottom:80px;">
-			<img src="../images/common/01_01.png" alt="" />	
-			</div>	
+			<p class="top_cp">
+			<img src="../images/common/login_img_txt01.png" alt="선착순 100명! 딱 한달! 지금 바로 최고 수수료 받기" />
+			</p>
+			<a class="kakao_btn" href="#">
+				<img src="../images/common/login_kakao_647.png" alt="카카오 1초 로그인/회원가입" />
+			</a>
+			<p class="top_bn">
+			<img src="../images/common/login_img_bn01.png" alt="수수료 최대 45%" />
+			</p>
+			
+			<!-- faq -->
+			<dl class="faq_con02">	
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu1);><span class="en_q">Q.</span>카카오 ID가 기억나지 않습니다.</a>
+				</dt>
+				<dd id="submenu1">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 ID 확인방법 :<br />
+							카카오톡 앱 > 하단 우측 더보기 탭 > 상단 우측 설정탭 > 개인/보안 > 카카오계정 > 이메일 확인
+							카카오계정 내 이메일이 카카오톡 ID입니다. 
+						</span>
+					</div>
+				</dd>				
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu2);><span class="en_q">Q.</span>기존 회원도 간편 로그인 시 할인혜택을 받을 수 있나요?</a>
+				</dt>
+				<dd id="submenu2">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 간편 가입 이력이 없거나 이미 홀릭팩토리 카카오톡 채널을 추가한 회원 모두 동일한 혜택을 받으실 수 있습니다. 
+						</span>
+					</div>
+				</dd>
+			<!-- //faq -->
+			<div class="member_fbtn">
+				<a href="login.html">기존 회원 로그인</a>
+				<a href="member_0102.html">신규회원가입</a>
+			</div>		
 		</div>
 		
 	</div>
