@@ -1057,7 +1057,8 @@ ul.faq_tab li a:hover {color:#222225; font-weight:600;}
 
 /* footer */
 .footer_con {
-	display:flex; justify-content:space-between; padding:60px 0 0 0; height:400px; 
+	display:flex; justify-content:space-between; 
+	height:500px; padding:60px 0 0 0;  
 	font-size: 14px; color:#77777a;  line-height:160%; letter-spacing:0.5px;}
 .foot_right {
 	margin-top:60px; text-align:right; width:280px;}
