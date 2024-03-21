@@ -1,0 +1,41 @@
+
+/* ★header */
+#header_main {
+	position:sticky; top:0; width:100%; min-width:1400px; height:90px; z-index:10;
+	}
+	/* ☆1depth  */
+.gnb_area {
+	position:relative; width:100%; height:90px; background-color:#222;
+	}
+.gnb_in {
+	width:1400px; margin:0 auto; color:#fff; font-size:18px;
+	}
+.gnb_in .logo {float:left;  width:144px; height:90px; margin-right:64px;}
+.gnb li {float:left; list-style:none;}
+.gnb li a {
+	height:89px; display:block;  padding:0 24px 0 0; 
+	color:#ffffff; font-size:18px; line-height:89px; font-weight:700;}
+.gnb li a:hover {color:#DE032C; display:block;}
+.gnb li a.on {color:#f40006;}
+		/* 로그인 메뉴  */
+.login ul li {
+	float:right; height:90px; line-height:89px; padding:0 6px; font-size:14px; color:#999999;
+	}
+.login ul li.mypage a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;
+    background:url(../images/common/icon_mypage_r.png) 0% 50% no-repeat;}
+    
+.login ul li.mypage02 a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;}
+.login ul li.mypage02 a {display:flex; align-items:center;}
+.login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}
+
+
+	
+/* ============================= ★container  ============================= */
+#container_main {
+	position:relative; width:100%; height:100%; min-width:1400px; }
+	
+section {position:relative; width:100%;}
+.bg_w {background:#fff; text-align:center;}
+.bg_g {background:#F5F5F5; text-align:center;}
+.main_con {width:1400px; height:500px; border:solid 1px #ff3300; margin:0 auto;}
+
