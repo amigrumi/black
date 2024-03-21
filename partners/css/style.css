@@ -34,7 +34,8 @@ font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',he
 .font_s19 {font-size:19px;} /*데이터_수수료*/
 
 .flex {display:flex; align-items:center;}
-.flex_btw {justify-content: space-between;;}
+.flex_js_center {justify-content:center;}
+.flex_btw {justify-content: space-between;}
 .flex_end {display:flex; justify-content: flex-end;}
 
 /* ★header */
@@ -261,7 +262,7 @@ table a.td_in_link:link {color:#222225;}
  .t10 {font-size:19px; font-weight:bold; color:#f40006;}
  .t11 {font-weight:bold;} /*확정금액에 사용됨*/
  .t16 {color:#77777a; font-size:16px; font-weight:400; letter-spacing:0px;} /*커뮤니티 게시판 타이틀 게시글 수에 사용 */
- .t17 {color:#77777a; font-size:14px; font-weight:400; letter-spacing:0px;} /*커뮤니티 게시판 리스트 게시글 수에 사용 */
+ .t17 {color:#77777a; font-size:14px; font-weight:400; letter-spacing:0px; line-height: 150%;} /*커뮤니티 게시판 리스트 게시글 수에 사용 */
 
  .table .td_per {display:flex; justify-content:center; align-items:center;}
  .table .td_per ul li {color:#77777a; text-align:left; padding-left:16px;}
@@ -576,6 +577,18 @@ a.button_130 {
 /* 커뮤니티 게시판 본문 하단 버튼 3개 영역 */
 .board_btn_area02 {display:flex; justify-content:flex-end; margin-bottom:56px;} 
 .board_btn_area02 a{margin-left:8px;}
+/* 커뮤니티 상단 조회수,추천순, 글쓰기 버튼 영역 */
+	.select02 ul {display:flex; flex-direction:row; margin:0 32px 24px 0;}
+	.select02 li {list-style:none; margin-top:36px;}
+	.select02 li a {
+		display:block; padding:5px 6px 4px 6px;
+		color:#77777a; font-size:14px; line-height:20px;
+		}
+	.select02 li a:hover {color:#222225; display:block; font-weight:700;}
+	.select02 li a.on {
+		color:#222225; font-weight:700; padding: 4px 11px; margin: 0 2px;
+		border:solid 1px #333; border-radius:30px;}
+		
 /* 커뮤니티 게시판 하단 검색영역 */
 .board_search_area {
 	width:560px; height:50px; margin:0 auto; padding:0;
@@ -914,25 +927,25 @@ ul.tab03 li a.on {
 .view_name ul {display:flex;}
 .view_name ul li {padding-right:16px;}
 .view_con {padding:0 24px 32px 24px; line-height:160%; border-bottom:solid 1px #E1E0E1; margin-bottom:48px;}
-ul.view_con_bottom {display:flex; margin-top:56px;}
+ul.view_con_bottom {display:flex; margin-top:72px;}
 ul.view_con_bottom li {padding-right:32px; font-size:18px; font-weight:600;}
 .view_like {
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_like.png) no-repeat 0% 50%;}
 .view_share {
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_share.png) no-repeat 0% 50%;}
 .view_scrap {
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_scrap.png) no-repeat 0% 50%;}
 .view_like_on{
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_like_on.png) no-repeat 0% 50%;}
 .view_share_on{
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_share_on.png) no-repeat 0% 50%;}
 .view_scrap_on{
-	padding:0 0 0 24px; color:#222225;
+	padding:0 0 0 32px; color:#222225;
 	background:url(../images/common/icon_view_scrap_on.png) no-repeat 0% 50%;}
 
 
@@ -1028,19 +1041,19 @@ ul.faq_tab li a:hover {color:#222225; font-weight:600;}
 .con_area_agree .agree_txt {padding: 0 0 0 16px; margin-bottom: 48px; color:#77777a; text-align:justify;}
 .con_area_agree .agree_txt ul {padding: 0 0 0 16px;}
 .con_area_agree .agree_txt ul li {list-style: disc; margin: 0 0 0 20px;}
+.con_area_agree .agree_txt_s {padding: 0 0 0 20px; margin-bottom: 16px; color:#77777a; text-align:justify;}
 
 /* 파트너 가이드 */
-.guide_area_box {background:#f5f5f5; text-align:center; padding:90px 0 4px 0; margin-top:20px;}
-.guide_area_box .page_num {margin-top:32px;}
-
-.guide_area_box02 {
-	width:990px; height:596px; padding: 32px; background:#fff; text-align:center; 
+.guide_area_box {
+	width:1136px; height:596px; padding: 32px; background:#fff; text-align:center; 
 	margin:80px auto 50px auto; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 0.5);}
 
-
-
-
-
+.guide_num_area {display:flex; align-items:center; margin:32px 0 -40px 0;}
+.guide_num_area .page_num li {height:30px; line-height:30px;}
+.guide_num_area .input_txt {
+	width:26px; height:26px; padding:2px 4px;  
+	border:solid 1px #E1E0E1; border-radius:4px; background:none; outline:none; 
+	color:#77777a; font-size:15px; letter-spacing:-0.7px; line-height:30px;}
 
 
 

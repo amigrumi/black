@@ -9,6 +9,7 @@
 .pop_t03 {margin-bottom:24px;}
 .close_w30 img {width:30px;}
 button {background:none; border:0px;}
+.scroll {overflow: scroll;}
 	
 .pop_r4_red {
 	display:none; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
