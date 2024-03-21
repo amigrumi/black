@@ -166,11 +166,11 @@
 							<td>
 								<p class="t06">35%</p>
 								<p class="t02">5% (추가 이벤트)</p>
-								<p><a class="btn_line02" href="#">자세히보기</a></p>
+								<p><a href="#" onclick="javascript:openPopup('black_c');"  class="btn_line02">자세히보기</a></p>
 							</td>
 							<td>
 								<span class="t10">230,000원</span>
-								<p><a class="btn_line02" href="#">자세히보기</a></p>
+								<p><a href="#" onclick="javascript:openPopup('black_c2');"  class="btn_line02">자세히보기</a></p>
 							</td>
 							<td><a class="btn_s03" href="#">자세히보기</a></td>
 						</tr>
@@ -531,22 +531,50 @@
 	<!-- ★footer -->
 	<div id="footer"></div>
 	<!-- ★footer -->
-<!-- 팝업 수수료 자세히 보기 -->
-		<div id="popup_wrap_data">
-			<div class="popup_box pop_size200">
-				<div class="close_btn_top">
+<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r4_red').hide(); 
+			$('.pop_r4').hide();
+			$('.pop_r24_red').hide(); 
+			$('.pop_r24').hide();
+			};
+	</script>
+		<!-- 팝업 c형 -->
+		<div class="pop_r4 black_c">
+			<div class="con">
+				<button type="button" onclick="closePopup()" class="close_g24 close">
 					<img src="../images/common/btn_close_gray24.png" alt="닫기" />
-				</div>
-				<div class="txt14">
-					<p class="bold" style="font-size:18px; color:#222225">총수수료 <span class="red bold">35%</span></p>
-					<p style="padding-top:12px;">상품수수료 20%</p>
-					<p>등급수수료 10%</p>
-					<p class="red">추가수수료 5%</p>
-				</div>
+				</button>
+				<h3>최종수수료 30%</h3>
+				<p class="pop_t03 gray">
+					상품수수료 20% <br />
+					등급수수료 5% <br />
+					<span class="red">추가수수료 5%</span> <br />
+				</p>
 			</div>
 		</div>
-<!-- //팝업 수수료 자세히 보기 -->		
-
+		<!-- //팝업 c형 -->
+		<!-- 팝업 c형 -->
+		<div class="pop_r4 black_c2">
+			<div class="con">
+				<button type="button" onclick="closePopup()" class="close_g24 close">
+					<img src="../images/common/btn_close_gray24.png" alt="닫기" />
+				</button>
+				<h3>수익 230,000원</h3>
+				<p class="pop_t03 gray">
+					방문 : 258 <br />
+					전환 : 15% <br />
+					객단가 : 000원 <br />
+				</p>
+			</div>
+		</div>
+		<!-- //팝업 c형 -->
 	
 </div>
 </body>

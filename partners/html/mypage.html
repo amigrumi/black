@@ -6,7 +6,8 @@
 	
 	<title>홀릭파트너스-수익통계</title>
 
-	<link type="text/css" href="../css/style.css" rel="stylesheet" />		
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />		
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
 	<!-- 인클루드를 위한 소스 -->
@@ -287,6 +288,43 @@
 	<!-- ★footer -->
 	<div id="footer"></div>
 	<!-- ★footer -->
+
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r4_red').hide(); 
+			$('.pop_r4').hide();
+			$('.pop_r24_red').hide(); 
+			$('.pop_r24').hide();
+			$('.mask').hide(); 
+			};
+	</script>
+	
+	<!-- 팝업 e형 -->
+		<div class="pop_r4 black_e" style="display:block;">
+			<div class="con_left">
+				<button type="button" onclick="closePopup()" class="close_g24 close">
+					<img src="../images/common/btn_close_gray24.png" alt="닫기" />
+				</button>
+				<h3>코드요청완료 승인대기중</h3>
+				<p class="pop_t03 gray">
+					코드요청시간 : 24.03.10(화) 14시 25분<br />
+				</p>
+				<div class="btn">
+					<a class="" href="#" onclick="closePopup()">확인</a>
+				</div>
+			</div>
+		</div>
+	<!-- //팝업 e형 -->
+
+
+
 
 	
 </div>
