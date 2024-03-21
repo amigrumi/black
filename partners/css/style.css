@@ -1055,6 +1055,23 @@ ul.faq_tab li a:hover {color:#222225; font-weight:600;}
 	border:solid 1px #E1E0E1; border-radius:4px; background:none; outline:none; 
 	color:#77777a; font-size:15px; letter-spacing:-0.7px; line-height:30px;}
 
+/* footer */
+.footer_con {
+	display:flex; justify-content:space-between; padding:60px 0 0 0; height:400px; 
+	font-size: 14px; color:#77777a;  line-height:160%; letter-spacing:0.5px;}
+.foot_right {
+	margin-top:60px; text-align:right; width:280px;}
+.foot_right img {border-radius:4px; margin-bottom:8px;}
+.foot_left a {color:#77777a;}
+.foot_left ul {display:flex; margin-bottom:40px;}
+.foot_left ul li a {display:block; margin-right:16px; color:#77777a; letter-spacing:-0.5px;}
+.f01 {margin-bottom:60px; font-size:16px; font-weight:600;}
+.font_s24 {font-size:26px; color:#fff; margin-bottom: 32px;}
+.f02 {margin-bottom:32px;} 
+
+
+
+
 
 
 

@@ -37,5 +37,37 @@
 section {position:relative; width:100%;}
 .bg_w {background:#fff; text-align:center;}
 .bg_g {background:#F5F5F5; text-align:center;}
-.main_con {width:1400px; height:500px; border:solid 1px #ff3300; margin:0 auto;}
+.main_con {
+	width:1400px; text-align: center; margin:0 auto;}
+	
+.main_box01 {
+	width:764px; height:468px; border:solid 10px #F5F5F5; border-radius:24px;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto;}
+
+.img01 {margin:140px 0 52px 0;}
+.img02 {margin:52px 0 133px 0;}
+.img03 {margin:210px 0 100px 0}
+.btn_bt_area {margin-bottom:110px;}
+a.btn_main {
+	display:inline-block; width:440px; height:120px; line-height:120px; 
+	color:#fff; background:#CE1032; border-radius:32px;
+	font-size:38px; font-family:'SCDream','NotoSans KR'; font-weight: 500; letter-spacing:-1px; margin-bottom:230px;}
+.main_con .txt01 {
+	font-family:'SCDream-3','NotoSans KR'; font-size:20px; font-weight:normal; letter-spacing:-1px; margin-bottom:230px;}
+.t54 {font-family:'SCDream';  font-weight:500; font-size:54px; color:#222225; margin-bottom:32px;}
+
+/* font */
+@font-face {
+    font-family: 'SCDream'; font-style: normal; font-weight: 500;
+    src: local('SCDream'),
+        url('../font/S-CoreDream-5Medium.woff2') format('woff2'), 
+        url('../font/S-CoreDream-5Medium.woff') format('woff'),}
+        
+@font-face {        
+    font-family: 'SCDream-3'; font-style: normal; font-weight: 300;
+    src: local('SCDream-3'),
+        url('../font/S-CoreDream-3.woff2') format('woff2'), 
+        url('../font/S-CoreDream-3.woff') format('woff'),}
+
+
 
