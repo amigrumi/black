@@ -3,30 +3,6 @@
 #header_main {
 	position:sticky; top:0; width:100%; min-width:1400px; height:90px; z-index:10;
 	}
-	/* ☆1depth  */
-.gnb_area {
-	position:relative; width:100%; height:90px; background-color:#222;
-	}
-.gnb_in {
-	width:1400px; margin:0 auto; color:#fff; font-size:18px;
-	}
-.gnb_in .logo {float:left;  width:144px; height:90px; margin-right:64px;}
-.gnb li {float:left; list-style:none;}
-.gnb li a {
-	height:89px; display:block;  padding:0 24px 0 0; 
-	color:#ffffff; font-size:18px; line-height:89px; font-weight:700;}
-.gnb li a:hover {color:#DE032C; display:block;}
-.gnb li a.on {color:#f40006;}
-		/* 로그인 메뉴  */
-.login ul li {
-	float:right; height:90px; line-height:89px; padding:0 6px; font-size:14px; color:#999999;
-	}
-.login ul li.mypage a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;
-    background:url(../images/common/icon_mypage_r.png) 0% 50% no-repeat;}
-    
-.login ul li.mypage02 a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;}
-.login ul li.mypage02 a {display:flex; align-items:center;}
-.login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}
 
 
 /* font */
@@ -45,7 +21,7 @@
         	
 /* ============================= ★container  ============================= */
 #container_main {
-	position:relative; width:100%; height:100%; min-width:1400px; }
+	position:relative; width:100%; height:100%; min-width:1400px;}
 	
 section {position:relative; width:100%;}
 .bg_w {background:#fff; text-align:center;}
@@ -54,8 +30,9 @@ section {position:relative; width:100%;}
 	width:1400px; text-align: center; margin:0 auto;}
 	
 .main_box01 {
-	width:764px; height:468px; border:solid 10px #F5F5F5; border-radius:24px;
-	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto;}
+	width:764px; height:418px; border:solid 10px #F5F5F5; border-radius:24px;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto; overflow: hidden;}
+.main_box01 img {width:764px;}
 .bg_b {background:url(../images/common/main_b01.png) no-repeat top center; height:1080px;}
 .main_img_b {
 	width:270px; height: 586px; border-radius:26px;
