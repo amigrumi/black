@@ -29,7 +29,20 @@
 .login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}
 
 
-	
+/* font */
+@font-face {
+    font-family: 'SCDream'; font-style: normal; font-weight: 500;
+    src: local('SCDream'),
+        url('../font/S-CoreDream-5Medium.woff2') format('woff2'), 
+        url('../font/S-CoreDream-5Medium.woff') format('woff'),}
+        
+@font-face {        
+    font-family: 'SCDream-4'; font-style: normal; font-weight: 300;
+    src: local('SCDream-4'),
+        url('../font/S-CoreDream-4.woff2') format('woff2'), 
+        url('../font/S-CoreDream-4.woff') format('woff'),}
+        
+        	
 /* ============================= ★container  ============================= */
 #container_main {
 	position:relative; width:100%; height:100%; min-width:1400px; }
@@ -43,31 +56,67 @@ section {position:relative; width:100%;}
 .main_box01 {
 	width:764px; height:468px; border:solid 10px #F5F5F5; border-radius:24px;
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto;}
+.bg_b {background:url(../images/common/main_b01.png) no-repeat top center; height:1080px;}
+.main_img_b {
+	width:270px; height: 586px; border-radius:26px;
+	margin:-31px 0 0 90px; overflow: hidden;}
+.main_img_b video {height: 588px;}
+.main_img_b img {width:266px; height: 588px; border-radius:32px;}
 
-.img01 {margin:140px 0 52px 0;}
+.img01 {margin:140px 0 52px 0;} 
 .img02 {margin:52px 0 133px 0;}
 .img03 {margin:210px 0 100px 0}
+.img04 {margin:130px 0 60px 0} /* 성공사례 메인카피 */
+.img05 {margin:210px 0 150px 0}
+.img06 {margin:-80px 0 0 220px;} /*홈 메인b 이미지 */
+.key02 {margin:0px 0 95px 0}
 .btn_bt_area {margin-bottom:110px;}
+.btn_bt_area a {margin:0 26px;}
 a.btn_main {
 	display:inline-block; width:440px; height:120px; line-height:120px; 
 	color:#fff; background:#CE1032; border-radius:32px;
-	font-size:38px; font-family:'SCDream','NotoSans KR'; font-weight: 500; letter-spacing:-1px; margin-bottom:230px;}
+	font-size:38px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
+	letter-spacing:-1px; margin-bottom:230px;}
 .main_con .txt01 {
-	font-family:'SCDream-3','NotoSans KR'; font-size:20px; font-weight:normal; letter-spacing:-1px; margin-bottom:230px;}
-.t54 {font-family:'SCDream';  font-weight:500; font-size:54px; color:#222225; margin-bottom:32px;}
-
-/* font */
-@font-face {
-    font-family: 'SCDream'; font-style: normal; font-weight: 500;
-    src: local('SCDream'),
-        url('../font/S-CoreDream-5Medium.woff2') format('woff2'), 
-        url('../font/S-CoreDream-5Medium.woff') format('woff'),}
-        
-@font-face {        
-    font-family: 'SCDream-3'; font-style: normal; font-weight: 300;
-    src: local('SCDream-3'),
-        url('../font/S-CoreDream-3.woff2') format('woff2'), 
-        url('../font/S-CoreDream-3.woff') format('woff'),}
+	font-family:'SCDream-4','NotoSans KR'; font-size:20px; font-weight:normal; letter-spacing:-1px; margin-bottom:230px;}
+.t54 {font-family:'SCDream';  font-weight:500; font-size:54px; color:#222225; margin-bottom:12px;}
 
 
+	/* 성공사례 b */
+.main_con .good_case {
+	width:1000px; margin:20px auto 160px auto; line-height:150%;
+	font-family:'SCDream-4','NotoSans KR'; font-size:20px; text-align:left;}
+.main_con .good_case .case_area {display: flex; margin-bottom:40px;}
+.main_con .good_case .case_area .ad_img {margin-right:50px;}
+.main_con .good_case .case_area .ad_img video {border:solid 16px #ffffff; border-radius:32px; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+.main_con .case_area .mv {width:308px; height:537px; object-fit:cover;}
+.main_con .good_case .case_area .ad_img img {width:308px; height:537px; border:solid 16px #ffffff; border-radius:32px; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+
+.main_con .case_area .txt_area .profile {margin:16px 0 24px 0;}
+.main_con .case_area .txt_area .copy {margin-bottom:40px;}
+.main_con .case_area .txt_area .result {font-size:24px; font-weight:normal; line-height:150%; margin-bottom:40px;}
+.main_con .case_area .txt_area .result .h4 {
+	width:90px; display:inline-block; font-weight:700; letter-spacing:-1px;}
+
+.main_con .good_case .marketing {padding-left:16px; font-size:20px; font-weight:normal; line-height:160%; color:#77777a;}
+.main_con .good_case .marketing .h5 {font-size:24px; font-weight:700; margin-bottom:24px; color:#222225; border: solid 1px #222225; padding:4px 24px; border-radius: 30px; }
+.main_con .good_case .marketing .h6 {
+	width:110px; display:inline-block; font-weight:700; padding:0 12px 0 12px; color:#222225;}
+.main_con .good_case .marketing ul li {padding:1px 0;}
+
+a.btn_main02 {
+	display:inline-block; height:60px; line-height:60px; padding:0 32px;
+	color:#fff; background:#222225; border-radius:32px;
+	font-size:24px; font-family:'SCDream-4','NotoSans KR'; font-weight: 500; }
+	
+	/* 성공사례 a */
+.main_con .case_area .txt_area .copy02 {margin:20px 0 35px 0;}
+.main_con .case_area .txt_area .result02 {font-size:18px; font-weight:normal; line-height:150%; margin:0 0 35px 12px; font-family:'SCDream-4','NotoSans KR';}
+.main_con .case_area .txt_area .result02 .h4 {
+	width:110px; display:inline-block; font-weight:700;}
+
+.main_con .good_case .marketing02 {padding-left:12px; font-size:18px; font-weight:normal; line-height:150%; color:#666; font-family:'SCDream-4','NotoSans KR';}
+.main_con .good_case .marketing02 .h5 {display:inline-block; font-weight:400; margin-bottom:10px; color:#fff; padding:4px 10px; border-radius: 4px; background:#222225;}
+.main_con .good_case .marketing02 .h6 {
+	width:110px; display:inline-block; font-weight:700; padding:0; color:#222225;}
 
