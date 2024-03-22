@@ -584,10 +584,10 @@ a.button_130 {
 		display:block; padding:5px 6px 4px 6px;
 		color:#77777a; font-size:14px; line-height:20px;
 		}
-	.select02 li a:hover {color:#222225; display:block; font-weight:700;}
+	.select02 li a:hover {color:#f40006; display:block; font-weight:700;}
 	.select02 li a.on {
-		color:#222225; font-weight:700; padding: 4px 11px; margin: 0 2px;
-		border:solid 1px #333; border-radius:30px;}
+		color:#f40006; font-weight:700; padding: 4px 11px; margin: 0 2px;
+		border:solid 1px #f40006; border-radius:30px;}
 		
 /* 커뮤니티 게시판 하단 검색영역 */
 .board_search_area {
