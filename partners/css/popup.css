@@ -31,6 +31,13 @@ button {background:none; border:0px;}
 	padding:0 30px; border-radius:90px;
 	font-size:24px; font-weight:600; font-family:'Noto Sans KR'; }
 	
+.pop_r4_red .btn_yel {margin:0 auto; text-align:center;}	
+	.btn_yel a {
+	display:inline-block; background:#fae100; color:#fff; text-align:center;
+	min-width:180px; height:64px; line-height:64px; 
+	padding:0 30px; border-radius:90px;
+	font-size:24px; font-weight:600; font-family:'Noto Sans KR'; }
+	
 .pop_r4 {
 	display:none; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
 	z-index:500; background: #fff; border-radius:4px;
@@ -90,10 +97,9 @@ button {background:none; border:0px;}
 .pop_r4_red ul li {margin-bottom:8px;}
 
 
-
-
-
-
+/* 그림자 더 진한 버전 */
+.add_shadow05 {box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);}
+.add_shadow07 {box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.7);}
 	
 /* 파트너 유형 팝업 */
 	
