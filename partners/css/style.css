@@ -63,10 +63,19 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 	}
 .login ul li.mypage a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;
     background:url(../images/common/icon_mypage_r.png) 0% 50% no-repeat;}
+
+.login ul li.mypage_12 a{display: block; text-align: left; color:#999999; padding: 0 0 0 36px;
+    background:url(../images/common/icon_mypage_r15.png) 0% 50% no-repeat;
+    background-size:24px;}
+
+.login ul li.mypage_15 a{display: block; text-align: left; color:#999999; padding: 0 0 0 42px;
+    background:url(../images/common/icon_mypage_r15.png) 0% 50% no-repeat;}
     
-.login ul li.mypage02 a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;}
+.login ul li.mypage_20 a{display: block; text-align: left; color:#999999; padding: 0 0 0 56px;
+    background:url(../images/common/icon_mypage_r20.png) 0% 50% no-repeat;}        
+/*.login ul li.mypage02 a{display: block; text-align: left; color:#999999; padding: 0 0 0 30px;}
 .login ul li.mypage02 a {display:flex; align-items:center;}
-.login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}
+.login ul li.mypage02 img {width:36px; height:36px; border-radius:24px; margin-right:8px;}*/
 
 	
 	/* ☆2depth  */
