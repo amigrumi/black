@@ -87,8 +87,11 @@ a.btn_main {
 	font-family:'SCDream-4','NotoSans KR'; font-size:20px; text-align:left;}
 .main_con .good_case .case_area {display: flex; margin-bottom:40px;}
 .main_con .good_case .case_area .ad_img {margin-right:50px;}
-.main_con .good_case .case_area .ad_img video {border:solid 16px #ffffff; border-radius:32px; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
-.main_con .case_area .mv {width:308px; height:537px; object-fit:cover;}
+.main_con .good_case .case_area .ad_img video {
+	border:solid 16px #ffffff; border-radius:32px; 
+	background:#fff;
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+.main_con .case_area .mv {width:308px; height:536px; object-fit:cover;}
 .main_con .good_case .case_area .ad_img img {width:308px; height:537px; border:solid 16px #ffffff; border-radius:32px; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
 
 .main_con .case_area .txt_area .profile {margin:16px 0 24px 0;}
