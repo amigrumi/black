@@ -39,6 +39,8 @@ section {position:relative; width:100%;}
 	margin:-33px 0 0 90px; overflow: hidden; object-fit:cover;}
 .main_img_b video {height: 470px; overflow: hidden;}
 .main_img_b img {width:267px; height: 470px; border-radius:32px;}
+.bg_good_c {position:relative;
+	margin:0 auto 95px auto; width:980px; height:625px; background:url(../images/common/main_c01.png) no-repeat top center;}
 
 .img01 {margin:140px 0 52px 0;} 
 .img02 {margin:52px 0 133px 0;}
