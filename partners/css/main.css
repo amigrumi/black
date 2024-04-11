@@ -35,10 +35,10 @@ section {position:relative; width:100%;}
 .main_box01 img {width:764px;}
 .bg_b {background:url(../images/common/main_b01.png) no-repeat top center; height:1080px;}
 .main_img_b {
-	width:270px; height: 586px; border-radius:26px;
-	margin:-31px 0 0 90px; overflow: hidden;}
-.main_img_b video {height: 588px;}
-.main_img_b img {width:266px; height: 588px; border-radius:32px;}
+	width:270px; height: 470px; border-radius:28px;
+	margin:-33px 0 0 90px; overflow: hidden; object-fit:cover;}
+.main_img_b video {height: 470px; overflow: hidden;}
+.main_img_b img {width:267px; height: 470px; border-radius:32px;}
 
 .img01 {margin:140px 0 52px 0;} 
 .img02 {margin:52px 0 133px 0;}
