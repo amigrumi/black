@@ -52,18 +52,18 @@ section {position:relative; width:100%;}
 	margin:0 auto 95px auto; width:980px; height:625px; background:url(../images/common/good_a01.png) no-repeat top center;}
 .key_main video{
 	border:solid 12px #fff; border-radius:32px;
-	background:#000; text-align:right; 
+	background:#fff; text-align:right; 
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:42px; left:333px; z-index:5; overflow: hidden;}
 .key_main .mv_keymain {width:290px; height:500px; object-fit:cover;}
 .key_left video{
 	border:solid 12px #fff; border-radius:32px;
-	background:#000;
+	background:#fff;
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:87px; left:90px; z-index:4; overflow: hidden;}
 .key_right video{
 	border:solid 12px #fff; border-radius:32px;
-	background:#000;
+	background:#fff;
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:87px; left:617px; z-index:4; overflow: hidden;}
 .mv_keysub {width:249px; height:415px; object-fit:cover;}	
