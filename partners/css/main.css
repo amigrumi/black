@@ -57,7 +57,7 @@ section {position:relative; width:100%;}
 	background:#fff; text-align:right; 
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:42px; left:333px; z-index:5; overflow: hidden;}
-.key_main .mv_keymain {width:290px; height:500px; object-fit:cover;}
+.key_main .mv_keymain {width:290px; height:515px; object-fit:cover;}
 .key_left video{
 	border:solid 12px #fff; border-radius:32px;
 	background:#fff;
@@ -68,7 +68,7 @@ section {position:relative; width:100%;}
 	background:#fff;
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:87px; left:617px; z-index:4; overflow: hidden;}
-.mv_keysub {width:249px; height:415px; object-fit:cover;}	
+.mv_keysub {width:249px; height:441px; object-fit:cover;}	
 
 
 .btn_bt_area {margin-bottom:110px;}
