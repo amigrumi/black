@@ -242,21 +242,21 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 .img_box_ul02 .thumb {width:282px; border-radius:4px; margin-bottom:16px;}
 .img_box_ul02 .h1 {font-size:20px; font-weight:600; color:#222225; line-height:24px; margin-bottom:8px;}
 .img_box_ul02 .t_add {font-size:14px; font-weight:400; color:#f40006;}
-.thumb_area {position: relative;}
+.img_box_ul02 .thumb_area {position: relative;}
 .badge {position:absolute; top:0; left:0px; z-index:5; width:70px; height:70px;}
-.thumb_txt {
+.img_box_ul02 .thumb_txt {
 	position:absolute; top:250px; left:0px; z-index:5; width:100%; height:32px;
 	background:rgba(0,0,0,0.5); border-radius:0 0 4px 4px; color:#fff;
 	display: flex; justify-content:space-between; align-items: center;}
-.thumb_txt p {padding:0 8px; font-size:14px;}
-.per_area {display:flex; position:relative; margin-top:8px;}
-.per01 {font-size:40px; font-weight:800; color:#f40006; width:74px; font-family:'Noto Sans KR'; line-height:46px;}
-.per_s {font-size:16px;}
-.price {font-size:18px; font-weight:600; color:#222225; line-height:18px;}
-.price .p01 {font-size:13px; font-weight:normal; color:#999; text-decoration:line-through; padding-top:4px;}
-.my_per {position:absolute; right:0px; color:#22225; line-height:20px; text-align:center; padding-top:4px;}
-.my_per .txt {font-size:12px; color:#222225;}
-.my_per .per02 {font-size:20px; font-weight:600; color:#f40006;}
+.img_box_ul02 .thumb_txt p {padding:0 8px; font-size:14px;}
+.img_box_ul02 .per_area {display:flex; position:relative; margin-top:8px;}
+.img_box_ul02 .per01 {font-size:40px; font-weight:800; color:#f40006; width:74px; font-family:'Noto Sans KR'; line-height:46px;}
+.img_box_ul02 .per_s {font-size:16px;}
+.img_box_ul02 .price {font-size:18px; font-weight:600; color:#222225; line-height:18px;}
+.img_box_ul02 .price .p01 {font-size:13px; font-weight:normal; color:#999; text-decoration:line-through; padding-top:4px;}
+.img_box_ul02 .my_per {position:absolute; right:0px; color:#22225; line-height:20px; text-align:center; padding-top:4px;}
+.img_box_ul02 .my_per .txt {font-size:12px; color:#222225;}
+.img_box_ul02 .my_per .per02 {font-size:20px; font-weight:600; color:#f40006;}
 
 
 	/*  con_right table - 상품리스트 */
