@@ -31,7 +31,8 @@ section {position:relative; width:100%;}
 	
 .main_box01 {
 	width:764px; height:418px; border:solid 10px #ffffff; border-radius:24px;
-	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto; overflow: hidden;}
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto; overflow: hidden;
+	margin-bottom:72px;}
 .main_box01 img {width:764px;}
 .bg_b {background:url(../images/common/main_b01.png) no-repeat top center; height:1080px;}
 .main_img_b {
