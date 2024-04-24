@@ -79,6 +79,11 @@ a.btn_main {
 	color:#fff; background:#CE1032; border-radius:32px;
 	font-size:38px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
 	letter-spacing:-1px; margin-bottom:230px;}
+a.btn_main03 {
+	display:inline-block; width:440px; height:120px; line-height:120px; 
+	color:#fff; background:#CE1032; border-radius:32px;
+	font-size:38px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
+	letter-spacing:-1px; margin-bottom:30px;}
 .main_con .txt01 {
 	font-family:'SCDream-4','NotoSans KR'; font-size:20px; font-weight:normal; letter-spacing:-1px; margin-bottom:230px;}
 .t54 {font-family:'SCDream';  font-weight:500; font-size:54px; color:#222225; margin-bottom:12px;}
@@ -110,7 +115,7 @@ a.btn_main {
 	.main_con .good_case .h7 {
 	font-weight:500; color:#77777a; font-size:18px;}
 	.main_con .txt_add {
-	font-weight:500; color:#77777a; font-size:16px; margin-bottom:32px;}
+	font-weight:500; color:#77777a; font-size:16px; padding-bottom:230px;}
 .main_con .good_case .marketing ul li {padding:1px 0;}
 
 a.btn_main02 {
