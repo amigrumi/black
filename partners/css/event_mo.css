@@ -95,6 +95,8 @@ background-size : cover;}
 	display:flex; justify-content:space-between; align-items: center;
 	width:100%; padding:16px 0 16px 0;} /* t03 카테고리 타이틀 영역 */
 .ca_title_area03 h1 {font-size:18px; letter-spacing:-1px; padding-left:9px;}
+.ca_title_bar1 {border-top:solid 1px #dddddd;}
+.ca_title_bar16 {border-top:solid 16px #f5f5f5;}
 
 .search_box03 {
 	height:30px; width:45%; background:#fff; 
