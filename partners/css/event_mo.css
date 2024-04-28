@@ -26,9 +26,50 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 
 /* header */
-.header {width:100%; height:150px; position:fixed; top:0; z-index:10; text-align:center; background-color:#fff;}
+.header {width:100%; height:120px; position:fixed; top:0; z-index:10; text-align:center; background-color:#fff;}
 .top_banner {
-	width:100%; height:100px; background-color:#000;text-align:center;}
+	display:flex; justify-content:center; align-items: center;
+	width:100%; height:70px; background-color:#000; text-align:center; font-size:24px; }
+
+.top_banner img.bn_profile  {width:40px; height:40px; border-radius: 40px; margin-right:12px;}
+
+.bnbg01 {background:url(../images/event_pc/bnbg01.png) no-repeat top center; 
+background-size : cover;}
+.bnbg01 .bn_profile {border:solid 7px #ffaa00;}
+.bnbg02 {background:url(../images/event_pc/bnbg02.png) no-repeat top center; background-size : cover;}
+.bnbg03 {background:url(../images/event_pc/bnbg03.png) no-repeat top center; background-size : cover;}
+.bnbg04 {background:url(../images/event_pc/bnbg04.png) no-repeat top center; background-size : cover;}
+.bnbg05 {background:url(../images/event_pc/bnbg05.png) no-repeat top center; background-size : cover;}
+.bnbg06 {position: relative; overflow:hidden; background-color:#000;}
+.bnbg06 .bg {position: absolute; width:110%; top:-150%; left:-5px; filter:blur(5px); -webkit-filer:blur(5px);  z-index:0; opacity: 0.4; background-size : cover;}
+.bnbg06 .bn_profile{z-index:1;}
+.bnbg06 .bn_txt06{z-index:1;}
+
+.top_banner .bn_txt01 {
+	font-weight:bold; font-family: 'GmarketSansB';
+	background-image: linear-gradient(160deg, #8b3110 0%, #561b08 50%); 
+	background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	
+.top_banner .bn_txt02 {
+	font-weight:bold; font-family: 'GmarketSansB';
+	background-image: linear-gradient(160deg, #f022d4 0%, #f023a7 50%); 
+	background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	
+.top_banner .bn_txt03 {
+	font-weight:bold; font-family: 'GmarketSansB';
+	background-image: linear-gradient(90deg, #c48355 0%, #8c4a21 10%, #dfa475 50%); 
+	background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	
+.top_banner .bn_txt04 {
+	font-weight:bold; font-family: 'GmarketSansB';
+	background-image: linear-gradient(160deg, #fff0f2 10%, #ffb5c3 50%); 
+	background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	
+.top_banner .bn_txt05 {
+	font-weight:bold; font-family: 'GmarketSansB'; color:#ff0000;}
+	
+.top_banner .bn_txt06 {
+	font-weight:bold; font-family: 'GmarketSansB'; color:#ffc600;}
 
 .gnb {width:100%; text-align:center; border-bottom:solid 1px #ddd; background-color:#fff;}
 .gnb ul {
@@ -38,17 +79,22 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 
 /* container */
-#container {width:100%; margin-top:150px;}
+#container {width:100%; margin-top:120px;}
 
 .ca_title_area01 {
 	display:flex; justify-content:space-between; align-items: center;
-	width:100%; padding:24px 0;} /* 카테고리 타이틀 영역 */
+	width:100%; padding:24px 0;} /* t01 카테고리 타이틀 영역 */
 .ca_title_area01 h1 {font-size:18px; letter-spacing:-1px; padding-left:9px;}
 
 .ca_title_area02 {
 	display:flex; justify-content:space-between; align-items: center;
-	width:100%; padding:16px 0 0 0;} /* 카테고리 타이틀 영역 */
+	width:100%; padding:16px 0 0 0;} /* t02 카테고리 타이틀 영역 */
 .ca_title_area02 h1 {font-size:18px; letter-spacing:-1px; padding-left:9px;}
+
+.ca_title_area03 {
+	display:flex; justify-content:space-between; align-items: center;
+	width:100%; padding:16px 0 16px 0;} /* t03 카테고리 타이틀 영역 */
+.ca_title_area03 h1 {font-size:18px; letter-spacing:-1px; padding-left:9px;}
 
 .search_box03 {
 	height:30px; width:45%; background:#fff; 
@@ -69,32 +115,60 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .event_list01 ul li {display:flex; padding:0px; border-bottom:solid 16px #ddd; }
 .event_list01 .thumb {width:50%; position: relative; align-self:flex-start;}
 .event_list01 .thumb img {width:100%;}
-.icon_shop {position:absolute; z-index:5; bottom:4px; right:4px;}
 .event_list01 .thumb .thum_per {
 	position:absolute; top:0px; left:0px; z-index:4;
 	width:50px; height:50px; background-color:#f40006; color:#fff;
 	font-size:20px; font-weight:bold; line-height:50px; text-align:center;}
 .event_list01 .thumb .thum_per_s {font-size:14px; font-weight:normal;}
 
+.icon_shop {position:absolute; z-index:5; bottom:4px; right:4px;}
+
 .event_list02 {width:100%;} /* 양쪽 여백있는 리스트 */
 .event_list02 ul {padding: 0 9px;}
 .event_list02 ul li {display:flex; padding:30px 0px; border-bottom:solid 1px #ddd; }
 .event_list02 .thumb {width:50%; position: relative; align-self:flex-start;}
 .event_list02 .thumb img {width:100%;}
-.icon_shop {position:absolute; z-index:5; bottom:4px; right:4px;}
 .event_list02 .thumb .thum_per {
 	position:absolute; top:0px; left:0px; z-index:4;
 	width:50px; height:50px; background-color:#f40006; color:#fff;
 	font-size:20px; font-weight:bold; line-height:50px; text-align:center;}
 .event_list02 .thumb .thum_per_s {font-size:14px; font-weight:normal;}
 
+
+.event_list03 ul {padding: 0 9px;} /* 썸네일형 리스트 */
+.event_list03 ul li {display:flex; flex-direction: column;}
+.con {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0px 9px;
+}
+.event_list03 .thumb {width:100%; position: relative; align-self:flex-start;}
+.event_list03 .thumb img {width:100%;}
+.event_list03 .thumb .thum_per {
+	position:absolute; top:0px; left:0px; z-index:4;
+	width:50px; height:50px; background-color:#f40006; color:#fff;
+	font-size:20px; font-weight:bold; line-height:50px; text-align:center;}
+.event_list03 .thumb .thum_per_s {font-size:14px; font-weight:normal;}
+
+/*.event_list03 {width:100%;} 
+/*
+.event_list03 ul {padding: 0 9px; display:grid; }
+.event_list03 ul li {display:flex; flex-direction: column; margin-right:10%; width:45%; background-color:blue;}
+.event_list03 ul li.li_end {display:flex; flex-direction: column; margin-right:0; width:45%; background-color:yellow;}
+.event_list03 .thumb {width:100%; position: relative; align-self:flex-start;}
+.event_list03 .thumb img {width:100%;}
+.icon_shop {position:absolute; z-index:5; bottom:4px; right:4px;}
+
+*/
 .title_area {width:50%; padding:4px 0 0 14px;} /* 제품명 영역  */
+.title_area03 {width:100%; padding:4px 2px 24px 2px;} /* 썸네일형 제품명 영역  */
 .t01 {font-weight:bold; font-size:18px; line-height:24px;} 
 .t02 {color:#f40006; font-size:12px;}
 .t03 {color:#77777a; font-size:12px;}
 
 .per_area {display:flex; position:relative; margin-top:8px;}
 .per_area02 {display:flex; position:relative; margin-top:32px;}
+.per_area03 {display:flex; position:relative; margin-top:16px;}
 .per01 {font-size:40px; font-weight:800; color:#d61919; width:74px; font-family:'Noto Sans KR'; line-height:46px;}
 .per_s {font-size:18px;}
 .per02 {font-size:30px; font-weight:600; color:#fff; width:74px; font-family:'Noto Sans KR'; line-height:36px; background-color:#f40006; text-align:center; padding-top:4px; margin-right:16px; border-radius:2px;}
@@ -112,3 +186,29 @@ a.button_80 {
     display: block; position: relative; width: 80px; height:40px;
     line-height: 40px; border-radius: 5px; 
     font-size:15px; font-weight: bold; text-align: center; color: #fff;} 
+
+
+/* font */
+@font-face {
+    font-family: 'SCDream'; font-style: normal; font-weight: 500;
+    src: local('SCDream'),
+        url('../font/S-CoreDream-5Medium.woff2') format('woff2'), 
+        url('../font/S-CoreDream-5Medium.woff') format('woff'),}       
+@font-face {        
+    font-family: 'SCDream-4'; font-style: normal; font-weight: 300;
+    src: local('SCDream-4'),
+        url('../font/S-CoreDream-4.woff2') format('woff2'), 
+        url('../font/S-CoreDream-4.woff') format('woff'),}
+@font-face {
+  font-family: 'GmarketSansB';
+  src: url('../font/GmarketSansTTFBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'GmarketSansM';
+  src: url('../font/GmarketSansTTFMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'GmarketSansL';
+  src: url('../font/GmarketSansTTFLight.woff') format('woff');
+}        
+       

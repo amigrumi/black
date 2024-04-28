@@ -40,7 +40,7 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 .bnbg04 {background:url(../images/event_pc/bnbg04.png) no-repeat top center;}
 .bnbg05 {background:url(../images/event_pc/bnbg05.png) no-repeat top center;}
 .bnbg06 {position: relative; overflow:hidden; background-color:#000;}
-.bnbg06 .bg {position: absolute; width:100%; top:-100%; left:-10px; filter:blur(5px); -webkit-filer:blur(5px);  z-index:0; opacity: 0.4;}
+.bnbg06 .bg {position: absolute; width:110%; top:-150%; left:-5px; filter:blur(5px); -webkit-filer:blur(5px);  z-index:0; opacity: 0.4;}
 .bnbg06 .bn_profile{z-index:1;}
 .bnbg06 .bn_txt06{z-index:1;}
 
