@@ -28,6 +28,7 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 .red02 {color:#CE1032;}
 .gray {color:#77777a;}
 .black {color:#222225;}
+.white {color:#ffffff;}
 .yellow {color:#FDFD00}
 .bold {font-weight:bold;}
 .font_s16 {font-size:16px;}
@@ -46,7 +47,7 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 #header {
 	position:sticky; top:0; width:100%; min-width:1400px; height:170px; z-index:10;
 	}
-	/* ☆1depth  */
+	/* ☆1depth 01 ====================================================*/
 .gnb_area {
 	position:relative; width:100%; height:90px; background-color:#222; min-width:1400px;
 	}
@@ -77,8 +78,16 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 .login ul li.mypage_20 a{display: block; text-align: left; color:#999999; padding: 0 0 0 56px;
     background:url(../images/common/icon_mypage_r20.png) 0% 50% no-repeat;}        
 
-	
-	/* ☆2depth  */
+	/* ☆1depth 002 ====================================================*/
+.gnb_in02 {
+	display:flex; justify-content: space-between;
+	width:1400px; margin:0 auto; color:#fff; font-size:18px;
+	}
+.gnb_in02 .logo {width:144px; height:90px; margin-right:64px;} 
+
+
+    	
+	/* ☆2depth 01 ==================================================== */
 .snb_area {
 	position:relative; width:100%; height:79px; background-color:#F5F5F5; border-bottom:solid 1px #E1E0E1;
 	}
@@ -106,6 +115,19 @@ input {font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고
 .snb_in .today_sum {
 	width:450px; height:80px; font-size:14px; color:#77777a; text-align: right;}
 .today_sum li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px;}
+
+/* 한정인원모집 상단 타입02 ===*/
+.snb_in .snb02 {height:80px; left:0; top:0;}
+.snb_in .snb02 li {float:left; list-style:none;}
+.snb_in .snb02 li a {
+	height:79px; display:block; padding:0 24px 0 0; 
+	color:#222225; font-size:18px; line-height:79px; font-weight:600;
+	}
+.snb_in .snb02 li a:hover {color:#f40006; display:block;}
+.snb_in .snb02 li a.on {color:#f40006;}
+
+.today_sum02 {margin:0 24px 0 0; font-size:14px; color:#999; text-align: right;} 
+.today_sum02 li {display:inline; list-style:none; height:79px; line-height:79px; padding:0 0 0 16px; color:#999;} 
 
 /* ☆2depth - detail(캠페인상세)  */
 .detail_snb_in { display:flex; justify-content:space-between; align-items:center;
@@ -279,6 +301,7 @@ table a.td_in_link:link {color:#222225;}
  .table table td.title {text-align:left;}
  .table table td.title .title_in {
  	display:flex; height:134px; flex-direction:column; justify-content:space-between; padding:2px 0 0 0;}
+ .table table td.td_bl {border-bottom:solid 1px #222225;} /*관리자 qna*/
  .t01 {font-weight:bold; font-size:16px;} /* 테이블 상품명만 적용 필수 */
  .t02 {color:#f40006;}
  .t03 {color:#77777a; margin-bottom:40px;}
@@ -293,6 +316,7 @@ table a.td_in_link:link {color:#222225;}
  .t11 {font-weight:bold;} /*확정금액에 사용됨*/
  .t16 {color:#77777a; font-size:16px; font-weight:400; letter-spacing:0px;} /*커뮤니티 게시판 타이틀 게시글 수에 사용 */
  .t17 {color:#77777a; font-size:14px; font-weight:400; letter-spacing:0px; line-height: 150%;} /*커뮤니티 게시판 리스트 게시글 수에 사용 */
+
 
  .table .td_per {display:flex; justify-content:center; align-items:center;}
  .table .td_per ul li {color:#77777a; text-align:left; padding-left:16px;}
@@ -309,11 +333,13 @@ table a.td_in_link:link {color:#222225;}
  .table02 table th {height:64px; text-align:center; border-bottom:solid 1px #E1E0E1; background-color:#f5f5f5;}
  .table02 table td {padding:12px 10px; text-align:center; border-bottom:solid 1px #E1E0E1; height:32px;}
  .table02 table tr.color01 {background-color:#FFF5E9;}
- 
+ 	/* 마이페이지 - 내글반응 */
  .table03 table {width:100%; border-collapse: collapse; border-top:solid 2px #444444; color:#222225; line-height:140%; margin-bottom:60px;}
  .table03 table th {height:64px; text-align:center; border-bottom:solid 1px #E1E0E1; background-color:#f5f5f5;}
  .table03 table td {padding:12px 10px; text-align:center; border-bottom:solid 1px #E1E0E1; height:20px;}
  .table03 table tr.color01 {background-color:#f5f5f5;}
+ .table03 table td.title {text-align:left;}
+ .td_no {border:0px !important;}
 
 	/* con_right 리스트 합계 */
 .result_sum {width:1160px; background-color:#F5F5F5; padding:21px 20px 20px 20px; margin-bottom:40px;}
@@ -605,7 +631,8 @@ a.btnBlackLine {display:inline-block; border:solid 1px #222225; border-radius:32
 .top_area .button_130 {align-self:center;}
 /* 커뮤니티 게시판 하단 버튼 영역 */
 .board_btn_area {display:flex; align-items:center; margin-bottom:48px;}
-.board_btn_area .page_num ul {margin:0px !important;} /*page_num에 있는 마진 - 게시판에서만 없애기*/
+.board_btn_area .page_num ul {margin:0px !important; } /*page_num에 있는 마진 - 게시판에서만 없애기*/
+.pg_center {padding-left:130px;}
 /* 커뮤니티 게시판 본문 하단 버튼 3개 영역 */
 .board_btn_area02 {display:flex; justify-content:flex-end; margin-bottom:56px;} 
 .board_btn_area02 a{margin-left:8px;}
@@ -958,6 +985,9 @@ ul.tab03 li a.on {
 .view_name ul {display:flex;}
 .view_name ul li {padding-right:16px;}
 .view_con {padding:0 24px 32px 24px; line-height:160%; border-bottom:solid 1px #222225; margin-bottom:48px;}
+.con_h4_q {font-weight:bold; padding:0 0 24px 0;}
+.con_h4_a {font-weight:bold; padding:30px 0 24px 0; margin-top:30px; border-top:dashed 1px #E1E0E1;}
+
 ul.view_con_bottom {display:flex; margin-top:72px;}
 ul.view_con_bottom li {padding-right:32px; font-size:24px; font-weight:600;}
 .view_like {
