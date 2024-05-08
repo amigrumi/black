@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<title>홀릭파트너스</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link type="text/css" href="../css/main.css" rel="stylesheet" />		
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- 인클루드를 위한 소스 -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#header03").load("html/include/header.html #header_event")
+	         $("#footer").load("html/include/footer_main.html")      
+	      });
+	</script>
+	<!-- //인클루드를 위한 소스 -->
+	<script type="text/javascript">
+		<!--
+		var old_menu = '';
+		function menuclick(submenu)
+		{
+			if(old_menu != submenu) {
+				if(old_menu !=''){
+					old_menu.style.display = 'none';
+				}
+				submenu.style.display = 'block';
+				old_menu = submenu;
+			} else {
+				submenu.style.display = 'none';
+				old_menu = '';
+			}
+		}
+		-->
+	</script>
+	
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header03"></div>
+	<!-- ★header -->
+	
+	<!-- ★container -->
+	<div id="container_main">
+		<section class="bg_w" style="padding-bottom:200px;">
+			<div class="main_con">
+				<img class="img01" src="../images/common/main_ev01_title02.png" alt="인기 리뷰 상품 공짜로 드립니다." />
+				<div class="main_evbox01">
+					<img src="../images/common/main_ev01_bn02.gif" alt="메인 이미지" />
+				</div> 
+				<a href="#"><img src="../images/common/main_ev01_btn01.png" alt="인기상품 보러가기"></a>
+			</div>
+		</section>
+		<section class="bg_bl">
+			<div class="main_con">
+				<img src="../images/common/main_ev01_con02.png" alt="6가지" />
+			</div>
+		</section>
+	</div>
+	<!-- ★container -->
+	
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+	
+	
+</div>
+</body>
+</html>
