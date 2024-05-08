@@ -26,6 +26,7 @@
 section {position:relative; width:100%;}
 .bg_w {background:#fff; text-align:center;}
 .bg_g {background:#F5F5F5; text-align:center;}
+.bg_bl {background:#000; text-align:center;}
 .main_con {
 	width:1400px; text-align: center; margin:0 auto;}
 	
@@ -133,4 +134,24 @@ a.btn_main02 {
 .main_con .good_case .marketing02 .h5 {display:inline-block; font-weight:400; margin-bottom:10px; color:#fff; padding:4px 10px; border-radius: 4px; background:#222225;}
 .main_con .good_case .marketing02 .h6 {
 	width:110px; display:inline-block; font-weight:700; padding:0; color:#222225;}
+
+
+	/* 메인이벤트 */
+.main_evbox01 {
+	width:1000px; height:827px; padding-top:62px; margin:0 auto; 
+	overflow: hidden; margin-bottom:5px;
+	background:url(../images/common/main_ev01_bg.png) no-repeat top center;}
+.main_evbox01 img {width:764px; height:764px;}
+
+.main_evbox02 {
+	width:1000px; height:480px; padding-top:61px; margin:0 auto; 
+	overflow: hidden; margin-bottom:5px;
+	background:url(../images/common/main_ev02_bg.png) no-repeat top center;}
+.main_evbox02 img {width:865px; height:418px;}
+
+
+
+
+
+
 
