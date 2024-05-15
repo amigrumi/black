@@ -37,10 +37,10 @@ section {position:relative; width:100%;}
 .main_box01 img {width:764px;}
 .bg_b {background:url(../images/common/main_b01.png) no-repeat top center; height:1080px;}
 .main_img_b {
-	width:270px; height: 470px; border-radius:28px;
-	margin:-33px 0 0 90px; overflow: hidden; object-fit:cover;}
-.main_img_b video {height: 470px; overflow: hidden;}
-.main_img_b img {width:267px; height: 470px; border-radius:32px;}
+	width:270px; height: 480px; border-radius:28px;
+	margin:-33px 0 0 -126px; overflow: hidden; object-fit:cover;}
+.main_img_b video {width:270px; height: 480px; overflow: hidden;}
+.main_img_b img {width:270px; height: 480px; border-radius:32px;}
 .bg_good_c {position:relative;
 	margin:0 auto 95px auto; width:980px; height:625px; background:url(../images/common/main_c01.png) no-repeat top center;}
 
@@ -50,6 +50,7 @@ section {position:relative; width:100%;}
 .img04 {margin:130px 0 60px 0} /* 성공사례 메인카피 */
 .img05 {margin:210px 0 150px 0}
 .img06 {margin:-80px 0 0 220px;} /*홈 메인b 이미지 */
+.img07 {margin:-650px 0px 0 97px;} /*홈 메인b 이미지 */
 .key02 {margin:0px 0 95px 0}
 
 .bg_good_a {position:relative;
