@@ -1,7 +1,7 @@
 /*--- common selector ---*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button{margin:0;padding:0;}
 
-body,input,select,textarea{color:#000;     font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',helvetica,'나눔바른고딕 옛한글','NanumBarunGothic YetHangul',sans-serif;font-size:87.5%;font-weight:normal;} /* 87.5% == 14px */
+body,input,select,textarea{color:#000;     font-family:Noto Sans KR, Helvetica Neue, sans-serif; -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',helvetica,'나눔바른고딕 옛한글','NanumBarunGothic YetHangul',sans-serif;font-size:87.5%;font-weight:normal;} /* 87.5% == 14px */
 body{background-color:#fff; -webkit-text-size-adjust: none}
 hr{display:none;}
 img,fieldset{border:0;}
