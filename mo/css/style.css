@@ -58,23 +58,6 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .my {background-position: -240px 0;}
 
 
-#nav02 {
-	width:100%; height:50px; position:fixed; bottom:50px; 
-	border-top:solid 1px #E1E0E1; background-color:#fff;}
-
-#nav02 ul {display:flex; justify-content:space-evenly; }
-#nav02 ul li a {display:block; height:48px; line-height:48px; font-size:10px; padding:0 8px;}
-#nav02 ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:bold;}
-
-.nav_bg02 {
-	overflow: hidden; position: relative; width: 56px; height: 56px; margin: 0 auto;
-	background: url(https://img.29cm.co.kr/next-edition/2023/11/21/1c79c29d951f432babaed05aac2cc22d_20231121155719.png);
-	background-size: 360px 168px; vertical-align: top;}
-.home02 {background-position: 0px 0;}
-.cate02 {background-position: -60px 0;}
-.comu02 {background-position: -120px 0;}
-.cus02 {background-position: -180px 0;}
-.my02 {background-position: -240px 0;}
 
 
 
