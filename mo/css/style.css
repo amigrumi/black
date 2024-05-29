@@ -1,13 +1,3 @@
-/* font */
-@font-face {
-    font-family: 'SCDream'; font-style: normal; font-weight: 500;
-    src: local('SCDream'),        url('https://amigrumi.github.io/black/partners/font/S-CoreDream-5Medium.woff2') format('woff2'),         url('https://amigrumi.github.io/black/partners/font/S-CoreDream-5Medium.woff') format('woff'),}
-        
-@font-face {        
-    font-family: 'SCDream-4'; font-style: normal; font-weight: 300;
-    src: local('SCDream-4'),
-        url('https://amigrumi.github.io/black/partners/font/S-CoreDream-4.woff2') format('woff2'), 
-        url('https://amigrumi.github.io/black/partners/font/S-CoreDream-4.woff') format('woff'),}
 
 /*--- common selector ---*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button{margin:0;padding:0;}
@@ -112,8 +102,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 	/* 성공사례 b */
 .good_case {
-	line-height:150%;
-	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
+	line-height:150%; font-size:15px; text-align:left;
 	margin-bottom:24px;}
 .case_area {display: flex; justify-content: space-between; margin-bottom:8px;}
 .case_area .ad_img {margin-right:4%;}
@@ -146,12 +135,12 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 a.btn_main02 {
 	display:inline-block; width:120px; height:30px; line-height:30px;
 	color:#fff; background:#222225; border-radius:30px; text-align:center;
-	font-size:12px; font-family:'SCDream-4','NotoSans KR'; font-weight: 500; }
+	font-size:12px; font-weight: 500; }
 	
 a.btn_main03 {
 	display:inline-block; width:160px; height:50px; line-height:50px; 
 	color:#fff; background:#CE1032; border-radius:8px;
-	font-size:18px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
+	font-size:18px; font-weight: 500; 
 	letter-spacing:-1px; margin-bottom:24px;}
 
 /* 29cm 
