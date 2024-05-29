@@ -3,25 +3,33 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="기획전"><meta name="keywords" content="기획전">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="성공사례"><meta name="keywords" content="성공사례">
 	
+	<!-- Chrome, Firefox, Opera -->
+	<meta content='#336699' name='theme-color'/>	
+	<!-- Windows Phone -->
+	<meta content='#336699' name='msapplication-navbutton-color'/>	
+	<!-- iOS Safari -->
+	<meta content='#336699' name='apple-mobile-web-app-status-bar-style'/>
+	<meta content='yes' name='apple-mobile-web-app-capable'/>
+
 	<title>성공사례</title>
 
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
 	
-	<link href="https://amigrumi.github.io/black/partners/font/S-CoreDream-5Medium.woff2" rel="stylesheet">
-	<link href="https://amigrumi.github.io/black/partners/font/S-CoreDream-5Medium.woff" rel="stylesheet">
-	<link href="https://amigrumi.github.io/black/partners/font/S-CoreDream-4.woff2" rel="stylesheet">
-	<link href="https://amigrumi.github.io/black/partners/font/S-CoreDream-4.woff2" rel="stylesheet">	
-	
-	
-	
-	
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-	
+	<!-- 인클루드를 위한 소스 -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#header02").load("html/include/header.html #header_index")
+	         $("#footer").load("html/include/footer_main.html")      
+	      });
+	</script>
+	<!-- //인클루드를 위한 소스 -->
 	
 
 </head>
@@ -30,19 +38,22 @@
 <div id="wrap">
 	<!-- header -->
 	<div id="header">
+		<!-- 기본 -->
 		<div class="top flex flex_btw">
-			<h1>홀릭파트너스 폰트</h1>
+			<h1>홀릭파트너스</h1>
 			<div class="top_mn">
 				<ul>
-					<li><a class="topmn_bg home_on01" href=""></a></li>
-					<li><a class="topmn_bg home_on02" href=""></a></li>
-					<li><a class="topmn_bg home_on03" href=""></a></li>
+					<li><a class="topmn_bg top_search" href="#"></a></li>
+					<li><a class="topmn_bg top_cate" href="#"></a></li>
+					<li><a class="topmn_bg top_my" href="#"></a></li>
 				</ul>
 			</div>
 		</div>
+		<!-- //기본 -->
 		<div class="gnb">
 			<ul>
 				<li><a class="on" href="#">홈</a></li>
+				<li><a href="#">메뉴</a></li>
 				<li><a href="#">성공전략</a></li>
 				<li><a href="#">상품</a></li>
 				<li><a href="#">리포트</a></li>
@@ -54,18 +65,36 @@
 	<!-- //header -->
 	<!-- contents -->
 	<div id="container">
-		<div>
-			인기 상품 리뷰했더니 수익이 빵빵
-			영상
+		<div class="main_con pt80" style="min-height:590px;">
+			<img class="img_w100 mw600 pb40" src="../images/common/good_a01_txt01.png" alt="인기 상품 리뷰했더니 수익이 빵빵 터져요" />
+			<!-- 메인 영상 -->
+			<div class="key02 bg_good_a">
+					<div class="key_main">
+						<video class="mv_keymain" poster="https://amigrumi.github.io/black/partners/images/good_case/a0001_img.png" controls autoplay muted loop>
+							<source src="https://amigrumi.github.io/black/partners/images/good_case/main_g0002.mp4" type="video/mp4"></source>
+						</video> 
+					</div>
+					<div class="key_left">
+						<video class="mv_keysub" poster="https://amigrumi.github.io/black/partners/images/good_case/a0001_img.png" controls autoplay muted loop>
+							<source src="https://amigrumi.github.io/black/partners/images/good_case/main_g0001.mp4" type="video/mp4"></source>
+						</video> 
+					</div>
+					<div class="key_right">
+						<video class="mv_keysub" poster="https://amigrumi.github.io/black/partners/images/good_case/a0001_img.png" controls autoplay muted loop>
+							<source src="https://amigrumi.github.io/black/partners/images/good_case/main_g0003.mp4" type="video/mp4"></source>
+						</video> 
+					</div>
+				</div>
+			<!-- //메인 영상 -->
 		</div>
-		<div class="main_con bg_g">
-				<img class="img05 img_w100 mw600" src="https://amigrumi.github.io/black/partners/images/common/good_b01_txt02.png" alt="수익과 조회수가 빵빵 터지는 성공전략" />
+		<div class="main_con bg_g pt80">
+				<img class="img_w100 mw600 pb72" src="../images/common/good_a01_txt02.png" alt="수익과 조회수가 빵빵 터지는 성공전략" />
 				<!-- 성공사례01 -->
 				<div class="good_case w90">
 					<div class="case_area">
 						<!-- 제품 광고 이미지  -->
 						<div class="ad_img">
-							<video class="mv" poster="../images/good_case/a0001_img.png" controls autoplay muted loop>
+							<video class="mv" poster="https://amigrumi.github.io/black/partners/images/good_case/a0001_img.png" controls autoplay muted loop>
 								<source src="https://amigrumi.github.io/black/partners/images/good_case/a0001_mv.mp4" type="video/mp4"></source>
 							</video>
 						</div>
@@ -78,7 +107,7 @@
 							<div class="copy">
 								<img src="https://amigrumi.github.io/black/partners/images/good_case/a0001_copy.png" alt="영상1개로 반응">
 							</div>
-							<div class="result">
+							<div class="result">								
 								<ul>
 									<li>
 										<span class="h4">상품</span>메리쏘드 멀티 브러쉬 거치대
@@ -239,6 +268,33 @@
 								<img src="https://amigrumi.github.io/black/partners/images/good_case/a0004_copy.png" alt="카피">
 							</div>
 							<div class="result">
+								<table>
+									<tr>
+										<th>상품</th>
+										<td>깔끔대장 보수하씰 벽보수용퍼티</td>
+									</tr>
+									<tr>
+										<th>조회수</th>
+										<td>45만
+										<span class="h7">(인스타그램 릴스)</span></td>
+									</tr>
+									<tr>
+										<th>매출</th>
+										<td>218만원</td>
+									</tr>
+									<tr>
+										<th>수수료</th>
+										<td>40%</td>
+									</tr>
+									<tr>
+										<th>수익금</th>
+										<td><span class="bold red02">87만원</span></td>
+									</tr>
+									<tr>
+										<th>기준일</th>
+										<td>24년 04월 11일</td>
+									</tr>									
+								</table>
 								<ul>
 									<li>
 										<span class="h4">상품</span>깔끔대장 보수하씰 벽보수용퍼티
@@ -274,6 +330,28 @@
 					<!-- 소구포인트 -->
 					<div class="marketing">
 						<p class="h5">컨텐츠 소구 포인트</p>
+						<table>
+							<tr>
+								<th>컨텐츠 내용</th>
+								<td>손상되거나 낙서 가득한 벽면을 보수하는 상품 리뷰</td>
+							</tr>
+							<tr>
+								<th>후킹요소</th>
+								<td>벽면에 상품을 바르면 깔끔하게 보수되는 퍼포먼스</td>
+							</tr>
+							<tr>
+								<th>문제제기</th>
+								<td>손상된 벽면, 타일을 보여줌으로써 이목 집중</td>
+							</tr>
+							<tr>
+								<th>문제해결</th>
+								<td>상품을 통해 벽면, 타일을 감쪽같이 보수됨</td>
+							</tr>
+							<tr>
+								<th>기타포인트</th>
+								<td>영상에 나온 곳 외에 커버하고 싶은 곳에 대한 댓글 유도</td>
+							</tr>
+						</table>
 						<ul>
 							<li>
 								<span class="h6">컨텐츠 내용</span>
@@ -357,6 +435,21 @@
 		</ul>
 	</div>
 	<!-- //nav -->
+	
+	<!-- 하단 띠배너 -->
+	<div class="bottom_fix">
+		<a href="#.html" class="btn_ad" >5가지 혜택 받기</a>
+	</div>
+	<!-- 하단 띠배너 -->
+	
+	<!-- 플로팅_카톡메뉴 -->
+	<div class="side-pop01">    
+		<a href="javascript:;" onclick="javascript:window.open('http://pf.kakao.com/_rmeQT/chat', '2','width=360, height=640');"><img src="../images/common/fl_kakao.png" alt="카톡상담"></a>
+	</div>
+	<div class="side-pop02">	
+		<a href="#"><img src="../images/common/fl_top.png" alt=""></a>
+	</div>
+	<!-- //플로팅_카톡메뉴 -->	
 	
 
 	
