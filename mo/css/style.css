@@ -42,25 +42,25 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 /* header */
 #header {width:100%; height:110px; position:fixed; top:0px; z-index:10;}
 .top {width:100%; height:60px; background-color:#000; color:#fff;}
-.top h1 {font-size:20px;}
+.top h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
+.top_mn {margin-right:3%;}
 .top_mn ul {display:flex;}
 .top_mn ul li a {display:block; height:60px; line-height:60px; font-size:10px;}
 
 .topmn_bg {
-	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
+	overflow: hidden; position: relative; width: 40px; height: 50px; margin: 0 auto;
 	background: url(../images/common/nav.png);
 	background-size: 360px 180px; vertical-align: top;}	
-.home_on01 {background-position: 0px -100px;}
-.home_on02 {background-position: -60px -100px;}
-.home_on03 {background-position: -120px -100px;}
+.top_search {background-position: -5px -100px;}
+.top_cate {background-position: -65px -100px;}
+.top_my {background-position: -125px -100px;}
 
 
 	/* gnb */
-.gnb {width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5;}
+.gnb {width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
 .gnb ul {display:flex; justify-content:space-evenly; }
 .gnb ul li a {display:block; height:48px; line-height:48px; padding:0 8px;}
 .gnb ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:bold;}
-.gnb ul li a:hover {border-bottom:solid 2px #F40006;}
 
 	/* 하단 nav */
 #nav {
@@ -84,18 +84,14 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .cus_on {background-position: -180px -50px;}
 .my_on {background-position: -240px -50px;}
 
-
-
-/* contents */
-#container {
-	width:100%; height:100%; margin-top:110px; margin-bottom:50px;}
-.main_con {margin:0 auto; text-align:center;}
-
 /* common */
 .bg_g {background-color:#F5F5F5;}
 .w90 {padding:0 5%;}
 .img_w100 {width:100%;}
 .mw600 {max-width:600px;}
+.pt80 {padding-top:80px;}
+.pb40 {padding-bottom:40px;}
+.pb72 {padding-bottom:72px;}
 
 .flex {display:flex; align-items:center;}
 .flex_js_center {justify-content:center;}
@@ -111,6 +107,39 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .white {color:#ffffff;}
 .yellow {color:#FDFD00}
 .bold {font-weight:bold;}
+
+/* contents */
+#container {
+	width:100%; height:100%; margin-top:110px; margin-bottom:50px;}
+.main_con {margin:0 auto; text-align:center;}
+
+
+	/* 성공사례 메인 영상 영역 */
+.key02 {margin:0px 0 95px 0}
+
+.bg_good_a {position:relative;
+	margin:0 auto 95px auto; width:100%; height:310px;
+	background:url(../images/common/good_a01.png) no-repeat top center;}
+
+.key_main .mv_keymain {width:130px; height:231px; object-fit:cover;}
+.key_main video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff; text-align:right; 
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
+	position: absolute; top:42px; left:50%; margin-left:-65px; z-index:5; overflow: hidden;}	
+
+.mv_keysub {width:120px; height:213px; object-fit:cover;}	
+.key_left video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff;
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
+	position: absolute; top:55px; left:50%; margin-left:-150px; z-index:4; overflow: hidden;}
+.key_right video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff;
+	box-shadow: 0 5px 55px 0 rgba(205, 205, 205, 1);
+	position: absolute; top:55px; left:50%; margin-left:25px; z-index:3; overflow: hidden;}
+
 
 	/* 성공사례 b */
 .good_case {
@@ -155,7 +184,34 @@ a.btn_main03 {
 	color:#fff; background:#CE1032; border-radius:8px;
 	font-size:18px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
 	letter-spacing:-1px; margin-bottom:24px;}
+	
+	
+.btn_bt_area {margin:40px 0 48px 0;} /* 메인 특별프로모션 버튼 영역 */
+.btn_bt_area a {margin:0 1%;}
+.btn_bt_area img {width:27%;}
 
+
+
+/* footer */
+.footer {padding:70px 5% 196px 5%;}
+
+
+
+/* 플로팅_카톡메뉴 & top버튼 */
+.side-pop01 {position:fixed; right: 5%; bottom: 158px; z-index: 10;}
+.side-pop01 img {width:40px; height:40px;}
+.side-pop01 a {display: block; padding-bottom: 5px; text-align: right;}
+ 
+.side-pop02 {position:fixed; right: 5%; bottom: 110px; z-index: 10;}
+.side-pop02 img {width:40px; height:40px;}
+.side-pop02 a {display: block; padding-bottom: 5px; text-align: right;}
+
+a.btn_ad {
+	position:fixed; display: block; 
+	width:100%; height:50px; line-height:50px; bottom:50px; z-index: 50; 
+	box-shadow: rgba(0,0,0,0.1) 0px -15px 15px; border-radius:16px 16px 0 0; background-color:#CE1032; 
+	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#fff; text-align:center;}   
+    
 /* 29cm 
 
 #nav02 {
