@@ -194,7 +194,10 @@ a.btn_main03 {
 
 /* footer */
 .footer {padding:70px 5% 196px 5%;}
-
+.foot_txt01 {color:#77777A; font-size:12px; line-height:150%;}
+.foot_txt02 {color:#B1B1B1; font-size:12px; line-height:150%;}
+.foot_mn {display:flex; margin-bottom:24px;}
+.foot_mn li {font-size:12px; color:#77777A; padding:0 16px 0 0;}
 
 
 /* 플로팅_카톡메뉴 & top버튼 */
