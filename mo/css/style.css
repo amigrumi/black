@@ -40,24 +40,33 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 
 /* header */
-#header {width:100%; height:110px; position:fixed; top:0px; z-index:10;}
-.top {width:100%; height:60px; background-color:#000; color:#fff;}
+#header {width:100%; height:110px;} /* 상단 2단  */
+#header02 {width:100%; height:60px;} /* 상단 1단 */
+.top {
+	position:fixed; top:0px; z-index:10;
+	width:100%; height:60px; background-color:#000; color:#fff;}
 .top h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
 .top_mn {margin-right:3%;}
 .top_mn ul {display:flex;}
 .top_mn ul li a {display:block; height:60px; line-height:60px; font-size:10px;}
 
 .topmn_bg {
-	overflow: hidden; position: relative; width: 40px; height: 50px; margin: 0 auto;
+	overflow: hidden; position: relative; width: 40px; height: 60px; margin: 0 auto;
 	background: url(../images/common/nav.png);
 	background-size: 360px 180px; vertical-align: top;}	
 .top_search {background-position: -5px -100px;}
 .top_cate {background-position: -65px -100px;}
-.top_my {background-position: -125px -100px;}
+.top_my {background-position: -125px -100px; }
+.top_back {background-position: -185px -100px; }
+
+.top_title {display: flex; height:60px; margin-left:2%;}
+.top_title h2 {font-size:18px; line-height:55px; font-weight:400;}
 
 
 	/* gnb */
-.gnb {width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
+.gnb {
+	position:fixed; top:60px; z-index:10;
+	width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
 .gnb ul {display:flex; justify-content:space-evenly; }
 .gnb ul li a {display:block; height:48px; line-height:48px; padding:0 8px;}
 .gnb ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:bold;}
@@ -110,7 +119,9 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 /* contents */
 #container {
-	width:100%; height:100%; margin-top:110px; margin-bottom:50px;}
+	width:100%; height:100%; margin-bottom:50px;} /* 상단 2단 */
+#container02 {
+	width:100%; height:100%; margin-bottom:50px;} /* 상단 1단 */
 .main_con {margin:0 auto; text-align:center;}
 
 
@@ -209,11 +220,21 @@ a.btn_main03 {
 .side-pop02 img {width:40px; height:40px;}
 .side-pop02 a {display: block; padding-bottom: 5px; text-align: right;}
 
-a.btn_ad {
+.foot_bn01 a{
 	position:fixed; display: block; 
-	width:100%; height:50px; line-height:50px; bottom:50px; z-index: 50; 
-	box-shadow: rgba(0,0,0,0.1) 0px -15px 15px; border-radius:16px 16px 0 0; background-color:#CE1032; 
+	width:100%; height:60px; line-height:60px; bottom:0px; z-index: 50; 
+	background:url('../images/common/ico_arrow_next02.png') no-repeat 95% 50% #f40006; background-size:24px 24px;
 	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#fff; text-align:center;}   
+
+
+.foot_bn02 {
+	position:fixed; width:90%; height:70px; bottom:10px; z-index:55;
+	left:5%; bottom:18px; z-index: 50; 
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 15px; border-radius:16px; background:#fff;
+	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#f40006; 
+	text-align:center; overflow:hidden;}	
+.foot_bn02 .close{position:absolute; width:16px; right:10px; top:10px;}
+.bn {height:70px;}
     
 /* 29cm 
 
