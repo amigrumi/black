@@ -21,7 +21,7 @@
 	
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-	<!-- 인클루드를 위한 소스 -->
+	<!-- include -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript">
 	      $(document).ready(function(){
@@ -30,7 +30,25 @@
 	         $("#side").load("include/side.html")      
 	      });
 	</script>
-	<!-- //인클루드를 위한 소스 -->
+	<!-- //include -->
+	<script type="text/javascript">
+		<!--
+		var old_menu = '';
+		function menuclick(submenu)
+		{
+			if(old_menu != submenu) {
+				if(old_menu !=''){
+					old_menu.style.display = 'none';
+				}
+				submenu.style.display = 'block';
+				old_menu = submenu;
+			} else {
+				submenu.style.display = 'none';
+				old_menu = '';
+			}
+		}
+		-->
+	</script>
 	
 
 </head>
@@ -57,17 +75,12 @@
 	<!-- //header -->
 	<!-- contents -->
 	<div id="container02">				
-		<div class="main_con pt80">
-			<p class="top_cp">
-			<img class="img_w100 mw600 pb40" src="../images/common/login_img_txt01.png" alt="선착순 100명! 딱 한달! 지금 바로 최고 수수료 받기" />
-			</p>
+		<div class="contents pt80">
+			<img class="pb40" src="../images/common/login_img_txt01.png" alt="선착순 100명! 딱 한달! 지금 바로 최고 수수료 받기" />
 			<a class="kakao_btn" href="#">
-				<img class="img_w100 mw600 pb40" src="../images/common/login_kakao.png" alt="카카오 1초 로그인/회원가입" />
+				<img class="pb40" src="../images/common/login_kakao.png" alt="카카오 1초 로그인/회원가입" />
 			</a>
-			<p class="top_bn">
-			<img class="img_w100 mw600 pb40" src="../images/common/login_img_bn01.png" alt="수수료 최대 45%" />
-			</p>
-			
+			<img class="pb40" src="../images/common/login_img_bn01.png" alt="수수료 최대 45%" />
 			<!-- faq -->
 			<dl class="faq_con02">	
 				<dt>
