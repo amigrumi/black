@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<!-- Chrome, Firefox, Opera -->
+	<meta content='#000' name='theme-color'/>	
+	<!-- Windows Phone -->
+	<meta content='#000' name='msapplication-navbutton-color'/>	
+	<!-- iOS Safari -->
+	<meta content='#000' name='apple-mobile-web-app-status-bar-style'/>
+	<meta content='yes' name='apple-mobile-web-app-capable'/>
+
+	<title>일반회원가입</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#footer").load("include/footer.html")
+	         $("#nav").load("include/nav.html") 
+	         $("#side").load("include/side.html")      
+	      });
+	</script>
+	<!-- //include -->
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- header -->
+	<div id="header02">
+		<!-- 기본 -->
+		<div class="top flex flex_btw">
+			<div class="top_title">
+				<a class="topmn_bg top_back" href="#"></a>
+				<h2>회원가입</h2>
+			</div>
+			<div class="top_mn">
+				<ul>
+					<li><a class="topmn_bg top_search" href="#"></a></li>
+					<li><a class="topmn_bg top_my" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //기본 -->
+	</div>
+	<!-- //header -->
+	<!-- contents -->
+	<div id="container02">				
+		<div class="contents pt80 members">		
+			<h2>
+				홀릭파트너스에 오신것을 환영합니다. <br/>
+				회원가입 선착순 100명에게 최고 수수료 행사중입니다. 
+			</h2>
+			<div class="flex" style="margin:0 0 64px 0;">
+				<span class="font_s21 gray" style="margin-right:8px;">이미 가입하셨나요?</span> 
+				<a class="button_fix130r btnBlack" href="#" alt="로그인하기"/>로그인하기</a>
+			</div>
+			<ul class="input_list">
+				<li>
+					<form class="input_box" action="" method="">
+						<input class="input_txt" type="text" name="" placeholder="아이디(영문 소문자/숫자/4~16자)">
+					</form>
+				</li>
+				<li>
+					<form class="input_box" action="" method="">
+						<input class="input_txt" type="text" name="" placeholder="비밀번호(영문 대소문자/숫자/특수문자 중 2가지 이상 조합 10~16자)">
+					</form>
+				</li>
+				<li>
+					<form class="input_box" action="" method="">
+						<input class="input_txt" type="text" name="" placeholder="비밀번호 확인">
+					</form>
+				</li>
+				<li>
+					<div class="flex flex_btw">
+						<form class="input_box_70p" action="" method="">
+							<input class="input_txt" type="text" name="" placeholder="이메일">
+						</form>
+						<div class="btn_area" style="width:24%;">
+							<a href="#" class="button_30p btnBlack">인증하기</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+			
+	
+			<!-- 약관 동의 -->
+			<div>
+				<div class="check_list">
+					<div class="check_line">
+						<input type="checkbox" id="check_btn" />
+						<label for="check_btn"></label>	
+						<span>모든 약관에 동의합니다. </span>					
+					</div>				
+				</div>
+				<ul class="check_list">
+					<li>
+						<div class="check_line">
+							<input type="checkbox" id="check_btn" />
+							<label for="check_btn"></label>	
+							<span>[필수] 만14세 이상입니다.</span>					
+						</div>
+					</li>
+					<li>
+						<div class="check_line">
+							<input type="checkbox" id="check_btn" />
+							<label for="check_btn"></label>	
+							<span>[필수] 서비스 이용약관</span>					
+						</div>
+						<a href="#" onclick="javascript:openPopup('black_a1');" ><img src="../images/common/icon_agree_view.png" alt="상세보기" /></a>
+					</li>
+					<li>
+						<div class="check_line">
+							<input type="checkbox" id="check_btn" />
+							<label for="check_btn"></label>	
+							<span>[필수] 개인정보 수집 및 이용동의</span>					
+						</div>
+						<a href="#" onclick="javascript:openPopup('black_a2');" ><img src="../images/common/icon_agree_view.png" alt="상세보기" /></a>
+					</li>
+					<li>
+						<div class="check_line">
+							<input type="checkbox" id="check_btn" />
+							<label for="check_btn"></label>	
+							<span>[선택] 마케팅 목적의 개인정보 수집 및 이용</span>					
+						</div>
+						<a href="#" onclick="javascript:openPopup('black_a3');" ><img src="../images/common/icon_agree_view.png" alt="상세보기" /></a>
+					</li>
+					<!--li>
+						<div class="check_line">
+							<input type="checkbox" id="check_btn" />
+							<label for="check_btn"></label>	
+							<span>[필수] SMS, 카카오톡 등 수신동의</span>					
+						</div>
+						<a href="#"><img src="../images/common/icon_agree_view.png" alt="상세보기" /></a>
+					</li>
+					<li>
+						<span  class="add_txt">SMS, 카카오톡, 이메일 수신에 모두 동의해주시면 현금을 지급해드립니다.</span> 
+					</li-->
+				</ul>
+			</div>
+			<!-- //약관 동의 -->
+			<!-- btn -->
+			<div class="btn_area_100per">
+				<a href="mypage_0404_02.html" class="button_460 btnFade btnBlack">가입하기</a>
+			</div>
+			<!--//btn -->	
+		
+		</div>
+		<!-- ★footer -->
+		<div id="footer"></div>
+		<!-- ★footer -->
+	</div>
+	<!-- //contents -->
+	<!-- nav -->
+	<div id="nav"></div>
+	<!-- //nav -->
+	
+	
+	<div id="side"></div>
+	
+
+	
+</div>
+</body>
+</html>
