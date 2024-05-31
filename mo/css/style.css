@@ -201,7 +201,27 @@ a.btn_main03 {
 .btn_bt_area a {margin:0 1%;}
 .btn_bt_area img {width:27%;}
 
+/* menu */
+.menu {width:90%; margin:16px auto; border-bottom:solid 1px #333; }
+.menu li {height:40px; line-height:40px; text-align:left;}
+.menu a {display:block; padding-left:38px;}
 
+.end {margin:0 0 16px 0;}
+
+.menu_end {width:90%; margin:16px auto; }
+.menu_end li {height:40px; line-height:40px; text-align:left;}
+.menu_end a {display:block; padding-left:38px;}
+		
+.mn01 {background: url(../images/common/test.png) no-repeat left top;
+	background-size: 40px 40px; padding-left:40px;}
+.mn02 {background: url(../images/common/test.png) no-repeat left top;
+	background-size: 40px 40px; padding-left:40px;}
+.mn03 {background: url(../images/common/test.png) no-repeat left top;
+	background-size: 40px 40px; padding-left:40px;}
+.mn04 {background: url(../images/common/test.png) no-repeat left top;
+	background-size: 40px 40px; padding-left:40px;}
+.mn05 {background: url(../images/common/test.png) no-repeat left top;
+	background-size: 40px 40px; padding-left:40px;}
 
 /* footer */
 .footer {padding:70px 5% 196px 5%;}
