@@ -99,10 +99,11 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb72 {padding-bottom:72px;}
 
 .flex {display:flex; align-items:center;}
-.flex_js_center {justify-content:center;}
+/*.flex_js_center {justify-content:center;}*/
 .flex_btw {justify-content: space-between;}
-.flex_end {display:flex; justify-content:flex-end;}
-.flex_start {display:flex; align-items:flex-start;}
+/*.flex_end {display:flex; justify-content:flex-end;}
+.flex_start {display:flex; align-items:flex-start;}*/
+.inline-flex {display:inline-flex; align-items:center;}
 
 .blue {color:#0500F4;}
 .red {color:#f40006;}
@@ -119,7 +120,8 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 #container02 {
 	width:100%; height:100%; margin-bottom:50px;} /* 상단 1단 */
 	
-.contents {width:90%; max-width:600px; margin:0 auto; text-align:center; border:solid 1px #ff3300;}
+.contents {width:90%; max-width:600px; margin:0 auto; text-align:center; border:solid 1px #ff3300; color:#222225;}
+.contents {padding-bottom:300px;} /* 임시, 코딩 완료 후 삭제 */
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 
@@ -223,24 +225,24 @@ a.btn_main03 {
 	background-size: 40px 40px; padding-left:40px;}
 
 /* btn */
-.btn_area_flex {display:flex; justify-content:space-between; width:100%; padding-top:18px;}
+/*.btn_area_flex {display:flex; justify-content:space-between; width:100%; padding-top:18px;}
 .btn_area_flex a {padding: 0 2px;}
 .btn_area_flex_center {display:flex; justify-content:center; width:100%;}
-.btn_area_100per {display:flex; justify-content:center;}
+.btn_area_100per {display:flex; justify-content:center;}*/
+.btn_area_24p {width:24%;}
 
-a.button {
+/*a.button {
     display: block; position: relative; width: 100%; padding: 0; margin: 10px 0; 
     font-size:15px; font-weight: 600; text-align: center; line-height: 50px; color: #FFF; 
     border-radius: 5px; transition: all 0.2s;
-}
-a.button_fix130r {
-    display: inline-block; position: relative; width: 150px; height:48px; 
+}*/
+a.button_fix120r {
+    display: inline-block; position: relative; width: 120px; height:48px; 
     padding: 0; margin: 10px 8px; 
-    font-size:18px; font-weight: 400; text-align: center; 
-    line-height: 48px; color: #FFF; 
-    border-radius: 60px; transition: all 0.2s;
+    font-size:16px; font-weight: 400; text-align: center; 
+    line-height: 48px; color: #FFF; border-radius: 60px;
 }
-a.button_fix200r {
+/*a.button_fix200r {
     display: block; position: relative; width: 200px; height:60px; 
     padding: 0; margin: 10px 0; 
     font-size:20px; font-weight: 600; text-align: center; 
@@ -254,22 +256,22 @@ a.button_fix300r {
     line-height: 60px; color: #FFF; 
     border-radius: 60px; transition: all 0.2s;
 } /* 캠페인 유형선택 코드요청 버튼 */
-a.button_fix194 {
+/*a.button_fix194 {
     display: block; width: 48%; height:50px; 
     font-size:15px; font-weight: 600; text-align: center; line-height: 50px; color: #FFF; 
     border-radius: 5px; transition: all 0.2s;
 } /* 캠페인 상세보기 버튼 */
-a.button_fix194_line {
+/*a.button_fix194_line {
     display: block; width: 48%; height:48px; 
     font-size:15px; font-weight: 600; text-align: center; line-height: 50px; color: #222225; 
     border-radius: 5px; transition: all 0.2s;
     border:solid 1px #222225;
 } /* 캠페인 상세보기 버튼 */
-/*a.button_460 {
-    display: block; position: relative; width: 460px; height:56px;
-    padding: 0; margin: 10px 0; line-height: 56px; 
-    font-size:17px; font-weight: 600; text-align: center; color: #FFF; 
-    border-radius: 5px; transition: all 0.2s;
+a.button_100p {
+    display: block; position: relative; width: 100%; height:50px;
+    padding: 0; margin: 10px 0; line-height: 50px; 
+    font-size:16px; font-weight:600; text-align: center; color: #FFF; 
+    border-radius: 5px;
 } /* 마이페이지, 회원가입 블랙버튼 */
 a.button_30p {
     display: block; position: relative; width:100%; height:50px;
@@ -277,6 +279,7 @@ a.button_30p {
     font-size:15px; font-weight: 400; text-align: center; color: #fff; 
     border-radius: 5px; transition: all 0.2s;
 } /* 마이페이지, 회원가입 블랙버튼 */
+/*
 a.button_130 {
     display: block; position: relative; width: 130px; height:40px;
     padding: 0; line-height: 40px; 
@@ -285,7 +288,7 @@ a.button_130 {
 } /* 커뮤니티> 게시판 버튼 */
 .btnRed { background: #CE1032;}
 .btnBlack { background: #222225;}
-.btnWhite { background: #ffffff;}
+/*.btnWhite { background: #ffffff;}
 .btnWhite02 { background: #ffffff; border:solid 1px #E1E0E1;}
 .btnGray { background: #E1E0E1; color:#fff;}
 a.btnBlackLine {display:inline-block; border:solid 1px #222225; border-radius:32px; padding:4px 24px; margin:16px 0; color:#222225; font-size:16px;}/*유튜브 쇼핑탭 버튼*/
@@ -300,27 +303,26 @@ a.btnBlackLine {display:inline-block; border:solid 1px #222225; border-radius:32
 	font-size:16px; line-height:150%; font-weight:400; color:#77777a; margin:0 0 72px 0; text-align:center;}
 
 .members ul.input_list {margin-bottom:40px;}
-.members ul.input_list li {
-	padding:4px 0px; background:url(../images/common/icon_essential.png) no-repeat 0 25px;}
+.members ul.input_list li {padding:4px 0px;}
 .input_list .add_txt {font-size:14px; color:#77777a; padding: 8px 0 0 12px; line-height:22px;}
 
-.members ul.input_list02 {margin-bottom:40px;}
+/*.members ul.input_list02 {margin-bottom:40px;}
 .members ul.input_list02 li {
 	padding:4px 0px; color:#77777a;}
 .input_list02 .check_line02 {display:flex; align-items: center; }
 .members ul.input_list02 li a.idpw_link{color:#77777a;}
-
-.members div.check_list { padding-left:10px; font-size:18px; font-weight:500;}
-.members ul.check_list {width:460px; border-radius:4px; background-color:#F5F5F5; padding:8px 0; margin-bottom:40px;}
+*/
+.members div.check_list {font-size:16px; font-weight:500;}
+.members ul.check_list {width:100%; border-radius:4px; background-color:#F5F5F5; padding:8px 0; margin-bottom:24px;}
 .members ul.check_list li {
 	display:flex; justify-content:space-between; 
-	font-size: 15px; color:#77777A; height:50px; padding:0px 10px 0 28px;
-	}
+	font-size: 12px; color:#77777A; height:50px; padding:0px 4px 0 4px;}
 .members ul.check_list a {
-	display:inline-block; width:50px; height:45px;  line-height:50px;
-	padding-top:5px; text-align:center;}	
+	display:inline-block; width:50px; height:45px; line-height:50px;
+	text-align:center;}	
+.members ul.check_list a img {width:24px; height:24px; margin-top:-2px;}
 .check_list .check_line {display:flex; align-items: center; }
-.check_list .add_txt {font-size:12px; padding:0 16px 0 30px;}
+.check_list .add_txt {font-size:12px; line-height:150%;}
 
 /* 회원가입 기본 */
 .top_cp {margin-bottom:58px;}
@@ -329,7 +331,7 @@ a.btnBlackLine {display:inline-block; border:solid 1px #222225; border-radius:32
 .faq_con02 {width:100%;}
 .faq_con02 dt {border-bottom:solid 1px #F5F5F5; text-align:left; background:url(../images/common/ico_arrow_down.png) 98% 50% no-repeat;
 background-size:24px 24px;}
-.faq_con02 dt a {display:block; padding:12px; font-size:14px; color:#77777a;}
+.faq_con02 dt a {display:block; padding:12px 32px 12px 12px; font-size:14px; color:#77777a;}
 .faq_con02 dd {text-align:left; background:#F5F5F5; padding:12px; font-size:14px; color:#77777a; border-bottom:solid 1px #F5F5F5; line-height:150%;}
 .faq_con02 dd div {display: flex;}
 .faq_con02 dd .en_a {padding:0 12px 0 0;}
@@ -337,35 +339,37 @@ background-size:24px 24px;}
 .member_fbtn {display:flex; justify-content: flex-end; margin-top:4px;}
 .member_fbtn a {height:50px; line-height:50px; padding:0 12px; color:#77777a; font-size:14px;}
 
-/* 로그인 - 사용자약관 체크박스 */
+/* 로그인 - 사용자약관 체크박스 
 .check_line02 input#check_btn{display:none;}
 .check_line02 input#check_btn + label{cursor:pointer;}
-	/* label:before에 체크하기 전 상태 CSS */
+	/* label:before에 체크하기 전 상태 CSS 
 .check_line02 input#check_btn + label:before{ 
   content:""; display:inline-block;  width:30px; height:50px;
   background-image: url('../images/common/input_check02.png');
   background-repeat: no-repeat; background-position: 10% 60%;
   }
-	/* label:before에 체크 된 상태 CSS */  
+	/* label:before에 체크 된 상태 CSS   
 .check_line02 input#check_btn:checked + label:before{
   content:"";  width:30px;  height:50px;
   background-image: url('../images/common/input_check02_on.png');
   background-repeat: no-repeat;  background-position: 10% 60%;
   }
 
-/* 로그인 - 자동로그인 체크박스 */
+/* 로그인 - 사용자약관 체크박스 */
 input#check_btn{display:none;}
 input#check_btn + label{cursor:pointer;}
 	/* label:before에 체크하기 전 상태 CSS */
 input#check_btn + label:before{ 
   content:""; display:inline-block;  width:30px; height:50px;
   background-image: url('../images/common/input_check.png');
+  background-size: 20px 20px;
   background-repeat: no-repeat; background-position: 60%;
   }
 	/* label:before에 체크 된 상태 CSS */  
 input#check_btn:checked + label:before{
   content:"";  width:30px;  height:50px;
   background-image: url('../images/common/input_check_on.png');
+  background-size: 20px 20px;
   background-repeat: no-repeat;  background-position: 50%;
   }
     
@@ -402,7 +406,7 @@ input#check_btn:checked + label:before{
 	border:none; background:none; outline:none; float:left;
 	color:#77777a; font-size:15px; line-height:30px;}
 
-*/
+
 .t12 {line-height:56px; width:20px; text-align: center;}
 .t13 {width:100%; margin: 10px 0 0 10px;font-size:15px; height:46px; line-height:56px; color:#77777a;}
 .t14 {width:438px; height:50px; line-height:50px; text-align:left; font-size:14px; color:#77777a; padding: 0 12px;}
@@ -428,7 +432,7 @@ input#check_btn:checked + label:before{
 	}
 .select::-ms-expand {display:none;}
 
-/* 로그인 QnA */
+/* 로그인 QnA 
 .member_qna { width:460px;}
 
 .member_qna .qna_q { 
@@ -442,7 +446,7 @@ input#check_btn:checked + label:before{
 	font-size: 14px; color: #77777a; text-align: left; padding: 10px 16px;
     background: #F5F5F5; }
 
-/* ID/PW찾기 탭 */
+/* ID/PW찾기 탭 
 .tab_menu_area02 {width:100%;}
 .tab_menu_area02 ul{ display:flex; flex-direction: row; margin-bottom:60px;}
 ul.tab02 li a{
