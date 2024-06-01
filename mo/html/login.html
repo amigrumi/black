@@ -13,7 +13,7 @@
 	<meta content='#000' name='apple-mobile-web-app-status-bar-style'/>
 	<meta content='yes' name='apple-mobile-web-app-capable'/>
 
-	<title>코드회원가입</title>
+	<title>로그인</title>
 
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -43,7 +43,7 @@
 		<div class="top flex flex_btw">
 			<div class="top_title">
 				<a class="topmn_bg top_back" href="#"></a>
-				<h2>코드회원가입</h2>
+				<h2>로그인</h2>
 			</div>
 			<div class="top_mn">
 				<ul>
@@ -57,49 +57,67 @@
 	<!-- //header -->
 	<!-- contents -->
 	<div id="container02">				
-		<div class="contents pt80 members">	
-			<h2 class="pb72">
-				정상적인 업무협업과 정보전달을 위해 <br/>
-				<span class="red">채널확인 후 코드회원</span>이 승인됩니다.<br/>
-				코드승인이 완료되면 <br/>
-				<span class="red">성공사례 및 코드회원 리뷰상품 무상제공 서비스</span>까지 받을 수 있습니다. 
-			</h2>
+		<div class="contents pt80 members">
+			<h1>안녕하세요</h1>
+			<h2 class="pb40">홀릭파트너스에 오신 것을 환영합니다!</h2>
 			<ul class="input_list">
 				<li>
+					<a href="#"><img src="../images/common/login_kakao.png" alt="카카오 1초 로그인" /></a>
+				</li>
+				<li>
 					<form class="input_box" action="" method="">
-						<input class="input_txt" type="text" name="" placeholder="이름">
+						<input class="input_txt" type="text" name="" placeholder="아이디">
 					</form>
 				</li>
 				<li>
-					<div class="flex flex_btw">
-						<form class="input_box_70p" action="" method="">
-							<input class="input_txt" type="text" name="" placeholder="본인소유의 휴대폰을 인증하세요">
-						</form>
-						<div class="btn_area_24p">
-							<a href="#" class="button_30p btnBlack">인증하기</a>
-						</div>
+					<form class="input_box" action="" method="">
+						<input class="input_txt" type="text" name="" placeholder="비밀번호">
+					</form>
+				</li>
+				<li class="flex flex_btw">
+					<div class="check_line02">
+						<input type="checkbox" id="check_btn" />
+						<label for="check_btn"></label>	
+						<span>자동로그인</span>				
 					</div>
+					<a href="find_idpw.html" class="idpw_link">ID/PW 찾기</a>
 				</li>
 				<li>
-					<form class="input_box" action="" method="">
-						<input class="input_txt" type="text" name="" placeholder="대표채널명">
-					</form>
-				</li>
-				<li>
-					<form class="input_box" action="" method="">
-						<input class="input_txt" type="text" name="" placeholder="본인 소유의 채널을 입력하세요.">
-					</form>
-				</li>
-				<li class="add_txt">
-					제시된 문구를 본인 소유 채널 내 게시물에 댓글로 남긴 뒤 인증용 URL을 입력해주세요.
+					<a href="#" onclick="javascript:openPopup('black_a');"  class="button_100p btnBlack">로그인</a>
 				</li>
 			</ul>
 			
 			
-			<!-- btn -->
-			<a href="#" onclick="javascript:openPopup('black_a');"  class="button_100p btnBlack">승인요청하기</a>
-			<!--//btn -->	
-		
+			<!-- faq -->
+			<dl class="faq_con02">	
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu1);><span class="en_q">Q.</span>카카오 ID가 기억나지 않습니다.</a>
+				</dt>
+				<dd id="submenu1">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 ID 확인방법 :<br />
+							카카오톡 앱 > 하단 우측 더보기 탭 > 상단 우측 설정탭 > 개인/보안 > 카카오계정 > 이메일 확인
+							카카오계정 내 이메일이 카카오톡 ID입니다. 
+						</span>
+					</div>
+				</dd>				
+				<dt>
+					<a style="cursor: hand"  onclick=menuclick(submenu2);><span class="en_q">Q.</span>기존 회원도 간편 로그인 시 할인혜택을 받을 수 있나요?</a>
+				</dt>
+				<dd id="submenu2">
+					<div>
+						<span class="en_a">A.</span> 
+						<span class="txt">
+							카카오 간편 가입 이력이 없거나 이미 홀릭팩토리 카카오톡 채널을 추가한 회원 모두 동일한 혜택을 받으실 수 있습니다. 
+						</span>
+					</div>
+				</dd>
+			<!-- //faq -->
+			<div class="member_fbtn">
+				<a href="member_0102.html">신규회원가입</a>
+			</div>	
 		</div>
 		<!-- ★footer -->
 		<div id="footer"></div>
@@ -111,7 +129,7 @@
 	<!-- //nav -->
 	
 	
-	<div id="side"></div>
+	<div id="side"></div>	
 	
 
 	

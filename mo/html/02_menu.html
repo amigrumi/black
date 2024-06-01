@@ -21,15 +21,16 @@
 	
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-	<!-- 인클루드를 위한 소스 -->
+	<!-- include -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript">
 	      $(document).ready(function(){
-	         $("#header02").load("html/include/header.html #header_index")
-	         $("#footer").load("html/include/footer_main.html")      
+	         $("#footer").load("include/footer.html")
+	         $("#nav").load("include/nav.html") 
+	         $("#side").load("include/side.html")      
 	      });
 	</script>
-	<!-- //인클루드를 위한 소스 -->
+	<!-- //include -->
 	
 
 </head>
@@ -56,7 +57,7 @@
 	<!-- //header -->
 	<!-- contents -->
 	<div id="container02">				
-		<div class="main_con">
+		<div class="contents">
 			<ul class="menu">
 				<li class="bold mn01">상품</li>
 				<li><a href="#">상품버전</a></li>
@@ -97,60 +98,17 @@
 				<li class="end"><a href="#">내 문의내역</a></li>
 			</ul>
 		</div>
-		<!-- footer -->
-		<div class="footer bg_g w90">
-			<div class="black bold" style="margin-bottom:8px;">
-				CS Center <span class="red">1600-4178</span>
-			</div>
-			<div class="foot_txt01">
-				WORK : MONDAY-FRIDAY<br />
-				open 10:00am / close 5:00pm<br />
-				lunch time 11:40am-1:00pm<br />
-			</div>
-			<ul>
-				<li><a class="btn_main03" href="#">고객센터</a></li>
-				<li><a class="btn_main03" href="#">1:1 빠른 문의</a></li>
-			</ul>
-			<a class="btn_main03" href="#">카톡플러스친구 바로가기</a>
-			
-			<ul class="foot_mn">
-				<li><a class="gray" href="#">이용약관</a></li>
-				<li><a class="black" href="#">개인정보취급방침</a></li>
-			</ul>
-			<div class="foot_txt02">
-			CEO : Seok Jang <br />
-			Contact number : 1600-4178<br />
-			Address : 514-519,5F,219,Gonghang-daero,Gangseo-gu,Seoul,Republic of Korea<br />
-			Company registration no : 414-86-01482<br />
-			E-commerce registration : 2019-Seoun Gangseo-1203<br />
-			Personal info manager : Jungmin Park<br />
-			(bh@blackholic.com)
-			</div>
-		</div>
+		<!-- ★footer -->
+		<div id="footer"></div>
+		<!-- ★footer -->
 	</div>
 	<!-- //contents -->
 	<!-- nav -->
-	<div id="nav">
-		<ul>
-			<li><a class="nav_bg home_on" href="#"></a></li>
-			<li><a class="nav_bg cate" href="#"></a></li>
-			<li><a class="nav_bg comu" href="#"></a></li>
-			<li><a class="nav_bg cus" href="#"></a></li>
-			<li><a class="nav_bg my" href="#"></a></li>
-		</ul>
-	</div>
+	<div id="nav"></div>
 	<!-- //nav -->
 	
 	
-	
-	<!-- 플로팅_카톡메뉴 -->
-	<div class="side-pop01">    
-		<a href="javascript:;" onclick="javascript:window.open('http://pf.kakao.com/_rmeQT/chat', '2','width=360, height=640');"><img src="../images/common/fl_kakao.png" alt="카톡상담"></a>
-	</div>
-	<div class="side-pop02">	
-		<a href="#"><img src="../images/common/fl_top.png" alt=""></a>
-	</div>
-	<!-- //플로팅_카톡메뉴 -->	
+	<div id="side"></div>
 	
 
 	
