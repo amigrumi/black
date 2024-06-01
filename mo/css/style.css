@@ -135,7 +135,9 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 	width:100%; height:100%; margin-bottom:50px;} /* 상단 2단 */
 #container02 {
 	width:100%; height:100%; margin-bottom:50px;} /* 상단 1단 */
-	
+
+.contents_100 {width:100%; max-width:600px; margin:0 auto; text-align:center;}
+.contents_100 img {width:100%;}
 .contents {width:90%; max-width:600px; margin:0 auto; text-align:center; border:solid 1px #ff3300; color:#222225;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
@@ -167,7 +169,6 @@ img.key_txt02 {padding-top:240px; padding-right:350px; width:25%;}
 
 	/* 성공사례 b */
 .good_case {
-	width:100%; border:solid 1px #336699;
 	line-height:150%;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
 	margin-bottom:24px;}
@@ -185,7 +186,7 @@ img.key_txt02 {padding-top:240px; padding-right:350px; width:25%;}
 .case_area .txt_area .copy {margin-bottom:16px;}
 .case_area .txt_area .copy img {height:41px; width:auto;}
 .case_area .txt_area .result {font-size:11px; font-weight:normal; line-height:150%;}
-.result table th {font-size:11px; width:44px; letter-spacing:-1px; color:#222225; border:solid 1px green;}
+.result table th {font-size:11px; width:44px; letter-spacing:-1px; color:#222225;}
 .result table td {font-size:11px; letter-spacing:-1px; color:#222225;}
 
 .marketing {
@@ -198,7 +199,7 @@ img.key_txt02 {padding-top:240px; padding-right:350px; width:25%;}
 .good_case .h7 {font-weight:500; color:#77777a; font-size:11px;}
 .txt_add {color:#77777a; font-size:11px;}
 .marketing ul li {padding:1px 0; font-size:11px;}
-.marketing table th {font-size:11px; width:66px; letter-spacing:-1px; color:#222225;  border:solid 1px yellow;}
+.marketing table th {font-size:11px; width:66px; letter-spacing:-1px; color:#222225; }
 
 a.btn_main02 {
 	display:inline-block; width:128px; padding:4px 0;
