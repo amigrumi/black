@@ -142,7 +142,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 
-	/* 기본C 메인 영상 영역 */
+	/* 기본B 메인 영상 영역 */
 .main_img_b {
 	width:270px; height: 480px; border-radius:28px;
 	overflow: hidden; object-fit:cover;
@@ -151,6 +151,30 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .main_img_b video {width:270px; height: 480px; overflow: hidden;}
 .main_img_b img {width:270px; height: 480px; border-radius:28px;}
 img.main_b_txt01 {left:20%; width:72px; padding-bottom:96px;}
+
+	/* 기본C 메인 영상 영역 */
+img.key02_txt01 {margin-left:50%; width:113px; height:43px;}
+img.key02_txt02 {position:absolute; left:0; width:92px; height:75px;}
+.bg_good_a02 {position:relative; margin:16px auto 16px auto; width:100%;}
+	
+.key02_main .mv_keymain {position:relative; width:40%; height:auto; object-fit:cover;}
+.key02_main video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff; text-align:right; 
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
+	position:absolute; top:0; left:0; z-index:5; overflow: hidden;}	
+
+.mv_key02sub {position:relative; width:36%; height:auto; object-fit:cover;}	
+.key02_left video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff;
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);
+	position:absolute; top:7px; left:0%; z-index:4; overflow: hidden;}
+.key02_right video{
+	border:solid 4px #fff; border-radius:16px;
+	background:#fff;
+	box-shadow: 0 5px 55px 0 rgba(205, 205, 205, 1);
+	position:absolute; top:7px; right:0%; margin-left:25px; z-index:3; overflow: hidden;}
 
 	/* 성공사례 메인 영상 영역 */
 img.key_txt01 {padding-left:30%; width:25%;}
@@ -175,7 +199,6 @@ img.key_txt02 {padding-top:240px; padding-right:350px; width:25%;}
 	background:#fff;
 	box-shadow: 0 5px 55px 0 rgba(205, 205, 205, 1);
 	position: absolute; top:7px; left:50%; margin-left:25px; z-index:3; overflow: hidden;}
-
 
 	/* 성공사례 b */
 .good_case {
