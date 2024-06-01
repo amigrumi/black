@@ -21,15 +21,15 @@
 	
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-	<!-- 인클루드를 위한 소스 -->
+	<!-- include -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript">
 	      $(document).ready(function(){
-	         $("#header02").load("html/include/header.html #header_index")
-	         $("#footer").load("html/include/footer_main.html")      
+	         $("#footer").load("include/footer.html")
+	         $("#side").load("include/side.html")      
 	      });
 	</script>
-	<!-- //인클루드를 위한 소스 -->
+	<!-- //include -->
 	
 
 </head>
@@ -63,81 +63,59 @@
 		</div>
 	</div>
 	<!-- //header -->
-	<!-- contents -->
+	<!-- container -->
 	<div id="container">
-		<div class="main_con pt80" style="min-height:590px;">
-			<img class="img_w100 mw600 pb40" src="../images/common/good_a01_txt01.png" alt="인기 상품 리뷰했더니 수익이 빵빵 터져요" />
+		<!-- contesnt -->
+		<div class="contents pt80">
+			<img class="pb40" src="../images/common/main_a01_txt01.png" alt="인기 상품 리뷰했더니 수익이 빵빵 터져요" />
 			<!-- 메인 영상 -->
-			메인 gif
+			<div class="main_box01">
+				<img src="../images/common/main_a01.gif" alt="메인 이미지" />
+			</div> 
 			<!-- //메인 영상 -->
-			<div>
-				<a href="#" class="btn_main03">인기상품 보러가기</a>
-			</div>	
+			<a href="#" class="btn_main03">인기상품 보러가기</a>
 		</div>
-		<div class="main_con bg_g">
-			<img class="img_w100 mw600" src="../images/common/main_a02.png" />
+		<div class="bg_gray">
+			<div class="contents">
+				<img src="../images/common/main_a02.png" />
+			</div>
 		</div>
-		<div class="main_con">
-			<img class="img_w100 mw600" src="../images/common/main_b03.png" />
+		<div class="contents">
+			<img src="../images/common/main_b03.png" />
 		</div>
-		<div class="main_con bg_g">
-			<img class="img_w100 mw600" src="../images/common/main_a04.png" />
-			<div>
+		<div class="bg_gray pb96">
+			<div class="contents">
+				<img src="../images/common/main_a04.png" />
 				<a href="#" class="btn_main03">성공사례 자세히보기</a>
-			</div>	
+			</div>
 		</div>
-		<div class="main_con">
-			<img class="img_w100 mw600" src="../images/common/main_a05.png" />
+		<div class="contents">
+			<img src="../images/common/main_a05.png" />
 		</div>
-		<div class="main_con bg_g">
-			<img class="img_w100 mw600" src="../images/common/main_a06.png" />
+		<div class="bg_gray">
+			<div class="contents">
+				<img src="../images/common/main_a06.png" />
+			</div>
 		</div>
-		<!-- 특별 프로모션 진행중 -->
-		<div class="main_con pt80 mw600">
-			<img class="img_w100 mw600" src="../images/common/main_a01_txt03.png" alt="딱 한달 선착순 100명" />
+		<div class="contents pt80 pb96">
+			<img src="../images/common/main_a01_txt03.png" alt="딱 한달 선착순 100명" />
 			<div class="btn_bt_area">
 				<a href=""><img src="../images/common/btn_bt01.png" alt="빠른회원가입" /></a>
 				<a href=""><img src="../images/common/btn_bt02.png" alt="자주 묻는 질문" /></a>
 				<a href=""><img src="../images/common/btn_bt03.png" alt="빠른 상담 문의" /></a>
 			</div>
-			<div class="txt01">
-				<p class="t54">고객센터 1600-4178</p>
-				<p class="gray">평일 : 10시~17시 / 주말,공휴일  : 1:1상담으로 문의</p>
-			</div>
-			<a class="btn_main03" href="#">빠른 상담 전화</a>
-		</div>
-		<!-- //특별 프로모션 진행중 -->
-		<div class="footer bg_g w90">
-			<div class="black bold" style="margin-bottom:8px;">
-				CS Center <span class="red">1600-4178</span>
-			</div>
-			<div class="foot_txt01">
-				WORK : MONDAY-FRIDAY<br />
-				open 10:00am / close 5:00pm<br />
-				lunch time 11:40am-1:00pm<br />
-			</div>
-			<ul>
-				<li><a class="btn_main03" href="#">고객센터</a></li>
-				<li><a class="btn_main03" href="#">1:1 빠른 문의</a></li>
-			</ul>
-			<a class="btn_main03" href="#">카톡플러스친구 바로가기</a>
-			
-			<ul class="foot_mn">
-				<li><a class="gray" href="#">이용약관</a></li>
-				<li><a class="black" href="#">개인정보취급방침</a></li>
-			</ul>
-			<div class="foot_txt02">
-			CEO : Seok Jang <br />
-			Contact number : 1600-4178<br />
-			Address : 514-519,5F,219,Gonghang-daero,Gangseo-gu,Seoul,Republic of Korea<br />
-			Company registration no : 414-86-01482<br />
-			E-commerce registration : 2019-Seoun Gangseo-1203<br />
-			Personal info manager : Jungmin Park<br />
-			(bh@blackholic.com)
-			</div>
-		</div>
+			<p class="main_phone">고객센터 1600-4178</p>
+			<p class="main_time">평일 : 10시~17시 / 주말,공휴일  : 1:1상담으로 문의</p>
+			<a class="btn_main04" href="#">
+				<img src="../images/common/ico_phone.png"/>빠른 상담 전화
+			</a>
+		</div>		
+		<!-- contesnt -->
+		<!-- ★footer -->
+		<div id="footer"></div>
+		<!-- ★footer -->
 	</div>
-	<!-- //contents -->
+	<!-- //container -->
 	
 	
 	<!-- 하단 띠배너 -->
@@ -147,14 +125,7 @@
 	</div>
 	<!-- 하단 띠배너 -->
 	
-	<!-- 플로팅_카톡메뉴 -->
-	<div class="side-pop01">    
-		<a href="javascript:;" onclick="javascript:window.open('http://pf.kakao.com/_rmeQT/chat', '2','width=360, height=640');"><img src="../images/common/fl_kakao.png" alt="카톡상담"></a>
-	</div>
-	<div class="side-pop02">	
-		<a href="#"><img src="../images/common/fl_top.png" alt=""></a>
-	</div>
-	<!-- //플로팅_카톡메뉴 -->	
+	<div id="side"></div>
 	
 
 	
