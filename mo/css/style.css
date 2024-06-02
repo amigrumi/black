@@ -117,6 +117,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb96 {padding-bottom:96px;}
 
 .flex {display:flex; align-items:center;}
+.flex_base {display:flex;}
 .flex_js_center {justify-content:center;}
 .flex_al_center {align-items: center;}
 .flex_btw {justify-content: space-between;}
@@ -157,15 +158,37 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 
-	/* 기본B 메인 영상 영역 */
+	/* 기본B 메인 영상 영역 01*/
 .main_img_b {
 	left:25%; width:50%; border-radius:28px; margin: 40px 0 96px 0;
 	overflow: hidden; object-fit:cover;
 	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
 .main_img_b video {width:100%; height: auto; overflow: hidden;}
 .main_img_b img {width:100%; height: auto; border-radius:28px;}
-img.main_b_txt01 {top:0px; left:0px; width:20%; margin-right:5%;}
+img.main_b_txt01 {top:0px; width:15%; margin:0 5%;}
 
+	/* 기본B-03 메인 영상 영역 01*/
+.main_img_b03 {
+	width:40%; border-radius:28px; margin: 4px auto 94px auto;
+	overflow: hidden; object-fit:cover;}
+.main_img_b03 video {width:100%; min-width:120px; height: auto; overflow: hidden;}
+.main_img_b03 img {width:100%; height: auto; border-radius:28px;}
+img.main_b03_txt01 {top:0px; width:15%; height:auto; margin:0 5%;}
+
+	/* 기본B-02 메인 영상 영역 01*/
+.main_b02_bg {
+	background:url(../images/common/main_b01.png) top left no-repeat;
+	background-size:cover;
+	width:100%; min-width:300px; min-height:300px;
+	border:solid 1px #ff3300; 
+}
+.main_img_b02 {
+	left:50px; width:40%; border-radius:28px; margin: 0px 0 90px 0;
+	overflow: hidden; object-fit:cover;
+	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+.main_img_b02 video {width:100%; height: auto; overflow: hidden;}
+.main_img_b02 img {width:100%; height: auto; border-radius:28px;}
+img.main_b02_txt01 {top:0px; left:5%; width:15%; margin-right:5%;}
 
 	/* 성공사례 메인 영상 영역 */
 img.key_txt01 {margin-left:50%; width:113px; height:43px;}
