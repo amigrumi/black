@@ -159,7 +159,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 	/* 기본B 메인 영상 영역 */
 .main_img_b {
-	left:25%; width:50%; border-radius:28px; margin: 40px 0 40px 0;
+	left:25%; width:50%; border-radius:28px; margin: 40px 0 96px 0;
 	overflow: hidden; object-fit:cover;
 	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
 .main_img_b video {width:100%; height: auto; overflow: hidden;}
