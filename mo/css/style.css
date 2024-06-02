@@ -62,7 +62,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .top_title {display: flex; height:60px; margin-left:2%;}
 .top_title h2 {font-size:18px; line-height:55px; font-weight:400;}
 
-/* test */
+/* test 
 .board_search_area .search_box {
 	height:30px; width:380px; background:#fff; 
 	border-radius:0 40px 40px 0; padding:10px;}
@@ -82,7 +82,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .search_btn {color:#f9deec; float:right; width:40px; height:100%; border-radius:50%; background:#fff; border:none; font-size:16px; display:flex; justify-content:center; align-items: center;}
 
 
-	/* top_search 
+	/* top_search */
 
 .search_box03 {
 	height:36px; width:90%; background:#fff; 
