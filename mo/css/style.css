@@ -62,6 +62,19 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .top_title {display: flex; height:60px; margin-left:2%;}
 .top_title h2 {font-size:18px; line-height:55px; font-weight:400;}
 
+	/* top_search */
+
+.search_box03 {
+	height:36px; width:90%; background:#fff; 
+	border-radius:2px; padding:0px; margin:12px auto;}
+.search_txt {
+	width:100%; border:none; background:none; outline:none; padding:0 12px; 
+	color:#77777a; font-size:16px; }
+.search_btn {color:#f9deec; width:24px; width:24px; margin-left:12px; border:none; background:#fff;}
+.search_btn img {width:24px; height:24px;}
+.close_btn {color:#f9deec; width:20px; width:20px; margin-right:12px; border:none; background:#fff;}
+.close_btn img {width:20px; height:20px;}
+
 
 	/* gnb */
 .gnb {
@@ -519,8 +532,6 @@ ul.tab li a.on {
 	display:inline-block; width:98%; height:50px; background-color:#fff;
 	border-top:solid 2px #77777a; border-left:solid 2px #77777a; border-right:solid 2px #77777a;
 	color:#222225; font-weight:bold;}
-
-
 
 
 
