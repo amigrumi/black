@@ -168,20 +168,21 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 img.main_b_txt01 {top:0px; width:15%; margin:0 5%;}
 
 	/* 기본B-03 메인 영상 영역 01*/
+.main_b02_bg {
+	background:url(../images/common/main_b01.png) top left no-repeat;
+	background-size:cover;
+	width:100%; min-width:200px; min-height:189px;
+}
 .main_img_b03 {
-	width:40%; min-width:120px; height:auto; border-radius:28px; margin: 4px auto 94px auto;
+	width:40%; min-width:100px; height:auto; border-radius:28px; margin: 4px auto 64px auto;
 	overflow: hidden; object-fit:cover; background:#fff;
 	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
-.main_img_b03 video {width:100%; min-width:120px; height: auto; overflow: hidden;}
+.main_img_b03 video {width:100%; min-width:92px; height: auto; overflow: hidden;}
 .main_img_b03 img {width:100%; height: auto; border-radius:28px;}
 img.main_b03_txt01 {top:0px; width:15%; height:auto; margin:0 5%;}
 
 	/* 기본B-02 메인 영상 영역 01*/
-.main_b02_bg {
-	background:url(../images/common/main_b01.png) top left no-repeat;
-	background-size:cover;
-	width:100%; min-width:300px; min-height:300px;
-}
+
 .main_img_b02 {
 	left:50px; width:40%; border-radius:28px; margin: 0px 0 90px 0;
 	overflow: hidden; object-fit:cover;
