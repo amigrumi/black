@@ -156,3 +156,4 @@ button {background:none; border:0px;}
 	position:absolute; top:-20px; right:0px; width:40px;}
 
 
+button {background:none; border:0px;} /* 상단에 중복 - 팝업 완료 후 삭제 */
