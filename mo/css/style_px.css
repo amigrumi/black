@@ -578,7 +578,7 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .product_list01 .thumb .thum_txt01 {
 	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
 	background-color:#d61919; color:#fff; border-radius:20px;
-	font-size:3.6vw; font-weight:bold; text-align:center;}
+	font-size:13px; font-weight:bold; text-align:center;}
 
 .product_list01 .thumb .thum_txt02 {
 	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px 8px;
@@ -588,15 +588,15 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .title_area {
 	display:flex; flex-flow: column wrap; justify-content: space-around;
 	width:50%; padding-left:14px; text-align:left;} /* 제품명 영역  */
-.t01 {font-weight:bold; font-size:4.4vw; line-height:5vw;} 
-.t02 {color:#f40006; font-size:3.6vw; padding-top:1.1vw;}
+.t01 {font-weight:bold; font-size:16px; line-height:18px;} 
+.t02 {color:#f40006; font-size:13px; padding-top:4px;}
 
 .per_area {display:flex; position:relative;}
-.per01 {font-size:8.3vw; font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
-.per_s {font-size:2.7vw;}
-.price {font-size:4.4vw; font-weight:600; color:#222225; line-height:3.8vw;}
-.price .p01 {font-size:3vw; font-weight:normal; color:#999; text-decoration:line-through;}
-.title_area .add_txt01 {align-self:flex-start; font-size:3.3vw; padding:8px; background:#f40006; color:#fff; border-radius:4px;}
+.per01 {font-size:30px; font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:4px;}
+.per_s {font-size:10px;}
+.price {font-size:16px; font-weight:600; color:#222225; line-height:14px;}
+.price .p01 {font-size:11px; font-weight:normal; color:#999; text-decoration:line-through;}
+.title_area .add_txt01 {align-self:flex-start; font-size:12px; padding:8px; background:#f40006; color:#fff; border-radius:4px;}
 
 
 
