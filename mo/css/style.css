@@ -134,6 +134,8 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .yellow {color:#FDFD00}
 .bold {font-weight:bold;}
 
+.hr8 {width:100vw; height:8px; background:#f5f5f5;}
+
 
 /* main */
 .main_box01 {
@@ -558,9 +560,47 @@ ul.tab li a.on {
 	border-top:solid 2px #77777a; border-left:solid 2px #77777a; border-right:solid 2px #77777a;
 	color:#222225; font-weight:bold;}
 
+/* 상품리스트 코딩 01 - 규격화된 사이즈로 작업*/
+.bn_area img {width:100vw;}
+
+.select01 ul {height:50px; display:flex; flex-direction:row; align-items: center;}
+.select01 li a {display:block; color:#222225; font-size:13px; border:solid 1px #e1e1e1; border-radius:15px; padding: 8px 24px 8px 8px; margin: 0 4px 0 0;
+background:url(../images/common/ico_drop_down.png) center right no-repeat; background-size:24px 24px;}
+
+.sub_title {font-size:18px; text-align:left; margin-top:24px;}		
+		
+.product_list01 {width:100%;} 
+.product_list01 ul {padding: 0px;}
+.product_list01 ul li {display:flex; padding:24px 0; border-bottom:solid 1px #e1e1e1; }
+
+.product_list01 .thumb {width:50%; position: relative; align-self:flex-start;}
+.product_list01 .thumb img {width:100%;}
+.product_list01 .thumb .thum_txt01 {
+	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
+	background-color:#d61919; color:#fff; border-radius:20px;
+	font-size:13px; font-weight:bold; text-align:center;}
+
+.product_list01 .thumb .thum_txt02 {
+	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px 8px;
+	background-color:#d61919; color:#fff; border-radius:2px;
+	font-size:13px; font-weight:bold; text-align:center;}
+
+.title_area {
+	display:flex; flex-flow: column wrap; justify-content: space-around;
+	width:50%; padding-left:14px; text-align:left;} /* 제품명 영역  */
+.t01 {font-weight:bold; font-size:16px; line-height:24px;} 
+.t02 {color:#f40006; font-size:13px;}
+
+.per_area {display:flex; position:relative;}
+.per01 {font-size:30px; font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:4px;}
+.per_s {font-size:10px;}
+.price {font-size:16px; font-weight:600; color:#222225; line-height:14px;}
+.price .p01 {font-size:11px; font-weight:normal; color:#999; text-decoration:line-through;}
+.title_area .add_txt01 {align-self:flex-start; font-size:12px; padding:8px; background:#f40006; color:#fff; border-radius:4px;}
 
 
-/* footer */
+
+/* footer ---------------------------------------------------------------------*/
 #footer .contents {text-align:left; padding-bottom:96px;}
 .foot_txt01 {color:#77777A; font-size:12px; line-height:150%; margin-bottom:24px;}
 .foot_txt02 {color:#B1B1B1; font-size:12px; line-height:150%;}
