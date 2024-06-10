@@ -573,7 +573,7 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .product_list01 ul {padding: 0px;}
 .product_list01 ul li {display:flex; padding:12px 0; border-bottom:solid 1px #e1e1e1; }
 
-.product_list01 .thumb {width:50%; position: relative; align-self:flex-start;}
+.product_list01 .thumb {width:50%; max-width:200px; position: relative; align-self:flex-start;}
 .product_list01 .thumb img {width:100%;}
 .product_list01 .thumb .thum_txt01 {
 	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
