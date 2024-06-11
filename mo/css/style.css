@@ -111,6 +111,16 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .cus_on {background-position: -180px -50px;}
 .my_on {background-position: -240px -50px;}
 
+	/* 캠페인 하단 nav */
+#nav02 {
+	width:100%; height:50px; position:fixed; bottom:0px;  z-index:10;
+	border-top:solid 1px #000; background-color:#fff;
+	display:flex; text-align: center;}
+#nav02 .heart {width:60px; line-height:50px; background:#fff;}
+#nav02 .heart img {width:50px; height:50px;}
+#nav02 .product {width:50%; line-height:50px; background:#000; color:#fff; font-size:15px; font-weight:bold;}
+#nav02 .copy {width:50%; line-height:50px;background:#f40006; color:#fff; font-size:15px; font-weight:bold;}
+
 /* common */
 .pt8 {padding-top:8px;}
 .pt24 {padding-top:24px;}
