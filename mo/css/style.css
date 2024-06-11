@@ -112,9 +112,11 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .my_on {background-position: -240px -50px;}
 
 /* common */
+.pt8 {padding-top:8px;}
 .pt24 {padding-top:24px;}
 .pt64 {padding-top:64px;}
 .pt80 {padding-top:80px;}
+.pb8 {padding-bottom:8px;}
 .pb24 {padding-bottom:24px;}
 .pb40 {padding-bottom:40px;}
 .pb72 {padding-bottom:72px;}
@@ -138,7 +140,8 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .yellow {color:#FDFD00}
 .bold {font-weight:bold;}
 
-.hr8 {width:100vw; height:8px; background:#f5f5f5;}
+.hr8 {width:100%; height:8px; background:#f5f5f5;}
+.top_hr8 {width:100%; border-top:solid 8px #f5f5f5;}
 
 
 /* main */
@@ -564,7 +567,7 @@ ul.tab li a.on {
 	border-top:solid 2px #77777a; border-left:solid 2px #77777a; border-right:solid 2px #77777a;
 	color:#222225; font-weight:bold;}
 
-/* 상품리스트 코딩 01 - 규격화된 사이즈로 작업*/
+/* 상품리스트 */
 .bn_area img {width:100vw;}
 
 .select01 {width:94%; margin:0 auto;}
@@ -572,7 +575,7 @@ ul.tab li a.on {
 .select01 li a {display:block; color:#222225; font-size:13px; border:solid 1px #e1e1e1; border-radius:15px; padding: 8px 24px 8px 8px; margin: 0 4px 0 0;
 background:url(../images/common/ico_drop_down.png) center right no-repeat; background-size:24px 24px;}
 
-.sub_title {font-size:18px; text-align:left; margin-top:24px;}		
+.sub_title {font-size:18px; text-align:left; padding-top:24px;}		
 		
 .product_list01 {width:100%;} 
 .product_list01 ul {padding: 0px;}
@@ -586,11 +589,11 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .polygon { 
 	position:absolute; top:0px; left:0px; z-index:4; width:30%;}
 	
-.thumb_txt { overflow:hidden;
+.product_list01 .thumb_txt { overflow:hidden;
 	position:absolute; bottom:0px; left:0px; z-index:5; width:100%; height:28px;
 	background:rgba(0,0,0,0.5); color:#fff; 
 	display: flex; justify-content: space-around; align-items: center;}
-.thumb_txt p {font-size:clamp(10px, 3.3vw, 15px);}
+.product_list01 .thumb_txt p {font-size:clamp(10px, 3.3vw, 15px);}
 
 .thum_txt01 {
 	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
@@ -638,7 +641,157 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .em_125 {font-size:1.25em;}
 .title_area .add_txt03 {align-self:flex-start; font-size:clamp(15px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;}
 
+/* 상품 캠페인 */
+.pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
+.pro_title .name {font-family:'Noto Sans KR'; font-size:clamp(20px, 5.5vw, 23px); font-weight:600; letter-spacing:-1px; line-height:130%; padding-bottom:8px;}
+.pro_title .add {color:#f00004; font-size:clamp(16px, 4.4vw, 19px); font-weight:400;}
+.pro_title .favorite img {width:24px; height:24px; margin-left:4px;}
 
+.pro_info01 {width:100%; text-align:left;}
+.pro_info01 th {min-width:120px; max-width:200px; }
+.pro_info01 td {padding:2px 0; }
+.txt01 {font-size:32px; font-weight:700; color:#f40006; }
+.txt_s {font-size:11px; color:#77777a; font-weight:normal;}
+
+.pro_info02 {width:100%; text-align:left;}
+.pro_info02 th {min-width:120px; max-width:200px; }
+.pro_info02 td {padding:2px 0; }
+
+.case_btn_area {padding:16px 0 8px 0;} /* 상품캠페인내 성공전략 버튼 영역*/
+.case_btn_area .btn_main02 {padding:8px 0;}
+.info_txt_area {width:100%; text-align: left; line-height:130%; padding-top:24px; color:#77777a;}
+
+
+	/* 캠페인 상세 작은 버튼 */
+a.btn_s {
+    display: inline-block; position: relative; padding: 4px 8px; margin:0 0 4px 0; 
+    font-size:13px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
+    background-color:#222225; border-radius:3px;}
+    /* 캠페인 상세 빨간 링크, 마이페이지 상단 빨간 링크 */
+a.btn_line {text-decoration:underline; color:#f40006;}
+a.btn_line02 {text-decoration:underline; color:#77777a;}
+
+	/* 내수수료 확인 버튼 */   
+a.btn_s03 {
+    display: inline-block; position: relative; padding: 4px 8px; margin: 10px 0px; 
+    font-size:13px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
+    border:solid 1px #E1E0E1; background-color:#ffffff; 
+    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;}
+
+	/* 추천 인기상품 0번 이미지*/
+.sub_title02 {font-size:13px; text-align:left; padding:8px 0 24px 0;}
+.popular .thumb {position:relative; width:100%; margin-bottom:14px; }
+.popular .thumb img {width:100%;}	
+.popular .name {
+	width:100%; text-align:left; font-size:20px; font-weight:700; margin-bottom:8px;}
+.popular .name_sub {width:100%; text-align:left; font-size:13px; color:#f40006; margin-bottom:8px;}
+.popular .thumb .thumb_txt {
+	position:absolute; top:50%; margin-top:-70px; left:0; overflow:hidden;
+	width:100%; max-width:600px; z-index:1; 
+	padding:0; text-align:center; font-size:100%;
+	font-weight:700; color:#fff; text-shadow: 1px 1px 50px #222;}
+.popular .thumb_txt .size2 {position:relative; font-size:26px;}
+.popular .thumb_txt .size3 {position:relative; font-size:90px;}
+.popular .shadow01 {text-shadow: 1px 1px #000;}
+.popular .shadow03 {text-shadow: 3px 3px #000;}
+
+.popular .price {display:flex; padding-left:0px;}
+.popular .price .per {font-family:verdana; font-size: 36px; color: #f00004; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:-1px;}
+.popular .price .per span {font-size:16px;}
+.popular .price .price01 {font-size:13px; margin-bottom:-3px; color:#77777a; font-weight:normal; text-decoration:line-through;}
+.popular .price .price02 {font-size:18px; color:#222225;font-weight:bold; }	
+
+	/* 인기캠페인, 연관캠페인 상품 리스트 */
+.txt_s02 {font-size:13px; color:#77777a; font-weight:normal;}
+
+.hot_product {margin-top:16px;}
+.hot_product ul {display: flex; flex-wrap: wrap;}
+.hot_product ul li {width:48%; max-width:258px; margin-right:4%; margin-bottom:5%; text-align:left;}
+.hot_product ul li.last {margin-right:0; }
+.hot_product .thumb {position:relative; }
+.hot_product .thumb img{width:100%;}
+
+.hot_product .thumb_txt {overflow:hidden;
+	position:absolute; bottom:0px; left:0px; z-index:5; width:100%; height:30px;
+	padding: 0px 0 8px 0; text-align:center; 
+	font-size:clamp(23px, 6.3vw, 26px);font-weight:bold; 
+	color:#fff; text-shadow: 1px 1px 50px #000; 
+	background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);}
+.hot_product .thumb_txt .size2 {font-size:clamp(13px, 4.16vw, 18px)}
+
+.hot_product .name {font-size:clamp(13px, 4.16vw, 18px); font-weight:600; margin-bottom:10px; padding:8px 0 4px 4px;}
+.hot_product .price {display:flex; padding-left:3px;}
+.hot_product .price .per {font-family:verdana; font-size: clamp(30px, 8.3vw, 32px); color: #f40006; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:5px;}
+.hot_product .price .per span {font-size: clamp(10px, 2.7vw, 12px);}
+.hot_product .price .price01 {font-size: clamp(12px, 3vw, 14px); color:#77777a; text-decoration:line-through; font-weight:normal; line-height:1.2;}
+.hot_product .price .price02 {font-size: clamp(16px, 4.4vw, 18px); color:#222225;font-weight:bold; }
+
+.hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 15px);}
+
+/*.hot_product .thumb .thumb_txt04 {
+	position:absolute; top:118px; left:0; width:160px; height:30px; z-index:1; padding: 0px 0 12px 0;
+	text-align:center; font-size:30px; font-weight:bold; color:#fff; text-shadow: 1px 1px 50px #000; 
+	background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);}
+*/	
+
+
+
+/*
+.hot_product li {float:left; width:160px; margin: 0 16px 30px 0;}
+.hot_proudct .product li {width:43vw; border:solid 2px #336699;}
+.hot_proudct .product .thum {width:43vw;}
+.hot_proudct .product .thum img {width:100%;}
+
+	/* 인기 캠페인 
+.hot_product {position:relative; width:100%;}
+.hot_product li {float:left; width:160px; margin: 0 16px 30px 0;}
+.hot_product li.last {margin: 0px;}
+.hot_product .thumb {position:relative; margin-bottom:8px;}
+.hot_product .thumb img {width:160px;}
+
+.hot_product .thumb .thumb_txt {
+	position:absolute; top:0; left:0; width:160px; height:160px; z-index:1; padding: 35px 0 0 0;
+	text-align:center; font-size:50px; font-weight:bold; color:#fff; text-shadow: 1px 1px 50px #222;}
+	
+.hot_product .thumb .size2 {font-size:13px;}
+	
+.hot_product .thumb .thumb_txt04 {
+	position:absolute; top:118px; left:0; width:160px; height:30px; z-index:1; padding: 0px 0 12px 0;
+	text-align:center; font-size:30px; font-weight:bold; color:#fff; text-shadow: 1px 1px 50px #000; 
+	background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);}
+	
+.hot_product .name {height:36px; font-size:14px; font-weight:700; margin-bottom:10px; padding:0 4px;}
+.hot_product .price {display:flex; padding-left:3px;}
+.hot_product .price .per {font-family:verdana; font-size: 28px; color: #f00004; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:5px;}
+.hot_product .price .per span {font-size:13px;}
+.hot_product .price .price01 {font-size:12px;color:#77777a;text-decoration:line-through;}
+.hot_product .price .price02 {font-size:16px;color:#222225;font-weight:bold; }
+
+/* 캠페인정보 중간 nav */
+.gnb02 {padding-bottom:24px;}
+.gnb02 ul {
+	display:flex; justify-content:space-evenly; 
+	width:100%; height:50px; 
+	border-top:solid 1px #222225; border-bottom:solid 1px #222225; }
+.gnb02 ul li {align-self: center;}
+	
+.gnb03 {
+	position:relative; z-index:100;
+	width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
+.gnb03 ul {display:flex; justify-content:space-evenly; }
+.gnb03 ul li a {display:block; height:48px; line-height:48px; padding:0 8px;}
+.gnb03 ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:bold;}
+
+.detail_nav {width:100%; height:50px; background-color:#fff;
+	border-top:solid 1px #E1E0E1; border-bottom:solid 1px #E1E0E1;}
+.detail_nav ul {display:flex; justify-content:space-evenly; }
+.detail_nav  ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
+	
+/*.detail_nav {
+	width:100%; height:50px; background-color:#fff;
+	border-top:solid 1px #E1E0E1; border-bottom:solid 1px #E1E0E1; }
+.detail_nav ul {display:flex; justify-content:space-evenly; }
+.detail_nav ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
 
 /* footer ---------------------------------------------------------------------*/
 #footer .contents {text-align:left; padding-bottom:96px;}
