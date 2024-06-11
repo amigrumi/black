@@ -706,7 +706,7 @@ a.btn_s03 {
 
 .hot_product {margin-top:16px;}
 .hot_product ul {display: flex; flex-wrap: wrap;}
-.hot_product ul li {width:48%; max-width:258px; margin-right:4%; margin-bottom:5%; text-align:left;}
+.hot_product ul li {width:48%; max-width:288px; margin-right:4%; margin-bottom:5%; text-align:left;}
 .hot_product ul li.last {margin-right:0; }
 .hot_product .thumb {position:relative; }
 .hot_product .thumb img{width:100%;}
