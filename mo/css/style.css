@@ -83,9 +83,9 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 	/* gnb */
 .gnb {
-	position:fixed; top:60px; z-index:10;
-	width:100%; height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
-.gnb ul {display:flex; justify-content:space-evenly; }
+	position:fixed; width:100%; top:60px; z-index:10; 
+	height:50px; background-color:#fff; border-bottom:solid 1px #F5F5F5; overflow:hidden;}
+.gnb ul {display:flex; margin-left:3vw;}
 .gnb ul li a {display:block; height:48px; line-height:48px; padding:0 8px;}
 .gnb ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:bold;}
 
@@ -164,6 +164,28 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 	letter-spacing:-1px; margin-bottom:15px;}
 .main_time {font-size:10px; color:#999999; font-family:'SCDream','NotoSans KR'; 
 	margin-bottom:40px;}
+	
+/* 메인이벤트 */
+.stitle {margin-bottom:50px;}
+.point_box {position:relative; width:100%; margin:0 auto 54px auto;}
+.point_box02 {position:relative; width:100%; margin:0 auto 40px auto;}
+.point {position: absolute; top:0px; left:0; z-index:2;}
+.point_btn {
+	position: absolute; bottom:11vw; left:0%; margin-left:25vw; z-index:2;
+	width:51vw; height:14vw; border:solid 1px green;}
+.point_btn02 {
+	position: absolute; top:464px; left:70px; z-index:2;
+	width:190px; height:50px;}
+.point_btn03 {
+	position: absolute; top:444px; left:70px; z-index:2;
+	width:250px; height:50px;}
+.point_btn04 {
+	position: absolute; top:444px; left:70px; z-index:2;
+	width:270px; height:50px;}
+.point_btn05 {
+	position: absolute; top:378px; left:70px; z-index:2;
+	width:230px; height:50px;}
+
 
 /* contents */
 #container {
@@ -173,9 +195,12 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 .contents_100 {width:100%; max-width:600px; margin:0 auto; text-align:center;}
 .contents_100 img {width:100%;}
+.contents_94 {width:94%; max-width:600px; margin:0 auto; text-align:center;}
+.contents_94 img {width:100%;}
 .contents {width:90%; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
+.bg_black {text-align:center; background-color:#000;}
 
 	/* 기본B 메인 영상 영역 01*/
 .main_img_b {
@@ -589,7 +614,7 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 		
 .product_list01 {width:100%;} 
 .product_list01 ul {padding: 0px;}
-.product_list01 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #f5f5f5; }
+.product_list01 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee; }
 .product_list01 ul li.li_end {border-bottom:0px; }
 
 .product_list01 .thumb {
@@ -611,28 +636,12 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
 
 .thum_txt02 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px;
-	background-color:#fff; color:#77777a; border-radius:2px;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
-.thum_txt03 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px;
-	background-color:#FAC300; color:#fff; border-radius:2px;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
-.thum_txt04 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px;
-	background-color:#2D7CFB; color:#fff; border-radius:2px;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
-.thum_txt05 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:8px;
+	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
 	background-color:#fff; color:#f40006; border-radius:2px;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
-.thum_txt06 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:7px;
-	background-color:#fff; color:#77777a; border-radius:2px; border:solid 1px #f40006;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
+	font-size:clamp(12px, 3vw, 14px); font-weight:normal; text-align:center;} /*할인형태 뱃지*/
 .thum_txt07 {
 	padding-left:4px; color:#77777a; font-weight:normal;
-	font-size:clamp(13px, 3.6vw, 16px); }
+	font-size:clamp(13px, 3.6vw, 16px); }/*할인형태 - 일반*/
 
 .title_area {
 	display:flex; flex-flow: column wrap; justify-content: space-around;
@@ -642,14 +651,15 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 
 .per_area {display:flex; position:relative;}
 .per01 {font-size:clamp(30px, 8.3vw, 34px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
+.per01_s {font-size:clamp(20px, 5.5vw, 23px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
 .per_s {font-size:clamp(10px, 2.7vw, 13px);}
 .price {font-size:clamp(16px, 4.4vw, 20px); font-weight:600; color:#222225; line-height:1.3;}
 .price .p01 {font-size:clamp(11px, 3vw, 14px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;}
 .title_area .add_txt01 {align-self:flex-start; font-size:clamp(12px, 3.6vw, 15px); padding:8px; background:#f40006; color:#fff; border-radius:4px;}
-.title_area .add_txt01 a {display: block; color:#fff;}
+.title_area .add_txt03 a {display: block; color:#fff;}
 .title_area .add_txt02 {align-self:flex-start; font-size:clamp(12px, 3.6vw, 15px); padding:8px; background:#000; color:#fff; border-radius:4px;}
 .em_125 {font-size:1.25em;}
-.title_area .add_txt03 {align-self:flex-start; font-size:clamp(15px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;}
+.title_area .add_txt03 {align-self:flex-start; font-size:clamp(15px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;} /* 자세히보기, product_c 수수료 사용 */
 
 /* 상품 캠페인 */
 .pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
@@ -839,12 +849,10 @@ a.btn_s03 {
 
 
 .foot_bn02 {
-	position:fixed; width:80%; height:70px; bottom:10px; z-index:55;
-	left:5%; bottom:18px; z-index: 50; padding:0 5%;
-	box-shadow: rgba(0,0,0,0.1) 0px 0px 15px; border-radius:16px; background:#fff;
-	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#222225; 
-	text-align:center; overflow:hidden;}	
-.foot_bn02 .close{position:absolute; width:12px; right:8px; top:8px;}
+	position:fixed; width:90%; height:70px; bottom:0px; z-index:55;
+	padding:0 5%; background:#f40006;
+	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#fff; overflow:hidden;}	
+.foot_bn02 .close{position:absolute; width:24px; right:8px; top:8px;}
 .foot_bn02 .bn02{width:auto; height:25px;}
     
 
