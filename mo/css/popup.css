@@ -155,6 +155,8 @@ button {background:none; border:0px;}
 .pop_mn li a {display:block; height:50px; line-height:48px; padding-left:50px;}
 .bg_cate {background: url(../images/common/bg_cate.png)  no-repeat;
 	background-size: 50px 850px; vertical-align: top;}
+.bg_brand {background: url(../images/common/bg_brand.png)  no-repeat;
+	background-size: 50px 850px; vertical-align: top;}
 .mn00 {background-position: 0px -800px;}
 .mn01 {background-position: 0px 0px;}
 .mn02 {background-position: 0px -50px;}
