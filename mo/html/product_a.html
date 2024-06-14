@@ -10,6 +10,7 @@
 	<title>기본형01(버튼레드)</title>
 
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
 	
@@ -64,10 +65,10 @@
 	<div id="container02">
 		<div class="select01">
 			<ul>
-				<li><a href="#">카테고리</a></li>
-				<li><a href="#">정렬</a></li>
-				<li><a href="#">브랜드</a></li>
-				<li><a href="#">할인율</a></li>
+				<li><a href="#" onclick="javascript:openPopup('black_ra');">카테고리</a></li>
+				<li><a href="#" onclick="javascript:openPopup('black_rb');">정렬</a></li>
+				<li><a href="#" onclick="javascript:openPopup('black_rc');">브랜드</a></li>
+				<li><a href="#" onclick="javascript:openPopup('black_rd');">할인율</a></li>
 			</ul>
 		</div>
 		<div class="bn_area">
@@ -409,6 +410,86 @@
 	<!-- //nav -->	
 	
 	<div id="side"></div>
+	
+	<!--팝업 -->
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r4_red').hide(); 
+			$('.pop_r4').hide();
+			$('.pop_r24_red').hide(); 
+			$('.pop_r24').hide();
+			$('.mask').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		<!-- 팝업 r A형 -->
+		<div class="contents">
+			<div class="pop_r24_red black_ra">
+				<div class="title">
+					<span>카테고리 선택</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close02.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="con">
+					<ul class="pop_mn">
+						<li><a class="bg_cate mn00" href="#">전체</a></li>
+						<li>&nbsp;</li>
+						<li><a class="bg_cate mn01" href="#">생활용품</a></li>
+						<li><a class="bg_cate mn02" href="#">패션/잡화</a></li>
+						<li><a class="bg_cate mn03" href="#">주방용품</a></li>
+						<li><a class="bg_cate mn04" href="#">차량용품</a></li>
+						<li><a class="bg_cate mn05" href="#">청소/욕실</a></li>
+						<li><a class="bg_cate mn06" href="#">운동/홈트</a></li>
+						<li><a class="bg_cate mn07" href="#">메이크업</a></li>
+						<li><a class="bg_cate mn08" href="#">여행/캠핑</a></li>
+						<li><a class="bg_cate mn09" href="#">기초</a></li>
+						<li><a class="bg_cate mn10" href="#">전자기기</a></li>
+						<li><a class="bg_cate mn11" href="#">헤어</a></li>
+						<li><a class="bg_cate mn12" href="#">유아용품</a></li>
+						<li><a class="bg_cate mn13" href="#">바디</a></li>
+						<li><a class="bg_cate mn14" href="#">반려동물</a></li>
+						<li><a class="bg_cate mn15" href="#">속옷</a></li>
+						<li><a class="bg_cate mn16" href="#">남성</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //팝업 r A형 -->
+		<!-- 팝업 r B형 
+		<div class="pop_r24_red black_rb">
+			<div class="title">
+				<span>히든상품제안서</span>
+				<button type="button" onclick="closePopup()" class="close_w30">
+					<img src="../images/common/btn_close_white40.png" alt="닫기" />
+				</button>
+			</div>
+			<div class="con">
+				<h2>안녕하세요. 리뷰야놀자님</h2>
+				<p class="pop_t01">좋은 공구 기회가 있어서 제안드립니다. <br />
+				아래 혜택을 확인해 보시고 상품코드 요청해주세요.</p>
+				<h2>혜택</h2>
+				<div class="pop_t02">
+					<p>1. 수수료가 올라가는 파트너 등급 상향</p>
+					<p>2. 사이트 가격보다 저렴한 최저가 공구판매</p>
+					<p>3. 한정인원으로 경쟁력 향상</p>
+					<p>4. 주기적인 히든 상품 제안</p>
+					<p>5. 인기 성공사례 및 컨텐츠 전략 제공</p>
+					<p>6. 한정기간 수수료 5% 추가 혜택</p>
+				</div>
+			</div>
+		</div>
+		<!-- //팝업 r b형 -->
+		<div class="mask"></div>
+	</div>
 	
 
 	
