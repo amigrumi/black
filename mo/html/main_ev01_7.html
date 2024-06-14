@@ -24,6 +24,16 @@
 	      });
 	</script>
 	<!-- //include -->
+	<!-- imgmap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 	<script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+	 <script>
+	$(function(){
+		$('img[usemap]').rwdImageMaps();
+		$("#img").width("100%");
+	});
+	</script>
+	<!-- //imgmap -->
 	
 
 </head>
@@ -48,33 +58,37 @@
 				<img class="pb40" src="../images/common/main_ev01_bn01.gif" alt="혜택 7가지" />
 				<a href="#"><img class="pb96" src="../images/common/main_ev01_btn01.png" alt="인기상품 보러가기" /></a>
 			</div>
-			<!--img src="../z_draft/a07_title.png" />
-			<img src="../z_draft/a07_bn.gif"  style="width:90%"/>
-			<img src="../z_draft/a_btn.png" />
-			<img src="../z_draft/a07.png" /-->
 		</div>
 		<div class="bg_black">
 			<div class="contents">
 				<img class="stitle pt80" src="../images/common/main_ev01_stitle01.png" alt="가입해야 하는 이유 0가지" />
 				<div class="point_box">
 					<img class="point" src="../images/common/main_ev01_point01.png" alt="혜택01" />
-					<img src="../images/common/main_ev01_con01.png" alt="혜택01"/>
-					<a class="point_btn" href="#">&nbsp;</a>
+					<img src="../images/common/main_ev01_con01.png" alt="혜택01" usemap="#map01"/>
+					<map name="map01" id="map01">
+						<area target="_blank" href="#" coords="210,889,760,1032" shape="rect">
+					</map>
 				</div>
 				<div class="point_box">
 					<img class="point" src="../images/common/main_ev01_point02.png" alt="혜택02" />
-					<img src="../images/common/main_ev01_con02.png" alt="혜택02" />
-					<a class="point_btn" href="#">&nbsp;</a>
+					<img src="../images/common/main_ev01_con02.png" alt="혜택02" usemap="#map02"/>
+					<map name="map02" id="map02">
+						<area target="_blank" href="#" coords="210,984,760,1128" shape="rect">
+					</map>
 				</div>
 				<div class="point_box">
 					<img class="point" src="../images/common/main_ev01_point03.png" alt="혜택03" />
-					<img src="../images/common/main_ev01_con03.png" alt="혜택03" />
-					<a class="point_btn" href="#">&nbsp;</a>
+					<img src="../images/common/main_ev01_con03.png" alt="혜택02" usemap="#map03"/>
+					<map name="map03" id="map03">
+						<area target="_blank" href="#" coords="210,1152,760,1296" shape="rect">
+					</map>
 				</div>
 				<div class="point_box">
 					<img class="point" src="../images/common/main_ev01_point04.png" alt="혜택04" />
-					<img src="../images/common/main_ev01_con04.png" alt="혜택04" />
-					<a class="point_btn" href="#">&nbsp;</a>
+					<img src="../images/common/main_ev01_con04.png" alt="혜택02" usemap="#map04"/>
+					<map name="map04" id="map04">
+						<area target="_blank" href="#" coords="210,1005,760,1150" shape="rect">
+					</map>
 				</div>
 				<div class="point_box">
 					<img class="point" src="../images/common/main_ev01_point05.png" alt="혜택05" />
