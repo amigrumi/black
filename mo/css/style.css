@@ -170,21 +170,6 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .point_box {position:relative; width:100%; margin:0 auto 54px auto;}
 .point_box02 {position:relative; width:100%; margin:0 auto 40px auto;}
 .point {position: absolute; top:0px; left:0; z-index:2;}
-.point_btn {
-	position: absolute; bottom:11vw; left:0%; margin-left:25vw; z-index:2;
-	width:51vw; height:14vw; border:solid 1px green;}
-.point_btn02 {
-	position: absolute; top:464px; left:70px; z-index:2;
-	width:190px; height:50px;}
-.point_btn03 {
-	position: absolute; top:444px; left:70px; z-index:2;
-	width:250px; height:50px;}
-.point_btn04 {
-	position: absolute; top:444px; left:70px; z-index:2;
-	width:270px; height:50px;}
-.point_btn05 {
-	position: absolute; top:378px; left:70px; z-index:2;
-	width:230px; height:50px;}
 
 
 /* contents */
