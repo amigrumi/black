@@ -613,43 +613,43 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 	position:absolute; bottom:0px; left:0px; z-index:5; width:100%; height:28px;
 	background:rgba(0,0,0,0.5); color:#fff; 
 	display: flex; justify-content: space-around; align-items: center;}
-.product_list01 .thumb_txt p {font-size:clamp(10px, 3.3vw, 15px);}
+.product_list01 .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
 
 .thum_txt01 {
 	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
 	background-color:#d61919; color:#fff; border-radius:20px;
-	font-size:clamp(13px, 3.6vw, 16px); font-weight:bold; text-align:center;}
+	font-size:clamp(11px, 3.6vw, 16px); font-weight:bold; text-align:center;}
 
 .thum_txt02 {
 	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
 	background-color:#fff; color:#f40006; border-radius:2px;
-	font-size:clamp(12px, 3vw, 14px); font-weight:normal; text-align:center;} /*할인형태 뱃지*/
+	font-size:clamp(9px, 3vw, 13px); font-weight:normal; text-align:center;} /*할인형태 뱃지*/
 .thum_txt07 {
 	padding-left:4px; color:#77777a; font-weight:normal;
-	font-size:clamp(13px, 3.6vw, 16px); }/*할인형태 - 일반*/
+	font-size:clamp(11px, 3.6vw, 16px); }/*할인형태 - 일반*/
 
 .title_area {
 	display:flex; flex-flow: column wrap; justify-content: space-around;
 	width:50%; text-align:left;} /* 제품명 영역  */
-.t01 {font-weight:bold; font-size:clamp(16px, 4.4vw, 20px); line-height:1.2;} 
-.t02 {font-size:clamp(13px, 3.6vw, 16px); padding-top:1.1vw;} 
+.t01 {font-weight:bold; font-size:clamp(14px, 4.4vw, 19px); line-height:1.2;} 
+.t02 {font-size:clamp(11px, 3.6vw, 16px); padding-top:1.1vw;} 
 
 .per_area {display:flex; position:relative;}
-.per01 {font-size:clamp(30px, 8.3vw, 34px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
-.per01_s {font-size:clamp(20px, 5.5vw, 23px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
-.per_s {font-size:clamp(10px, 2.7vw, 13px);}
-.price {font-size:clamp(16px, 4.4vw, 20px); font-weight:600; color:#222225; line-height:1.3;}
-.price .p01 {font-size:clamp(11px, 3vw, 14px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;}
-.title_area .add_txt01 {align-self:flex-start; font-size:clamp(12px, 3.6vw, 15px); padding:8px; background:#f40006; color:#fff; border-radius:4px;}
+.per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
+.per01_s {font-size:clamp(18px, 5.5vw, 25px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
+.per_s {font-size:clamp(9px, 2.7vw, 12px);}
+.price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;}
+.price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;}
+.title_area .add_txt01 {align-self:flex-start; font-size:clamp(11px, 3.6vw, 16px); padding:8px; background:#f40006; color:#fff; border-radius:4px;}
 .title_area .add_txt03 a {display: block; color:#fff;}
-.title_area .add_txt02 {align-self:flex-start; font-size:clamp(12px, 3.6vw, 15px); padding:8px; background:#000; color:#fff; border-radius:4px;}
+.title_area .add_txt02 {align-self:flex-start; font-size:clamp(11px, 3.6vw, 16px); padding:8px; background:#000; color:#fff; border-radius:4px;}
 .em_125 {font-size:1.25em;}
-.title_area .add_txt03 {align-self:flex-start; font-size:clamp(15px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;} /* 자세히보기, product_c 수수료 사용 */
+.title_area .add_txt03 {align-self:flex-start; font-size:clamp(13px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;} /* 자세히보기, product_c 수수료 사용 */
 
 /* 상품 캠페인 */
 .pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
-.pro_title .name {font-family:'Noto Sans KR'; font-size:clamp(20px, 5.5vw, 23px); font-weight:600; letter-spacing:-1px; line-height:130%; padding-bottom:8px;}
-.pro_title .add {color:#f00004; font-size:clamp(16px, 4.4vw, 19px); font-weight:400;}
+.pro_title .name {font-family:'Noto Sans KR'; font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px; line-height:130%; padding-bottom:8px;}
+.pro_title .add {color:#f00004; font-size:clamp(14px, 4.4vw, 19px); font-weight:400;}
 .pro_title .favorite img {width:24px; height:24px; margin-left:4px;}
 
 .pro_info01 {width:100%; text-align:left;}
@@ -674,14 +674,24 @@ a.btn_s {
     background-color:#222225; border-radius:3px;}
     /* 캠페인 상세 빨간 링크, 마이페이지 상단 빨간 링크 */
 a.btn_line {text-decoration:underline; color:#f40006;}
-a.btn_line02 {text-decoration:underline; color:#77777a;}
+/*a.btn_line02 {text-decoration:underline; color:#77777a;}*/
 
-	/* 내수수료 확인 버튼 */   
+	/* 캠페인 정보 - 내수수료 확인, 버튼 */   
 a.btn_s03 {
-    display: inline-block; position: relative; padding: 4px 8px; margin: 10px 0px; 
-    font-size:13px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
+    display: inline-block; position: relative; padding: 6px 12px; margin: 10px 0px; 
+    font-size:14px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
     border:solid 1px #E1E0E1; background-color:#ffffff; 
     box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;}
+a.btn_s03_bl {
+    display: inline-block; position: relative; padding: 6px 12px; margin: 10px 0px; 
+    font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
+    border:solid 1px #000; background-color:#000; 
+    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;}
+a.btn_s03_bl02 {
+    display: inline-block; position: relative; padding: 6px 12px; margin: 0px; 
+    font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
+    border:solid 1px #000; background-color:#000; 
+    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;} /*margin없음*/
 
 	/* 추천 인기상품 0번 이미지*/
 .sub_title02 {font-size:13px; text-align:left; padding:8px 0 24px 0;}
@@ -719,19 +729,19 @@ a.btn_s03 {
 .hot_product .thumb_txt {overflow:hidden;
 	position:absolute; bottom:0px; left:0px; z-index:5; width:100%; height:30px;
 	padding: 0px 0 8px 0; text-align:center; 
-	font-size:clamp(23px, 6.3vw, 26px);font-weight:bold; 
+	font-size:clamp(21px, 6.3vw, 28px);font-weight:bold; 
 	color:#fff; text-shadow: 1px 1px 50px #000; 
 	background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);}
 .hot_product .thumb_txt .size2 {font-size:clamp(13px, 4.16vw, 18px)}
 
 .hot_product .name {font-size:clamp(13px, 4.16vw, 18px); font-weight:600; margin-bottom:10px; padding:8px 0 4px 4px;}
 .hot_product .price {display:flex; padding-left:3px;}
-.hot_product .price .per {font-family:verdana; font-size: clamp(30px, 8.3vw, 32px); color: #f40006; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:5px;}
-.hot_product .price .per span {font-size: clamp(10px, 2.7vw, 12px);}
-.hot_product .price .price01 {font-size: clamp(12px, 3vw, 14px); color:#77777a; text-decoration:line-through; font-weight:normal; line-height:1.2;}
-.hot_product .price .price02 {font-size: clamp(16px, 4.4vw, 18px); color:#222225;font-weight:bold; }
+.hot_product .price .per {font-family:verdana; font-size: clamp(30px, 8.3vw, 35px); color: #f40006; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:5px;}
+.hot_product .price .per span {font-size: clamp(9px, 2.7vw, 12px);}
+.hot_product .price .price01 {font-size: clamp(9px, 3vw, 13px); color:#77777a; text-decoration:line-through; font-weight:normal; line-height:1.2;}
+.hot_product .price .price02 {font-size: clamp(14px, 4.4vw, 19px); color:#222225;font-weight:bold; }
 
-.hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 15px);}
+.hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
 
 /*.hot_product .thumb .thumb_txt04 {
 	position:absolute; top:118px; left:0; width:160px; height:30px; z-index:1; padding: 0px 0 12px 0;
@@ -775,7 +785,7 @@ a.btn_s03 {
 /* 캠페인정보 중간 nav */
 .gnb02 {padding-bottom:24px;}
 .gnb02 ul {
-	display:flex; justify-content:space-evenly; 
+	display:flex; justify-content:space-around; 
 	width:100%; height:50px; 
 	border-top:solid 1px #222225; border-bottom:solid 1px #222225; }
 .gnb02 ul li {align-self: center;}
@@ -818,11 +828,11 @@ a.btn_s03 {
 
 
 /* 플로팅_카톡메뉴 & top버튼 */
-.side-pop01 {position:fixed; right: 5%; bottom: 158px; z-index: 10;}
+.side-pop01 {position:fixed; right: 5%; bottom: 108px; z-index: 10;}
 .side-pop01 img {width:40px; height:40px;}
 .side-pop01 a {display: block; padding-bottom: 5px; text-align: right;}
  
-.side-pop02 {position:fixed; right: 5%; bottom: 110px; z-index: 10;}
+.side-pop02 {position:fixed; right: 5%; bottom: 60px; z-index: 10;}
 .side-pop02 img {width:40px; height:40px;}
 .side-pop02 a {display: block; padding-bottom: 5px; text-align: right;}
 
