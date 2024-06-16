@@ -121,6 +121,16 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 #nav02 .product {width:50%; line-height:50px; background:#000; color:#fff; font-size:15px; font-weight:bold;}
 #nav02 .copy {width:50%; line-height:50px;background:#f40006; color:#fff; font-size:15px; font-weight:bold;}
 
+	/* 캠페인 중간 nav */
+#nav02_top {
+	width:100%; height:50px; overflow:hidden; 
+	border-top:solid 1px #000; border-bottom:solid 1px #000; background-color:#fff;
+	display:flex; text-align: center;}
+#nav02_top .heart {width:60px; line-height:50px; background:#fff;}
+#nav02_top .heart img {width:50px; height:50px;}
+#nav02_top .product {width:50%; line-height:50px; background:#000; color:#fff; font-size:15px; font-weight:bold;}
+#nav02_top .copy {width:50%; line-height:50px;background:#f40006; color:#fff; font-size:15px; font-weight:bold;}
+
 /* common */
 .pt8 {padding-top:8px;}
 .pt24 {padding-top:24px;}
@@ -133,7 +143,8 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb96 {padding-bottom:96px;}
 
 .flex {display:flex; align-items:center;}
-.flex_base {display:flex;}
+.flex_col {flex-direction: column;}
+.flex_base {display:flex; flex-direction: column;}
 .flex_js_center {justify-content:center;}
 .flex_al_center {align-items: center;}
 .flex_btw {justify-content: space-between;}
@@ -189,7 +200,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 	/* 기본B 메인 영상 영역 01*/
 .main_img_b {
-	left:25%; width:50%; border-radius:28px; margin: 40px 0 96px 0;
+	left:25%; width:50%; border-radius:28px; margin: 40px 0 40px 0;
 	overflow: hidden; object-fit:cover;
 	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
 .main_img_b video {width:100%; height: auto; overflow: hidden;}
@@ -198,20 +209,19 @@ img.main_b_txt01 {top:0px; width:15%; margin:0 5%;}
 
 	/* 기본B-03 메인 영상 영역 01*/
 .main_b02_bg {
-	background:url(../images/common/main_b01.png) top left no-repeat;
+	background:url(../images/common/main_b01.png) top center no-repeat;
 	background-size:cover;
-	width:100%; min-width:200px; min-height:189px;
+	width:100%; min-width:340px; min-height:189px;
 }
 .main_img_b03 {
-	width:40%; min-width:100px; height:auto; border-radius:28px; margin: 4px auto 64px auto;
+	width:40%; min-width:170px; height:auto; border-radius:28px; margin: 4px auto 64px auto;
 	overflow: hidden; object-fit:cover; background:#fff;
 	border:solid 4px #fff; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
-.main_img_b03 video {width:100%; min-width:92px; height: auto; overflow: hidden;}
+.main_img_b03 video {width:100%; min-width:170px; height: auto; overflow: hidden;}
 .main_img_b03 img {width:100%; height: auto; border-radius:28px;}
 img.main_b03_txt01 {top:0px; width:15%; height:auto; margin:0 5%;}
 
 	/* 기본B-02 메인 영상 영역 01*/
-
 .main_img_b02 {
 	left:50px; width:40%; border-radius:28px; margin: 0px 0 90px 0;
 	overflow: hidden; object-fit:cover;
@@ -248,8 +258,9 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .good_case {
 	line-height:150%;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
-	margin-bottom:24px;}
-.case_area {display: flex; justify-content: space-between; margin-bottom:8px;}
+	margin-bottom:24px; border-bottom:solid 1px #E1E0E1; padding:12px 0 24px 0;}
+.noline {border:0px;}
+.case_area {display: flex; justify-content: space-between; }
 .case_area .ad_img {margin-right:4%;}
 .case_area .ad_img video {
 	border:solid 4px #ffffff; border-radius:16px; background:#fff;
@@ -634,17 +645,23 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .t01 {font-weight:bold; font-size:clamp(14px, 4.4vw, 19px); line-height:1.2;} 
 .t02 {font-size:clamp(11px, 3.6vw, 16px); padding-top:1.1vw;} 
 
-.per_area {display:flex; position:relative;}
-.per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
-.per01_s {font-size:clamp(18px, 5.5vw, 25px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
-.per_s {font-size:clamp(9px, 2.7vw, 12px);}
-.price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;}
-.price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;}
+.product_list01 .per_area {display:flex; position:relative;}
+.product_list01 .per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
+.product_list01 .per01_s {font-size:clamp(18px, 5.5vw, 25px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
+.product_list01 .per_s {font-size:clamp(9px, 2.7vw, 12px);}
+.product_list01 .price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;}
+.product_list01 .price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;}
+
 .title_area .add_txt01 {align-self:flex-start; font-size:clamp(11px, 3.6vw, 16px); padding:8px; background:#f40006; color:#fff; border-radius:4px;}
 .title_area .add_txt03 a {display: block; color:#fff;}
 .title_area .add_txt02 {align-self:flex-start; font-size:clamp(11px, 3.6vw, 16px); padding:8px; background:#000; color:#fff; border-radius:4px;}
 .em_125 {font-size:1.25em;}
 .title_area .add_txt03 {align-self:flex-start; font-size:clamp(13px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;} /* 자세히보기, product_c 수수료 사용 */
+
+ /* 할인율 작은 버전 추가 시안 - 최종 결정되면 삭제 가능 */
+.per_area02 {position:relative;}
+.per_area02 .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1; margin-bottom:2px;}
+.per01_s .p02 {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; }
 
 /* 상품 캠페인 */
 .pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
@@ -721,7 +738,7 @@ a.btn_s03_bl02 {
 
 .hot_product {margin-top:16px;}
 .hot_product ul {display: flex; flex-wrap: wrap;}
-.hot_product ul li {width:48%; max-width:288px; margin-right:4%; margin-bottom:5%; text-align:left;}
+.hot_product ul li {width:48%; max-width:288px; margin-right:4%; margin-bottom:10%; text-align:left;}
 .hot_product ul li.last {margin-right:0; }
 .hot_product .thumb {position:relative; }
 .hot_product .thumb img{width:100%;}
@@ -734,13 +751,21 @@ a.btn_s03_bl02 {
 	background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);}
 .hot_product .thumb_txt .size2 {font-size:clamp(13px, 4.16vw, 18px)}
 
-.hot_product .name {font-size:clamp(13px, 4.16vw, 18px); font-weight:600; margin-bottom:10px; padding:8px 0 4px 4px;}
-.hot_product .price {display:flex; padding-left:3px;}
-.hot_product .price .per {font-family:verdana; font-size: clamp(30px, 8.3vw, 35px); color: #f40006; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0; padding-top:5px;}
+.hot_product .name {font-size:clamp(13px, 4.16vw, 18px); font-weight:600; margin-bottom:10px; padding:8px 0 0px 2px;}
+
+.hot_product .per_area {display:flex; position:relative;}
+.hot_product .per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;} /* 할인율 */
+.hot_product .per_s {font-size:clamp(9px, 2.7vw, 12px);}
+.hot_product .price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;} /* 할인가격 */
+.hot_product .price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:normal; color:#999; text-decoration:line-through; line-height:1;} /* 기존가격 */
+
+/*
+.hot_product .price {display:flex; padding-left:3px; border:solid 1px #ff3300;}
+.hot_product .price .per {font-family:verdana; font-size: clamp(30px, 8.3vw, 35px); color: #f40006; text-align: center; font-weight: bold; letter-spacing: -2px; margin:0 10px 0 0;}
 .hot_product .price .per span {font-size: clamp(9px, 2.7vw, 12px);}
 .hot_product .price .price01 {font-size: clamp(9px, 3vw, 13px); color:#77777a; text-decoration:line-through; font-weight:normal; line-height:1.2;}
 .hot_product .price .price02 {font-size: clamp(14px, 4.4vw, 19px); color:#222225;font-weight:bold; }
-
+*/
 .hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
 
 /*.hot_product .thumb .thumb_txt04 {
