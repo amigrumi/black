@@ -421,26 +421,24 @@
 			}
 	 	// 팝업 닫기
 		function closePopup(flag) {
-			$('.pop_r4_red').hide(); 
-			$('.pop_r4').hide();
 			$('.pop_r24_red').hide(); 
-			$('.pop_r24').hide();
+			$('.pop_r24_red02').hide();
 			$('.mask').hide(); 
 			};
 	</script>
 	
 	<div class="pop_wrap">
-		<!-- 카테고리 선택 -
+		<!-- 카테고리 선택 -->
 		<div class="contents">
 			<div class="pop_r24_red black_ra">
-				<div class="title">
+				<div class="pop_title">
 					<span>카테고리 선택</span>
 					<button type="button" onclick="closePopup()" class="close_w30" >
 						<img src="../images/common/ico_close02.png" alt="닫기" />
 					</button>
 				</div>
-				<div class="con">
-					<ul class="pop_mn">
+				<div class="pop_con">
+					<ul class="pop_sel">
 						<li><a class="bg_cate mn00" href="#">전체</a></li>
 						<li>&nbsp;</li>
 						<li><a class="bg_cate mn01" href="#">생활용품</a></li>
@@ -466,15 +464,15 @@
 		<!-- 카테고리 선택 -->
 		<!-- 브랜드 선택 -->
 		<div class="contents">
-			<div class="pop_r24_red black_ra">
-				<div class="title">
+			<div class="pop_r24_red black_rc">
+				<div class="pop_title">
 					<span>브랜드 선택</span>
 					<button type="button" onclick="closePopup()" class="close_w30" >
 						<img src="../images/common/ico_close02.png" alt="닫기" />
 					</button>
 				</div>
-				<div class="con">
-					<ul class="pop_mn">
+				<div class="pop_con">
+					<ul class="pop_sel">
 						<li><a class="bg_brand mn00" href="#">전체</a></li>
 						<li>&nbsp;</li>
 						<li><a class="bg_brand mn01" href="#">깔끔대장</a></li>
@@ -494,6 +492,71 @@
 			</div>
 		</div>
 		<!-- 브랜드 선택 -->
+		<!-- 정렬 선택 -->
+		<div class="contents">
+			<div class="pop_r24_red02 black_rb">
+				<div class="pop_title">
+					<span>정렬 선택</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close02.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con">
+					<table class="pop_sel02">
+						<tr>
+							<td><a href="#">인기순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">신상품순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">판매순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">높은가격순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">낮은가격순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">수수료높은순</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">추가수수료높은순</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 정렬 선택 -->
+		<!-- 할인율 선택 -->
+		<div class="contents">
+			<div class="pop_r24_red02 black_rd">
+				<div class="pop_title">
+					<span>정렬 선택</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close02.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con">
+					<table class="pop_sel02">
+						<tr>
+							<td><a href="#">전체</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">할인상품</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">초특가상품</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">소수독점상품</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 할인율 선택 -->
 		<div class="mask"></div>
 	</div>
 	

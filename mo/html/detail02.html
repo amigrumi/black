@@ -41,6 +41,13 @@
 		}
 		-->
 	</script>
+	<script>
+	function ff(tt){
+	var temp = tt.src;
+	tt.src = tt.getAttribute('data-src');
+	tt.setAttribute('data-src',temp);
+	}
+	</script>
 	
 
 </head>
@@ -52,7 +59,9 @@
 	<!-- ★home -->
 	<!-- nav -->
 	<div id="nav02">
-		<a class="heart" href="#"><img src="../images/common/ico_nav02_heart02.png" /></a>
+		<a class="heart" href="#">
+			<img src="../images/common/ico_nav02_heart02.png" data-src='../images/common/ico_nav02_heart02_on.png' onclick="javascript_:ff(this);">
+		</a>
 		<a class="product" href="#">상품페이지</a>
 		<a class="copy" href="#">코드복사</a>
 	</div>
