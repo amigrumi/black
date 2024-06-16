@@ -42,6 +42,13 @@
 		}
 		-->
 	</script>
+	<script>
+	function ff(tt){
+	var temp = tt.src;
+	tt.src = tt.getAttribute('data-src');
+	tt.setAttribute('data-src',temp);
+	}
+	</script>
 	
 
 </head>
@@ -79,7 +86,11 @@
 				<div class="flex flex_btw">
 					<p class="add">리뷰100만개 인기상품</p>
 					<div class="favorite">
-						<span><a href="#"><img src="../images/common/ico_heart_off.png" alt="찜" /></a></span>
+						<span>
+							<a href="#">
+							<img src="../images/common/ico_heart_off.png" data-src='../images/common/ico_heart_on.png' onclick="javascript_:ff(this);">
+							</a>
+						</span>
 						<span><a href="#"><img src="../images/common/ico_link_off.png" alt="공유" /></a></span>
 					</div>
 				</div>
@@ -100,10 +111,16 @@
 					<td>추가수수료 <span class="red">16%</span> <span class="txt_s">(6월 30일 판매까지)</span></td>
 				</tr>
 				<tr>
-					<td colspan="2"><a class="btn_s03" href="#">내수수료 확인하기</a></td>
+					<td colspan="2">
+						<a class="btn_s03" href="#">내수수료 확인하기</a>
+						<a class="btn_s03_bl" href="#">할인가에 구매하기</a>
+					</td>
 				</tr>
 			</table>
-			<div class="bg_gray">
+		</div>
+		
+		<div class="bg_gray pt8 pb8">
+			<div class="contents">
 				<table class="pro_info01 pb8 pt8">
 					<colgroup><col width="70"/><col width="300"/></colgroup>
 					<tr>
@@ -139,6 +156,14 @@
 					</tr>
 				</table>
 			</div>
+		</div>
+		<!-- nav -->
+		<div id="nav02_top">
+			<a class="product" href="#">상품페이지</a>
+			<a class="copy" href="#">코드복사</a>
+		</div>
+		<!-- //nav -->
+		<div class="contents">
 			<div class="pt24 pb24">
 			<a href="#"><img src="../images/banner/top_bn01.png" alt="banner" /></a>
 			</div>
@@ -193,7 +218,7 @@
 		<!-- //컨텐츠 전략 -->
 		<!-- 성공 전략 -->
 		<div class="bg_gray">
-			<div class="contents pb40">
+			<div class="contents pb24">
 				<h2 class="sub_title red pb24">성공전략</h2>
 				<!-- 성공사례01 -->
 				<div class="good_case">
@@ -208,10 +233,10 @@
 						<!-- 광고 결과  -->
 						<div class="txt_area">
 							<div class="profile">
-								<img src="https://amigrumi.github.io/black/partners/images/good_case/a0001_profile.png" alt="프로필" />
+								<img src="../images/good_case/a0001_profile.png" alt="프로필" />
 							</div>
 							<div class="copy">
-								<img src="https://amigrumi.github.io/black/partners/images/good_case/a0001_copy.png" alt="영상1개로 반응" />
+								<img src="../images/good_case/a0001_copy.png" alt="영상1개로 반응" />
 							</div>
 							<div class="result">
 								<table>
@@ -251,6 +276,10 @@
 					</div>
 				</div>
 				<!-- //성공사례01 -->
+				<!-- 테스트 -->
+				<div class="good_case">
+					<img src="../images/test/good.png" alt="영상1개로 반응" />
+				</div>
 				<!-- 성공사례01 -->
 				<div class="good_case">
 					<div class="case_area">
@@ -308,7 +337,7 @@
 				</div>
 				<!-- //성공사례01 -->
 				<!-- 성공사례01 -->
-				<div class="good_case">
+				<div class="good_case noline">
 					<div class="case_area">
 						<!-- 제품 광고 이미지  -->
 						<div class="ad_img">
@@ -405,7 +434,7 @@
 			<div class="contents pb40">
 				<h2 class="sub_title red">리뷰제품구매</h2>
 				<div class="info_txt_area">
-					<a class="btn_line02" href="#">할인가에 구매하기</a>
+					<a class="btn_s03_bl02" href="#">할인가에 구매하기</a>
 				</div>
 			</div>
 		</div>
@@ -613,13 +642,15 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
 								</div>
-							</div>		
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
+								</div>
+							</div>	
 						</li>
 						<li class="last">
 							<div class="thumb">
@@ -630,11 +661,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -647,11 +680,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -664,11 +699,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -681,11 +718,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -698,11 +737,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -715,11 +756,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -732,11 +775,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -749,11 +794,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -766,11 +813,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -797,11 +846,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -814,11 +865,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -831,11 +884,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -848,11 +903,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -865,11 +922,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -882,11 +941,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -899,11 +960,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -916,11 +979,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -933,11 +998,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 리뉴얼</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>		
 						</li>
@@ -950,11 +1017,13 @@
 								</div>
 							</div>
 								<p class="name">일상공감 스팀 전자레인지 찜냄비 1+1</p>
-							<div class="price">												
-								<p class="per">50<span>%</span></p>
-								<div>
-									<p class="price01">29,800원</p>
-									<p class="price02">14,900원</p>
+							<div class="per_area">
+								<div class="per01">
+									50<span class="per_s">%</span>
+								</div>
+								<div class="price">
+									<p class="p01">234,900원</p>
+									<p class="p02">14,900원</p>
 								</div>
 							</div>			
 						</li>
@@ -984,12 +1053,14 @@
 	<!-- //contents -->
 	<!-- nav -->
 	<div id="nav02">
-		<a class="heart" href="#"><img src="../images/common/ico_nav02_heart01.png" /></a>
+		<a class="heart" href="#">
+			<img src="../images/common/ico_nav02_heart01.png" data-src='../images/common/ico_nav02_heart01_on.png' onclick="javascript_:ff(this);">
+		</a>
+		
 		<a class="product" href="#">상품페이지</a>
 		<a class="copy" href="#">코드복사</a>
 	</div>
 	<!-- //nav -->
-	
 	
 	<div id="side"></div>
 	
