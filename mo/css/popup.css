@@ -2,7 +2,7 @@
 
 .mask{
 	position: fixed; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); 
-	width: 100%; height: 100vh; z-index:200; display:;}
+	width: 100%; height: 100vh; z-index:200; display:none;}
 /* 팝업 템플릿 
 .pop_t01 {margin-bottom:60px;}	
 .pop_t02 {margin-bottom:60px; font-size:20px;}	
@@ -59,16 +59,21 @@ button {background:none; border:0px;}
 	font-size:19px; font-weight:600; font-family:'Noto Sans KR'; margin-bottom:16px;}
 */
 .pop_r24_red {
-	display:; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
+	display:none; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
 	width:90%; min-width:300px; z-index:500; background: #fff; border-radius:24px;
-	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);}
-.pop_r24_red .title { 
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);} /* 사이즈 90% */
+.pop_title { 
 	width:100%; height:60px; line-height:60px; background:#f40006; color:#fff; 
 	font-family:'Noto Sans KR';
 	font-size:clamp(16px, 5vw, 21px); font-weight:600; letter-spacing:-1px;
 	border-radius: 24px 24px 0 0;}
-.pop_r24_red .con {
+.pop_con {
 	padding:12px 5% 24px 5%; font-size:clamp(13px, 4.1vw, 18px); line-height:1.3; color:#222225;}
+	
+.pop_r24_red02 {
+	display:none; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
+	width:60%; min-width:280px; z-index:500; background: #fff; border-radius:24px;
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);} /* 사이즈 60% */
 	
 	/*
 .pop_r24_red h2 {
@@ -149,10 +154,10 @@ button {background:none; border:0px;}
 .txt14 {font-size:14px; color:#77777a;}
 
 /* sort 팝업 */
-.pop_mn {
+.pop_sel {
 	display:flex; flex-wrap: wrap; align-items:flex-start; width:100%; text-align:left;}
-.pop_mn li {overflow: hidden; width: 50%; height:50px;}	
-.pop_mn li a {display:block; height:50px; line-height:48px; padding-left:50px;}
+.pop_sel li {overflow: hidden; width: 50%; height:50px;}	
+.pop_sel li a {display:block; height:50px; line-height:48px; padding-left:50px;}
 .bg_cate {background: url(../images/common/bg_cate.png)  no-repeat;
 	background-size: 50px 850px; vertical-align: top;}
 .bg_brand {background: url(../images/common/bg_brand.png)  no-repeat;
@@ -174,6 +179,16 @@ button {background:none; border:0px;}
 .mn14 {background-position: 0px -650px;}
 .mn15 {background-position: 0px -700px;}
 .mn16 {background-position: 0px -750px;}
+
+
+table.pop_sel02 {margin:0 auto; border-collapse: collapse;}
+.pop_sel02 td {text-align:left; height:50px; padding:0; margin:0;}
+.pop_sel02 a {display:block; height:50px; line-height:48px; padding:0 16px;}
+
+/*.pop_sel02 {text-align:left;}
+
+/*.pop_sel02 li {overflow: hidden; width: 100%; height:50px;}	
+.pop_sel02 li a {display:block; height:50px; line-height:48px; padding-left:50px;}
 	
 /*.pop_icon {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
