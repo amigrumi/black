@@ -10,6 +10,7 @@
 	<title>한정인원모집</title>
 
 	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
 	
@@ -64,7 +65,7 @@
 	<div id="container02">
 		<div class="select01">
 			<ul>
-				<li><a href="#">모집</a></li>
+				<li><a href="#" onclick="javascript:openPopup('black_ra');">모집</a></li>
 			</ul>
 		</div>
 		<div class="bn_area">
@@ -356,6 +357,55 @@
 	<!-- //nav -->	
 	
 	<div id="side"></div>
+	
+	<!--팝업 -->
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r24_red').hide(); 
+			$('.pop_r24_red02').hide();
+			$('.mask').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		
+		<!-- 모집 선택 -->
+		<div class="contents">
+			<div class="pop_r24_red02 black_ra">
+				<div class="pop_title">
+					<span>모집 선택</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con">
+					<table class="pop_sel02">
+						<tr>
+							<td><a href="#">전체</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">무료</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">신상품</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">제품제공</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 모집 선택 -->
+		<div class="mask"></div>
+	</div>
 	
 
 	
