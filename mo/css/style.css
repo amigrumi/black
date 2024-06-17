@@ -238,7 +238,14 @@ img.main_b_txt02 {position:absolute; top:0px; left:8px; width:15%;} /*손있는 
 	border:solid 4px #fff; border-radius:28px;
 	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
 .main_img_b03 video {width:clamp(98px, 33vw, 196px); height: auto; overflow: hidden;}
-.main_img_b03 img {width:clamp(98px, 33vw, 196px);  height: auto; border-radius:28px;} 
+.main_img_b03 img {width:clamp(98px, 33vw, 196px);  height: auto; border-radius:28px;}
+a.btn_main06 {
+	display:inline-block; padding:10px 16px; 
+	position:absolute; bottom:clamp(62px, 20vw, 123px); left:5%;
+	width:clamp(95px, 42vw, 221px); height:30px; line-height:30px; text-align:center;
+	color:#fff; background:#CE1032; border-radius:8px;
+	font-size:clamp(14px, 5vw, 21px); font-family:'SCDream','NotoSans KR'; font-weight: 500; 
+	letter-spacing:-1px;} /* B04 손있는 버전 버튼 */
 	
 	/* 기본B-04 메인 영상 영역*/
 .main_b04 {
