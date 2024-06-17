@@ -221,13 +221,52 @@ img.main_b_txt02 {position:absolute; top:0px; left:8px; width:15%;} /*손있는 
 .main_img_b02 video {width:100%; min-width:170px; height: auto; overflow: hidden;}
 .main_img_b02 img {width:100%; height: auto; border-radius:28px;}
 
-	/* 기본B-04 메인 영상 영역 01*/
-.main_b04 {position:relative; border:solid 1px #ff3300; margin:0 auto 72px auto; max-width:600px; min-width:340px;}
-.main_b04 img.title {position:relative; margin-top:72px; width:58vw; max-width:348px; min-width:197px; margin-left:20px;}
-.main_b04 img.add_txt  {position:absolute; top:103px; right:23px; width:22vw; max-width:130px; min-width:73px;}
-.main_img_b04 {position:absolute; top:200px; right:5%;}
-.main_img_b04 video {width:33vw; min-width:111px; max-width:196px; height: auto; overflow: hidden;}
-.main_img_b04 img {width:33vw; min-width:111px; max-width:196px;  height: auto; border-radius:28px;} 
+	/* 기본B-03 메인 영상 영역*/
+.main_b03 {
+	position:relative; margin:0 auto; 
+	width:100%; min-width:300px; max-width:600px;
+	height:clamp(390px, 130vw, 780px); min-height:491px; max-height:983px;}
+.main_b03 img.title {
+	position:relative; margin-top:clamp(60px, 20vw, 120px); 
+	width:clamp(175px, 58vw, 350px); margin-left:clamp(16px, 6vw, 33px);}
+.main_b03 img.add_txt  {
+	position:absolute; top:clamp(88px, 29vw, 176px); right:clamp(22px, 5.5vw, 48px); 
+	width:clamp(65px, 22vw, 131px);}
+.main_img_b03 {
+	position:absolute; top:clamp(150px, 50vw, 300px); right:clamp(17px, 5.8vw, 35px);
+	overflow: hidden; object-fit:cover; background:#fff;
+	border:solid 4px #fff; border-radius:28px;
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+.main_img_b03 video {width:clamp(98px, 33vw, 196px); height: auto; overflow: hidden;}
+.main_img_b03 img {width:clamp(98px, 33vw, 196px);  height: auto; border-radius:28px;} 
+	
+	/* 기본B-04 메인 영상 영역*/
+.main_b04 {
+	position:relative; margin:0 auto; 
+	width:100%; min-width:300px; max-width:600px;
+	height:164vw; min-height:491px; max-height:983px;
+	background:url(../images/common/main_b01_04.png) top right no-repeat;
+	background-size:cover;}
+.main_b04 img.title {
+	position:relative; margin-top:clamp(60px, 20vw, 120px); 
+	width:clamp(175px, 58vw, 350px); margin-left:clamp(16px, 6vw, 33px);}
+.main_b04 img.add_txt  {
+	position:absolute; top:clamp(88px, 29vw, 176px); right:clamp(22px, 5.5vw, 48px); 
+	width:clamp(65px, 22vw, 131px);}
+.main_img_b04 {
+	position:absolute; top:clamp(150px, 50vw, 300px); right:clamp(17px, 5.8vw, 35px);
+	overflow: hidden; object-fit:cover; background:#fff;
+	border:solid 4px #fff; border-radius:28px;}
+.main_img_b04 video {width:clamp(98px, 33vw, 196px); height: auto; overflow: hidden;}
+.main_img_b04 img {width:clamp(98px, 33vw, 196px);  height: auto; border-radius:28px;} 
+	
+a.btn_main05 {
+	display:inline-block; padding:10px 16px; 
+	position:absolute; bottom:clamp(62px, 20vw, 123px); left:5%;
+	width:clamp(114px, 48vw, 258px); height:30px; line-height:30px; text-align:center;
+	color:#fff; background:#CE1032; border-radius:8px;
+	font-size:clamp(16px, 5vw, 21px); font-family:'SCDream','NotoSans KR'; font-weight: 500; 
+	letter-spacing:-1px;} /* B04 손있는 버전 버튼 */
 	/*
 .main_b02_bg04 {
 	background:url(../images/common/main_b01_04.png) top left no-repeat;
@@ -330,13 +369,7 @@ a.btn_main03 {
 	display:inline-block; min-width:200px; width:55%; height:50px; line-height:50px; 
 	color:#fff; background:#CE1032; border-radius:8px;
 	font-size:18px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
-	letter-spacing:-1px;} /* A 손있는 버전 버튼 */
-	
-a.btn_main05 {
-	display:inline-block; min-width:200px; width:55%; height:50px; line-height:50px; 
-	color:#fff; background:#CE1032; border-radius:8px;
-	font-size:18px; font-family:'SCDream','NotoSans KR'; font-weight: 500; 
-	letter-spacing:-1px;} /* A 손있는 버전 버튼 */
+	letter-spacing:-1px;} /* B 손있는 버전 버튼 */
 	
 .btn_main04 {
 	display:flex; align-items:center; justify-content: center;
