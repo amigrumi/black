@@ -304,7 +304,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .case_area .txt_area .copy img {width:100%;}
 .case_area .txt_area .result {font-size:clamp(9px, 3vw, 18px); font-weight:normal; line-height:1.5;}
 .result table {width:100%;}
-.result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225;}
+.result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225; vertical-align: top;}
 .result table td {font-size:clamp(9px, 3vw, 18px); letter-spacing:-1px; color:#222225;}
 
 .marketing {
@@ -906,7 +906,7 @@ a.btn_s03_bl02 {
 	padding:0 5%; background:#f40006;
 	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#fff; overflow:hidden;}	
 .foot_bn02 .close{position:absolute; width:24px; right:8px; top:8px;}
-.foot_bn02 .bn02{width:auto; height:25px;}
+.foot_bn02 .bn02{width:auto; height:25px; margin-right:12px;}
     
 
 
