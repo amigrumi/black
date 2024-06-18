@@ -123,8 +123,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 	/* 캠페인 중간 nav */
 #nav02_top {
-	width:100%; height:50px; overflow:hidden; 
-	border-top:solid 1px #000; border-bottom:solid 1px #000; background-color:#fff;
+	width:100%; height:50px; overflow:hidden; background-color:#fff;
 	display:flex; text-align: center;}
 #nav02_top .heart {width:60px; line-height:50px; background:#fff;}
 #nav02_top .heart img {width:50px; height:50px;}
@@ -193,7 +192,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .contents_100 img {width:100%;}
 .contents_94 {width:94%; max-width:600px; margin:0 auto; text-align:center;}
 .contents_94 img {width:100%;}
-.contents {width:90%; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
+.contents {width:94%; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 .bg_black {text-align:center; background-color:#000;}
