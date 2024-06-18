@@ -43,13 +43,13 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 #header {width:100%; height:110px;} /* 상단 2단  */
 #header02 {width:100%; height:60px;} /* 상단 1단 */
 .top02 {
-	width:100%; height:60px; background-color:#000; color:#fff; text-align:center;}
+	width:100%; min-width:300px; height:60px; background-color:#000; color:#fff; text-align:center;}
 .top02 h1 {font-size:20px; margin:0 auto; font-family:'Noto Sans KR';}
 
 .top h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
 .top {
 	position:fixed; top:0px; z-index:10;
-	width:100%; height:60px; background-color:#000; color:#fff;}
+	width:100%; min-width:300px; height:60px; background-color:#000; color:#fff;}
 .top_mn {margin-right:3%;}
 .top_mn ul {display:flex;}
 .top_mn ul li a {display:block; height:60px; line-height:60px; font-size:10px;}
@@ -742,9 +742,10 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 .pro_title .add {color:#f00004; font-size:clamp(14px, 4.4vw, 19px); font-weight:400;}
 .pro_title .favorite img {width:24px; height:24px; margin-left:4px;}
 
-.pro_info01 {width:100%; text-align:left;}
-.pro_info01 th {min-width:120px; max-width:200px; }
-.pro_info01 td {padding:2px 0; }
+.pro_info01 {text-align:left;}
+.pro_info01 th {width:100px;}
+.pro_info01 td {min-width:201px; padding:2px 0;}
+.pro_info01 td.td02 {min-width:301px; padding:2px 0;}
 .txt01 {font-size:32px; font-weight:700; color:#f40006; }
 .txt_s {font-size:11px; color:#77777a; font-weight:normal;}
 
@@ -767,20 +768,17 @@ a.btn_line {text-decoration:underline; color:#f40006;}
 
 	/* 캠페인 정보 - 내수수료 확인, 버튼 */   
 a.btn_s03 {
-    display: inline-block; position: relative; padding: 6px 12px; margin: 10px 0px; 
+    display: inline-block; position: relative; padding: 6px 20px; margin: 10px 0px; 
     font-size:14px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
-    border:solid 1px #E1E0E1; background-color:#ffffff; 
-    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;}
+    border:solid 1px #000; background-color:#ffffff; border-radius:3px;}
 a.btn_s03_bl {
-    display: inline-block; position: relative; padding: 6px 12px; margin: 10px 0px; 
+    display: inline-block; position: relative; padding: 6px 20px; margin: 10px 0px; 
     font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
-    border:solid 1px #000; background-color:#000; 
-    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;}
+    border:solid 1px #000; background-color:#000; border-radius:3px;}
 a.btn_s03_bl02 {
-    display: inline-block; position: relative; padding: 6px 12px; margin: 0px; 
+    display: inline-block; position: relative; padding: 6px 20px; margin: 0px; 
     font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
-    border:solid 1px #000; background-color:#000; 
-    box-shadow: 0 1px 1px 0 rgba(205, 205, 205, 0.5); border-radius:3px;} /*margin없음*/
+    border:solid 1px #000; background-color:#000; border-radius:3px;} /*하단 정보 버튼 margin없음*/
 
 	/* 추천 인기상품 0번 이미지*/
 .sub_title02 {font-size:13px; text-align:left; padding:8px 0 24px 0;}
