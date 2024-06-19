@@ -355,6 +355,18 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225; vertical-align: top;}
 .result table td {font-size:clamp(9px, 3vw, 18px); letter-spacing:-1px; color:#222225;}
 
+	/* 성공사례 프로필과 타이틀 텍스트로 ========================================= */
+.case_area .txt_area .profile02 {
+	display:flex; flex-direction:row; align-items: center; color:#000;
+	margin-bottom:2vw; font-size:clamp(12px, 3.3vw, 20px);}
+.case_area .txt_area .profile02 img {
+	width:clamp(16px, 5.3vw, 32px);; border-radius:19px; margin-right:6px;}
+.case_area .txt_area .copy02 {
+	margin-bottom:4vw; font-size:clamp(15px, 5.5vw, 33px); color:#000;
+	font-family:'SCDream','NotoSans KR'; line-height:1.5; font-weight:bold;
+	letter-spacing: -1px;}
+	/* //성공사례 프로필과 타이틀 텍스트로 =======================================*/
+	
 .marketing {
 	font-size:clamp(10px, 3.3vw, 18px); font-weight:normal; line-height:150%; 
 	color:#77777a; margin-top:16px;}
