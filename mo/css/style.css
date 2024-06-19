@@ -133,10 +133,13 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 /* common */
 .pt8 {padding-top:8px;}
 .pt24 {padding-top:24px;}
+.pt32 {padding-top:32px;}
 .pt64 {padding-top:64px;}
 .pt80 {padding-top:80px;}
 .pb8 {padding-bottom:8px;}
+.pb16 {padding-bottom:16px;}
 .pb24 {padding-bottom:24px;}
+.pb32 {padding-bottom:32px;}
 .pb40 {padding-bottom:40px;}
 .pb72 {padding-bottom:72px;}
 .pb96 {padding-bottom:96px;}
@@ -768,16 +771,19 @@ a.btn_line {text-decoration:underline; color:#f40006;}
 
 	/* 캠페인 정보 - 내수수료 확인, 버튼 */   
 a.btn_s03 {
-    display: inline-block; position: relative; padding: 6px 20px; margin: 10px 0px; 
-    font-size:14px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
+    display: inline-block; position: relative; height:45px; line-height:45px; 
+    padding: 0px 12px; margin: 10px 0px; 
+    font-size:16px; font-weight:bold; color: #222225; letter-spacing:-0.5px; 
     border:solid 1px #000; background-color:#ffffff; border-radius:3px;}
 a.btn_s03_bl {
-    display: inline-block; position: relative; padding: 6px 20px; margin: 10px 0px; 
-    font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
+    display: inline-block; position: relative; height:45px; line-height:45px; 
+    padding: 0px 12px; margin: 10px 0px;  
+    font-size:16px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
     border:solid 1px #000; background-color:#000; border-radius:3px;}
 a.btn_s03_bl02 {
-    display: inline-block; position: relative; padding: 6px 20px; margin: 0px; 
-    font-size:14px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
+    display: inline-block; position: relative; height:45px; line-height:45px;
+    padding: 0px 12px; margin: 0px; 
+    font-size:16px; font-weight:bold; color: #fff; letter-spacing:-0.5px; 
     border:solid 1px #000; background-color:#000; border-radius:3px;} /*하단 정보 버튼 margin없음*/
 
 	/* 추천 인기상품 0번 이미지*/
@@ -940,10 +946,9 @@ a.btn_s03_bl02 {
 
 .foot_bn02 {
 	position:fixed; width:90%; height:70px; bottom:0px; z-index:55;
-	padding:0 5%; background:#f40006;
+	padding:0 5%; background:#f40006; 
 	font-family:'Noto Sans KR'; font-size:20px; font-weight:700; color:#fff; overflow:hidden;}	
-.foot_bn02 .close{position:absolute; width:24px; right:8px; top:8px;}
-.foot_bn02 .bn02{width:auto; height:25px; margin-right:12px;}
+.foot_bn02 .bn02{width:auto; height:26px; margin-top:-2px;}
     
 
 
