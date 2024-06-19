@@ -326,9 +326,9 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 
 	/* 메인 - 성공사례 b & 캠페인정보 - 성공사례 */
 .good_case {
-	line-height:150%;
+	line-height:150%;  border-bottom:solid 1px #e1e1e1;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
-	padding-bottom:12px; margin-bottom:24px;}
+	padding-bottom:32px; margin-bottom:32px;} 
 .good_case02 {
 	line-height:150%; border-bottom:solid 1px #e1e1e1;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
