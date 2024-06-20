@@ -358,11 +358,12 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 	/* 성공사례 프로필과 타이틀 텍스트로 ========================================= */
 .case_area .txt_area .profile02 {
 	display:flex; flex-direction:row; align-items: center; color:#000;
-	margin-bottom:2vw; font-size:clamp(12px, 3.3vw, 20px);}
+	font-family:'SCDream','NotoSans KR';
+	margin-bottom:clamp(8px, 2vw, 10px); font-size:clamp(14px, 3.6vw, 22px);}
 .case_area .txt_area .profile02 img {
 	width:clamp(16px, 5.3vw, 32px);; border-radius:19px; margin-right:6px;}
 .case_area .txt_area .copy02 {
-	margin-bottom:4vw; font-size:clamp(15px, 5.5vw, 33px); color:#000;
+	margin-bottom:clamp(12px, 4vw, 18px); font-size:clamp(15px, 5.5vw, 33px); color:#000;
 	font-family:'SCDream','NotoSans KR'; line-height:1.5; font-weight:bold;
 	letter-spacing: -1px;}
 	/* //성공사례 프로필과 타이틀 텍스트로 =======================================*/
