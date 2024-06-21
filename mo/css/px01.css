@@ -236,9 +236,9 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 
 	/* 성공사례 b */
 .good_case {
-	line-height:150%;
+	line-height:150%; width:360px;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
-	margin-bottom:24px;}
+	margin:0 auto 24px auto;}
 .case_area {display: flex; justify-content: space-between; margin-bottom:8px;}
 .case_area .ad_img {margin-right:4%;}
 .case_area .ad_img video {
