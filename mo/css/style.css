@@ -143,14 +143,18 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb72 {padding-bottom:72px;}
 .pb96 {padding-bottom:96px;}
 
+.font18 {font-size:18px;}
+
 .flex {display:flex; align-items:center;}
 .flex_col {flex-direction: column;}
 .flex_base {display:flex; flex-direction: column;}
 .flex_js_center {justify-content:center;}
 .flex_al_center {align-items: center;}
+.flex_start {display:flex; align-items:flex-start;}
 .flex_btw {justify-content: space-between;}
+.flex_around {justify-content: space-around;}
 /*.flex_end {display:flex; justify-content:flex-end;}
-.flex_start {display:flex; align-items:flex-start;}*/
+*/
 .inline-flex {display:inline-flex; align-items:center;}
 
 .blue {color:#0500F4;}
@@ -165,6 +169,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .hr8 {width:100%; height:8px; background:#f5f5f5;}
 .top_hr8 {width:100%; border-top:solid 8px #f5f5f5;}
 .top_line01 {border-top:solid 1px #F5F5F5;}
+
 
 
 /* main */
@@ -915,6 +920,45 @@ a.btn_s03_bl02 {
 	border-top:solid 1px #E1E0E1; border-bottom:solid 1px #E1E0E1;}
 .detail_nav ul {display:flex; justify-content:space-evenly; }
 .detail_nav  ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
+
+/* 리포트 - 기간별 */
+.report_sum01 table {width:90%; margin:0 auto; padding:12px 0;}
+.report_sum01 table th{padding:2px 0; text-align:left; font-size:clamp(11px, 3.6vw, 16px); font-weight:400;}
+.report_sum01 table td{padding:2px 0; text-align:left; font-size:clamp(11px, 3.6vw, 16px); font-weight:600;}
+
+.report_con01 table {width:100%; border-collapse: collapse;}
+.report_con01 table th {padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
+.report_con01 table td {font-size:clamp(14px, 4.4vw, 19px);}
+.report_con01 td.date {
+	padding:16px 0 !important; border-bottom:solid 1px #EEEEEE;
+	font-size:clamp(13px, 4.1vw, 18px);  line-height:1.5;}
+.report_con01 td.date_on {
+	padding:16px 0 !important; border-bottom:solid 1px #EEEEEE;
+	font-size:clamp(13px, 4.1vw, 18px); line-height:1.5; font-weight:600;}
+.report_con01 .td01 td {padding:16px 0 6px 0;}
+.report_con01 .td02 td {padding:6px 0 16px 0; border-bottom:solid 1px #EEEEEE;}
+.txt_s03 {color:#77777a; font-size:clamp(11px, 3.6vw, 16px);}
+a.btn_report {
+    display: inline-block; position: relative; 
+    padding: 8px 8px; margin: 0px; background-color:#000; border-radius:3px;
+    font-size:12px; font-weight:600; color: #fff; letter-spacing:-0.5px;} 
+    
+    
+/* 리퐅트 - 캠페인별 */
+.report_con02 table {width:100%; border-collapse: collapse;}
+.report_con02 table td {font-size:clamp(14px, 4.4vw, 19px);border-bottom:solid 1px #EEEEEE;}
+.report_con02 table th {padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
+.report_con02 td.td03 {padding:16px 0;}
+.report_con02 td.td03 .thumb {width:clamp(100px, 33vw, 200px);}
+.report_con02 .thumb {position: relative;}
+.report_con02 td.td04 {padding:16px 0 16px 12px; text-align:left;}
+.report_con02 td.td04 .txt_area {width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px); }
+.report_con02 td.td04 .txt_area div {background:yellow;}
+
+
+
+/* 리포트 - 캠페인별 */
+
 	
 /*.detail_nav {
 	width:100%; height:50px; background-color:#fff;
