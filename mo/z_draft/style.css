@@ -1,0 +1,233 @@
+/* font */
+@font-face {
+    font-family: 'SCDream'; font-style: normal; font-weight:400;
+    src: local('SCDream'),
+        url('../../partners/font/S-CoreDream-5Medium.woff2') format('woff2'), 
+        url('../../partners/font/S-CoreDream-5Medium.woff') format('woff'),}
+        
+@font-face {        
+    font-family: 'SCDream-4'; font-style: normal; font-weight:400;
+    src: local('SCDream-4'),
+        url('../../partners/font/S-CoreDream-4.woff2') format('woff2'), 
+        url('../../partners/font/S-CoreDream-4.woff') format('woff'),}
+        
+/*--- common selector ---*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button{margin:0;padding:0;}
+
+body,input,select,textarea{color:#000; font-family:'Noto Sans KR','Apple SD Gothic Neo', sans-serif, 'Montserrat','Nanum Gothic', 'malgun gothic', Arial, Verdana, AppleGothic;  font-size:93.75%; font-weight:400;} /* 93.75% == 15px */
+body{background-color:#fff; -webkit-text-size-adjust: none}
+hr{display:none;}
+img,fieldset{border:0;}
+img,input,select,textarea{vertical-align:middle;}
+ul,ol,li{list-style:none;}
+a{color:#000;text-decoration:none;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+a:link,a:hover,a:active{text-decoration:none;}
+input{vertical-align:middle}
+input[type="text"], input[type="password"]{-webkit-appearance:none}
+input[type="radio"]{border:none;-webkit-appearance:none}
+button,input[type="button"],input[type="submit"],input[type="reset"],input[type="file"]{-webkit-appearance:button;border-radius:0}
+textarea{-webkit-appearance:none}
+.ir{overflow:hidden;text-indent:-1000em;}
+.invisible{display:none;}
+.hide{visibility:hidden;width:1px;height:1px;line-height:0;overflow:hidden;position:absolute;top:-10000px;left:0;font-size:0;}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:400;}
+
+html,body { margin: 0px; padding: 0px; height: 100%;}
+#wrap {position:relative; width:100%; min-width:320px; min-height:100%; height:100%; }
+* {padding:0; margin:0;}
+
+
+/* common */
+.pt8 {padding-top:8px;}
+.pt24 {padding-top:24px;}
+.pt32 {padding-top:32px;}
+.pt64 {padding-top:64px;}
+.pt80 {padding-top:80px;}
+.pb8 {padding-bottom:8px;}
+.pb16 {padding-bottom:16px;}
+.pb24 {padding-bottom:24px;}
+.pb32 {padding-bottom:32px;}
+.pb40 {padding-bottom:40px;}
+.pb72 {padding-bottom:72px;}
+.pb96 {padding-bottom:96px;}
+
+.font18 {font-size:18px;}
+
+.flex {display:flex; align-items:center;}
+.flex_col {flex-direction: column;}
+.flex_base {display:flex; flex-direction: column;}
+.flex_js_center {justify-content:center;}
+.flex_al_center {align-items: center;}
+.flex_start {display:flex; align-items:flex-start;}
+.flex_btw {justify-content: space-between;}
+.flex_around {justify-content: space-around;}
+/*.flex_end {display:flex; justify-content:flex-end;}
+*/
+.inline-flex {display:inline-flex; align-items:center;}
+
+.blue {color:#0500F4;}
+.red {color:#f40006;}
+.red02 {color:#CE1032;}
+.gray {color:#77777a;}
+.black {color:#222225;}
+.white {color:#ffffff;}
+.yellow {color:#FDFD00}
+.bold {font-weight:600;}
+
+.hr8 {width:100%; height:8px; background:#f5f5f5;}
+.top_hr8 {width:100%; border-top:solid 8px #f5f5f5;}
+.top_line01 {border-top:solid 1px #F5F5F5;}
+
+
+
+/* contents */
+#container {
+	width:100%; height:100%; margin-bottom:50px;} /* 상단 2단 */
+#container02 {
+	width:100%; height:100%; margin-bottom:50px;} /* 상단 1단 */
+
+.contents_100 {width:100%; max-width:600px; margin:0 auto; text-align:center;}
+.contents_100 img {width:100%;}
+/*.contents_94 {width:94%; max-width:600px; margin:0 auto; text-align:center;}
+.contents_94 img {width:100%;}*/
+.contents {width:94%; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
+.contents img {width:100%;}
+.bg_gray {text-align:center; background-color:#F5F5F5;}
+.bg_black {text-align:center; background-color:#000;}
+
+
+
+	/* 메인 - 성공사례 b & 캠페인정보 - 성공사례 */
+.good_case {
+	line-height:150%;  border-bottom:solid 1px #e1e1e1;
+	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
+	padding-bottom:clamp(20px, 7.2vw, 40px); } 
+.good_case02 {
+	line-height:150%; border-bottom:solid 1px #e1e1e1;
+	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
+	margin-bottom:32px;}
+.noline {border:0;}
+	
+.case_area {display: flex; justify-content: space-between; margin-bottom:8px;}
+.case_area .ad_img {margin-right:4%;}
+.case_area .ad_img video {
+	border:solid 4px #ffffff; border-radius:16px; background:#fff;
+	box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+.case_area .mv {width:33vw; min-width:120px; max-width:198px; height:auto; object-fit:cover;}
+.case_area .ad_img img {width:120px; height:209px; border:solid 4px #ffffff; border-radius:16px; box-shadow: 0 5px 20px 0 rgba(205, 205, 205, 1);}
+
+.case_area .txt_area {
+	width:100%; padding:8px 0;
+	display:flex; flex-direction: column; justify-content: space-around;}
+.case_area .txt_area .profile {margin-bottom:5%;}
+.case_area .txt_area .profile img {width:100%}
+.case_area .txt_area .copy {margin-bottom:10%;}
+.case_area .txt_area .copy img {width:100%;}
+.case_area .txt_area .result {font-size:clamp(9px, 3vw, 18px); font-weight:400; line-height:1.5;}
+.result table {width:100%;}
+.result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225; vertical-align: top;}
+.result table td {font-size:clamp(9px, 3vw, 18px); letter-spacing:-1px; color:#222225;}
+
+	/* 성공사례 프로필과 타이틀 텍스트로 ========================================= */
+.case_area .txt_area .profile02 {
+	display:flex; flex-direction:row; align-items: center; color:#000;
+	font-family:'SCDream','NotoSans KR';
+	margin-bottom:clamp(8px, 2vw, 10px); font-size:clamp(12px, 3.6vw, 22px);}
+.case_area .txt_area .profile02 img {
+	width:clamp(16px, 5.3vw, 32px); border-radius:30px; margin-right:clamp(5px, 1.6vw, 10px);}
+.case_area .txt_area .copy02 {
+	margin-bottom:clamp(12px, 4vw, 18px); font-size:clamp(15px, 5.5vw, 33px); color:#000;
+	font-family:'SCDream','NotoSans KR'; line-height:1.5; font-weight:600;
+	letter-spacing: -1px;}
+	/* //성공사례 프로필과 타이틀 텍스트로 =======================================*/
+	
+.marketing {
+	font-size:clamp(10px, 3.3vw, 20px); font-weight:400; line-height:150%; 
+	color:#77777a; margin-top:clamp(15px, 4.4vw, 30px);}
+.marketing .h5 {font-size:clamp(13px, 4.4vw, 27px); font-weight:600; margin-bottom:clamp(7px, 2.2vw, 15px); color:#222225;}
+/*.marketing .h6 { font-size:12px;
+	width:65px; display:inline-block; font-weight:600; margin-right:4px; color:#222225;}*/
+	
+.good_case .h7 {font-weight:400; color:#77777a; font-size:11px;}
+.good_case02 .h7 {font-weight:400; color:#77777a; font-size:11px;}
+.txt_add {color:#77777a; font-size:11px;}
+.marketing ul li {padding:1px 0; font-size:11px;}
+.marketing table th {width:clamp(55px, 18vw, 110px); letter-spacing:-1px; color:#222225;  vertical-align: top;}
+
+a.btn_main02 {
+	display:inline-block; width:clamp(98px, 33vw, 200px);
+	height:clamp(15px, 6.1vw, 47px); line-height:clamp(15px, 6.1vw, 47px); 
+	padding:8px 4px;
+	color:#fff; background:#222225; border-radius:30px; text-align:center;
+	font-size:clamp(10px, 3.3vw, 18px); font-family:'SCDream-4','NotoSans KR'; font-weight:400;} /* 성공전략 내 버튼 */
+
+
+.btn_bt_area {margin:40px 0 48px 0;} /* 메인 특별프로모션 버튼 영역 */
+.btn_bt_area a {margin:0 1%;}
+.btn_bt_area img {width:30%;}
+
+/* 테스트 */
+.case_area02 {width:33vw; min-width:120px; max-width:198px; height:auto; object-fit:cover; margin-right:4%; padding:0 4px;}
+
+
+/* 상품리스트 */
+
+.sub_title {font-size:clamp(15px, 5vw, 30px); text-align:left; padding-top:24px;}		
+		
+.product_list01 {width:100%;} 
+.product_list01 ul {padding: 0px;}
+.product_list01 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee; }
+.product_list01 ul li.li_end {border-bottom:0px; }
+
+.product_list01 .thumb {
+	width:clamp(135px, 50%, 270px); position: relative; align-self:flex-start;
+	margin-right:clamp(12px, 3.8vw, 23px);}
+.product_list01 .thumb img {width:100%;}
+.polygon { 
+	position:absolute; top:0px; left:0px; z-index:4; width:30%;}
+	
+.product_list01 .thumb_txt { overflow:hidden;
+	position:absolute; bottom:0px; left:0px; z-index:5; width:100%; height:28px;
+	background:rgba(0,0,0,0.5); color:#fff; 
+	display: flex; justify-content: space-around; align-items: center;}
+.product_list01 .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
+
+.thum_txt01 {
+	position:absolute; top:4px; left:4px; z-index:4; padding:4px 8px;
+	background-color:#d61919; color:#fff; border-radius:20px;
+	font-size:clamp(11px, 3.6vw, 16px); font-weight:600; text-align:center;}
+
+
+.title_area {
+	display:flex; flex-flow: column wrap; justify-content: space-around;
+	width:50%; text-align:left;} /* 제품명 영역  */
+.t01 {font-weight:600; font-size:clamp(13px, 4.4vw, 26px); line-height:1.2;} 
+.t02 {font-size:clamp(11px, 3.6vw, 22px); padding-top:1.1vw;} 
+
+.product_list01 .per_area {display:flex; position:relative;}
+.product_list01 .per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;}
+.product_list01 .per01_s {font-size:clamp(17px, 5.5vw, 34px); font-weight:800; color:#f40006; font-family:'Noto Sans KR'; padding-right:1.1vw;align-self: flex-end;}
+.product_list01 .per_s {font-size:clamp(8px, 2.7vw, 17px);}
+.product_list01 .price {font-size:clamp(13px, 4.4vw, 26px); font-weight:600; color:#222225; line-height:1.3;}
+
+.product_list01 .price .p01 {font-size:clamp(9px, 3vw, 18px); font-weight:400; color:#999; text-decoration:line-through; line-height:1;}
+
+.title_area .add_txt01 {
+	align-self:flex-start; font-size:clamp(11px, 3.6vw, 22px); padding:8px;
+	width:clamp(85px,27.4vw,169px); 
+	height:clamp(13px,5.2vw,42px); line-height:clamp(13px,5.2vw,42px);
+	background:#f40006; color:#fff; border-radius:4px;}
+.em_125 {font-size:1.25em;}
+.title_area .add_txt03 {align-self:flex-start; font-size:clamp(13px, 4.16vw, 18px); padding:7px 8px 8px 8px; background:#f40006; color:#fff; border-radius:4px;} /* 자세히보기, product_c 수수료 사용 */
+
+ /* 할인율 작은 버전 추가 시안 - 최종 결정되면 삭제 가능 */
+.per_area02 {position:relative;}
+.per_area02 .p01 {font-size:clamp(9px, 3vw, 18px); font-weight:400; color:#999; text-decoration:line-through; line-height:1; margin-bottom:2px;}
+/*.per01_s .p02 {font-size:clamp(13px, 4.4vw, 26px); font-weight:600; color:#222225; }
+*/
+.case_btn_area {padding-top:clamp(12px, 4.4vw, 28px); padding-bottom:clamp(7px, 2.2vw, 14px);} /* 상품캠페인내 성공전략 버튼 영역*/
+
+
+
+
+
