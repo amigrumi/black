@@ -357,7 +357,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .case_area .txt_area .copy img {width:100%;}
 .case_area .txt_area .result {font-size:clamp(9px, 3vw, 18px); font-weight:400; line-height:1.5;}
 .result table {width:100%;}
-.result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225; vertical-align: top;}
+.result table th {font-size:clamp(9px, 3vw, 18px); width:12vw; min-width:30px; max-width:72px; letter-spacing:-1px; color:#222225; vertical-align: top; font-family:'SCDream','NotoSans KR';}
 .result table td {font-size:clamp(9px, 3vw, 18px); letter-spacing:-1px; color:#222225;}
 
 	/* 성공사례 프로필과 타이틀 텍스트로 ========================================= */
