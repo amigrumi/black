@@ -152,7 +152,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .flex_al_center {align-items: center;}
 .flex_start {display:flex; align-items:flex-start;}
 .flex_btw {justify-content: space-between;}
-.flex_around {justify-content: space-around;}
+.flex_around {justify-content:space-around;}
 /*.flex_end {display:flex; justify-content:flex-end;}
 */
 .inline-flex {display:inline-flex; align-items:center;}
@@ -765,7 +765,7 @@ background:url(../images/common/ico_drop_down.png) center right no-repeat; backg
 
 .pro_info01 {text-align:left;}
 .pro_info01 th {width:100px;}
-.pro_info01 td {min-width:201px; padding:2px 0;}
+.pro_info01 td {min-width:201px; padding:2px 0; font-weight:500;}
 .pro_info01 td.td02 {min-width:301px; padding:2px 0;}
 .txt01 {font-size:32px; font-weight:600; color:#f40006; }
 .txt_s {font-size:11px; color:#77777a; font-weight:400;}
@@ -943,18 +943,39 @@ a.btn_report {
     padding: 8px 8px; margin: 0px; background-color:#000; border-radius:3px;
     font-size:12px; font-weight:600; color: #fff; letter-spacing:-0.5px;} 
     
-    
 /* 리퐅트 - 캠페인별 */
+.report_con02 table {width:100%; border-collapse: collapse;}
+.report_con02 table td {font-size:clamp(14px, 4.4vw, 19px);border-bottom:solid 1px #EEEEEE; border:solid 1px #ff3300; display:block;}
+.report_con02 table th {padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
+.report_con02 td.td03 {width:clamp(100px, 33vw, 200px); padding:16px 0; }
+.report_con02 td.td03 .thumb {width:clamp(100px, 33vw, 200px);}
+.report_con02 .thumb {position: relative;}
+
+.report_con02 td.td04 {
+	display:flex; flex-direction: column; justify-content: space-between;
+	width:*; padding:16px 0 16px 12px; text-align:left; }
+.report_con02 td.td04 .txt_area {
+	border:solid 1px #ff3300; height:100%;
+	
+	width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px);zoom:}
+.report_con02 td.td04 .txt_area div {background:yellow;}
+.report_con02 td.td04 .txt_area .name {width:100%; white-space : nowrap; overflow : hidden; text-overflow : ellipsis; }
+
+   
+/* 리퐅트 - 캠페인별 
 .report_con02 table {width:100%; border-collapse: collapse;}
 .report_con02 table td {font-size:clamp(14px, 4.4vw, 19px);border-bottom:solid 1px #EEEEEE;}
 .report_con02 table th {padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
-.report_con02 td.td03 {padding:16px 0;}
+.report_con02 td.td03 {width:clamp(100px, 33vw, 200px); padding:16px 0; }
 .report_con02 td.td03 .thumb {width:clamp(100px, 33vw, 200px);}
 .report_con02 .thumb {position: relative;}
-.report_con02 td.td04 {padding:16px 0 16px 12px; text-align:left;}
-.report_con02 td.td04 .txt_area {width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px); }
+.report_con02 td.td04 {width:*; padding:16px 0 16px 12px; text-align:left; }
+.report_con02 td.td04 .txt_area {
+	border:solid 1px #ff3300; height:100%;
+	display:flex; flex-direction: column; justify-content: space-between;
+	width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px);zoom:}
 .report_con02 td.td04 .txt_area div {background:yellow;}
-
+.report_con02 td.td04 .txt_area .name {width:100%; white-space : nowrap; overflow : hidden; text-overflow : ellipsis; }
 
 
 /* 리포트 - 캠페인별 */
