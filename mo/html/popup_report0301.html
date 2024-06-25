@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="성공사례"><meta name="keywords" content="성공사례">
+	
+
+
+	<title>팝업_결제건별 세부사항</title>
+
+	<link type="text/css" href="../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#container").load("report01.html")  
+	      });
+	</script>
+	<!-- //include -->
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★home -->
+	<div id="container"></div>
+	<!-- ★home -->
+	
+	<!-- 팝업 -->
+	<script>
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r24_red').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		<!-- 캠페인별 세부사항 -->
+		<div class="contents">
+			<div class="pop_r24_red black_ra">
+				<div class="pop_title">
+					<span>결제건별 세부사항</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con cam_info">
+					<p class="date">2024.06.02</p>
+					<div class="pro_info">
+						<div class="thumb">
+							<div class="thum_txt01">TOP 1</div>
+							<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
+						</div>
+						<div class="title_area">
+							<div class="t01">
+								깔끔대장 갈아바바 전동칼갈이...
+							</div>
+							<div class="add_area">
+								<div class="t02">
+									100만개 판매! <br />
+									특별인기상품
+								</div>
+								<div class="per_area">
+									<div class="per01_s">
+										50<span class="per_s">%</span>
+									</div>
+									<div class="price">
+										<p class="p01">234,900원</p>
+										<p class="p02">14,900원</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- 합계01 -->
+					<div class="bg_gray mb8">
+						<div class="report_sum01">
+							<table>
+								<colgroup>
+									<col width="45%"/ ><col width="35%"/ ><col width="20%"/ >
+								</colgroup>
+								<tr>
+									<th>확정결제액</th>
+									<th>수수료</th>
+									<th>수익</th>
+								</tr>
+								<tr>
+									<td>1,500,000</td>
+									<td>45%</td>
+									<td class="red">3,675,000</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<!-- //합계01 -->
+					
+					<!-- 세부 내용 -->
+					<div class="cam_info02">
+						<ul>
+							<li class="area01">
+								<span class="tt">확정결제</span>: <span class="bold">1,000,000원</span> <br />
+								<span class="tt">배송비</span>: 3,000원 <br />
+								<span class="tt">실결제액</span>: 1,000,000원<br />
+								<span class="tt">주문상품</span>: 3개 
+							</li>
+							<li class="area02">
+								<span class="tt">상태</span>: 결제 <br />
+								<span class="tt">날짜</span>: 2024.02.09<br />
+								<span class="tt">시간</span>: (13:25)<br />
+								<span class="tt">주문번호</span>: 1234567 
+							</li>
+						</ul>
+						<ul>
+							<li class="area01">
+								<span class="tt bold black">최종수수료</span>: <span class="bold">45%</span><br />
+								<span class="tt">상품수수료</span>: 30% <br />
+								<span class="tt">등급수수료</span>: 10% <br />
+								<span class="tt red">추가수수료</span>: <span class="red">5%</span>
+							</li>
+							<li class="area02">&nbsp;</li>
+						</ul>
+					</div>
+					<!-- //세부 내용 -->
+					<!-- btn -->
+					<div>
+						<a class="pop_btn" href="#">주문상품 자세히보기</a>
+					</div>
+					<!-- //btn -->
+				</div>
+			</div>
+		</div>
+		<!-- //캠페인별 세부사항 -->
+		
+			
+	</div>
+	
+	<!-- //팝업 -->
+	
+
+	
+</div>
+</body>
+</html>
