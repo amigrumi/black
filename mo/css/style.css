@@ -143,7 +143,11 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb72 {padding-bottom:72px;}
 .pb96 {padding-bottom:96px;}
 
+.mb8 {margin-bottom:8px;}
+.mb24 {margin-bottom:24px;}
+
 .font18 {font-size:18px;}
+.font12 {font-size:12px;}
 
 .flex {display:flex; align-items:center;}
 .flex_col {flex-direction: column;}
@@ -162,6 +166,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .red02 {color:#CE1032;}
 .gray {color:#77777a;}
 .black {color:#222225;}
+.black02 {color:#000;}
 .white {color:#ffffff;}
 .yellow {color:#FDFD00}
 .bold {font-weight:600;}
@@ -169,6 +174,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .hr8 {width:100%; height:8px; background:#f5f5f5;}
 .top_hr8 {width:100%; border-top:solid 8px #f5f5f5;}
 .top_line01 {border-top:solid 1px #F5F5F5;}
+
 
 
 
@@ -196,11 +202,11 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 #container02 {
 	width:100%; height:100%; margin-bottom:50px;} /* 상단 1단 */
 
-.contents_100 {width:100%; max-width:600px; margin:0 auto; text-align:center;}
+.contents_100 {width:100%; min-width:280px; max-width:600px; margin:0 auto; text-align:center;}
 .contents_100 img {width:100%;}
 /*.contents_94 {width:94%; max-width:600px; margin:0 auto; text-align:center;}
 .contents_94 img {width:100%;}*/
-.contents {width:94%; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
+.contents {width:94%; min-width:280px; max-width:600px; margin:0 auto; text-align:center; color:#222225;}
 .contents img {width:100%;}
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 .bg_black {text-align:center; background-color:#000;}
@@ -366,7 +372,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 	font-family:'SCDream','NotoSans KR';
 	margin-bottom:clamp(8px, 2vw, 10px); font-size:clamp(14px, 3.6vw, 22px);}
 .case_area .txt_area .profile02 img {
-	width:clamp(16px, 5.3vw, 32px);; border-radius:19px; margin-right:6px;}
+	width:clamp(16px, 5.3vw, 32px); border-radius:19px; margin-right:6px;}
 .case_area .txt_area .copy02 {
 	margin-bottom:clamp(12px, 4vw, 18px); font-size:clamp(15px, 5.5vw, 33px); color:#000;
 	font-family:'SCDream','NotoSans KR'; line-height:1.5; font-weight:600;
@@ -384,7 +390,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .good_case02 .h7 {font-weight:400; color:#77777a; font-size:11px;}
 .txt_add {color:#77777a; font-size:11px;}
 .marketing ul li {padding:1px 0; font-size:11px;}
-.marketing table th {width:18vw; min-width:55px; max-width:100px;; letter-spacing:-1px; color:#222225;  vertical-align: top;}
+.marketing table th {width:18vw; min-width:55px; max-width:100px; letter-spacing:-1px; color:#222225;  vertical-align: top;}
 
 a.btn_main02 {
 	display:inline-block; width:33vw; min-width:120px; max-width:198px; 
@@ -939,11 +945,35 @@ a.btn_s03_bl02 {
 .report_con01 .td02 td {padding:6px 0 16px 0; border-bottom:solid 1px #EEEEEE;}
 .txt_s03 {color:#77777a; font-size:clamp(11px, 3.6vw, 16px);}
 a.btn_report {
-    display: inline-block; position: relative; 
+    display: inline-block; position: relative; min-width:54px;
     padding: 8px 8px; margin: 0px; background-color:#000; border-radius:3px;
-    font-size:12px; font-weight:600; color: #fff; letter-spacing:-0.5px;} 
-    
-/* 리퐅트 - 캠페인별 */
+    font-size:12px; font-weight:600; color: #fff; letter-spacing:-0.5px;} /*리포트 자세히보기 버튼 */
+
+/* 리포트 - 캠페인별 */
+.product_list04 {width:100%;} 
+.product_list04 ul {padding: 0px;}
+.product_list04 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee;}
+
+.product_list04 .thumb {
+	width:clamp(100px, 33vw, 200px);
+	position: relative; align-self:flex-start;
+	margin-right:12px;}
+.product_list04 .thumb img {width:100%;}
+
+.product_list04 .title_area {
+	display:flex; flex-flow: column wrap; justify-content: space-around;
+	width:clamp(170px, 64vw, 340px); text-align:left;} /* 제품명 영역  */
+.product_list04 .t01 {
+	width:100%; font-weight:600; font-size:clamp(13px, 4.1vw, 20px);
+	white-space : nowrap; overflow : hidden; text-overflow : ellipsis;} 
+.product_list04 .per_area {display:flex; position:relative; font-size:clamp(12px, 4.1vw, 18px); font-weight:400; font-family:'Noto Sans KR'; color:#77777a;}
+.product_list04 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
+.product_list04 .per_area .per01_s {padding-right:clamp(6px, 3vw, 12px);}
+.product_list04 .per_area .p02 {font-weight:600; color:#f40006; }
+
+.product_list04 .btn_report {margin-right:8px;}
+
+/* 리퐅트 - 캠페인별
 .report_con02 table {width:100%; border-collapse: collapse;}
 .report_con02 table td {font-size:clamp(14px, 4.4vw, 19px);border-bottom:solid 1px #EEEEEE; border:solid 1px #ff3300; display:block;}
 .report_con02 table th {padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
@@ -956,8 +986,7 @@ a.btn_report {
 	width:*; padding:16px 0 16px 12px; text-align:left; }
 .report_con02 td.td04 .txt_area {
 	border:solid 1px #ff3300; height:100%;
-	
-	width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px);zoom:}
+	width:clamp(170px, 56vw, 340px); font-size:clamp(13px, 4.1vw, 18px);}
 .report_con02 td.td04 .txt_area div {background:yellow;}
 .report_con02 td.td04 .txt_area .name {width:100%; white-space : nowrap; overflow : hidden; text-overflow : ellipsis; }
 
