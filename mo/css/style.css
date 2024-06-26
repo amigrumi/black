@@ -145,6 +145,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 .mb8 {margin-bottom:8px;}
 .mb24 {margin-bottom:24px;}
+.bottom_mg {padding-bottom:72px;} /* 하단 여백 추가 */
 
 .font18 {font-size:18px;}
 .font12 {font-size:12px;}
@@ -950,28 +951,32 @@ a.btn_report {
     font-size:12px; font-weight:600; color: #fff; letter-spacing:-0.5px;} /*리포트 자세히보기 버튼 */
 
 /* 리포트 - 캠페인별 */
-.product_list04 {width:100%;} 
-.product_list04 ul {padding: 0px;}
-.product_list04 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee;}
+.report_con02 {width:100%;} 
+.report_con02 ul {padding: 0px;}
+.report_con02 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee;}
 
-.product_list04 .thumb {
+.report_con02 ul li.th {display:flex; padding:10px 0; font-size:clamp(10px, 3.3vw, 14px); font-weight:400; color:#77777A; border-bottom:solid 1px #EEEEEE;}
+.report_con02 .thumb_th {width:clamp(100px, 33vw, 200px);}
+.report_con02 .title_th {width:clamp(170px, 64vw, 340px);
+}
+.report_con02 .thumb {
 	width:clamp(100px, 33vw, 200px);
 	position: relative; align-self:flex-start;
 	margin-right:12px;}
-.product_list04 .thumb img {width:100%;}
+.report_con02 .thumb img {width:100%;}
 
-.product_list04 .title_area {
+.report_con02 .title_area {
 	display:flex; flex-flow: column wrap; justify-content: space-around;
 	width:clamp(170px, 64vw, 340px); text-align:left;} /* 제품명 영역  */
-.product_list04 .t01 {
+.report_con02 .t01 {
 	width:100%; font-weight:600; font-size:clamp(13px, 4.1vw, 20px);
 	white-space : nowrap; overflow : hidden; text-overflow : ellipsis;} 
-.product_list04 .per_area {display:flex; position:relative; font-size:clamp(12px, 4.1vw, 18px); font-weight:400; font-family:'Noto Sans KR'; color:#77777a;}
-.product_list04 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
-.product_list04 .per_area .per01_s {padding-right:clamp(6px, 3vw, 12px);}
-.product_list04 .per_area .p02 {font-weight:600; color:#f40006; }
+.report_con02 .per_area {display:flex; position:relative; font-size:clamp(12px, 4.1vw, 18px); font-weight:400; font-family:'Noto Sans KR'; color:#77777a;}
+.report_con02 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
+.report_con02 .per_area .per01_s {padding-right:clamp(6px, 3vw, 12px);}
+.report_con02 .per_area .p02 {font-weight:600; color:#f40006; }
 
-.product_list04 .btn_report {margin-right:8px;}
+.report_con02 .btn_report {margin-right:8px;}
 
 /* 리퐅트 - 캠페인별
 .report_con02 table {width:100%; border-collapse: collapse;}
