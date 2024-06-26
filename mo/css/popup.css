@@ -108,28 +108,29 @@ button {background:none; border:0px;}
 .pop_list01 .t01 { 
 	width:100%;
 	font-weight:600; font-size:clamp(13px, 4.1vw, 20px); color:#222225;
-	padding:4px 0 12px 0;} 
+	padding:2px 0 1vw 0;} 
 .pop_list01 .per_area {
 	display:flex; position:relative; padding-bottom:12px;}
 .pop_list01 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
 
 /* 캠페인별 세부사항 */
 .cam_info .date { 
-	display:block; text-align:left; font-size:13px; color:#77777a; margin-bottom:12px;}
+	display:block; text-align:left; font-size:13px; color:#f40006; margin-bottom:12px;}
 .cam_info .pro_info {display:flex; margin-bottom:16px;}
 
 .pro_info02 {text-align:center; font-size:24px; font-weight:600; padding:0 0 24px 0;}
 .pro_info .thumb {
-	width:clamp(75px, 25%, 90px);
+	width:clamp(77px, 30%, 130px);
 	position: relative; align-self:flex-start;
 	margin-right:4%;}
 .pro_info .thumb img {width:100%;}
 .pro_info .thum_txt01 {
 	position:absolute; top:2px; left:2px; z-index:4; 
 	font-size:11px; font-weight:600; text-align:center;}
+	
 .pro_info .title_area {
 	display:flex; flex-flow: column wrap; justify-content: space-around;
-	width:clamp(180px, 70%, 340px); font-family:'Noto Sans KR';
+	width:clamp(170px, 65%, 340px); font-family:'Noto Sans KR';
 	text-align:left; color:#222225;} /* 제품명 영역  */
 .pro_info .t01 {  
 	width:100%; font-weight:600; 
@@ -156,13 +157,15 @@ button {background:none; border:0px;}
 	padding:8px 0;}
 .cam_info02 ul li.area01 {width:55%; }
 .cam_info02 .area01 .tt {display:inline-block; width:41%; color:#77777a;}
+.cam_info02 .area01 .red {color:#f40006;}
 .cam_info02 .area01 .black {color:#222225;}
 .cam_info02 ul li.area02 {width:43%; }
 .cam_info02 .area02 .tt {display:inline-block; width:43%; color:#77777a;}
 
+
 a.pop_btn {
 	display:inline-block;
-	height:26px; line-height:26px; padding:12px 24px; border-radius:50px;
+	height:26px; line-height:26px; padding:12px 24px; margin:8px 0; border-radius:50px;
 	font-size:clamp(14px, 4.4vw, 19px); font-weight:bold; color:#fff; background:#f40006;}
 
 /*.pro_info .per_area {
