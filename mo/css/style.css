@@ -975,9 +975,9 @@ a.btn_report {
 	margin-right:12px;}
 .report_con02 .thumb img {width:100%;}
 .report_con02 .thum_txt01 {
-	position:absolute; top:4px; left:4px; z-index:4; padding:0px 4px;
+	position:absolute; top:4px; left:4px; z-index:4; padding:0px 4px 1px 4px;
 	background-color:#d61919; color:#fff; 
-	min-width:14px; min-height:22px; border-radius:30px; line-height:22px;
+	min-width:14px; min-height:22px; border-radius:30px; line-height:1.5;
 	font-size:clamp(11px, 3.6vw, 16px); font-weight:600; text-align:center;}
 
 .report_con02 .title_area {
