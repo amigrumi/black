@@ -261,23 +261,23 @@ a.pop_btn {
 	background-size: 50px 850px; vertical-align: top;}
 .bg_brand {background: url(../images/common/bg_brand.png)  no-repeat;
 	background-size: 50px 850px; vertical-align: top;}
-.mn00 {background-position: 0px -800px;}
-.mn01 {background-position: 0px 0px;}
-.mn02 {background-position: 0px -50px;}
-.mn03 {background-position: 0px -100px;}
-.mn04 {background-position: 0px -150px;}
-.mn05 {background-position: 0px -200px;}
-.mn06 {background-position: 0px -250px;}
-.mn07 {background-position: 0px -300px;}
-.mn08 {background-position: 0px -350px;}
-.mn09 {background-position: 0px -400px;}
-.mn10 {background-position: 0px -450px;}
-.mn11 {background-position: 0px -500px;}
-.mn12 {background-position: 0px -550px;}
-.mn13 {background-position: 0px -600px;}
-.mn14 {background-position: 0px -650px;}
-.mn15 {background-position: 0px -700px;}
-.mn16 {background-position: 0px -750px;}
+.pmn00 {background-position: 0px -800px;}
+.pmn01 {background-position: 0px 0px;}
+.pmn02 {background-position: 0px -50px;}
+.pmn03 {background-position: 0px -100px;}
+.pmn04 {background-position: 0px -150px;}
+.pmn05 {background-position: 0px -200px;}
+.pmn06 {background-position: 0px -250px;}
+.pmn07 {background-position: 0px -300px;}
+.pmn08 {background-position: 0px -350px;}
+.pmn09 {background-position: 0px -400px;}
+.pmn10 {background-position: 0px -450px;}
+.pmn11 {background-position: 0px -500px;}
+.pmn12 {background-position: 0px -550px;}
+.pmn13 {background-position: 0px -600px;}
+.pmn14 {background-position: 0px -650px;}
+.pmn15 {background-position: 0px -700px;}
+.pmn16 {background-position: 0px -750px;}
 
 
 table.pop_sel02 {margin:0 auto; border-collapse: collapse;}
