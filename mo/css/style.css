@@ -505,10 +505,10 @@ a.button_160 {
 .btnBlack { background: #222225;}
 
 .btn_icon01 {
-	width:40px; height:40px; align-self: center;
+    flex-shrink: 0; align-self: center;
+	width:40px; height:40px;
 	background: url(../images/common/ico_myinfo.png);
-	background-size: 40px 40px; vertical-align: top;
-	background-position: 0px 0;}
+	background-size: 40px 40px; } /* MY > 설정 버튼 */
 /*.btnWhite { background: #ffffff;}
 .btnWhite02 { background: #ffffff; border:solid 1px #E1E0E1;}
 .btnGray { background: #E1E0E1; color:#fff;}
