@@ -1,15 +1,15 @@
 /* font */
 @font-face {
-	font-family: 'SCDream'; font-style: normal; font-weight: 500;
-	src: local('SCDream'),
-	url('/font/S-CoreDream-5Medium.woff2') format('woff2'),
-	url('/font/S-CoreDream-5Medium.woff') format('woff'),}
-
-@font-face {
-	font-family: 'SCDream-4'; font-style: normal; font-weight: 400;
-	src: local('SCDream-4'),
-	url('/font/S-CoreDream-4.woff2') format('woff2'),
-	url('/font/S-CoreDream-4.woff') format('woff'),}
+    font-family: 'SCDream'; font-style: normal; font-weight:400;
+    src: local('SCDream'),
+    url('../../partners/font/S-CoreDream-5Medium.woff2') format('woff2'), 
+    url('../../partners/font/S-CoreDream-5Medium.woff') format('woff'),}
+        
+@font-face {        
+    font-family: 'SCDream-4'; font-style: normal; font-weight:400;
+    src: local('SCDream-4'),
+    url('../../partners/font/S-CoreDream-4.woff2') format('woff2'), 
+    url('../../partners/font/S-CoreDream-4.woff') format('woff'),}
 
 /*--- common selector ---*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button{margin:0;padding:0;}
