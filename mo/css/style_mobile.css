@@ -845,9 +845,9 @@ a.btn_s {
 	font-size:13px; font-weight:600; color: #fff; letter-spacing:-0.5px;
 	background-color:#222225; border-radius:3px;}
 /* 캠페인 상세 빨간 링크, 마이페이지 상단 빨간 링크 */
-a.btn_line {text-decoration:underline; color:#f40006;}
-a.btn_line02 {text-decoration:underline; color:#77777a;}
-a.btn_line03 {text-decoration:underline; color:#222225;}
+a.btn_line {text-decoration: underline; text-underline-offset:5px;  color:#f40006;}
+a.btn_line02 {text-decoration: underline; text-underline-position: under;  color:#77777a;}
+a.btn_line03 {text-decoration: underline; text-underline-position: under;  color:#222225;}
 
 /* 캠페인 정보 - 내수수료 확인, 버튼 */
 a.btn_s03 {
