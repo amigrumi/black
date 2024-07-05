@@ -608,13 +608,13 @@ a.btnBlackLine {display:inline-block; border:solid 1px #222225; border-radius:32
 /* label:before에 체크하기 전 상태 CSS */
 .check_line02 input#check_btn + label:before{
 	content:""; display:inline-block;  width:30px; height:50px;
-	background-image: url('/images/common/input_check02.png');
+	background-image: url('../images/common/input_check02.png');
 	background-repeat: no-repeat; background-position: 10% 60%;
 }
 /* label:before에 체크 된 상태 CSS   */
 .check_line02 input#check_btn:checked + label:before{
 	content:"";  width:30px;  height:50px;
-	background-image: url('/images/common/input_check02_on.png');
+	background-image: url('../images/common/input_check02_on.png');
 	background-repeat: no-repeat;  background-position: 10% 60%;
 }
 
@@ -624,14 +624,14 @@ input#check_btn + label{cursor:pointer;}
 /* label:before에 체크하기 전 상태 CSS */
 input#check_btn + label:before{
 	content:""; display:inline-block;  width:30px; height:50px;
-	background-image: url('/images/common/input_check.png');
+	background-image: url('../images/common/input_check.png');
 	background-size: 20px 20px;
 	background-repeat: no-repeat; background-position: 60%;
 }
 /* label:before에 체크 된 상태 CSS */
 input#check_btn:checked + label:before{
 	content:"";  width:30px;  height:50px;
-	background-image: url('/images/common/input_check_on.png');
+	background-image: url('../images/common/input_check_on.png');
 	background-size: 20px 20px;
 	background-repeat: no-repeat;  background-position: 50%;
 }
@@ -1185,7 +1185,7 @@ ul.out_list {padding-left:16px;}
 .foot_bn01 a{
 	position:fixed; display: block;
 	width:100%; height:60px; line-height:60px; bottom:0px; z-index: 50;
-	background:url('/images/common/ico_arrow_next02.png') no-repeat 95% 50% #f40006; background-size:24px 24px;
+	background:url('../images/common/ico_arrow_next02.png') no-repeat 95% 50% #f40006; background-size:24px 24px;
 	font-family:'Noto Sans KR'; font-size:20px; font-weight:600; color:#fff; text-align:center;}
 
 
