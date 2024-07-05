@@ -168,6 +168,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .pb24 {padding-bottom:24px;}
 .pb32 {padding-bottom:32px;}
 .pb40 {padding-bottom:40px;}
+.pb56 {padding-bottom:56px;}
 .pb72 {padding-bottom:72px;}
 .pb96 {padding-bottom:96px;}
 
@@ -760,6 +761,7 @@ ul.tab li a.on {
 
 .sub_title {font-size:18px; text-align:left; padding-top:24px;}
 .sub_title03 {font-size:16px; text-align:left; padding-top:24px; font-weight:600;}
+.sub_title04 {font-size:18px; text-align:left; padding-top:53px;} /*상품캠페인 타이틀 - detail.html*/
 
 .product_list01 {width:100%;}
 .product_list01 ul {padding: 0px;}
