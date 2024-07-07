@@ -1026,7 +1026,7 @@ a.btn_report {
 .report_con03 td.td_center {text-align:center; padding:8px 0;}
 .report_con03 td.td_line {border-bottom:solid 1px #eee;}
 .report_con03 td.td01 {padding-top:16px;}
-.report_con03 td.td02 {padding:2px 0 19px 12px;}
+.report_con03 td.td02 {padding:6px 0 19px 12px;}
 .report_con03 td.date_on {font-size:clamp(13px, 4.1vw, 18px); line-height:1.5; color:#f40006; font-weight:600;}
 .report_con03 td.date {font-size:clamp(13px, 4.1vw, 18px); line-height:1.5;}
 
