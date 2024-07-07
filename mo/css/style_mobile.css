@@ -177,6 +177,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .mb8 {margin-bottom:8px;}
 .mb24 {margin-bottom:24px;}
 .ml_8 {margin-left:-8px;}
+.mr3per {margin-right:3%;}
 .bottom_mg {padding-bottom:72px;} /* 하단 여백 추가 */
 
 .font11 {font-size:11px;}
