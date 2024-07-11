@@ -156,9 +156,10 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; border:solid 1px #fff; border-radius:5px;}
 
 /* 커뮤니티 게시판 메뉴 */
-.listnav {width:100%; height:50px; background-color:#000;}
-.listnav ul {display:flex; justify-content: space-evenly;}
-.listnav ul li a {display:block; height:50px; width:40px;}
+.listnav {
+	width:100%; height:50px; background-color:#000;}
+.listnav ul {display:flex; justify-content:space-evenly; }
+.listnav ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
 
 .list {background-position: -5px -160px;}
 .comment {background-position: -65px -160px;}
