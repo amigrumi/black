@@ -51,7 +51,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 .top h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
 .top {
-	position:fixed; top:0px; z-index:10;
+	position:fixed; top:0px; z-index:10; overflow:hidden;
 	width:100%; min-width:300px; height:60px; background-color:#000; color:#fff;}
 .top_mn {margin-right:1%;}
 .top_mn ul {display:flex;}
@@ -60,14 +60,17 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .topmn_bg {
 	overflow: hidden; position: relative; width: 40px; height: 60px; margin: 0 auto;
 	background: url(../images/common/nav.png);
-	background-size: 360px 180px; vertical-align: top;}
+	background-size: 360px 210px; vertical-align: top;}
 .top_search {background-position: -5px -100px;}
 .top_cate {background-position: -65px -100px;}
 .top_my {background-position: -125px -100px; }
 .top_back {background-position: -187px -100px; }
+.top_write {background-position: -245px -100px; }
+.top_list {background-position: -305px -100px; }
 
 .top_title {display: flex; height:60px; margin-left:0%;}
 .top_title h2 {font-size:18px; line-height:58px; font-weight:400; margin-left:-6px;}
+
 
 
 /* top_search */
@@ -81,6 +84,20 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .search_btn img {width:24px; height:24px;}
 .close_btn {color:#f9deec; width:20px; width:20px; margin-right:12px; border:none; background:#fff;}
 .close_btn img {width:20px; height:20px;}
+
+/* top_select 커뮤니티 관리자 */
+.top .select_area {
+    width:160px; background:#fff; height:40px; border-radius:4px; padding:0px; border:solid 1px #E1E0E1;}
+.top .select_area select {
+    width:100%; height:40px; padding:4px; font-size:14px; color:#77777a;
+    background:url(../images/common/ico_arrow_down.png) no-repeat 98% 50%;
+    background-size:25px 25px;
+    border:0px; z-index:5;
+    padding-right:24px;
+    -webkit-appearance:none; -moz-appearance:none; appearance: none; outline: 0 none;}
+.top .select_area select option {font-size:14px; width:100%; padding:2px;}
+
+
 
 
 /* gnb */
@@ -111,8 +128,43 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .gnb ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:600;}
 
 
+/* snb - 커뮤니티 */
+.snb {
+	position:relative; width:100%; height:50px;
+	margin-top:1px; background-color:#fff; border-bottom:solid 8px #F5F5F5;
+	overflow:hidden; overflow-x:auto; white-space: nowrap;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
 
+.snb ul {display:flex; margin-left:3vw;}
+.snb ul li a {display:block; height:48px; line-height:48px; padding:0 8px;}
+.snb ul li a.on {color:#F40006; font-weight:600;}
 
+/* snb02 - 커뮤니티 */
+.snb02 {
+	position:relative; width:100%; height:50px;
+	margin-top:1px; background-color:#fff; border-bottom:solid 8px #F5F5F5;
+	overflow:hidden; overflow-x:auto; white-space: nowrap;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */}
+
+.snb02 ul {display:flex; margin-left:3vw; margin-top:9px;}
+.snb02 ul li {margin-right:8px; position:relative;}
+.snb02 ul li a {display:block; height:30px; line-height:29px; padding:0 10px; border:solid 1px #e1e1e1; border-radius:30px; font-size:14px;}
+.snb02 ul li a.on {background-color:#000; color:#fff; font-weight:600;}
+img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; border:solid 1px #fff; border-radius:5px;}
+
+/* 커뮤니티 게시판 메뉴 */
+.listnav {width:100%; height:50px; background-color:#000;}
+.listnav ul {display:flex; justify-content: space-evenly;}
+.listnav ul li a {display:block; height:50px; width:40px;}
+
+.list {background-position: -5px -160px;}
+.comment {background-position: -65px -160px;}
+.scrap {background-position: -125px -160px; }
+.share {background-position: -187px -160px; }
+.recommend {background-position: -245px -160px; }
 
 /* 하단 nav */
 #nav {
@@ -203,6 +255,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .red {color:#f40006;}
 .red02 {color:#CE1032;}
 .gray {color:#77777a;}
+.gray02 {color:#aaa;}
 .black {color:#222225;}
 .black02 {color:#000;}
 .white {color:#ffffff;}
@@ -214,10 +267,13 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .top_hr8 {width:100%; border-top:solid 8px #f5f5f5;}
 .top_line01 {border-top:solid 1px #F5F5F5;}
 
-.ding00 {background: url(../images/common/icon_ding.png) 85% 30% no-repeat;}
-.ding01 {background: url(../images/common/icon_ding.png) 95% 30% no-repeat;}
-.ding02 {background: url(../images/common/icon_ding.png) 96% 50% no-repeat; padding-right:10px;}
-.ding03 {background: url(../images/common/icon_ding.png) 96% 30% no-repeat; padding-right:10px;}
+.ding00 {background: url(../images/common/icon_ding.png) 85% 30% no-repeat;}/*top*/
+.ding01 {background: url(../images/common/icon_ding.png) 95% 30% no-repeat;}/*1depth*/
+.ding02 {background: url(../images/common/icon_ding.png) 96% 50% no-repeat; padding-right:10px;}/*menu, 오른쪽 가운데*/
+/*.ding03 {background: url(../images/common/icon_ding.png) 97% 20% no-repeat; z-index:10;}/*4depth*/
+
+
+
 
 .star {font-size:14px;}
 
@@ -1158,11 +1214,27 @@ ul.out_list {padding-left:16px;}
 [type="radio"]:checked {width:16px; height:16px;
     border:4px solid #f40006 !important; border-radius: 16px; }
 
-/*.detail_nav {
-	width:100%; height:50px; background-color:#fff;
-	border-top:solid 1px #E1E0E1; border-bottom:solid 1px #E1E0E1; }
-.detail_nav ul {display:flex; justify-content:space-evenly; }
-.detail_nav ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
+/* 커뮤니티 */
+.comm_list li {position:relative; padding:0 3%; text-align:left; display:flex;}
+img.ding04 {position: absolute; left:4px; top:31px; width:4px; height:4px;}
+.commlist_con {width:100%; padding: 21px 0 22px 0; border-bottom:solid 1px #eee; line-height:1.3;}
+.commlist_con .add_num {font-size:13px;}
+.commlist_con .etc {font-size:12px; color:#77777a; padding-top:8px;}
+.commlist_con .etc span {padding-right:8px;}
+
+.comlist_search {
+	display:flex; background-color:#000; height:60px;}
+.comlist_search .select_area {
+    width:160px; background:#fff; height:40px; border-radius:4px; padding:0px; border:solid 1px #E1E0E1;}
+.comlist_search .select_area select {
+    width:100%; height:40px; padding:4px; font-size:14px; color:#77777a;
+    background:url(../images/common/ico_arrow_down.png) no-repeat 98% 50%;
+    background-size:25px 25px;
+    border:0px; z-index:5;
+    padding-right:24px;
+    -webkit-appearance:none; -moz-appearance:none; appearance: none; outline: 0 none;}
+.comlist_search .select_area select option {font-size:14px; width:100%; padding:2px;}
+
 
 /* footer ---------------------------------------------------------------------*/
 #footer .contents {text-align:left; padding-bottom:146px;}
