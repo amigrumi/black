@@ -156,18 +156,18 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; border:solid 1px #fff; border-radius:5px;}
 
 /* 커뮤니티 게시판 메뉴 */
-.listnav {width:100%; height:50px; background-color:#000;}
+.listnav {width:100%; height:60px; background-color:#000;}
 .listnav ul {display:flex; justify-content:space-evenly; }
-.listnav ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
+.listnav ul li a {display:block; height:60px; line-height:50px; font-size:10px;}
 .listnav_bg {
-	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
+	overflow: hidden; position: relative; width: 50px; height: 60px; margin: 0 auto;
 	background: url(../images/common/nav.png);
 	background-size: 360px 210px; vertical-align: top;}
-.list {background-position: 0px -160px;}
-.comment {background-position: -60px -160px;}
-.scrap {background-position: -120px -160px; }
-.share {background-position: -180px -160px; }
-.recommend {background-position: -240px -160px; }
+.list {background-position: 0px -155px;}
+.comment {background-position: -60px -155px;}
+.scrap {background-position: -120px -155px; }
+.share {background-position: -180px -155px; }
+.recommend {background-position: -240px -155px; }
 
 /* 하단 nav */
 #nav {
@@ -250,6 +250,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .flex_btw {justify-content: space-between;}
 .flex_around {justify-content:space-around;}
 .align_center {align-self: center;}
+.align_end {align-self: flex-end;}
 /*.flex_end {display:flex; justify-content:flex-end;}
 */
 .inline-flex {display:inline-flex; align-items:center;}
@@ -273,6 +274,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .ding00 {background: url(../images/common/icon_ding.png) 85% 30% no-repeat;}/*top*/
 .ding01 {background: url(../images/common/icon_ding.png) 95% 30% no-repeat;}/*1depth*/
 .ding02 {background: url(../images/common/icon_ding.png) 96% 50% no-repeat; padding-right:10px;}/*menu, 오른쪽 가운데*/
+.ding05 {background: url(../images/common/icon_ding.png) 100% 0% no-repeat; padding-top:6px; font-size: clamp(11px, 3.6vw, 16px); display:inline-block;}
 /*.ding03 {background: url(../images/common/icon_ding.png) 97% 20% no-repeat; z-index:10;}/*4depth*/
 
 
@@ -930,6 +932,7 @@ a.btn_s03_bl02 {
 	font-size:16px; font-weight:600; color: #fff; letter-spacing:-0.5px;
 	border:solid 1px #000; background-color:#000; border-radius:3px;} /*하단 정보 버튼 margin없음*/
 
+
 /* 추천 인기상품 0번 이미지*/
 .sub_title02 {font-size:13px; text-align:left; padding:8px 0 24px 0;}
 .popular .thumb {position:relative; width:100%; margin-bottom:14px; }
@@ -1238,6 +1241,51 @@ img.ding04 {position: absolute; left:4px; top:31px; width:4px; height:4px;}
     -webkit-appearance:none; -moz-appearance:none; appearance: none; outline: 0 none;}
 .comlist_search .select_area select option {font-size:14px; width:100%; padding:2px;}
 
+/* 커뮤니티 본문 */
+.view_title h2{font-size:20px; font-weight:400; text-align:left; padding:18px 0 28px 0; line-height:1.3; color:#000;}
+img.profile03 {width:40px; height:40px; border-radius:40px; margin-right:16px;}
+.view_title .name_area {text-align:left; font-size:11px; color:#77777A;}
+.view_title .name_area span {margin-right:8px;}
+.view_title .name_area .name {font-size:13px; color:#222225;}
+.view_title .favorite img {width:24px; height:24px; margin-left:4px;}
+
+a.btn_s04 {
+	display: inline-block; position: relative; 
+	min-width:20px; height:10px; 
+	font-size:11px; color: #222225; letter-spacing:-0.5px; padding:4px 8px 8px 8px;
+	border:solid 1px #E1E1E1; border-radius:4px;}
+.view_link {width:94%; margin:0 auto; padding-bottom:24px; text-align:left;}
+.view_link .link {font-size:11px; color:#77777a; }
+.view_txt {width:94%; text-align:left; margin:0 auto 24px auto; line-height:1.5;}
+.view_img {margin-bottom:24px;} 
+
+.view_btn00_area {width:94%; display:flex; margin:0 auto; justify-content: flex-end;}
+.view_btn01_area {width:94%; margin:40px auto 24px auto; border-bottom:solid 1px #eee; padding:0 0 25px 0; display:flex; justify-content:center;}
+.view_btn01 img {width:25px; height:25px; margin-right:4px;}
+.view_btn01 {
+	display:flex; justify-content:center; align-items: center;
+	min-width:105px; height:30px; font-weight:600; font-size:14px; 
+	letter-spacing:-0.5px; margin:0 2px;}
+
+.view_btn02_area {width:94%; margin:0 auto 24px auto; display:flex; justify-content:center;}
+.view_btn02_area a {display:block; background-color:#000; color:#fff; font-weight:600; height:30px; line-height:30px; width:105px; font-size:12px; border-radius: 4px; margin:0 2px;}
+
+.comment_area01 {text-align:left; padding:26px 0 13px 0; }
+.comment_title {
+	display:inline-block; height:24px; line-height:24px;
+	background:url(../images/common/ico_mymn.png) no-repeat right top;
+	background-size:24px 24px ; padding-right:24px;
+	margin-bottom:16px;}
+
+.comment_list li {display:flex; text-align:left; padding:16px 0; border-bottom:solid 1px #eee;}
+img.profile04 {width:36px; height:36px; border-radius:40px; margin-right:8px;}
+.comment_list .name {font-size:14px; font-weight:600; padding-bottom:8px;}
+.comment_list .txt {padding-bottom:13px; word-break:break-all; line-height:1.3;} 
+.comment_list .date {font-size:13px; color:#77777a;}
+.comment_list .date span {padding-right:4px;}
+.comment_list .date a{font-size:13px; color:#77777a; margin-right:2px;} 
+
+.recomment {display:flex; text-align:left; padding:16px 0 0 0;}
 
 /* footer ---------------------------------------------------------------------*/
 #footer .contents {text-align:left; padding-bottom:146px;}
