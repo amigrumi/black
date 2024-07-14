@@ -259,7 +259,8 @@ a.pop_btn {
 /* sort 팝업 */
 .pop_sel {
 	display:flex; flex-wrap: wrap; align-items:flex-start; width:100%; text-align:left;}
-.pop_sel li {overflow: hidden; width: 50%; height:50px;}	
+.pop_sel li {overflow: hidden; width: 50%; height:50px;}
+.pop_sel li a.on {color:#f40006;}
 .pop_sel li a {display:block; height:50px; line-height:48px; padding-left:50px;}
 .bg_cate {background: url(../images/common/bg_cate.png)  no-repeat;
 	background-size: 50px 850px; vertical-align: top;}
@@ -286,8 +287,14 @@ a.pop_btn {
 
 table.pop_sel02 {margin:0 auto; border-collapse: collapse;}
 .pop_sel02 td {text-align:left; height:50px; padding:0; margin:0;}
+.pop_sel02 a.on {color:#f40006;}
 .pop_sel02 a {display:block; height:50px; line-height:48px; padding:0 16px;}
 
+.pop_sel03 {
+	display:flex; flex-wrap: wrap; align-items:flex-start; width:100%; text-align:left;}
+.pop_sel03 li {overflow: hidden; width: 50%; height:50px; }
+.pop_sel03 li a.on {color:#f40006;}
+.pop_sel03 li a {display:block; height:50px; line-height:48px; padding-left:20%;}
 /*.pop_sel02 {text-align:left;}
 
 /*.pop_sel02 li {overflow: hidden; width: 100%; height:50px;}	
