@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+
+
+	<title>글쓰기</title>
+
+	<link type="text/css" href="../css/style_mobile.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#footer").load("include/footer.html")
+	         $("#nav").load("include/nav.html")
+	         $("#side").load("include/side.html")      
+	      });
+	</script>
+	<!-- //include -->
+	<script>
+	function ff(tt){
+	var temp = tt.src;
+	tt.src = tt.getAttribute('data-src');
+	tt.setAttribute('data-src',temp);
+	}
+	</script>
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header02">
+		<!-- 기본 -->
+		<div class="top flex flex_btw">
+			<div class="top_title">
+				<a class="topmn_bg top_close" href="#"></a>
+				<h2>글쓰기</h2>
+			</div>
+			
+			<div class="top_mn02">
+				<a class="btn_top btnRed" href="#">등록</a> 
+			</div>
+		</div>
+		<!-- //기본 -->
+		
+	</div>
+	<!-- //★header -->
+	<div>
+	
+	<!-- ★container -->
+	<div id="container02">
+		<div class="contents">
+			<div class="board_sel_area more03"><a href="#">게시판을 선택해주세요.</a></div>
+			<div class="board_sel_area more03 mb16"><a href="#">게시판을 선택해주세요.</a></div>
+			<form class="input_box" action="" method="">
+				<input class="input_txt" type="text" name="" placeholder="제목">
+			</form>
+			<div class="tool">
+				<img src="../images/test/write.png" style="height:50px; width:328px;"/>
+			</div>
+		</div>
+		<div class="contents_100">
+			<!-- 쓰기 영역 -->
+			<div class="textarea03">
+				<form>
+					<textarea class="comm_write" placeholder="내용을 입력하세요."></textarea>
+				</form>
+			</div>
+			<form class="input_box02" action="" method="">
+				<input class="input_txt" type="text" name="" placeholder="키워드입력 (,로 구분)">
+			</form>
+			<!-- //쓰기 영역 -->
+		</div>
+		<div class="contents">
+			<div class="share_title">
+				<h3>공개설정</h3>
+				<p>멤버공개</p>
+			</div>
+			<div class="admin_sel">
+				<ul>
+					<li class="on"><a href="#">전체</a></li>
+					<li><a href="#">일반이상</a></li>
+					<li><a href="#">코드이상</a></li>
+					<li><a href="#">3자이상</a></li>
+					<li><a href="#">비공개</a></li>
+				</ul>
+			</div>
+			<div class="pb24">
+				<ul class="agree_list02">
+					<li>
+						<div>
+							<h2>댓글 허용</h2>
+						</div>							
+						<div class="check">
+							<input type="checkbox" id="agree_btn02"/>
+							<label for="agree_btn02"></label>					
+						</div>	
+					</li>
+					<li>
+						<div>
+							<h2>외부공유 허용</h2>
+						</div>							
+						<div class="check">
+							<input type="checkbox" id="agree_btn02"/>
+							<label for="agree_btn02"></label>					
+						</div>	
+					</li>
+					<li>
+						<div>
+							<h2>복사·저장 허용</h2>
+						</div>							
+						<div class="check">
+							<input type="checkbox" id="agree_btn02"/>
+							<label for="agree_btn02"></label>					
+						</div>	
+					</li>
+				</ul>
+			</div>
+			<div class="more_area02 mb24"><a href="#"><span class="more01">상세설정 펼치기</span></a></div>
+			<div class="btn_area02">
+				<ul>
+					<li><a class="btn04" href="#">취소</a></li>
+					<li><a class="btn04" href="#">등록</a></li>
+				</ul>
+			</div>
+			<div class="more_area mt16">
+				<a href="#"><span class="goto">맨위로</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- //container -->
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+	</div>
+	<!-- nav -->
+	<div id="nav"></div>
+	<!-- //nav -->	
+	
+	<div id="side"></div>
+	
+	
+	
+
+	
+</div>
+</body>
+</html>
