@@ -346,3 +346,8 @@ input#agree_btn:checked + label:before{
   }
 
 
+/* qna 팝업내용 */
+.pop_txt {text-align:left; line-height:1.5;}
+
+
+

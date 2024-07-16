@@ -1253,18 +1253,6 @@ img.ding04 {position: absolute; left:4px; top:31px; width:4px; height:4px;} /*�
 	background-size:24px 24px;}
 .select_area02 a {display:block; padding:0 0 0 4px; color:#77777a;}
 
-	/*
-.comlist_search .select_area {
-    width:135px; background:#fff; height:40px; border-radius:4px; padding:0px; border:solid 1px #E1E0E1;}
-.comlist_search .select_area select {
-    width:135px; height:40px; padding:4px; font-size:14px; color:#77777a;
-    background:url(../images/common/ico_arrow_down.png) no-repeat 98% 50%;
-    background-size:25px 25px;
-    border:0px; z-index:5;
-    padding-right:24px;
-    -webkit-appearance:none; -moz-appearance:none; appearance: none; outline: 0 none;}
-.comlist_search .select_area select option {font-size:14px; width:100%; padding:2px;}
-*/
 .search_box02 {
 	display:flex; height:42px; width:100%; background:#fff; margin:0 12px 0 4px;
 	border-radius:4px; padding:0px; overflow: hidden;}
@@ -1456,6 +1444,45 @@ ul.board_list {padding:0px;}
 	color:#77777a; font-size:14px; }
 .search_box03 .search_btn {color:#f9deec; width:42px; border:none;}
 .search_box03 .search_btn img {width:24px !important;}
+
+/* 고객센터 */
+.sort_title {font-size:12px; display:inline-block; border:solid 1px #eee; padding:1px 4px 2px 4px; border-radius:4px; margin-bottom:4px;}
+.guide_list li {text-align:left; padding:24px 0; border-bottom:solid 1px #eee;}
+.guide_list li.h1 {font-size:18px; font-weight:600;}
+.guide_list li.h2 {padding-left:8px;}
+.guide_list a {display:block;}
+
+/* 파트너 가이드 */
+.guide_num {padding:24px 0; display:flex; align-items: center; justify-content:center;}
+.guide_num img {width:24px; height:24px; margin:0 4px;}
+.guide_num .txt {padding:0 0 2px 0; font-size:18px; font-weight:600;}
+.guide_num .input_txt {
+	width:30px; height:21px; padding:0px 5px 2px 4px; color:#222225; margin:0 8px 0 0;
+	border:solid 1px #E1E0E1; border-radius:4px; background:none; outline:none; 
+	font-size:18px; letter-spacing:-0.7px; text-align:center; font-weight:600;}
+.guide_box {border:solid 1px #eee; border-radius:4px; overflow:hidden;}
+
+/* 파트너가이드 > 이용정책 */
+.con_area_agree {text-align:left;}
+.con_area_agree h1 {font-size:16px; font-weight:600; padding:16px 0 8px 0;;}
+.agree_txt {line-height:1.5; padding:0 0 16px 16px;}
+
+.table-bordered2 table {border: 1px solid #EBEBEB;}
+.table table {width:100%; border-collapse: collapse; color:#222225; line-height:140%; margin-bottom:16px;}
+.table table th {height:64px; text-align:center; border:solid 1px #E1E0E1; background-color:#f5f5f5; font-weight:400;}
+.table table td {padding:8px; text-align:center; border:solid 1px #E1E0E1; height:52px; text-align:left;}
+
+/*
+.guide_num {border:solid 1px #ff3300;}
+.guide_num ul{border: solid 1px blue;}
+.guide_num li {display:flex; justify-content:center; height:50px; line-height:50px; font-size:18px; font-weight:600;}
+.guide_num li a img {width:24px; height:24px; padding-top:2px;}
+.input_txt {
+	width:40px; height:32px; padding:0px 4px 2px 4px; margin:-2px 8px 0 0;
+	color:#222225; border:solid 1px #E1E0E1; border-radius:4px; 
+	background:none; outline:none; 
+	font-size:30px; letter-spacing:-0.7px; text-align:center; font-weight:600;}
+
 
 /* footer ---------------------------------------------------------------------*/
 #footer .contents {text-align:left; padding-bottom:146px;}
