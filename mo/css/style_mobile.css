@@ -215,7 +215,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 
 /* 커뮤니티 하단 */
 #comm_bt {
-	width:100%; height:50px; position:fixed; bottom:0px;  z-index:10;
+	width:100%; height:60px; position:fixed; bottom:0px;  z-index:10;
 	background-color:#000;}
 
 /* common */
