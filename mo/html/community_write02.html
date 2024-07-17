@@ -63,9 +63,9 @@
 		<div class="contents">
 			<div class="board_sel_area more03"><a href="#" onclick="javascript:openPopup('board01');">게시판을 선택해주세요.</a></div>
 			<!-- 2차 카테고리 있을 경우 -->
-			<div class="board_sel_area more03 mb16"><a href="#" onclick="javascript:openPopup('board02');">말머리 선택</a></div>
+			<div class="board_sel_area more03 mb16"><a href="#" onclick="javascript:openPopup('board02');">카테고리 선택</a></div>
 			<!--//2차 카테고리 있을 경우 -->
-			<form class="input_box" action="" method="">
+			<form class="input_box_test" action="" method="">
 				<input class="input_txt" type="text" name="" placeholder="제목">
 			</form>
 			<div class="tool">
@@ -186,23 +186,15 @@
 						<img src="../images/common/ico_close03.png" alt="닫기" />
 					</button>
 				</div>
-				<div class="pop_con">
-					<!-- search box 
-					<form class="search_box03" action="" method="get">
-						<input class="search_txt" type="text" name="" placeholder="게시판 검색">
-						<button class="search_btn" type="submit">
-							<img src="../images/common/icon_search.png" />
-						</button>
-					</form>
-					<!-- //search box -->
+				<div class="pop_con02">
 					<ul class="board_list">
-						<li>
+						<li class="bold">
 							공지사항<input type="radio" name="main" value="">
 						</li>
-						<li>
+						<li class="bold">
 							자유로운글<input type="radio" name="main" value="">
 						</li>
-						<li class="noline">
+						<li class="bold noline">
 							카톡앨범<input type="radio" name="main" value="">
 						</li>
 					</ul>
@@ -214,18 +206,21 @@
 		<div class="contents">
 			<div class="pop_r24_red board02" style="display:none;">
 				<div class="pop_title">
-					<span>말머리 선택</span>
+					<span>카테고리 선택</span>
 					<button type="button" onclick="closePopup()" class="close_w30" >
 						<img src="../images/common/ico_close03.png" alt="닫기" />
 					</button>
 				</div>
-				<div class="pop_con">
+				<div class="pop_con02">
 					<ul class="board_list">
-						<li>
-							말머리 선택 안 함<input type="radio" name="main" value="">
+						<li class="bold">
+							선택 안 함<input type="radio" name="main" value="">
 						</li>
-						<li>
+						<li class="bold">
 							활용1<input type="radio" name="main" value="">
+						</li>
+						<li class="bold noline">
+							활용2<input type="radio" name="main" value="">
 						</li>
 					</ul>
 				</div>
