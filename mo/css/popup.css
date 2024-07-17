@@ -69,6 +69,8 @@ button {background:none; border:0px;}
 	border-radius: 24px 24px 0 0;}
 .pop_con {
 	padding:24px 3% 24px 3%; font-size:clamp(13px, 4.1vw, 18px); line-height:1.3; color:#222225;}
+.pop_con02 {
+	padding:24px 28px; font-size:clamp(13px, 4.1vw, 18px); line-height:1.3; color:#222225;}
 	
 .pop_con .txt_area {text-align:left; font-size:15px;}
 .textarea {background:#fff; padding:16px; margin-bottom:24px; border:solid 1px #E1E0E1;}
