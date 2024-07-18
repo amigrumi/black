@@ -225,6 +225,9 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 #comm_bt {
 	width:100%; height:60px; position:fixed; bottom:0px;  z-index:10;
 	background-color:#000;}
+#comm_bt02 {
+	width:100%; height:70px; position:fixed; bottom:0px;  z-index:10;
+	background-color:#000;}
 
 /* common */
 .pt8 {padding-top:8px;}
