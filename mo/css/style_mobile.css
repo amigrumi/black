@@ -295,7 +295,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 
 
 .ding00 {background: url(../images/common/icon_ding.png) 85% 30% no-repeat;}/*top*/
-img.ding01 {width:5px; height:5px; position:absolute; top:14px; right:7px;}/*1depth*/
+img.ding01 {width:5px; height:5px; position:absolute; top:15px; right:7px;}/*1depth*/
 .ding02 {background: url(../images/common/icon_ding.png) 100% 50% no-repeat; padding-right:8px;}/*마이홈 (오른쪽 가운데)*/
 .ding04 {background: url(../images/common/icon_ding.png) 100% 9px no-repeat; padding-right:8px;}/*내문의,커뮤리스트,내글반응,qna (오른쪽 가운데)*/
 .ding05 {background: url(../images/common/icon_ding.png) 100% 0% no-repeat; padding-top:6px; font-size: clamp(11px, 3.6vw, 16px); display:inline-block;} /*마이홈 > 내문의알림*/
