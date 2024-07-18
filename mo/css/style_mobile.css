@@ -175,7 +175,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .recommend {background-position: -240px -155px; }
 .customer {background-position: -300px -155px; }
 
-.listnav02 {width:100%; height:60px; background-color:#000;}
+.listnav02 {width:94%; height:60px; background-color:#000;}
 .listnav02 ul {display:flex; }
 .listnav02 ul li {width:20%;}
 .listnav02 ul li a {display:block; height:60px;}
