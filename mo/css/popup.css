@@ -66,7 +66,7 @@ button {background:none; border:0px;}
 	width:100%; height:60px; line-height:60px; background:#f40006; color:#fff; 
 	font-family:'Noto Sans KR';
 	font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px;
-	border-radius: 24px 24px 0 0; padding:0 0 4px 0;}
+	border-radius: 24px 24px 0 0; padding:0 0 1px 0;}
 .pop_con {
 	padding:24px 3% 24px 3%; font-size:clamp(13px, 4.1vw, 18px); line-height:1.3; color:#222225;}
 .pop_con02 {
