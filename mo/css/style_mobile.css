@@ -1279,8 +1279,7 @@ ul.out_list {padding-left:16px;}
 
 .comlist_search .select_area02 {
 	width:110px; height:40px; line-height:40px; border-radius:4px; 
-	text-align:left; font-size:11px; background-color:#fff; border:solid 1px #E1E0E1;
-	flex-shrink:0;}
+	text-align:left; font-size:11px; background-color:#fff; flex-shrink:0;}
 .more04 {
 	background:url(../images/common/ico_arrow_down.png) no-repeat right 8px;
 	background-size:24px 24px;}
