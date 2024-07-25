@@ -1270,10 +1270,7 @@ ul.out_list {padding-left:16px;}
 .commlist_con .add_num {font-size:13px;}
 .commlist_con .etc {font-size:12px; color:#77777a; padding-top:8px;}
 :root {--color_dot_divider:#e1e1e1;}
-.commlist_con .etc span{padding-left:8px;}
-.commlist_con .etc_test {font-size:12px; color:#77777a; padding-top:8px;}
-:root {--color_dot_divider:#e1e1e1;}
-.commlist_con .etc_test span{padding-left:5px;}
+.commlist_con .etc span{padding-left:5px;}
 /* 게시판 항목 구분선
 .commlist_con .etc span:before {
     content: "";  display:inline-block; width: 1px; height: 10px;
