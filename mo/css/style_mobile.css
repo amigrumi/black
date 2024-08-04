@@ -161,7 +161,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; border:solid 1px #fff; border-radius:5px;} /*3depth - 라운드메뉴 위*/
 
 /* 커뮤니티 게시판 메뉴 */
-.listnav {width:100%; height:60px; background-color:#fff;}
+.listnav {width:100%; height:60px; background-color:#fff; border-top:solid 1px #E1E0E1;}
 .listnav ul {display:flex; justify-content:space-evenly; }
 .listnav ul li a {display:block; height:60px;}
 .listnav ul li a span {display:flex; align-items:flex-end; justify-content:center; height:50px; font-size:10px;}
@@ -179,7 +179,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .scrap_on {background-position: 0px -205px; color:#f40006;}
 .recommend_on {background-position: -60px -205px; color:#f40006;}
 
-.listnav02 {height:60px; background-color:#fff;}
+.listnav02 {height:60px; background-color:#fff; border-top:solid 1px #E1E0E1;}
 .listnav02 ul {display:flex; }
 .listnav02 ul li {width:50%;}
 .listnav02 ul li a {display:block; height:60px;}
