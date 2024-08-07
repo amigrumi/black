@@ -49,7 +49,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .top03 h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
 .top03 {width:100%; min-width:300px; height:60px; background-color:#000; color:#fff;}
 
-.top h1 {font-size:20px; margin-left:5%; font-family:'Noto Sans KR';}
+.top h1 {font-size:20px; margin-left:3%; font-family:'Noto Sans KR';}
 .top {
 	position:fixed; top:0px; z-index:10; overflow:hidden;
 	width:100%; min-width:300px; height:60px; background-color:#000; color:#fff;}
@@ -185,6 +185,35 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .listnav02 ul li a {display:block; height:60px;}
 .listnav02 ul li a span {display:flex; align-items:flex-end; justify-content:center; height:50px; font-size:10px;}
 
+/* 홈 중간 카테고리 01 */
+.homenav01 {
+	width:100%; height:64px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
+.homenav01 ul {display:flex; justify-content:space-evenly;}
+.homenav01 ul li a {display:block; height:50px; margin-top:7px;}
+.homenav01_bg {
+	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
+	background: url(../images/common/nav02.png) no-repeat;
+	background-size: 500px 300px; vertical-align: top;}
+.life {background-position: 0px 0;}
+.kichen {background-position: -50px 0;}
+.clean {background-position: -100px 0;}
+.car {background-position: -150px 0;}
+.makeup {background-position: -200px 0;}
+
+/* 홈 중간 카테고리 02 */
+.homenav02 {
+	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
+.homenav02 ul {display:flex; justify-content:space-evenly;}
+.homenav02 ul li a {display:block; height:66px; margin-top:16px;}
+.homenav01_bg {
+	overflow: hidden; position: relative; width:50px; height:66px; margin: 0 auto;
+	background: url(../images/common/nav02.png) no-repeat;
+	background-size: 500px 300px; vertical-align: top;}
+.life02 {background-position: 0px -50px;}
+.kichen02 {background-position: -50px -50px;}
+.clean02 {background-position: -100px -50px;}
+.car02 {background-position: -150px -50px;}
+.makeup02 {background-position: -200px -50px;}
 
 /* 하단 nav */
 #nav {
