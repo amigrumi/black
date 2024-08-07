@@ -7,7 +7,7 @@
 .pop_t01 {margin-bottom:60px;}	
 .pop_t02 {margin-bottom:60px; font-size:20px;}	
 .pop_t03 {margin-bottom:24px;}*/
-.close_w30 img {position:absolute; right:24px; top:15px; width:30px;}
+.close_w30 img {position:absolute; right:11px; top:15px; width:30px;}
 button {background:none; border:0px;}
 
 .scroll {overflow: scroll;}
@@ -118,6 +118,14 @@ button {background:none; border:0px;}
 .pop_list01 .per_area {
 	display:flex; position:relative; padding-bottom:12px;}
 .pop_list01 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
+
+/* 전체팝업 - 전략 검색결과 */
+.pop_title03 {
+	width:100%; height:60px; line-height:60px; background:#000; color:#fff; 
+	font-family:'Noto Sans KR'; 
+	font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px;}
+.pop_title03 span {position:absolute; left:3%; text-align:left;}
+.pop_title04 {padding-left:3%; font-size:18px; color:#f40006}
 
 /* 캠페인별 세부사항 */
 .cam_info .date { 
