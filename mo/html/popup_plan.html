@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="성공사례"><meta name="keywords" content="성공사례">
+	
+
+
+	<title>팝업_전략리스트</title>
+
+	<link type="text/css" href="../css/style_mobile.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#container").load("detail.html")  
+	      });
+	</script>
+	<!-- //include -->
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★home -->
+	<div id="container"></div>
+	<!-- ★home -->
+	
+	<!-- 팝업 -->
+	<script>
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_100').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		<!-- 주문정보 -->	
+		<div class="contents_100">			
+			<div class="pop_100 scroll">
+				<!-- top -->
+				<div class="pop_title02">
+					<span>깔끔대장 강력한 배수구 클리너</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<!-- top -->
+				<div class="contents pb72">
+					<div class="info01">
+						<p class="title">깔끔대장 강력한 바닥클리너 1+1 외 3건</p>
+						<p>주문상태 : 결제</p>
+						<p>결제일 : 2024.02.28 (13:25)</p>
+						<p>주문번호 : 102760547 (결제상품수 : 5개)</p>
+						<p>확정결제액 = 실결제-배송비 ( 결제-취소-배송비 )</p>
+					</div>
+					<!-- 합계01 -->
+					<div class="bg_gray mb8">
+						<div class="report_sum01">
+							<table>
+								<colgroup>
+									<col width="45%"/ ><col width="35%"/ ><col width="20%"/ >
+								</colgroup>
+								<tr>
+									<th>확정결제액</th>
+									<th>수수료</th>
+									<th>수익</th>
+								</tr>
+								<tr>
+									<td>1,500,000</td>
+									<td>45%</td>
+									<td class="red">3,675,000</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<!-- //합계01 -->
+					<!-- 합계02 -->
+					<div class="bg_gray">
+						<div class="report_sum02">
+							<table>
+								<colgroup>
+									<col width="30%"/ ><col width="23%"/ ><col width="30%"/ ><col width="17%"/ >
+								</colgroup>
+								<tr>
+									<th>결제</th>
+									<th>취소</th>
+									<th>실결제</th>
+									<th>배송비</th>
+								</tr>
+								<tr>
+									<td>1,603,500</td>
+									<td>5,000</td>
+									<td>1,553,500</td>
+									<td class="red">53,500</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<!-- //합계02 -->
+					<!-- 제품별 정보 -->
+					<div class="pop_list01">
+						<ul>
+							<li>
+								<div class="thumb">
+									<div class="thum_txt02">할인</div>
+									<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
+								</div>
+								<div class="title_area">
+									<div class="t01">
+										깔끔대장 갈아바바 전동칼갈이 1+1 세트세트
+									</div>
+									<div class="per_area">
+										<p class="p01">1,500,000</p>
+										<p class="p01">45%</p>
+										<p class="bold red">1,675,000</p>
+									</div>
+									<div class="pb24">
+										<p>주문품목번호 : 1234567</p>
+										<p>할인가격 : 29,800 (50%)</p>
+									</div>
+									<div class="pb16">
+										<p>결제 : 1,603,500</p>
+										<p>취소 : 50,000</p>
+										<p>실결제 : 1,533,500</p>
+										<p>수량 : 5
+									</div>
+									<div>
+										<p>결제상태 : 결제</p>
+										<p>결제시간 : 13:25</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="thumb">
+									<div class="thum_txt02">할인</div>
+									<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
+								</div>
+								<div class="title_area">
+									<div class="t01">
+										깔끔대장 갈아바바 전동칼갈이
+									</div>
+									<div class="per_area">
+										<p class="p01">1,500,000</p>
+										<p class="p01">45%</p>
+										<p class="bold red">1,675,000</p>
+									</div>
+									<div class="pb24">
+										<p>주문품목번호 : 1234567</p>
+										<p>할인가격 : 29,800 (50%)</p>
+									</div>
+									<div class="pb16">
+										<p>결제 : 1,603,500</p>
+										<p>취소 : 50,000</p>
+										<p>실결제 : 1,533,500</p>
+										<p>수량 : 5
+									</div>
+									<div>
+										<p>결제상태 : 결제</p>
+										<p>결제시간 : 13:25</p>
+									</div>
+								</div>
+							</li>
+							<li class="noline">
+								<div class="thumb">
+									<div class="thum_txt02">할인</div>
+									<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
+								</div>
+								<div class="title_area">
+									<div class="t01">
+										깔끔대장 갈아바바 전동칼갈이
+									</div>
+									<div class="per_area">
+										<p class="p01">1,500,000</p>
+										<p class="p01">45%</p>
+										<p class="bold red">1,675,000</p>
+									</div>
+									<div class="pb16">
+										<p>주문품목번호 : 1234567</p>
+										<p>할인가격 : 29,800 (50%)</p>
+									</div>
+									<div class="pb16">
+										<p>결제 : 1,603,500</p>
+										<p>취소 : 50,000</p>
+										<p>실결제 : 1,533,500</p>
+										<p>수량 : 5
+									</div>
+									<div>
+										<p>결제상태 : 결제</p>
+										<p>결제시간 : 13:25</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!--//제품별 정보 -->
+				</div>
+				<!-- 닫기 -->
+				<div class="pop_close">
+					<button type="button" onclick="closePopup()">
+						닫기
+					</button>
+				</div>
+				<!-- //닫기 -->
+			</div>
+		</div>
+		<!-- //주문정보 -->
+			
+	</div>
+	
+	<!-- //팝업 -->
+	
+
+	
+</div>
+</body>
+</html>
