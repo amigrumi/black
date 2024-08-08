@@ -283,6 +283,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .mb8 {margin-bottom:8px;}
 .mb16 {margin-bottom:16px;}
 .mb24 {margin-bottom:24px;}
+.mb35 {margin-bottom:35px;}
 .ml_8 {margin-left:-8px;}
 .mr3per {margin-right:3%;}
 .bottom_mg {padding-bottom:72px;} /* 하단 여백 추가 */
@@ -1121,6 +1122,16 @@ a.btn_s03_bl02 {
 .detail_nav  ul li a {display:block; height:50px; line-height:50px; font-size:10px;}
 
 /* 리포트 - 기간별 */
+.report_sum03 {padding:13px 5%; text-align: left; font-size: clamp(11px, 3.6vw, 16px); font-weight: 400;}
+.report_sum03 .th {padding: 3px 0;}
+.report_sum03 .td {padding: 3px 0; font-size: clamp(14px, 4.4vw, 19px); font-weight: 600;}
+.report_sum03 .td02 {padding: 3px 0; font-weight: 600;}
+.bg_8line {
+	overflow: hidden; position: relative; width: 100%; margin: 0 auto;
+	background: url(../images/common/bg_8line.png) left center;
+	background-size: 100px 400px; vertical-align: top;}
+
+
 .report_sum01 table {width:90%; margin:0 auto; padding:12px 0;}
 .report_sum01 table th{padding:2px 0; text-align:left; font-size:clamp(11px, 3.6vw, 16px); font-weight:400;}
 .report_sum01 table td{padding:2px 0; text-align:left; font-size:clamp(14px, 4.4vw, 19px); font-weight:600;}
