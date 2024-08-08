@@ -129,7 +129,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 
 .gnb ul {display:flex; margin-left:3vw;}
 .gnb ul li {position:relative;}
-.gnb ul li a {display:block; height:48px; line-height:48px; padding:0; margin-right:12px;}
+.gnb ul li a {display:block; height:48px; line-height:48px; padding:0; margin-right:17px;}
 .gnb ul li a.on {border-bottom:solid 2px #F40006; color:#F40006; font-weight:600;}
 
 
@@ -187,29 +187,36 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 
 /* 홈 중간 카테고리 01 */
 .homenav01 {
-	width:100%; height:64px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
+	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
 .homenav01 ul {display:flex; justify-content:space-evenly;}
-.homenav01 ul li a {display:block; height:50px; margin-top:8px;}
+.homenav01 ul li a {display:block; height:66px; margin-top:16px;}
 .homenav01_bg {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
 	background: url(../images/common/nav02.png) no-repeat;
 	background-size: 500px 300px; vertical-align: top;}
-.life {background-position: 0px 0px;}
-.kichen {background-position: -50px 0px;}
-.clean {background-position: -100px 0px;}
-.car {background-position: -150px 0px;}
-.makeup {background-position: -200px 0px;}
+.life {background-position: 0px -50px;}
+.kichen {background-position: -50px -50px;}
+.clean {background-position: -100px -50px;}
+.car {background-position: -150px -50px;}
+.makeup {background-position: -200px -50px;}
+.fashion {background-position: -250px -50px;}
+.gym {background-position: -300px -50px;}
+.traval {background-position: -350px -50px;}
+.base {background-position: -400px -50px;}
+.electronic {background-position: -450px -50px;}
+.hair {background-position: 0px -150px;}
+.baby {background-position: -50px -150px;}
+.body {background-position: -100px -150px;}
+.animal {background-position: -150px -150px;}
+.lingerie {background-position: -200px -150px;}
+.men {background-position: -250px -150px;}
 
-/* 홈 중간 카테고리 02 */
-.homenav02 {
-	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
-.homenav02 ul {display:flex; justify-content:space-evenly;}
-.homenav02 ul li a {display:block; height:66px; margin-top:16px;}
-.life02 {background-position: 0px -50px;}
-.kichen02 {background-position: -50px -50px;}
-.clean02 {background-position: -100px -50px;}
-.car02 {background-position: -150px -50px;}
-.makeup02 {background-position: -200px -50px;}
+.homenav_all {
+	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;
+	overflow: hidden; overflow-x: auto; white-space: nowrap; -ms-overflow-style: none;
+    scrollbar-width: none;}
+.homenav_all ul {display:flex; margin-left:3%;}
+.homenav_all ul li a {display:block; height:66px; margin-top:16px; margin-right:16px;}
 
 /* 하단 nav */
 #nav {
@@ -328,7 +335,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 
 
 .ding00 {background: url(../images/common/icon_ding.png) 85% 30% no-repeat;}/*top*/
-img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:7px;}/*1depth*/
+img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:12px;}/*1depth*/
 .ding02 {background: url(../images/common/icon_ding.png) 100% 50% no-repeat; padding-right:8px;}/*마이홈 (오른쪽 가운데)*/
 .ding04 {background: url(../images/common/icon_ding.png) 100% 10px no-repeat; padding-right:8px;}/*내문의,커뮤리스트,내글반응,qna (오른쪽 가운데)*/
 .ding05 {background: url(../images/common/icon_ding.png) 100% 0% no-repeat; padding-top:6px; font-size: clamp(11px, 3.6vw, 16px); display:inline-block;} /*마이홈 > 내문의알림*/
