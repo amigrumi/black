@@ -188,8 +188,8 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 /* 홈 중간 카테고리 01 */
 .homenav01 {
 	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
-.homenav01 ul {display:flex; justify-content:space-evenly;}
-.homenav01 ul li a {display:block; height:66px; margin-top:16px;}
+.homenav01 ul {display:flex; margin-left:3%;}
+.homenav01 ul li a {display:block; height:66px; margin-top:16px; margin-right:18px;}
 .homenav01_bg {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
 	background: url(../images/common/nav02.png) no-repeat;
