@@ -72,7 +72,7 @@ button {background:none; border:0px;}
 .pop_con02 {
 	padding:24px 28px; font-size:clamp(13px, 4.1vw, 18px); line-height:1.3; color:#222225;}
 	
-.pop_con .txt_area {text-align:left; font-size:15px;}
+.pop_con .txt_area {text-align:left; font-size:15px; line-height:1.5;}
 .textarea {background:#fff; padding:16px; margin-bottom:24px; border:solid 1px #E1E0E1;}
 .comment_write {width: 100%; height: 72px; background: #fff; text-align: left; resize: none; outline: 0 none; border: 0px;}
 	
@@ -127,10 +127,12 @@ button {background:none; border:0px;}
 .pop_title03 span {position:absolute; left:3%; text-align:left;}
 .pop_title04 {padding-left:3%; font-size:18px; color:#f40006}
 
-/* 캠페인별 세부사항 */
+/* 캠페인별 세부사항, 정산 팝업 */
 .cam_info .date { 
 	display:block; text-align:left; font-size:13px; color:#f40006; margin-bottom:12px;}
-.cam_info .pro_info {display:flex; margin-bottom:16px;}
+.cam_info .date02 { 
+	display:block; text-align:left; font-size:15px; color:#222225; margin-bottom:12px;}
+.cam_info .pro_info {display:flex; margin-bottom:16px;} /* 정산 팝업 */
 
 .pro_info02 {text-align:center; font-size:24px; font-weight:600; padding:0 0 24px 0;}/* 상단에 타이틀만 */
 
@@ -176,6 +178,8 @@ button {background:none; border:0px;}
 .cam_info02 .area01 .black {color:#222225;}
 .cam_info02 ul li.area02 {width:43%; }
 .cam_info02 .area02 .tt {display:inline-block; width:43%; color:#77777a;}
+
+.info_sum {padding:20px 12px 21px 12px; text-align:left;}
 
 
 a.pop_btn {
@@ -359,5 +363,7 @@ input#agree_btn:checked + label:before{
 /* qna 팝업내용 */
 .pop_txt {text-align:left; line-height:1.5;}
 
-
+/* 정산 */
+ul.duty_modify li {text-align: left; color:#222225; padding:8px 0 7px 0; font-size:15px; font-weight:600;}
+.pop_con .txt_area02 {text-align:left; font-size:15px; padding:16px 8px;}
 
