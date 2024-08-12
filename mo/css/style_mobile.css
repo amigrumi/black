@@ -1139,6 +1139,11 @@ a.btn_s03_bl02 {
 .report_sum03 .td {padding: 3px 0; font-size: clamp(14px, 4.4vw, 19px); font-weight: 600;}
 .report_sum03 .td02 {padding: 3px 0; font-weight: 600;}
 .report_sum03 .td03 {padding: 3px 0; font-size: clamp(14px, 4.4vw, 19px); font-weight: 400;}
+.report_sum03 .sum03_w01 {width:25vw;} /*정산*/
+.report_sum03 .sum03_w02 {width:5vw;} /*정산*/
+.report_sum03 .sum03_w03 {width:21vw;} /*정산_팝업*/
+.report_sum03 .sum03_w05 {width:24vw;} /*정산_팝업 (원천징수)*/
+.report_sum03 .sum03_w04 {width:3.8vw;} /*정산_팝업*/
 .bg_8line {
 	overflow: hidden; position: relative; width: 100%; margin: 0 auto;
 	background: url(../images/common/bg_8line.png) left center;
