@@ -193,6 +193,10 @@ a.pop_btn {
 	height:26px; line-height:26px; padding:12px 24px; margin:8px 0; border-radius:50px;
 	font-size:clamp(14px, 4.4vw, 19px); font-weight:bold; color:#fff; background:#f40006;}
 
+a.pop_btn02 {
+	display:inline-block; height:26px; line-height:26px; padding:8px 12px;
+	border-radius:4px; font-size:14px; color:#fff; background:#000;}
+
 /*.pro_info .per_area {
 	display:flex; position:relative; padding-bottom:12px;}
 .pro_info .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}*/
