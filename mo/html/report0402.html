@@ -222,6 +222,12 @@
 			$('.' + modalname).show();
 			$(".mask02").show(); 
 			}
+		// 팝업in팝업 열기 
+		function openPopup02(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".pop04").show(); 
+			}
 	 	// 팝업 닫기
 		function closePopup(flag) {
 			$('.pop_r24_red').hide(); 
@@ -263,21 +269,21 @@
 							</li>
 						</ul>
 					</div>
-					<!-- //버튼 -->		
+					<!-- //버튼 -->
 					<!-- 합계01 -->
 					<div class="bg_gray mb8">
 						<div class="report_sum03 flex flex_btw">
-							<div>
+							<div class="sum03_w01">
 								<p class="th">수익</p>
 								<p class="td">1,000,000</p>
 							</div>
-							<div>+</div>
-							<div>
+							<div class="sum03_w02">+</div>
+							<div class="sum03_w01">
 								<p class="th">기타금액</p>
 								<p class="td">100,300</p>
 							</div>
-							<div>=</div>
-							<div>
+							<div class="sum03_w02">=</div>
+							<div class="sum03_w01">
 								<p class="th">정산금액</p>
 								<p class="td red">1,100,000</p>
 							</div>
@@ -287,24 +293,25 @@
 					<!-- 합계01 -->
 					<div class="bg_gray mb8">
 						<div class="report_sum03 flex flex_btw">
-							<div>
+							<div class="sum03_w01">
 								<p class="th">확정결제액</p>
 								
 								<p class="td03">2,500,000</p>
 							</div>
-							<div>x</div>
-							<div>
+							<div class="sum03_w02">x</div>
+							<div class="sum03_w01">
 								<p class="th">수수료</p>
 								<p class="td03">40%</p>
 							</div>
-							<div>=</div>
-							<div>
+							<div class="sum03_w02">=</div>
+							<div class="sum03_w01">
 								<p class="th">수익</p>
 								<p class="td03 red">1,000,000</p>
 							</div>
 						</div>
 					</div>
-					<!-- //합계01 -->
+					<!-- //합계01 -->	
+					
 					
 					<!-- 세부 내용 -->
 					<div class="cam_info02 info_sum bg_gray">
@@ -340,8 +347,7 @@
 						<li>수정가능유무 : <span class="red">수정가능</span></li>
 						<li>최종 등록,수정일 : <span class="normal">2024.05.25 12:35</span></li>
 						<li><a class="button_160 btnBlack">세금계산서보기</a></li>
-						<li><a class="button_160 btnBlack">계산서 등록/수정하기</a></li>
-						
+						<li><a class="button_160 btnBlack" onclick="javascript:openPopup02('pop04');">계산서 등록/수정하기</a></li>
 						<li>비고(사유)</li>
 					</ul>
 					<div class="bg_gray txt_area02" style="min-height:96px;">
@@ -352,6 +358,32 @@
 			</div>
 		</div>
 		<!-- //세금계산서 등록 수정 -->
+		<script>
+		 	// 팝업 닫기
+			function closePopup02(flag) {
+				$('.pop04').hide();
+				};
+		</script>
+		<!-- 세금계산서 등록 수정 _팝업 속 팝업 -->
+		<div class="contents">
+			<div class="pop_r24_red black_ra pop04">
+				<div class="pop_title">
+					<span>세금계산서 등록/수정</span>
+					<button type="button" onclick="closePopup02()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con">
+					<p class="bold pb8 txt_left">세금계산서</p>
+					<div class="txt_bg_gray flex flex_btw">
+					<p class="font14">등록된 계산서가 없습니다. </p>
+					<a href="#" class="pop_btn02">파일업로드</a>
+					</div>
+					<p class="txt03 red pb16">*파일 형식 : JPG, JPEG, PNG(10MB 이하 허용)</p>
+				</div>
+			</div>
+		</div>
+		<!-- //세금계산서 등록 수정 _팝업 속 팝업 -->
 		
 		<!-- 세금계산서 등록 수정 -->
 		<div class="contents">
