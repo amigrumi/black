@@ -1675,7 +1675,7 @@ ul.board_list {padding:0px;}
 
 /* 상단 검색바 */
 .search_box03 {
-	display:flex; height:42px; width:100%; background:#fff; margin:0 4% 0 0;
+	display:flex; justify-content: space-between; height:42px; width:100%; background:#fff; margin:0 8px 0 0;
 	border-radius:4px; padding:0px; overflow: hidden;}
 .search_box03 .search_txt {
 	flex-shrink:1; border:none; background:none; outline:none; padding:0 0 0 4px;
