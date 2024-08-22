@@ -200,7 +200,7 @@ a.pop_btn02 {
 a.pop_btn03 {
 	display:block; width:220px; height:26px; line-height:26px; padding:8px 12px;
 	border-radius:4px; font-size:14px; color:#fff; background-color:#000;
-	margin:16px auto;}
+	margin:0 auto;}
 .bg_arrow_go {
 	background:url(../images/common/arrow_go.png) no-repeat 95% 50%; 
 	background-size:24px 24px;}
