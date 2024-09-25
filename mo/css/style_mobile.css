@@ -61,7 +61,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .topmn_bg {
 	overflow: hidden; position: relative; width: 40px; height: 60px; margin: 0 auto;
 	background: url(../images/common/nav.png);
-	background-size: 470px 260px; vertical-align: top;}
+	background-size: 530px 260px; vertical-align: top;}
 .top_search {background-position: -5px -100px;}
 .top_cate {background-position: -65px -100px;}
 .top_my {background-position: -125px -100px; }
@@ -70,6 +70,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .top_list {background-position: -305px -100px; }
 .top_close {background-position: -365px -100px; }
 .top_sort {background-position: -425px -100px; }
+.top_home {background-position: -485px -100px; }
 
 .top_title {display: flex; height:60px; margin-left:0%;}
 .top_title h2 {font-size:18px; line-height:58px; font-weight:400;}
@@ -604,14 +605,16 @@ a.btn_main03 {
 .end {margin:0 0 16px 0;}
 
 .bg_menu {background: url(../images/common/bg_menu.png)  no-repeat;
-	background-size: 50px 250px; vertical-align: top;}
+	background-size: 50px 350px; vertical-align: top;}
 
 .mn01 {background-position: 0px 0px; padding-left:46px;}
 .mn02 {background-position: 0px -50px; padding-left:46px;}
 .mn03 {background-position: 0px -100px; padding-left:46px;}
 .mn04 {background-position: 0px -150px; padding-left:46px;}
 .mn05 {background-position: 0px -200px; padding-left:46px;}
-.mn06 {background-position: 0px -200px; padding-left:46px;}
+.mn00 {background-position: 0px -250px; padding-left:46px;}
+.mn06 {background-position: 0px -300px; padding-left:46px;}
+
 
 /* btn */
 /*.btn_area_flex {display:flex; justify-content:space-between; width:100%; padding-top:18px;}
