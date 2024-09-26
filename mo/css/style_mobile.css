@@ -605,7 +605,7 @@ a.btn_main03 {
 .end {margin:0 0 16px 0;}
 
 .bg_menu {background: url(../images/common/bg_menu.png)  no-repeat;
-	background-size: 50px 350px; vertical-align: top;}
+	background-size: 50px 400px; vertical-align: top;}
 
 .mn01 {background-position: 0px 0px; padding-left:46px;}
 .mn02 {background-position: 0px -50px; padding-left:46px;}
@@ -614,6 +614,7 @@ a.btn_main03 {
 .mn05 {background-position: 0px -200px; padding-left:46px;}
 .mn00 {background-position: 0px -250px; padding-left:46px;}
 .mn06 {background-position: 0px -300px; padding-left:46px;}
+.mn07 {background-position: 0px -350px; padding-left:46px;}
 
 
 /* btn */
@@ -1264,7 +1265,7 @@ img.ico_qus {width:18px; height:18px; padding-top:6px;}
 .myhome_mn li {height:50px; line-height:50px; text-align:left; border-bottom:solid 1px #E1E1E1;}
 .myhome_mn a {display:flex; justify-content : space-between; align-items: center; padding-left:46px; font-weight:600;}
 .bg_myhome {background: url(../images/common/bg_myhome.png)  no-repeat;
-    background-size: 50px 600px; vertical-align: top; }
+    background-size: 50px 650px; vertical-align: top; }
 .bg_myhome img {width:30px; height:30px;}
 .mymn01 {background-position: 0px 0px; padding-left:8px;}
 .mymn02 {background-position: 0px -50px; padding-left:8px;}
@@ -1278,6 +1279,7 @@ img.ico_qus {width:18px; height:18px; padding-top:6px;}
 .mymn10 {background-position: 0px -450px; padding-left:8px;}
 .mymn11 {background-position: 0px -500px; padding-left:8px;}
 .mymn12 {background-position: 0px -550px; padding-left:8px;}
+.mymn13 {background-position: 0px -600px; padding-left:8px;}
 
 /* my-내정보 */
 .myinfo li {display: flex; padding:32px 0; border-bottom:solid 1px #eeeeee;}
