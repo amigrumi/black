@@ -198,13 +198,13 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .listnav02 ul li a {display:block; height:60px;}
 .listnav02 ul li a span {display:flex; align-items:flex-end; justify-content:center; height:50px; font-size:10px;}
 
-/* 홈 중간 카테고리 01 */
+/* 홈 중간 카테고리 01 - 6개 노출 */
 .homenav01 {
-	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;}
+	width:100%; max-width:600px; height:96px; margin:0 auto; background-color:#fff;}
 .under_1px {border-bottom:solid 1px #F5F5F5;}
 .under_8px {border-bottom:solid 8px #F5F5F5;}
-.homenav01 ul {display:flex; margin-left:3%;}
-.homenav01 ul li a {display:block; height:66px; margin-top:16px; margin-right:8px;}
+.homenav01 ul {display:flex; justify-content: space-around; margin:0 3%;}
+.homenav01 ul li a {display:block; height:66px; margin-top:16px;}
 .homenav01_bg {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
 	background: url(../images/common/nav02_pink01.png) no-repeat;
@@ -223,6 +223,17 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .sales {background-position: -200px -150px;}
 .season {background-position: -250px -150px;}
 
+/* 홈 중간카테고리 - 5.5개 노출*/
+.homenav01_img {
+	width:100%; max-width:600px; margin:0 auto; background-color:#fff;
+	overflow:hidden; overflow-x:auto; white-space: nowrap;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */}
+.homenav01_img ul {display:flex; margin-left:clamp(10px, 4.4vw, 26px);}
+.homenav01_img ul li {}
+.homenav01_img ul li a {display:block; margin-top:16px; margin-bottom:16px; margin-right:clamp(6px, 4.4vw, 26px);}
+.homenav01_img img {width:clamp(50px, 13.9vw, 80px);; height:auto;}
+/*
 .homenav_all {
 	width:100%; height:96px; border-bottom:solid 8px #F5F5F5; background-color:#fff;
 	overflow: hidden; overflow-x: auto; white-space: nowrap; -ms-overflow-style: none;
