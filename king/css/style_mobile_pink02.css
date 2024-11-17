@@ -234,7 +234,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 	scrollbar-width: none; /* Firefox */}
 .homenav01_img ul {display:flex; margin-left:3%;}
 .homenav01_img ul li {}
-.homenav01_img ul li a {display:block; margin-top:16px; margin-bottom:16px; margin-right:clamp(16px, 6vw, 40px);}
+.homenav01_img ul li a {display:block; margin-top:16px; margin-bottom:16px; margin-right:clamp(12px, 6vw, 40px);}
 .homenav01_img img {width:clamp(50px, 13.9vw, 80px);; height:auto;}
 
 /*
