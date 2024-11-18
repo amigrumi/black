@@ -21,7 +21,7 @@
 	<script type="text/javascript">
 	      $(document).ready(function(){
 	         $("#footer").load("include/footer.html")
-	         $("#nav").load("include/nav_on.html")
+	         $("#nav").load("include/nav.html #nav_nor") 
 	         $("#side").load("include/side.html")      
 	      });
 	</script>
@@ -56,10 +56,10 @@
 			<ul>
 				<li><a href="#">홈</a></li>
 				<li><a href="#">상품</a></li>
-				<li><a class="on" href="#">공급사</a></li>
-				<li><a href="#">판매사</a></li>
+				<!--li><a class="on" href="#">공급사</a></li>
+				<li><a href="#">판매사</a></li-->
 				<li><a href="#">커뮤니티</a></li>
-				<li><a href="#">데이터</a></li>
+				<!--li><a href="#">데이터</a></li-->
 				<li><a href="#">고객센터</a></li>
 				<li><a href="#">제휴문의</a></li>
 			</ul>
@@ -85,20 +85,9 @@
 		<!-- contents -->
 		
 		<div class="contents_100">
-			<a href="#"><img src="../images/banner/ev02_bn01_720x400.gif" alt="banner" /></a>
+			<a href="#"><img src="../images/banner/ev02_bn01_720x400_pink.gif" alt="banner" /></a>
 		</div>
-		<!-- 중간 카테고리 -->
-		<div class="homenav01 under_8px">
-				<ul>
-					<li><a class="homenav01_bg pick" href="#"></a></li>
-					<li><a class="homenav01_bg popular" href="#"></a></li>
-					<li><a class="homenav01_bg new" href="#"></a></li>
-					<li><a class="homenav01_bg limit" href="#"></a></li>
-					<li><a class="homenav01_bg sales" href="#"></a></li>
-					<li><a class="homenav01_bg season" href="#" class="no_margin"></a></li>
-				</ul>
-		</div>
-		<!-- //중간 카테고리 -->
+		
 		<!-- 오늘의 추천상품 -->
 		<div class="contents pb16">
 			<h2 class="sub_title">오늘의 추천 공급사</h2>
@@ -109,7 +98,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">BEST 1</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -128,7 +117,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">BEST 2</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02_02" >신상</div>
+							<div class="thum_txt02_02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -140,14 +129,14 @@
 									최고실적 9,000만원!
 								</p>
 							</div>
-							<div class="add_txt03"><a href="#">자세히보기</a></div>
+							<div class="add_txt03" style="padding:7px 8px 8px 8px;"><a href="#">자세히보기</a></div>
 						</div>
 					</li>
 					<li class="li_end">
 						<div class="thumb">
 							<div class="thum_txt01">BEST 3</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/03.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -181,7 +170,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 1</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/01.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -200,7 +189,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 2</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -219,7 +208,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 3</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -238,7 +227,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 4</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -257,7 +246,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 5</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -276,7 +265,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 6</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -295,7 +284,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 7</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -314,7 +303,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 8</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -333,7 +322,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 9</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/02.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>
@@ -352,7 +341,7 @@
 						<div class="thumb">
 							<div class="thum_txt01">TOP 10</div>
 							<img src="https://amigrumi.github.io/black/partners/images/thumb/03.png" alt="썸네일" />
-							<div class="thum_txt02" >신상</div>
+							<div class="thum_txt02" >NEW</div>
 						</div>
 						<div class="title_area">
 							<div>

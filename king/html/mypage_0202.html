@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+
+
+	<title>내정보</title>
+
+	<link type="text/css" href="../css/style_mobile.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#footer").load("include/footer.html")
+	         $("#nav").load("include/nav.html #nav_my") 
+	         $("#side").load("include/side.html")      
+	      });
+	</script>
+	<!-- //include -->
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header">
+		<!-- 기본 -->
+		<div class="top flex flex_btw">
+			<div class="top_title">
+				<a class="topmn_bg top_back" href="#"></a>
+				<h2>마이페이지</h2>
+			</div>
+			<div class="top_mn">
+				<ul>
+					<li><a class="topmn_bg top_search" href="#"></a></li>
+					<li><a class="topmn_bg top_cate" href="#"></a></li>
+					<li><a class="topmn_bg top_home" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //기본 -->
+		<div class="gnb">
+			<ul>
+				<li><a href="#">마이홈</a></li>
+				<li><a class="on" href="#">내정보</a></li>
+				<li><a href="#">찜</a></li>
+				<!--li><a href="#">내글</a></li-->
+				<li><a href="#">스크랩</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //★header -->
+	<div>
+	<!-- ★container -->
+	<div id="container02">
+		<!-- contents -->
+		<!-- 파트너정보01 -->
+		<div class="contents">
+			<h2 class="sub_title pb16">파트너정보</h2>
+			<ul class="myinfo">
+				<li>
+					<p class="tt align_center">프로필</p>
+					<div class="txt">
+						<p class="my_profile"><img src="../images/common/my_profile_empty.png" /></p>
+						<a class="btn_line02 align_center" href="#" onclick="javascript:openPopup('set_profile');">프로필수정</a>	
+					</div>
+				</li>
+				<li>
+					<p class="tt">닉네임</p>
+					<div class="txt">
+						<p class="">언제나가을</p>
+						<a class="btn_line02" href="#" onclick="javascript:openPopup('set_profile');">닉네임수정</a>
+					</div>
+				</li>
+				<li>
+					<p class="tt">제휴상태</p>
+					<div class="txt02">
+						<p class="pb8">공급사요청중</p>
+					</div>
+				</li>
+				<li>
+					<p class="tt">채널명</p>
+					<div class="txt">
+						<p class="">리뷰리뮤리뷰</p>
+					</div>
+				</li>
+				<li>
+					<p class="tt align_center">채널주소</p>
+					<div class="txt">
+						<p class="word_break"><a href="#">https://www.instagrma.com/_blackholic.partners</a></p>	
+					</div>
+				</li>
+				<li class="noline">
+					<p class="tt align_center">파트너유형</p>
+					<div class="txt">
+					<!-- select box -->
+						<div class="select_area">
+							<select>
+								<option>판매사</option>
+								<option>공급사</option>
+							</select>
+						</div>
+					<!--//select box -->
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- //파트너정보01 -->
+		
+		<div class="hr8">&nbsp;</div>
+		<!-- 계정정보 -->
+		<div class="contents">
+			<h2 class="sub_title pb16 flex flex_btw">
+				계정정보
+				<a href="#" class="btn_icon01" onclick="javascript:openPopup('set_agree');">&nbsp;</a>	
+			</h2>
+			<ul class="myinfo">
+				<li>
+					<p class="tt">아이디</p>
+					<div class="txt">
+						<p class="">blackholic123</p>
+					</div>
+				</li>
+				<li>
+					<p class="tt align_center">이메일</p>
+					<div class="txt align_center">
+						<p class="word_break align_center">blackholic12345678@blackholic.com</p>
+					</div>
+				</li>
+				<li>
+					<p class="tt align_center">휴대전화</p>
+					<div class="txt">
+						<div class="">
+							<p class="pb8">010-4321-2580</p>
+							<a href="#" class="button_160 btnBlack">휴대전화 변경문의</a>
+						</div>	
+					</div>
+				</li>
+				<li class="noline">
+					<p class="tt align_center gray">회원탈퇴</p>
+					<div class="txt">
+							<a href="#" class="button_100 btnBlack" style="color:#fff;">탈퇴하기</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- //계정정보 -->
+				
+		<!-- //★contents -->
+	</div>
+	<!-- //container -->
+	<!-- ★footer -->
+	<div id="footer"></div>
+	<!-- ★footer -->
+	</div>
+	<!-- nav -->
+	<div id="nav"></div>
+	<!-- //nav -->	
+	
+	<div id="side"></div>
+	
+	<!--팝업 -->
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r24_red').hide(); 
+			$('.pop_100').hide();
+			$('.mask').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		<!-- 프로필설정 -->	
+		<div class="contents_100">			
+			<div class="pop_100 set_profile" style="display:none;">
+				<!-- 기본 -->
+				<div class="top03 flex flex_btw">
+					<div class="top_title">
+						<a class="topmn_bg top_back" href="#"></a>
+						<h2>프로필설정</h2>
+					</div>
+					<div class="top_mn mr3per">
+						<ul>
+							<li>
+								<button type="button" onclick="closePopup()" style="color:#fff;">완료</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //기본 -->
+				<div class="contents pb72">
+					<div class="profile_area02">
+						<p class="my_profile02">
+							<!--img src="../images/common/my_profile_empty.png" /-->
+							<img src="https://amigrumi.github.io/black/partners/images/profile/gominsi_D.png" />
+						</p>
+						<p class="camera"><a href="#"><img src="../images/common/ico_camera.png" /></a></p>
+						<p class="camera_txt">이미지 수정</p>
+					</div>
+					<div class="flex flex_btw pb8">
+						<p class="bold">닉네임</p>
+						<p class="font13">0<span class="gray">/20</span></p>
+					</div>
+					<div class="pb32">
+						<form class="input_box" action="" method="">
+							<input class="input_txt" type="text" name="" placeholder="닉네임을 입력해주세요.">
+						</form>
+						<p class="txt03">
+							<span class="green">사용할 수 있는 닉네임입니다.</span>
+							<span class="red">닉네임은 2byte이상 입력해야 합니다.</span>
+						</p>
+					</div>
+					<a href="#" class="button_100p btnBlack" onclick="closePopup()">완료</a>
+				</div>
+			</div>
+		</div>
+		<!-- //프로필설정 -->
+		<!-- 3차인증요청 -->
+		<div class="contents">
+			<div class="pop_r24_red ask" style="display:none;">
+				<div class="pop_title">
+					<span>3차인증 요청</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<div class="pop_con">
+					<div class="txt_area">
+						<p class="pb24"><span class="red">현재 2차인증된 채널</span>에서 홀릭파트너스 코드를 활용하여 홍보를 진행한 세부주소를 입력하여 주세요.</p>
+						<!-- 댓글쓰기 영역 -->
+						<div class="textarea">
+							<form>
+								<textarea class="comment_write" placeholder="3차인증주소 입력"></textarea>
+							</form>
+						</div>
+						<!-- //댓글쓰기 영역 -->
+						<p class="red">현재 2차인증된 채널주소</p>
+						<p class="word_break pb24">https://www.instagram.com/_black_holic_blackholic _holicpartners</p>
+						<p class="red">필독주의</p>
+						<p class="pb24">*3차인증 요청시 등록한 세부주소가 2차인증된 채널이 아닐 경우, 3차인증 승인이 완료되지 않습니다. </p>
+					</div>
+					<!-- btn -->
+					<div>
+						<a class="pop_btn" href="#">요청하기</a>
+					</div>
+					<!-- //btn -->
+				</div>
+			</div>
+		</div>
+		<!-- //3차인증요청 -->
+		<!-- 계정설정 -->	
+		<div class="contents_100">			
+			<div class="pop_100 scroll set_agree" style="display:none;">
+				<!-- 기본 -->
+				<div class="top03 flex flex_btw">
+					<div class="top_title">
+						<a class="topmn_bg top_back" href="#"></a>
+						<h2>동의설정</h2>
+					</div>
+					<div class="top_mn mr3per">
+						<ul>
+							<li>
+								<button type="button" onclick="closePopup()" style="color:#fff;">완료</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- //기본 -->
+				<div class="contents_100">
+					<ul class="agree_list">
+						<li>
+							<div>
+								<h2>이메일수신동의</h2>
+								<p class="pb8">홀릭파트너스의 추천정보를 이메일로 받을 수 있어요</p>
+								<a class="btn_line03" href="#">전문보기</a>
+							</div>							
+							<div class="check">
+								<input type="checkbox" id="agree_btn"/>
+								<label for="agree_btn"></label>					
+							</div>	
+						</li>
+						<li class="noline">
+							<div>
+								<h2>SMS수신동의</h2>
+								<p>홀릭파트너스의 추천정보를 SMS로 받을 수 있어요</p>
+							</div>
+							<div class="check">
+								<input type="checkbox" id="agree_btn" />
+								<label for="agree_btn"></label>					
+							</div>	
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<!-- //계정설정 -->
+		
+		
+		<div class="mask"></div>
+	</div>
+	
+	
+	
+
+	
+</div>
+</body>
+</html>
