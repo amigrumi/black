@@ -378,7 +378,7 @@ img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:12px;}/*1d
 
 .star {font-size:14px;}
 
-/* main */
+/* main *
 .main_box01 {
 	width:90%; height:auto; border:solid 4px #ffffff; border-radius:24px;
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); margin:0 auto; overflow: hidden;
@@ -389,7 +389,7 @@ img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:12px;}/*1d
 .main_time {font-size:10px; color:#999999; font-family:'SCDream','NotoSans KR';
 	margin-bottom:40px;}
 
-/* 메인이벤트 */
+/* 메인이벤트 *
 .stitle {margin-bottom:50px;}
 .point_box {position:relative; width:100%; margin:0 auto 54px auto;}
 .point_box02 {position:relative; width:100%; margin:0 auto 40px auto;}
@@ -414,7 +414,7 @@ img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:12px;}/*1d
 .bg_gray {text-align:center; background-color:#F5F5F5;}
 .bg_black {text-align:center; background-color:#000;}
 
-/* 기본B 메인 영상 영역 01*/
+/* 기본B 메인 영상 영역 01*
 .main_img_b {
 	left:25%; width:50%; border-radius:28px; margin: 40px 0 40px 0;
 	overflow: hidden; object-fit:cover;
@@ -424,7 +424,7 @@ img.ding01 {width:5px; height:5px; position:absolute; top:13px; right:12px;}/*1d
 img.main_b_txt01 {top:0px; width:15%; margin:0 5%;}
 img.main_b_txt02 {position:absolute; top:0px; left:8px; width:15%;} /*손있는 버전 텍스트 위치 */
 
-/* 기본B-02 메인 영상 영역 01*/
+/* 기본B-02 메인 영상 영역 01*
 .main_b02_bg {
 	background:url(../images/common/main_b01.png) top center no-repeat;
 	background-size:cover;
@@ -437,7 +437,7 @@ img.main_b_txt02 {position:absolute; top:0px; left:8px; width:15%;} /*손있는 
 .main_img_b02 video {width:100%; min-width:170px; height: auto; overflow: hidden;}
 .main_img_b02 img {width:100%; height: auto; border-radius:28px;}
 
-/* 기본B-03 메인 영상 영역*/
+/* 기본B-03 메인 영상 영역*
 .main_b03 {
 	position:relative; margin:0 auto;
 	width:100%; min-width:300px; max-width:600px;
@@ -463,7 +463,7 @@ a.btn_main06 {
 	font-size:clamp(14px, 5vw, 21px); font-family:'SCDream','NotoSans KR'; font-weight:400;
 	letter-spacing:-1px;} /* B04 손있는 버전 버튼 */
 
-/* 기본B-04 메인 영상 영역*/
+/* 기본B-04 메인 영상 영역*
 .main_b04 {
 	position:relative; margin:0 auto;
 	width:100%; min-width:300px; max-width:600px;
@@ -492,7 +492,7 @@ a.btn_main05 {
 	letter-spacing:-1px;} /* B04 손있는 버전 버튼 */
 
 
-/* 성공사례 메인 영상 영역 */
+/* 성공사례 메인 영상 영역 *
 img.key_txt01 {margin-left:50%; width:113px; height:43px;}
 img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .bg_good_a {position:relative; margin:16px auto 16px auto; width:100%;}
@@ -516,7 +516,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 	box-shadow: 0 5px 55px 0 rgba(205, 205, 205, 1);
 	position:absolute; bottom:5%; right:0%; margin-left:25px; z-index:3; overflow: hidden;}
 
-/* 메인 - 성공사례 b & 캠페인정보 - 성공사례 */
+/* 메인 - 성공사례 b & 캠페인정보 - 성공사례 *
 .good_case {
 	line-height:150%;  border-bottom:solid 1px #e1e1e1;
 	font-family:'SCDream-4','NotoSans KR'; font-size:15px; text-align:left;
@@ -548,7 +548,7 @@ img.key_txt02 {position:absolute; left:0; width:92px; height:75px;}
 .result table td {font-size:clamp(9px, 3vw, 18px); letter-spacing:-1px; color:#222225;font-family:'SCDream','NotoSans KR';}
 
 
-/* 성공사례 프로필과 타이틀 텍스트로 ========================================= */
+/* 성공사례 프로필과 타이틀 텍스트로 ========================================= *
 .case_area .txt_area .profile02 {
 	display:flex; flex-direction:row; align-items: center; color:#000;
 	font-family:'SCDream','NotoSans KR';
@@ -829,6 +829,7 @@ input#check_btn:checked + label:before{
 .sub_title03 {font-size:16px; text-align:left; padding-top:24px; font-weight:600;}
 .sub_title04 {font-size:18px; text-align:left; padding-top:53px;} /*상품캠페인 타이틀 - detail.html*/
 
+
 .product_list01 {width:100%;}
 .product_list01 ul {padding: 0px;}
 .product_list01 ul li {display:flex; padding:16px 0; border-bottom:solid 1px #eee; }
@@ -855,16 +856,17 @@ input#check_btn:checked + label:before{
 
 .thum_txt02 {
 	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
+	background-color:#FF4081; color:#fff; border-radius:2px;
+	font-size:clamp(9px, 3vw, 13px); font-weight:400; text-align:center;} /*할인형태 뱃지-빨간색에 흰글씨*/
+.thum_txt02_02 {
+	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
 	background-color:#fff; color:#FF4081; border-radius:2px;
 	font-size:clamp(9px, 3vw, 13px); font-weight:400; text-align:center;} /*할인형태 뱃지-흰색에 빨간글씨*/
-.thum_txt02_02 {
+.thum_txt02_03 {
 	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
 	background-color:#fff; color:#222225; border-radius:2px;
 	font-size:clamp(9px, 3vw, 13px); font-weight:400; text-align:center;} /*할인형태 뱃지-흰색에 검정글씨*/
-.thum_txt02_03 {
-	position:absolute; z-index:5; bottom:4px; right:4px; padding:4px 6px;
-	background-color:#FF4081; color:#fff; border-radius:2px;
-	font-size:clamp(9px, 3vw, 13px); font-weight:400; text-align:center;} /*할인형태 뱃지-빨간색에 흰글씨*/
+
 .thum_txt07 {
 	padding-left:4px; color:#77777a; font-weight:400;
 	font-size:clamp(11px, 3.6vw, 16px); }/*할인형태 - 일반*/
@@ -898,6 +900,28 @@ input#check_btn:checked + label:before{
 .per_area02 {position:relative;}
 .per_area02 .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:400; color:#999; text-decoration:line-through; line-height:1; margin-bottom:2px;}
 .per01_s .p02 {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; }
+
+/* 성공사례 */
+.sub_title05 {width:94%; margin:0 auto; font-size:18px; text-align:left; padding:24px 0 16px 0;} /*성공사례 */
+.case01 {padding:0 0 40px 0;}
+.case01 .img_area {position: relative;}
+.case01 .bn_icon {
+	position:absolute; z-index:5; bottom:8px; right:8px; padding:4px 6px;
+	border-radius:2px; font-size:clamp(9px, 3vw, 13px); font-weight:400; text-align:center;}
+.new01 {background-color:#FF4081; color:#fff;} /*할인형태 뱃지-빨간색에 흰글씨*/
+.new02 {background-color:#fff; color:#FF4081;} /*할인형태 뱃지-흰색에 빨간글씨*/
+.new03 {background-color:#fff; color:#222225;} /*할인형태 뱃지-흰색에 검정글씨*/
+
+.case01 .txt_area {width:94%; margin:0 auto; text-align:left; padding-top:24px; }
+.case01 .txt_area h3 {
+	font-size:18px; margin-bottom:16px; line-height:1.3;
+	text-overflow: ellipsis; overflow: hidden; word-break: break-word; 
+	display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical}
+.case01 .txt_area .ex {
+	color:#77777a; margin-bottom:16px; line-height:1.3;
+	text-overflow: ellipsis; overflow: hidden; word-break: break-word; 
+	display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical}
+.case01 .btn01 a {display:inline-block; font-size:clamp(13px, 4.16vw, 18px); padding:7px 22px 8px 22px; background:#FF4081; color:#fff; border-radius:4px; } /*자세히보기 버튼*/
 
 /* 상품 캠페인 */
 .pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
