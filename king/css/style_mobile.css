@@ -207,10 +207,10 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 
 /* 홈 중간 카테고리 01 */
 .homenav01 {
-	width:94%; max-width:600px; height:96px; margin:0 auto; background-color:#fff;}
+	width:100%; max-width:600px; margin:0 auto; background-color:#fff;}
 .under_1px {border-bottom:solid 1px #F5F5F5;}
 .under_8px {border-bottom:solid 8px #F5F5F5;}
-.homenav01 ul {display:flex; justify-content: space-around; margin:0;}
+.homenav01 ul {display:flex; justify-content: space-around; width:94%; margin:0 auto; padding-bottom:14px;}
 .homenav01 ul li a {display:block; height:66px; margin-top:16px;}
 .homenav01_bg {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
@@ -274,14 +274,14 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 /* 캠페인 하단 nav */
 #nav02 {
 	width:100%; height:50px; position:fixed; bottom:0px;  z-index:10;
-	border-top:solid 1px #000; background-color:#fff;
-	display:flex; text-align: center;}
-#nav02 .heart {width:60px; line-height:50px; background:#fff;}
+	background-color:#fff; display:flex; text-align: center;}
+#nav02 .nav_btn {width:100%; line-height:50px;background:#FF4081; color:#fff; font-size:18px; font-weight:600;}
+/*#nav02 .heart {width:60px; line-height:50px; background:#fff;}
 #nav02 .heart img {width:50px; height:50px;}
 #nav02 .product {width:50%; line-height:50px; background:#000; color:#fff; font-size:15px; font-weight:600;}
-#nav02 .copy {width:50%; line-height:50px;background:#FF4081; color:#fff; font-size:15px; font-weight:600;}
+#nav02 .copy {width:50%; line-height:50px;background:#FF4081; color:#fff; font-size:15px; font-weight:600;}*/
 
-/* 캠페인 중간 nav */
+/* 캠페인 중간 nav *
 #nav02_top {
 	width:100%; height:50px; overflow:hidden; background-color:#fff;
 	display:flex; text-align: center;}
@@ -349,6 +349,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .blue {color:#0500F4;}
 .red {color:#FF4081;}
 .red02 {color:#CE1032;}
+.pink {color:#FF4081;}
 .gray {color:#77777a;}
 .gray02 {color:#aaa;}
 .black {color:#222225;}
@@ -898,11 +899,11 @@ input#check_btn:checked + label:before{
 .per_area02 .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:400; color:#999; text-decoration:line-through; line-height:1; margin-bottom:2px;}
 .per01_s .p02 {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; }
 
-/* 상품 캠페인 *
+/* 상품 캠페인 */
 .pro_title {padding:24px 0; border-bottom:solid 1px #E1E0E1; margin-bottom:24px; text-align:left;}
 .pro_title .name {font-family:'Noto Sans KR'; font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px; line-height:130%; padding-bottom:8px;}
-.pro_title .add {color:#f00004; font-size:clamp(14px, 4.4vw, 19px); font-weight:400;}
-.pro_title .favorite img {width:24px; height:24px; margin-left:4px;}
+.pro_title .add {color:#FF4081; font-size:clamp(14px, 4.4vw, 19px); font-weight:400;}
+.pro_title .favorite img {width:24px; height:24px; margin-left:0px;}
 
 .pro_info01 {text-align:left;}
 .pro_info01 th {width:100px;}
@@ -915,11 +916,11 @@ input#check_btn:checked + label:before{
 .pro_info02 th {min-width:120px; max-width:200px; }
 .pro_info02 td {padding:2px 0; }
 
-.case_btn_area {padding:16px 0 8px 0;} /* 상품캠페인내 성공전략 버튼 영역*
-.info_txt_area {width:100%; text-align: left; line-height:130%; padding-top:24px; color:#77777a;}
+.case_btn_area {padding:16px 0 8px 0;} /* 상품캠페인내 성공전략 버튼 영역*/
+.info_txt_area {width:100%; text-align: left; padding-top:24px; color:#77777a; font-size:17px; line-height:1.8;}
 
 
-/* 캠페인 상세 작은 버튼 *
+/* 캠페인 상세 작은 버튼 */
 a.btn_s {
 	display: inline-block; position: relative; padding: 4px 8px; margin:0 0 4px 0;
 	font-size:13px; font-weight:600; color: #fff; letter-spacing:-0.5px;
@@ -930,17 +931,15 @@ a.btn_line02 {text-decoration: underline; text-underline-offset:2px;  color:#777
 a.btn_line03 {text-decoration: underline; text-underline-offset:2px;  color:#222225;}
 a.btn_line04 {text-decoration: underline; text-underline-offset:2px;  color:#0c43b7;}
 
-/* 캠페인 정보 - 내수수료 확인, 버튼 *
+/* 캠페인 정보 - 판매사신청,공급사신청 상단 버튼*/
+.info_btn_area {display:flex; justify-content: space-between;}
+.info_btn_area li {width:49.5%;}
 a.btn_s03 {
-	display: inline-block; position: relative; height:45px; line-height:45px;
-	padding: 0px 12px; margin: 10px 0px;
-	font-size:16px; font-weight:600; color: #222225; letter-spacing:-0.5px;
-	border:solid 1px #000; background-color:#ffffff; border-radius:3px;}
-a.btn_s03_bl {
-	display: inline-block; position: relative; height:45px; line-height:45px;
-	padding: 0px 12px; margin: 10px 0px;
+	display: block; position: relative; text-align:center;
+	width:49%; height:45px; line-height:45px; margin: 10px 0px;
 	font-size:16px; font-weight:600; color: #fff; letter-spacing:-0.5px;
-	border:solid 1px #000; background-color:#000; border-radius:3px;}
+	border:solid 1px #FF4081; background-color:#FF4081; border-radius:3px;}
+	/*
 a.btn_s03_bl02 {
 	display: inline-block; position: relative; height:45px; line-height:45px;
 	padding: 0px 12px; margin: 0px;
@@ -971,7 +970,7 @@ a.btn_s03_bl02 {
 .popular .price {font-size:18px; font-weight:600; color:#222225; line-height:1.3;} /* 할인가격 *
 .popular .price .p01 {font-size:13px; font-weight:400; color:#999; text-decoration:line-through; line-height:1; text-align:left;} /* 기존가격 */
 
-/* 인기캠페인, 연관캠페인 상품 리스트 *
+/* 인기캠페인, 연관캠페인 상품 리스트 */
 .txt_s02 {font-size:13px; color:#77777a; font-weight:400;}
 
 .hot_product {margin-top:16px;}
@@ -992,10 +991,10 @@ a.btn_s03_bl02 {
 .hot_product .name {font-size:clamp(13px, 4.16vw, 18px); font-weight:600; margin-bottom:10px; padding:8px 0 0px 2px;}
 
 .hot_product .per_area {display:flex; position:relative;}
-.hot_product .per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#FF4081; font-family:'Noto Sans KR'; padding-right:1.1vw;} /* 할인율 *
+.hot_product .per01 {font-size:clamp(28px, 8.3vw, 35px); font-weight:800; color:#FF4081; font-family:'Noto Sans KR'; padding-right:1.1vw;} /* 할인율 */
 .hot_product .per_s {font-size:clamp(9px, 2.7vw, 12px);}
-.hot_product .price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;} /* 할인가격 *
-.hot_product .price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:400; color:#999; text-decoration:line-through; line-height:1;} /* 기존가격 *
+.hot_product .price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;} /* 할인가격 */
+.hot_product .price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:400; color:#999; text-decoration:line-through; line-height:1;} /* 기존가격 */
 
 
 .hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
@@ -1189,12 +1188,12 @@ img.ico_qus {width:18px; height:18px; padding-top:6px;}
 .myinfo .select_area select option {font-size:14px; width:100%; padding:2px;}
 .txt_bg_gray {padding:12px; background-color:#F5F5F5; color:#222225; font-size:12px; text-align:left;}
 
-/* 내등급 *
+/* 내등급 */
 .txt03_area {background-color:#F5F5F5; text-align:left; padding:12px 16px;}
 .txt04_area {background-color:#F5F5F5; text-align:left; padding:24px 16px;}
 .txt04 {font-size:16px; color:#FF4081; font-weight:bold;}
 
-/* 회원탈퇴 *
+/* 회원탈퇴 */
 ul.out_list {padding-left:16px;}
 .out_list li {padding:8px 0; list-style: disc; }
 [type="radio"] { vertical-align: middle; width:16px; height:16px;
@@ -1222,7 +1221,7 @@ ul.out_list {padding-left:16px;}
 .more04 {
 	background:url(../images/common/ico_arrow_down.png) no-repeat right 8px;
 	background-size:24px 24px;}
-.select_area02 a {display:block; padding:0 0 0 2px; color:#77777a;}
+.select_area02 a {display:block; padding:0 0 0 4px; color:#77777a;}
 
 .search_box02 {
 	display:flex; height:42px; width:100%; background:#fff; margin:0 4px;
