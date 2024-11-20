@@ -208,7 +208,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 /* 홈 중간 카테고리 01 */
 .homenav01 {
 	width:100%; max-width:600px; margin:0 auto; background-color:#fff;}
-.under_1px {border-bottom:solid 1px #F5F5F5;}
+.under_1px {border-bottom:solid 1px #F5F5F5;} /*캠페인 상세에도 사용*/
 .under_8px {border-bottom:solid 8px #F5F5F5;}
 .homenav01 ul {display:flex; justify-content: space-around; width:94%; margin:0 auto; padding-bottom:14px;}
 .homenav01 ul li a {display:block; height:66px; margin-top:16px;}
@@ -914,7 +914,7 @@ input#check_btn:checked + label:before{
 
 .case01 .txt_area {width:94%; margin:0 auto; text-align:left; padding-top:24px; }
 .case01 .txt_area h3 {
-	font-size:18px; margin-bottom:16px; line-height:1.3;
+	font-size:18px; margin-bottom:8px; line-height:1.3;
 	text-overflow: ellipsis; overflow: hidden; word-break: break-word; 
 	display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical}
 .case01 .txt_area .ex {
@@ -943,6 +943,10 @@ input#check_btn:checked + label:before{
 .case_btn_area {padding:16px 0 8px 0;} /* 상품캠페인내 성공전략 버튼 영역*/
 .info_txt_area {width:100%; text-align: left; padding-top:24px; color:#77777a; font-size:17px; line-height:1.8;}
 
+.pro_info03 {text-align:left; width:100%;} /* 캠페인 내 상품사양 */
+.pro_info03 th {width:100px; font-weight:400;}
+.pro_info03 td {min-width:201px; padding:2px 0;}
+
 
 /* 캠페인 상세 작은 버튼 */
 a.btn_s {
@@ -954,6 +958,7 @@ a.btn_line {text-decoration: underline; text-underline-offset:2px; color:#FF4081
 a.btn_line02 {text-decoration: underline; text-underline-offset:2px;  color:#77777a;}
 a.btn_line03 {text-decoration: underline; text-underline-offset:2px;  color:#222225;}
 a.btn_line04 {text-decoration: underline; text-underline-offset:2px;  color:#0c43b7;}
+a.btn_line05 {text-decoration: underline; text-underline-offset:3px;  color:#FF4081;}
 
 /* 캠페인 정보 - 판매사신청,공급사신청 상단 버튼*/
 .info_btn_area {display:flex; justify-content: space-between;}
