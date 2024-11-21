@@ -1035,6 +1035,7 @@ a.btn_s03_bl02 {
 .hot_product .price {font-size:clamp(14px, 4.4vw, 19px); font-weight:600; color:#222225; line-height:1.3;} /* 할인가격 */
 .hot_product .price .p01 {font-size:clamp(9px, 3vw, 13px); font-weight:400; color:#999; text-decoration:line-through; line-height:1;} /* 기존가격 */
 
+.hot_product .per_area02 {font-size:clamp(12px, 4vw, 16px); color:#77777a; padding:0px 0 0px 2px;}
 
 .hot_product .thumb_txt p {font-size:clamp(10px, 3.3vw, 14px);}
 
@@ -1217,6 +1218,7 @@ img.ico_qus {width:18px; height:18px; padding-top:6px;}
     width:100%; text-align: left; font-size:14px;}
 .myinfo .txt02 p {align-self: center;}
 .txt03 {width:100%; text-align: left; font-size:12px; padding-top:8px;}
+.txt05 {line-height:1.4;}
 
 .word_break {white-space: pre-wrap; word-break:break-all;}
 
