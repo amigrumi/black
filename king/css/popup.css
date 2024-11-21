@@ -3,10 +3,6 @@
 .mask{
 	position: fixed; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); 
 	width: 100%; height: 100vh; z-index:200; display:none;}
-/* 팝업 템플릿 
-.pop_t01 {margin-bottom:60px;}	
-.pop_t02 {margin-bottom:60px; font-size:20px;}	
-.pop_t03 {margin-bottom:24px;}*/
 .close_w30 img {position:absolute; right:11px; top:15px; width:30px !important;}
 button {background:none; border:0px;}
 
@@ -46,16 +42,20 @@ button {background:none; border:0px;}
 	display:; position:fixed; top:0; left:0; z-index:400;
 	width:100vw; height:100vh; background:#fff;}
 .pop_title02 { 
-	width:100%; height:60px; line-height:60px; background:#000; color:#fff; 
+	width:100%; height:60px; line-height:60px; background:#FF4081; color:#fff; 
 	font-family:'Noto Sans KR';
 	font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px;}
 	
 .pop_100 .title {padding:18px 0 18px 0; font-size: 18px; color:#222225; font-weight:600;}
 .pop_100 .info01 {padding:0 0 24px 0; text-align:left; font-size:13px; color:#77777a; line-height:1.5;}
-.pop_100 .pop_close {position:fixed; bottom:0; left:0; width:100%; height:50px; line-height:50px; background-color:#000; z-index: 5;}
+.pop_100 .pop_close {position:fixed; bottom:0; left:0; width:100%; height:50px; line-height:50px; z-index: 5;}
 .pop_100 .pop_close button {color:#fff;}
 
-/* 전체팝업 - 주문정보 */
+.pop_100 .btn_black {background-color:#000;}
+.pop_100 .btn_pink {background-color:#FF4081;}
+
+
+/* 전체팝업 - 주문정보 *
 .pop_list01 {width:100%;} 
 .pop_list01 ul {padding: 0px;}
 .pop_list01 ul li {display:flex; padding:24px 0 20px 0; border-bottom:solid 1px #eee;}
@@ -71,7 +71,7 @@ button {background:none; border:0px;}
 	display:flex; flex-flow: column wrap; justify-content: space-around;
 	width:clamp(170px, 63%, 340px); 
 	font-size:clamp(12px, 4.1vw, 18px); font-weight:400; font-family:'Noto Sans KR';
-	text-align:left; color:#222225; line-height:1.5;} /* 제품명 영역  */
+	text-align:left; color:#222225; line-height:1.5;} /* 제품명 영역  *
 .pop_list01 .t01 { 
 	width:100%;
 	font-weight:600; font-size:clamp(13px, 4.1vw, 20px); color:#222225;
@@ -80,7 +80,7 @@ button {background:none; border:0px;}
 	display:flex; position:relative; padding-bottom:12px;}
 .pop_list01 .per_area .p01 {padding-right:clamp(6px, 3vw, 12px);}
 
-/* 전체팝업 - 전략 검색결과 */
+/* 전체팝업 - 전략 검색결과 *
 .pop_title03 {
 	width:100%; height:60px; line-height:60px; background:#000; color:#fff; 
 	font-family:'Noto Sans KR'; 
@@ -88,14 +88,14 @@ button {background:none; border:0px;}
 .pop_title03 span {position:absolute; left:3%; text-align:left;}
 .pop_title04 {padding-left:3%; font-size:18px; color:#FF4081}
 
-/* 캠페인별 세부사항, 정산 팝업 */
+/* 캠페인별 세부사항, 정산 팝업 *
 .cam_info .date { 
 	display:block; text-align:left; font-size:13px; color:#FF4081; margin-bottom:12px;}
 .cam_info .date02 { 
 	display:block; text-align:left; font-size:15px; color:#222225; margin-bottom:12px;}
-.cam_info .pro_info {display:flex; margin-bottom:16px;} /* 정산 팝업 */
+.cam_info .pro_info {display:flex; margin-bottom:16px;} /* 정산 팝업 *
 
-.pro_info02 {text-align:center; font-size:24px; font-weight:600; padding:0 0 24px 0;}/* 상단에 타이틀만 */
+.pro_info02 {text-align:center; font-size:24px; font-weight:600; padding:0 0 24px 0;}/* 상단에 타이틀만 *
 
 .pro_info .thumb {
 	width:clamp(77px, 35%, 130px);
@@ -110,7 +110,7 @@ button {background:none; border:0px;}
 	display:flex; flex-flow: column wrap; justify-content: space-between;
 	padding: 4px 0 4px 0;
 	width:clamp(170px, 60%, 340px); font-family:'Noto Sans KR';
-	text-align:left; color:#222225;} /* 제품명 영역  */
+	text-align:left; color:#222225;} /* 제품명 영역  *
 .pro_info .t01 {  
 	width:100%; font-weight:600; 
 	font-size:clamp(12px, 4.1vw, 18px); color:#222225;}
@@ -168,6 +168,7 @@ a.pop_btn03 {
 .pop_sel li {overflow: hidden; width: 50%; height:50px;}
 .pop_sel li a.on {color:#FF4081;}
 .pop_sel li a {display:block; height:50px; line-height:48px; padding-left:50px;}
+/*
 .bg_cate {background: url(../images/common/bg_cate.png)  no-repeat;
 	background-size: 50px 850px; vertical-align: top;}
 .bg_brand {background: url(../images/common/bg_brand.png)  no-repeat;
@@ -189,7 +190,7 @@ a.pop_btn03 {
 .pmn14 {background-position: 0px -650px;}
 .pmn15 {background-position: 0px -700px;}
 .pmn16 {background-position: 0px -750px;}
-
+*/
 
 table.pop_sel02 {margin:0 auto; border-collapse: collapse;}
 .pop_sel02 td {text-align:left; height:50px; padding:0; margin:0;}
@@ -203,7 +204,7 @@ table.pop_sel02 {margin:0 auto; border-collapse: collapse;}
 .pop_sel03 li a {display:block; height:50px; line-height:48px; padding-left:20%;}
 
 
-/* 메인 팝업 */
+/* 메인 팝업 *
 .mask02{
 	position: fixed; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); 
 	width: 100%; height: 100vh; z-index:200; }
@@ -245,11 +246,11 @@ input#agree_btn:checked + label:before{
 /* qna 팝업내용 */
 .pop_txt {text-align:left; line-height:1.5;}
 
-/* 정산 */
+/* 정산 *
 ul.duty_modify li {text-align: left; color:#222225; padding:8px 0 7px 0; font-size:15px; font-weight:600;}
 .pop_con .txt_area02 {text-align:left; font-size:15px; padding:16px 8px;}
 
-/* 코드회원 요청 */
+/* 코드회원 요청 *
 .pop_h1 {font-size:22px; font-weight:600;}
 .gray_round_box {width:100%; background-color:#f5f5f5; border-radius:16px; padding:16px 0;}
 .mem_title {font-size:18px; font-weight:600; display:inline-flex; align-items: center;}

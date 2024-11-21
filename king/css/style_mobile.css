@@ -765,7 +765,17 @@ input#check_btn:checked + label:before{
 
 .input_box_test {
     height:50px; width:95.5%; padding:0 2%;
-    background:#f5f5f5; border-radius:4px;} /* 회색박스 *
+    background:#f5f5f5; border-radius:4px;} /* 회색박스 */
+    
+/* 공급사, 판매사 신청 팝업 */
+.input_box04 {
+    height:50px; width:95.5%; padding:0 2%;
+    background:#fff; border:solid 1px #E1E0E1; border-radius:4px;}
+.input_box04 .input_txt {
+    width:100%; border:none; background:none; outline:none; color:#77777a;
+    font-size:clamp(13px, 4.1vw, 15px); letter-spacing:-0.7px; line-height:50px;}
+    
+/*   
 .input_box_test .input_txt {
     width:100%; border:none; background:none; outline:none; color:#77777a;
     font-size:clamp(13px, 4.1vw, 15px); letter-spacing:-0.7px; line-height:50px;}
@@ -1184,18 +1194,22 @@ img.ico_qus {width:18px; height:18px; padding-top:6px;}
 .mymn04 {background-position: 0px -150px; padding-left:8px;}
 .mymn05 {background-position: 0px -200px; padding-left:8px;}
 
-/* my-내정보 */
+/* my-내정보, 공급사,판매사 신청 팝업 */
 .myinfo li {display: flex; padding:32px 0; border-bottom:solid 1px #eeeeee;}
 .myinfo li.li02 {display: flex; padding:32px 0 0 0; border:0;}
 .myinfo li.li03 {display: flex; padding:0 0 32px 0; border:0;}
 .myinfo li.li04 {display: flex; padding:0 0 32px 0; border:0;}
 .myinfo li.li05 {display: flex; padding:32px 0 21px 0; border:0;}
+.myinfo li.li06 {display: flex; padding:24px 0; border-bottom:solid 1px #eeeeee;}
 .myinfo .tt {
     flex-basis: 95px; flex-shrink: 0;
     text-align: left; font-size:14px; font-weight:600;}
 .myinfo .tt_s {
     flex-basis: 95px; flex-shrink: 0;
     text-align: left; font-size:13px; font-weight:400; color:#77777a;}
+.myinfo .tt02 {
+    flex-basis: 105px; flex-shrink: 0;
+    text-align: left; font-size:14px; font-weight:600;}/*판매사,공급사 팝업 */
 .myinfo .txt {
     width:100%; text-align: left; font-size:14px;
     display: flex;  justify-content : space-between;}
