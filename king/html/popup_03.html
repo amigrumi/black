@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="성공사례"><meta name="keywords" content="성공사례">
+	
+
+
+	<title>팝업_관리자</title>
+
+	<link type="text/css" href="../css/style_mobile.css" rel="stylesheet" />
+	<link type="text/css" href="../css/popup.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">	
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+	<!-- include -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+	      $(document).ready(function(){
+	         $("#container").load("report01.html")  
+	      });
+	</script>
+	<!-- //include -->
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★home -->
+	<div id="container"></div>
+	<!-- ★home -->
+	
+	<!-- 팝업 -->
+	<script>
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_100').hide(); 
+			};
+	</script>
+	
+	<div class="pop_wrap">
+		<!-- 주문정보 -->	
+		<div class="contents_100">			
+			<div class="pop_100 scroll">
+				<!-- top -->
+				<div class="pop_title02">
+					<span>쇼핑왕 세부정보</span>
+					<button type="button" onclick="closePopup()" class="close_w30" >
+						<img src="../images/common/ico_close03.png" alt="닫기" />
+					</button>
+				</div>
+				<!-- top -->
+				<div class="contents pb72">
+					<ul class="myinfo">
+						<li class="li06">
+							<p class="tt02">사업자이름</p>
+							<div class="txt">
+								<p class="">언제나가을</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">연락처</p>
+							<div class="txt">
+								<p class="">010-4321-9876</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">이메일</p>
+							<div class="txt">
+								<p class="word_break align_center">holicfactory@blackholic.com</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">클릭메이트<br/>채널이름</p>
+							<div class="txt">
+								<p class="">쇼핑왕</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">클릭메이트<br/>채널주소</p>
+							<div class="txt">
+								<p class="word_break align_center">http://player.clickmate.kr/seller/18978978215</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">채널카테고리</p>
+							<div class="txt">
+								<p class="">15,000</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">단골수</p>
+							<div class="txt">
+								<p class="">15,000</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">주요SNS</p>
+							<div class="txt">
+								<p class="">유튜브</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">SNS채널이름</p>
+							<div class="txt">
+								<p class="">쇼핑왕</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">SNS주소</p>
+							<div class="txt">
+								<p class="word_break align_center">http://player.clickmate.kr/seller/18978978215</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">회원수<br /><span class="gray font12 normal">(구독/팔로우/단골)</span></p>
+							<div class="txt">
+								<p class="">100,000</p>
+							</div>
+						</li>
+						<li class="li06">
+							<p class="tt02 align_center">채널카테고리</p>
+							<div class="txt">
+								<p class="">쇼핑커머스</p>
+							</div>
+						</li>
+						<li class="li06 noline">
+							<p class="tt02 align_center">기타사항</p>
+							<div class="txt">
+								<p class="">쇼핑커머스</p>
+							</div>
+						</li>
+					</ul>
+					
+					
+				</div>
+				<!-- 닫기 -->
+				<div class="pop_close btn_pink">
+					<button type="button">
+						<span class="bold font18">제휴신청</span>
+					</button>
+				</div>
+				<!-- //닫기 -->
+			</div>
+		</div>
+		<!-- //주문정보 -->
+			
+	</div>
+	
+	<!-- //팝업 -->
+	
+
+	
+</div>
+</body>
+</html>
