@@ -54,6 +54,7 @@
 				</div>
 			</div>			
 			<div class="right">
+				<a href="#" onclick="javascript:openPopup('black_a');">블랙_A</a>
 				<a href="#" class="btn_100L btnPinkL">상품등록</a>
 			</div>
 		</div>
@@ -314,7 +315,54 @@
 	</div>
 	<!-- //플로팅_카톡메뉴 -->	
 	
+	<!-- 팝업 -->
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r4_red').hide(); 
+			$('.pop_r4').hide();
+			$('.pop_r24_red').hide(); 
+			$('.pop_r24').hide();
+			$('.mask').hide(); 
+			};
+	</script>
 	
+	<div class="pop_wrap">
+		<!-- 팝업 A형 -->
+		<div class="pop_r4_red black_a">
+			<div class="title">
+				<span>히든상품제안서</span>
+				<button type="button" onclick="closePopup()" class="close_w30">
+					<img src="../images/common/btn_close_white40.png" alt="닫기" />
+				</button>
+			</div>
+			<div class="con">
+				<h2>안녕하세요. 리뷰야놀자님</h2>
+				<p class="pop_t01">좋은 공구 기회가 있어서 제안드립니다. <br />
+				아래 혜택을 확인해 보시고 상품코드 요청해주세요.</p>
+				<h2>혜택</h2>
+				<div class="pop_t02">
+					<p>1. 수수료가 올라가는 파트너 등급 상향</p>
+					<p>2. 사이트 가격보다 저렴한 최저가 공구판매</p>
+					<p>3. 한정인원으로 경쟁력 향상</p>
+					<p>4. 주기적인 히든 상품 제안</p>
+					<p>5. 인기 성공사례 및 컨텐츠 전략 제공</p>
+					<p>6. 한정기간 수수료 5% 추가 혜택</p>
+				</div>
+				<div class="btn">
+					<a class="" href="#">상품코드요청</a>
+				</div>
+			</div>
+		</div>
+		<!-- //팝업 A형 -->
+	</div>
+	<!--//팝업 -->
 		
 </div>
 </body>
