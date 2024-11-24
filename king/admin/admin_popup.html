@@ -54,7 +54,7 @@
 				</div>
 			</div>			
 			<div class="right">
-				<a href="#" class="btn_100L btnPinkL">상품등록</a>
+				<a href="#" onclick="javascript:openPopup('black_a');"  class="btn_100L btnPinkL">상품등록</a>
 			</div>
 		</div>
 	</div>
@@ -310,7 +310,232 @@
 	</div>
 	<!-- //플로팅_카톡메뉴 -->	
 	
-	
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r8').hide(); 
+			$('.pop_r4').hide();
+			$('.mask').hide(); 
+			};
+	</script>
+	<div class="pop_wrap">
+		<!-- 상품정보 등록 팝업 -->
+		<div class="pop_r8 w720 black_a">
+			<div class="title">
+				<div class="flex">
+					<p class="mr24">상품정보</p>
+					<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+				</div>
+				<button type="button" onclick="closePopup()" class="close_w30">
+					<img src="../images/admin/btn_close_white40.png" alt="닫기" />
+				</button>
+			</div>
+			<div class="con">
+				<ul class="list">
+					<li>
+						<p class="tt">썸네일</p>
+						<div class="txt02">
+							<img src="../images/admin/thumb.png" />
+							<a class="pop_btn01L btnWhiteL" href="#">이미지 불러오기</a>
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">보조설명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품수수료</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">공급사</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">카테고리</p>
+						<div class="txt">
+							<fieldset>
+								<label>
+								<input type="radio" name="cate" value="" checked />
+								<span>생활</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>패션</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>뷰티</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>식품</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>유아</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>반려</span>
+								</label>
+							</fieldset>
+						</div>
+					</li>
+					<li>
+						<p class="tt">방송실적</p>
+						<div class="txt">
+							<p class="gray">최고실적</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">스튜디오</p>
+						<div class="txt">
+							<p class="gray">자동설정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">배송형식</p>
+						<div class="txt">
+							<fieldset>
+								<label>
+								<input type="radio" name="delivery" value="" checked />
+								<span>합배송</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="delivery" value="" />
+								<span>개별배송</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="delivery" value="" />
+								<span>개별배송(합배송 가능)</span>
+								</label>
+							</fieldset>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">5%공급가</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">기본공급가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">판매공급가</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">판매가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">라방할인율</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">소비자가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">일반최저가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">기본할인율</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">상품등록일</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">유통기한</p>
+						<div class="txt">
+							날짜 넣으면 임박일 자동계산
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">상품번호</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품사양</p>
+						<div class="txt">
+							<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+						</div>
+					</li>
+					<li class="noline">
+						<p class="tt">상품정보</p>
+						<div class="txt">
+							<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //상품정보 등록 팝업 -->
+		
+		
+		<div class="mask"></div>
+	</div>
 	
 	
 	
