@@ -145,7 +145,7 @@ a.btn_s03 {
 button {background:none; border:0px;}
 
 .pop_r8 {
-	display:none; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
+	display:; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
 	height:90vh; z-index:500; background: #fff; border-radius:8px; 
 	overflow:scroll; overflow-x: hidden;
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);}
