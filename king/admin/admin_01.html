@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="author" content="홀릭파트너스"><meta name="keywords" content="홀릭파트너스">
+	
+	<title>관리자</title>
+
+	<link type="text/css" href="../css/admin.css" rel="stylesheet" />	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+
+</head>
+<body>
+	
+<div id="wrap">
+	<!-- ★header -->
+	<div id="header">
+		<!-- GNB -->
+		<div class="top">
+			<h1>라방킹</h1>
+		</div>
+		<!-- //GNB -->
+		<div class="snb_area flex flex_btw">
+			<div class="left flex">
+				<div class="top_btn_area flex mr24">
+					<a href="#" class="btn_100 btnBlack">검색</a>
+					<a href="#" class="btn_100 btnBlack">날짜검색</a>
+					<a href="#" class="btn_100L btnWhiteL">초기화</a>
+				</div>
+				<div class="top_sort flex mr24">
+					<ul class="tab01">
+						<li><a href="#" class="on">최신순</a></li>
+						<li><a href="#">공급가순</a></li>
+						<li><a href="#">판매가순</a></li>
+						<li><a href="#">수수료순</a></li>
+						<li><a href="#">실적순</a></li>
+						<li><a href="#">임박순</a></li>
+						<li><a href="#">재고수</a></li>
+					</ul>
+					<ul class="tab01">
+						<li><a href="#">전체</a></li>
+						<li><a href="#" class="on">합배송</a></li>
+						<li><a href="#">개별배송</a></li>
+					</ul>
+					<ul class="tab01">
+						<li><a href="#" class="on">전체</a></li>
+						<li><a href="#">요청중</a></li>
+						<li><a href="#">승인</a></li>
+						<li><a href="#">보류/대기</a></li>
+						<li><a href="#">품절</a></li>
+					</ul>
+				</div>
+			</div>			
+			<div class="right">
+				<a href="#" class="btn_100L btnPinkL" onclick="javascript:openPopup('pop01');">상품등록</a>
+			</div>
+		</div>
+	</div>
+	<!-- ★//header -->
+	
+	<!-- ★container -->
+	<div id="container">
+		<div class="contents flex flex_start" >
+			<!-- 카테고리 -->
+			<div class="sec01 left_mn border_right">
+				<h2>카테고리</h2>
+				<ul>
+					<li><a href="#" class="on">전체</a></li>
+					<li><a href="#">생활</a></li>
+					<li><a href="#">뷰티</a></li>
+					<li><a href="#">패션</a></li>
+					<li><a href="#">식품</a></li>
+					<li><a href="#">유아</a></li>
+					<li><a href="#">반려</a></li>
+				</ul>
+			</div>
+			<!-- //카테고리 -->
+			<!-- 공급사 -->
+			<div class="sec02 left_mn border_right"> 
+				<h2>공급사</h2>
+				<ul>
+					<li><a href="#" class="on">전체</a></li>
+					<li><a href="#">블랙홀릭</a></li>
+					<li><a href="#">쓰리백</a></li>
+					<li><a href="#">아케이</a></li>
+					<li><a href="#">홀릭홀릭파트너스</a></li>
+				</ul>
+			</div>
+			<!-- //공급사 -->
+			<!-- 리스트 -->
+			<div class="sec03 flex_grow">
+				<div class="table">
+					<table>
+						<colgroup>
+							<col width="50px" /><col width="160px" /><col width="228px" />
+							<col width="150px" /><col width="200px" /><col width="120px" />
+							<col width="110px" /><col width="90px" /><col width="210px" />
+							<col width="120px" /><col width="100px" />
+						</colgroup>
+						<tr>
+							<th>번호</th>
+							<th>썸네일</th>
+							<th>상품명</th>
+							<th>공급사</th>
+							<th>가격정책</th>
+							<th>최고실적<br/>등록 재고수량</th>
+							<th>카테고리</th>
+							<th>배송방식</th>
+							<th>상품날짜<br/>유통기한</th>
+							<th>상품등록<br/>자세히보기</th>
+							<th>승인유무</th>
+						</tr>
+						<tr>
+							<td class="td_num">35425</td>
+							<td class="thumb"><img src="https://holicfactory.com/web/product/medium/202406/d9c2a9f14c20c1729b57a49ceb5a6fc1.jpg" alt="제품이미지" /></td>
+							<td class="txt_left">
+								<p>자연공유 곤약젤리 </p>
+								<p>옵션명 </p>
+								<p>상품번호 </p>
+							</td>							
+							<td>
+								쓰리백
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">5%공급가 :</span> 9,500원  </p>
+								<p><span class="gray">정상공급가 :</span> 10,000원 </p>
+								<p><span class="gray">판매공급가 :</span> 11,000원 </p>
+								<p><span class="gray">판매가 :</span> 14,900원 </p>
+								<p><span class="gray">수수료 :</span> 26.14%</p>
+							</td>
+							<td class="txt_left">
+								<p>1,000,000원</p>
+								<p class="gray">1,000개</p>
+							</td>
+							<td>
+								생활용품
+							</td>
+							<td>
+								합배송
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">요청 :</span> 24.12.12 (10:10) </p>
+								<p><span class="gray">승인 :</span> 24.12.13 (12:30) </p>
+								<p><span class="gray">보류/대기 :</span> </p>
+								<p><span class="gray">품절 :</span> </p>
+							</td>
+							<td>
+								<a class="btn_s03" href="#">자세히보기</a>
+							</td>
+							<td>
+								승인
+							</td>
+						</tr>
+						<tr class="bg_gray">
+							<td class="td_num">35424</td>
+							<td class="thumb"><img src="https://holicfactory.com/web/product/medium/202406/d9c2a9f14c20c1729b57a49ceb5a6fc1.jpg" alt="제품이미지" /></td>
+							<td class="txt_left">
+								<p>자연공유 곤약젤리 </p>
+								<p>옵션명 </p>
+								<p>상품번호 </p>
+							</td>							
+							<td>
+								쓰리백
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">5%공급가 :</span> 9,500원  </p>
+								<p><span class="gray">정상공급가 :</span> 10,000원 </p>
+								<p><span class="gray">판매공급가 :</span> 11,000원 </p>
+								<p><span class="gray">판매가 :</span> 14,900원 </p>
+								<p><span class="gray">수수료 :</span> 26.14%</p>
+							</td>
+							<td class="txt_left">
+								<p>1,000,000원</p>
+								<p class="gray">1,000개</p>
+							</td>
+							<td>
+								생활용품
+							</td>
+							<td>
+								합배송
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">요청 :</span> 24.12.12 (10:10) </p>
+								<p><span class="gray">승인 :</span> </p>
+								<p><span class="gray">보류/대기 :</span> </p>
+								<p><span class="gray">품절 :</span> </p>
+							</td>
+							<td>
+								<a class="btn_s03" href="#">자세히보기</a>
+							</td>
+							<td>
+								요청중
+							</td>
+						</tr>
+						<tr>
+							<td class="td_num">35423</td>
+							<td class="thumb"><img src="https://holicfactory.com/web/product/medium/202406/d9c2a9f14c20c1729b57a49ceb5a6fc1.jpg" alt="제품이미지" /></td>
+							<td class="txt_left">
+								<p>자연공유 곤약젤리 </p>
+								<p>옵션명 </p>
+								<p>상품번호 </p>
+							</td>							
+							<td>
+								쓰리백
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">5%공급가 :</span> 9,500원  </p>
+								<p><span class="gray">정상공급가 :</span> 10,000원 </p>
+								<p><span class="gray">판매공급가 :</span> 11,000원 </p>
+								<p><span class="gray">판매가 :</span> 14,900원 </p>
+								<p><span class="gray">수수료 :</span> 26.14%</p>
+							</td>
+							<td class="txt_left">
+								<p>1,000,000원</p>
+								<p class="gray">1,000개</p>
+							</td>
+							<td>
+								생활용품
+							</td>
+							<td>
+								합배송
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">요청 :</span> 24.12.12 (10:10) </p>
+								<p><span class="gray">승인 :</span> </p>
+								<p><span class="gray">보류/대기 :</span> 24.12.13 (12:30)</p>
+								<p><span class="gray">품절 :</span> </p>
+							</td>
+							<td>
+								<a class="btn_s03" href="#">자세히보기</a>
+							</td>
+							<td>
+								보류/대기
+							</td>
+						</tr>
+						<tr class="bg_gray">
+							<td class="td_num">35422</td>
+							<td class="thumb"><img src="https://holicfactory.com/web/product/medium/202406/d9c2a9f14c20c1729b57a49ceb5a6fc1.jpg" alt="제품이미지" /></td>
+							<td class="txt_left">
+								<p>자연공유 곤약젤리 </p>
+								<p>옵션명 </p>
+								<p>상품번호 </p>
+							</td>							
+							<td>
+								쓰리백
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">5%공급가 :</span> 9,500원  </p>
+								<p><span class="gray">정상공급가 :</span> 10,000원 </p>
+								<p><span class="gray">판매공급가 :</span> 11,000원 </p>
+								<p><span class="gray">판매가 :</span> 14,900원 </p>
+								<p><span class="gray">수수료 :</span> 26.14%</p>
+							</td>
+							<td class="txt_left">
+								<p>1,000,000원</p>
+								<p class="gray">1,000개</p>
+							</td>
+							<td>
+								생활용품
+							</td>
+							<td>
+								합배송
+							</td>
+							<td class="txt_left">
+								<p><span class="gray">요청 :</span> 24.12.12 (10:10) </p>
+								<p><span class="gray">승인 :</span> 24.12.13 (12:30) </p>
+								<p><span class="gray">보류/대기 :</span> </p>
+								<p><span class="gray">품절 :</span> 24.12.30 (12:30)</p>
+							</td>
+							<td>
+								<a class="btn_s03" href="#">자세히보기</a>
+							</td>
+							<td>
+								품절
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- page num -->
+				<div class="page_num">
+					<ul>
+						<li><a href="#"><img src="../images/admin/icon_arrow_first.png" alt="first" /></a></li>
+						<li><a href="#"><img src="../images/admin/icon_arrow_prev.png" alt="prev" /></a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#" class="on">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#"><img src="../images/admin/icon_arrow_next.png" alt="next" /></a></li>
+						<li><a href="#"><img src="../images/admin/icon_arrow_last.png" alt="last" /></a></li>
+					</ul>
+				</div>
+				<!-- //page num -->
+			</div>
+			<!-- //리스트 -->
+		</div>		
+		
+	</div>
+	<div class="footer">
+			<div class="text">COPYRIGHT BlackHolic. ALL RIGHTS RESERVED.</div>
+		</div>	
+	<!-- ★//container -->
+	
+	
+	<!-- 플로팅_카톡메뉴 -->
+	<div class="side-pop02">	
+		<a href="#"><img src="../images/admin/btn_site_top.png" alt=""></a>
+	</div>
+	<!-- //플로팅_카톡메뉴 -->	
+	
+	<script>
+		// 팝업 열기 
+		function openPopup(modalname) {
+			document.get
+			$('.' + modalname).show();
+			$(".mask").show(); 
+			}
+	 	// 팝업 닫기
+		function closePopup(flag) {
+			$('.pop_r8').hide(); 
+			$('.mask').hide(); 
+			};
+	</script>
+	<div class="pop_wrap">
+		<!-- 상품정보 등록 팝업 -->
+		<div class="pop_r8 w720 pop01">
+			<div class="title">
+				<div class="flex">
+					<p class="mr24">상품정보</p>
+					<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+				</div>
+				<button type="button" onclick="closePopup()" class="close_w30">
+					<img src="../images/admin/btn_close_white40.png" alt="닫기" />
+				</button>
+			</div>
+			<div class="con">
+				<ul class="list">
+					<li>
+						<p class="tt">썸네일</p>
+						<div class="txt02">
+							<img src="../images/admin/thumb.png" />
+							<a class="pop_btn01L btnWhiteL" href="#">이미지 불러오기</a>
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">보조설명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품수수료</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">공급사</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">카테고리</p>
+						<div class="txt">
+							<fieldset>
+								<label>
+								<input type="radio" name="cate" value="" checked />
+								<span>생활</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>패션</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>뷰티</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>식품</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>유아</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="cate" value="" />
+								<span>반려</span>
+								</label>
+							</fieldset>
+						</div>
+					</li>
+					<li>
+						<p class="tt">방송실적</p>
+						<div class="txt">
+							<p class="gray">최고실적</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">스튜디오</p>
+						<div class="txt">
+							<p class="gray">자동설정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">배송형식</p>
+						<div class="txt">
+							<fieldset>
+								<label>
+								<input type="radio" name="delivery" value="" checked />
+								<span>합배송</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="delivery" value="" />
+								<span>개별배송</span>
+								</label>
+								
+								<label>
+								<input type="radio" name="delivery" value="" />
+								<span>개별배송(합배송 가능)</span>
+								</label>
+							</fieldset>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">5%공급가</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">기본공급가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">판매공급가</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">판매가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">라방할인율</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">소비자가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">일반최저가</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">기본할인율</p>
+						<div class="txt">
+							<p class="gray">자동계산</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">상품등록일</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">유통기한</p>
+						<div class="txt">
+							날짜 넣으면 임박일 자동계산
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">상품번호</p>
+						<div class="txt">
+							<p class="gray">자동지정</p>
+						</div>
+					</li>
+					<li>
+						<p class="tt">상품사양</p>
+						<div class="txt">
+							<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+						</div>
+					</li>
+					<li class="noline">
+						<p class="tt">상품정보</p>
+						<div class="txt">
+							<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //상품정보 등록 팝업 -->
+		
+		<!-- 상품사양 등록 팝업 --
+		<div class="pop_r8 w720 pop02">
+			<div class="title">
+				<div class="flex">
+					<p class="mr24">상품사양</p>
+					<a class="pop_btn01 btnBlack" href="#">등록/수정</a>
+				</div>
+				<button type="button" onclick="closePopup()" class="close_w30">
+					<img src="../images/admin/btn_close_white40.png" alt="닫기" />
+				</button>
+			</div>
+			<div class="con">
+				<ul class="list">
+					<!-- 옵션1 -->
+					<li>
+						<p class="tt">옵션명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">색상</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">개수</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">사이즈</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">중량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">패키지사양</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">카톤당수량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li>
+						<p class="tt">재고수량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<!-- //옵션 1-->
+					<!-- 옵션2 -->
+					<li class="bg_gray">
+						<p class="tt">옵션명</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">색상</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">개수</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">사이즈</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">중량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">패키지사양</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">카톤당수량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<li class="bg_gray">
+						<p class="tt">재고수량</p>
+						<div class="txt">
+							<form class="pop_input_box" action="" method="">
+								<input class="input_txt" type="text" name="" placeholder="">
+							</form>	
+						</div>
+					</li>
+					<!-- //옵션 2-->
+				</ul>
+			</div>
+		</div>
+		<!-- //상품사양 등록 팝업 -->			
+		
+		
+		<div class="mask"></div>
+	</div>
+	
+	
+	
+		
+</div>
+</body>
+</html>
