@@ -999,7 +999,7 @@ a.btn_line05 {text-decoration: underline; text-underline-offset:3px;  color:#FF4
 .info_btn_area li {width:49.5%;}
 a.btn_s03 {
 	display: block; position: relative; text-align:center;
-	width:49%; height:45px; line-height:44px; margin: 10px 0px;
+	width:49%; height:45px; line-height:43px; margin: 10px 0px;
 	font-size:17px; font-weight:600; color: #fff; letter-spacing:-0.5px;
 	border:solid 1px #FF4081; background-color:#FF4081; border-radius:3px;}
 	/*
