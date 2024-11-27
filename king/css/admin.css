@@ -214,6 +214,10 @@ a.pop_btn01L {
 } 
 .bg_gray {background-color:#F5F5F5;}
 .noline {border-bottom:0px !important;}
+
+.textarea02 {height:300px; width:95.5%; padding:2%;
+    background:#fff; border:solid 1px #E1E0E1; border-radius:4px;}
+.comment_write02 {width: 100%; height: 300px; text-align: left; resize: none; outline: 0 none; border: 0px; font-size:15px;}
 	
 /* 라디오 버튼 */
 label { line-height: 2rem; padding: 0 16px 0 0; }
