@@ -49,8 +49,8 @@ html, body {height:100%;}
 /* ★header */
 #header {position:sticky; top:0; width:100%; min-width:1680px; height:130px; z-index:10; }
 
-.top {position:relative; width:100%; min-width:1680px; height:50px; background-color:#222;}
-.top h1 {height:100%; line-height:50px; font-size:24px; color:#FF4081; margin:0 0 0 24px;}  
+.top {position:relative; width:100%; min-width:1680px; height:50px; background-color:#FF4081;}
+.top h1 {height:100%; line-height:50px; font-size:24px; color:#fff; margin:0 0 0 24px;}  
 
 .snb_area {position:relative; width:100%; min-width:1680px; height:79px; background-color:#F5F5F5; border-bottom:solid 1px #E1E0E1; }
 .snb_area .left {margin:0 0 0 24px;}
@@ -87,12 +87,16 @@ a.btn_100L {
 .contents {min-height:1024px; width:100%; align-items:stretch;}
 .border_right {border-right:solid 1px #E1E0E1;}
 
-.sec01 {width:92px; padding:48px 8px 48px 24px;}
-.sec02 {width:96px; padding:48px 8px 48px 12px;}
-.sec03 {padding:48px 24px 96px 32px; } 
+.sec01 {width:100px; padding:48px 16px 48px 24px;}
+.sec02 {width:100px; padding:48px 16px 48px 12px;}
+.sec03 {padding:48px 24px 96px 32px;}
+
+.cate_item {display:flex; justify-content:space-between; width:100px;}
+.it01 {width:60px;}
 
 .left_mn h2 {font-size:16px; font-weight:700; margin-bottom:24px;}
-.left_mn li a {height:40px; display:block; color:#222225; line-height:1.3; text-align:left; font-size:15px;}
+.left_mn li {padding-bottom:20px; }
+.left_mn li a {display:block; color:#222225; line-height:1.3; text-align:left; font-size:15px;}
 .left_mn li a:hover {color:#FF4081; display:block;}
 .left_mn li a.on {color:#FF4081; font-weight:700;}
 
