@@ -42,10 +42,11 @@ button {background:none; border:0px;}
 	display:; position:fixed; top:0; left:0; z-index:400;
 	width:100vw; height:100vh; background:#fff;}
 .pop_title02 { 
+	position:fixed; top:0;
 	width:100%; height:60px; line-height:60px; background:#FF4081; color:#fff; 
 	font-family:'Noto Sans KR';
 	font-size:clamp(18px, 5.5vw, 25px); font-weight:600; letter-spacing:-1px;}
-	
+
 .pop_100 .title {padding:18px 0 18px 0; font-size: 18px; color:#222225; font-weight:600;}
 .pop_100 .info01 {padding:0 0 24px 0; text-align:left; font-size:13px; color:#77777a; line-height:1.5;}
 .pop_100 .pop_close {position:fixed; bottom:0; left:0; width:100%; height:50px; line-height:50px; z-index: 5;}

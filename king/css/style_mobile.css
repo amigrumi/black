@@ -305,6 +305,7 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .pt24 {padding-top:24px;}
 .pt32 {padding-top:32px;}
 .pt40 {padding-top:40px;}
+.pt60 {padding-top:60px;} /*팝업 상단고정 위한 패딩 */
 .pt64 {padding-top:64px;}
 .pt80 {padding-top:80px;}
 
