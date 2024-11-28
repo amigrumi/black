@@ -172,13 +172,34 @@ a.btn_s03 {
 .close_w30 img {width:30px;}
 button {background:none; border:0px;}
 
+
+.pop_r8 {
+	display:; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); overflow:hidden;
+	height:90vh; z-index:500; background: #fff; border-radius:8px; 
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);}
+
+.scroll_pop {
+	display:flex; align-items:flex-start; flex-direction: column;
+	align-items:stretch; height:100%;}
+
+.pop_r8 .title { 
+	position:sticky; top:0; z-index:50; 
+	height:80px; background:#FF4081; color:#fff; font-family:'Noto Sans KR';
+	font-size:26px; font-weight:600; letter-spacing:-1px;
+	display:flex; justify-content:space-between;
+	padding:0 20px 0 40px; border-radius: 7px 7px 0 0;}
+.pop_r8 .con {
+	position:relative; height:80%;
+	padding:40px 40px 48px 40px; font-size:18px; line-height:150%; color:#222225; overflow:scroll; overflow-x: hidden;}
+
+/*
 .pop_r8 {
 	display:; position:fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); 
 	height:90vh; z-index:500; background: #fff; border-radius:8px; 
 	overflow:scroll; overflow-x: hidden;
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);}
 .pop_r8 .title { 
-	position:sticky; top:0; z-index:50;
+	position:sticky; top:0; z-index:50; 
 	height:80px; background:#FF4081; color:#fff; font-family:'Noto Sans KR';
 	font-size:26px; font-weight:600; letter-spacing:-1px;
 	display:flex; justify-content:space-between;
@@ -186,6 +207,7 @@ button {background:none; border:0px;}
 .pop_r8 .con {
 	padding:40px 40px 48px 40px; font-size:18px; line-height:150%; color:#222225;}
 
+*/
 .w720 {width:720px;}
 
 .list li {display: flex; min-height:50px; padding:12px 0; border-bottom:solid 1px #E1E0E1; font-size:15px;}
