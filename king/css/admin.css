@@ -35,6 +35,7 @@ html, body {height:100%;}
 .yellow {color:#FDFD00}
 .bold {font-weight:bold;}
 
+.pt8 {padding-top:8px;}
 .mr24 {margin-right:24px;}
 
 .flex {display:flex; align-items:center;}
@@ -45,6 +46,21 @@ html, body {height:100%;}
 .flex_grow {flex-grow:1;}
 .align_center {align-self: center;}
 
+/* 스크롤바 색상 */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+    background-color: #FFBAD1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
 
 /* ★header */
 #header {position:sticky; top:0; width:100%; min-width:1680px; height:130px; z-index:10; }
