@@ -212,10 +212,15 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .under_8px {border-bottom:solid 8px #F5F5F5;}
 .homenav01 ul {display:flex; justify-content: space-around; width:94%; margin:0 auto; padding-bottom:14px;}
 .homenav01 ul li a {display:block; height:66px; margin-top:16px;}
-.homenav01_bg {
+.homenav01_bg02 {
 	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
-	background: url(../images/common/nav02.png) no-repeat;
-	background-size: 500px 300px; vertical-align: top;}
+	background: url(../images/common/nav02_02.png) no-repeat;
+	background-size: 500px 500px; vertical-align: top;}
+.homenav01_bg03 {
+	overflow: hidden; position: relative; width: 50px; height: 50px; margin: 0 auto;
+	background: url(../images/common/nav02_03.png) no-repeat;
+	background-size: 500px 500px; vertical-align: top;}
+	
 .life {background-position: 0px -50px;}
 .beauty {background-position: -50px -50px;}
 .fashion {background-position: -100px -50px;}
@@ -229,6 +234,20 @@ img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; borde
 .popular {background-position: -150px -150px;}
 .sales {background-position: -200px -150px;}
 .season {background-position: -250px -150px;}
+
+.life_on {background-position: 0px -250px;}
+.beauty_on {background-position: -50px -250px;}
+.fashion_on {background-position: -100px -250px;}
+.food_on {background-position: -150px -250px;}
+.baby_on {background-position: -200px -250px;}
+.pet_on {background-position: -250px -250px;} 
+
+.pick_on {background-position: 0px -350px;}
+.new_on {background-position: -50px -350px;}
+.limit_on {background-position: -100px -350px;}
+.popular_on {background-position: -150px -350px;}
+.sales_on {background-position: -200px -350px;}
+.season_on {background-position: -250px -350px;}
 
 /* 홈 중간카테고리 - 5개 노출*
 .homenav01_img {
