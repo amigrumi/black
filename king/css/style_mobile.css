@@ -180,7 +180,7 @@ html,body { margin: 0px; padding: 0px; height: 100%;}
 .snb02 ul li a.on {background-color:#FF4081; color:#fff; font-weight:600; border:solid 1px #FF4081;}
 img.ding03 {position: absolute; right:2px; top:2px; width:5px; height:5px; border:solid 1px #fff; border-radius:5px;} /*3depth - 라운드메뉴 위*/
 
-/* 커뮤니티 게시판 메뉴 *
+/* 커뮤니티 게시판 메뉴 */
 .listnav {width:100%; height:60px; background-color:#fff; border-top:solid 1px #E1E0E1;}
 .listnav ul {display:flex; justify-content:space-evenly; }
 .listnav ul li a {display:block; height:60px;}
