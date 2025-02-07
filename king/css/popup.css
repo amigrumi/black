@@ -143,12 +143,12 @@ button {background:none; border:0px;}
 
 .info_sum {padding:20px 12px 21px 12px; text-align:left;}
 
-
+*/
 a.pop_btn {
 	display:inline-block; min-width:180px;
 	height:26px; line-height:26px; padding:12px 24px; margin:8px 0; border-radius:50px;
 	font-size:clamp(14px, 4.4vw, 19px); font-weight:bold; color:#fff; background:#FF4081;}
-
+/*
 a.pop_btn02 {
 	display:inline-block; height:26px; line-height:26px; padding:8px 12px;
 	border-radius:4px; font-size:14px; color:#fff; background:#000;}
